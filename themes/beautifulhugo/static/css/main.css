@@ -951,6 +951,20 @@ h4.see-also {
     margin-top: 44px;
   }
 }
+
 .post-meta-home{
   font-size: 13px!important;
+  color: #808080;
+  font-style: italic;
+  margin: 0 0 10px;
+}
+h2.blog-subheading {
+  color: #888888;
+  font-size: 20px;
+}
+a {
+  text-decoration: none!important;
+}
+article.blog-post {
+    line-height: 2;
 }
