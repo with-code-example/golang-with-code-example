@@ -11,19 +11,18 @@ draft: false
 slug: testing-benchmarking-continuous-integration-golang
 ---
 
-## Writing Effective Unit Tests in Go
 
 Unit testing is a crucial aspect of software development that ensures code correctness and identifies bugs early in the development process. In Go, writing effective unit tests is straightforward and provides developers with confidence in their code. In this article, we will explore the best practices for writing unit tests in Go, covering test organization, testing techniques, and leveraging testing frameworks.
 
-### Introduction
+## Introduction
 
 Unit testing is an essential practice in modern software development that involves testing individual units of code in isolation to verify their correctness. In Go, the standard testing package provides powerful tools to create comprehensive unit tests.
 
-### Test Organization
+## Test Organization
 
 Organizing tests in a structured manner is essential for maintainability and readability. By following a consistent naming convention and directory structure, we can easily identify and run tests.
 
-#### Example Directory Structure
+### Example Directory Structure
 
 ```
 project/
@@ -34,11 +33,11 @@ project/
 │   └── file_test.go
 ```
 
-### Writing Test Functions
+## Writing Test Functions
 
 In Go, test functions start with the prefix `Test` and take a pointer to `testing.T` as a parameter. We can use various testing functions provided by the `testing` package, such as `t.Run` for subtests and `t.Helper` to mark helper functions.
 
-#### Example Test Function
+### Example Test Function
 
 ```go
 package main
@@ -57,11 +56,11 @@ func TestAdd(t *testing.T) {
 }
 ```
 
-### Testing Techniques
+## Testing Techniques
 
 In addition to basic assertions, Go provides useful testing techniques like table-driven tests, subtests, and mocking. These techniques enable comprehensive test coverage and better understanding of test failures.
 
-#### Table-Driven Tests
+### Table-Driven Tests
 
 Table-driven tests allow us to run the same test with multiple inputs and expected outputs, making it easy to verify edge cases.
 
@@ -84,7 +83,7 @@ func TestAddTableDriven(t *testing.T) {
 }
 ```
 
-#### Subtests
+### Subtests
 
 Subtests allow grouping related tests together, improving test readability and making it easier to identify failed subtests.
 
@@ -106,7 +105,7 @@ func TestAddSubtests(t *testing.T) {
 }
 ```
 
-#### Mocking
+### Mocking
 
 In complex scenarios where external dependencies are involved, mocking can be used to isolate the unit under test from the actual dependencies.
 
@@ -114,8 +113,6 @@ In complex scenarios where external dependencies are involved, mocking can be us
 ## Benchmarking for Performance Optimization
 
 Benchmarking is an essential practice in optimizing the performance of Golang applications. By measuring and analyzing the execution time of different code segments, developers can identify bottlenecks and make informed performance improvements. In this article, we will explore how to write benchmarks in Go and interpret benchmark results to achieve optimal performance.
-
-### Introduction
 
 Benchmarking involves measuring the execution time of specific code segments or functions to identify performance bottlenecks and potential areas of improvement.
 
@@ -167,8 +164,6 @@ Benchmark results provide valuable information about the execution time of the c
 ## Continuous Integration for Golang Projects
 
 Continuous Integration (CI) is a development practice that involves automatically building, testing, and deploying code changes to a shared repository. For Golang projects, implementing CI can lead to faster development cycles, increased collaboration, and improved code quality. In this article, we will explore how to set up CI for Golang projects using popular CI/CD platforms and best practices for ensuring smooth and efficient development workflows.
-
-### Introduction
 
 Continuous Integration (CI) is a software development practice that allows developers to automate the process of integrating code changes into a shared repository frequently.
 
