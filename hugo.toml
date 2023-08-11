@@ -1,4 +1,4 @@
-baseURL = 'https://awesome-go-lang.netlify.app/'
+baseURL = 'https://awesome-golang.netlify.app/'
 languageCode = 'en-us'
 title = 'Awesome Golang'
 theme = 'beautifulhugo'
