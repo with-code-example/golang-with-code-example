@@ -1,11 +1,11 @@
 ---
 title: Performance Optimization in Golang
 subtitle:  In Golang, memory management is handled by the built-in garbage collector, which automates memory allocation and deallocation.
-featured_image:  https://res.cloudinary.com/harendra21/image/upload/w_750/awesome-go-lang/Performance_Optimization_vhqc3b.png
-thumbnail: https://res.cloudinary.com/harendra21/image/upload/w_400/awesome-go-lang/Performance_Optimization_vhqc3b.png
+featured_image: https://res.cloudinary.com/harendra21/image/upload/w_750/awesome-blog/awesome-golang/Performance_Optimization_gr2tcu.png
+thumbnail: https://res.cloudinary.com/harendra21/image/upload/w_400/awesome-blog/awesome-golang/Performance_Optimization_gr2tcu.png
 tags: [golang, golang-best-practices]
 comments: true
-date: 2023-08-12
+date: 2023-08-13
 toc: true
 draft: false
 slug: performance-optimization-in-golang

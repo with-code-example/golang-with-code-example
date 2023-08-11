@@ -4,8 +4,8 @@ subtitle: Mastering Effective Strategies and Tools for Smooth Development
 description: Uncover the art of effective debugging in Golang with practical examples and insights. Explore debugging strategies, tools, and techniques to enhance your development workflow and ensure robust code.
 tags: [golang, golang-best-practices]
 slug: golang-debugging-techniques-guidefeatured_image
-featured_image: 
-thumbnail: 
+featured_image: https://res.cloudinary.com/harendra21/image/upload/w_750/awesome-blog/awesome-golang/Golang_Best_Practices_Debugging_pvogsj.png
+thumbnail: https://res.cloudinary.com/harendra21/image/upload/w_400/awesome-blog/awesome-golang/Golang_Best_Practices_Debugging_pvogsj.png
 comments: true
 date: 2023-08-17
 toc: true

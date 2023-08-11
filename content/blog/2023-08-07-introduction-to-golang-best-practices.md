@@ -1,8 +1,8 @@
 ---
 title: Introduction to Golang Best Practices
 description: Golang best practices ensure maintainable, efficient code by emphasizing consistency, readability, and scalability. They reduce bugs, enable seamless collaboration, and enhance code quality.
-featured_image: https://res.cloudinary.com/harendra21/image/upload/w_750/awesome-go-lang/Golang_Best_Practices_add2ok.png
-thumbnail: https://res.cloudinary.com/harendra21/image/upload/w_400/awesome-go-lang/Golang_Best_Practices_add2ok.png
+featured_image: https://res.cloudinary.com/harendra21/image/upload/v1691739930/awesome-blog/awesome-golang/Golang_Best_Practices_-_Introduction_xblerh.png
+thumbnail: https://res.cloudinary.com/harendra21/image/upload/w_400/awesome-golang/Golang_Best_Practices_-_Introduction_xblerh.png
 tags: [golang, golang-best-practices]
 comments: true
 slug: introduction-to-golang-best-practices
@@ -17,7 +17,6 @@ Golang, also known as Go, is a popular open-source programming language develope
 
 Best practices are time-tested guidelines, techniques, and coding standards honed by experienced developers over time. They aren't rigid rules but rather proven approaches that facilitate the creation of maintainable, robust, and efficient code. In the context of Go, following best practices ensures that developers write code that is not only idiomatic but also highly performant and scalable.
 
-![https://www.simform.com/wp-content/uploads/2019/12/characteristics-of-good-quality-code.png](https://res.cloudinary.com/harendra21/image/upload/v1691084921/awesome-go-lang/characteristics-of-good-quality-code_a7qvyk.png)
 ### 1. Consistency and Readability: 
 Golang best practices put a strong emphasis on code consistency and readability. Code that follows consistent patterns is easier to comprehend, leading to fewer bugs and enabling seamless collaboration among team members. By adopting common coding practices, the codebase becomes more predictable and accessible to all.
 
@@ -34,8 +33,6 @@ Golang best practices encompass techniques to prevent common programming errors 
 With Go's robust concurrency support, it emerges as an ideal choice for building scalable applications. By embracing best practices, developers can confidently write concurrent code that is resilient and robust, fully harnessing the power of Go's concurrency model.
 
 ## Benefits of Following Golang Best Practices
-
-![https://atlassianblog.wpengine.com/wp-content/uploads/2022/01/d02ed553-f52c-43ec-b86e-c7dfec487ef9.png](https://res.cloudinary.com/harendra21/image/upload/v1691084986/awesome-go-lang/d02ed553-f52c-43ec-b86e-c7dfec487ef9_fuex67.png)
 
 ### 1. Improved Code Quality:
 By implementing best practices, developers produce code of higher quality that is less prone to errors and easier to maintain. This results in applications that are reliable and stable.

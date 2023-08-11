@@ -4,9 +4,8 @@ subtitle: A Guide to Writing Clear, Concise, and Comprehensive Code Documentatio
 description: Discover the art of writing clear and concise code comments, documenting functions and packages with Godoc, and harnessing the power of GoDoc for thorough code documentation in your Golang projects.
 tags: [golang, golang-best-practices]
 slug: golang-documentation-and-comments-guide
-featured_image: 
-thumbnail: 
-tags: [golang, golang-best-practices]
+featured_image: https://res.cloudinary.com/harendra21/image/upload/w_750/awesome-blog/awesome-golang/Golang_Best_Practices_Documentation_and_Comments_gc7xiy.png
+thumbnail: https://res.cloudinary.com/harendra21/image/upload/w_400/awesome-blog/awesome-golang/Golang_Best_Practices_Documentation_and_Comments_gc7xiy.png
 comments: true
 date: 2023-08-16
 toc: true
