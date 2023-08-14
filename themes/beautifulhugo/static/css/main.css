@@ -959,7 +959,7 @@ h4.see-also {
   margin: 0 0 10px;
 }
 h2.blog-subheading {
-  color: #888888;
+  color: #235ca3;
   font-size: 20px;
 }
 a {
@@ -967,4 +967,18 @@ a {
 }
 article.blog-post {
     line-height: 2;
+}
+.page-heading h1{
+  font-size: 50px!important;
+  color: #ffd700;
+}
+.page-subheading{
+  color: #0e5299;
+}
+.post-title {
+  font-size: 24px!important;
+  color: #ffd700;
+}
+h1,h2,h3{
+  color: #ffd700;
 }
