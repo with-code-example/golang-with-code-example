@@ -61,7 +61,7 @@
               {{ if eq .Type "list" }}
                 <h1>{{ if .Data.Singular }}#{{ end }}{{ .Title }}</h1>
               {{ else }}
-                <h1>{{ with $title }}{{.}}{{ else }}<br/>{{ end }}</h1>
+                <h1>{{ with $title }}{{. | humanize | title}}{{ else }}<br/>{{ end }}</h1>
               {{ end }}
               {{ if ne .Type "post" }}
                 <hr class="small">
