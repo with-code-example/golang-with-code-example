@@ -12,8 +12,11 @@ toc: true
 draft: false
 ---
 
-## [Download PDF](https://www.buymeacoffee.com/harendra/e/159134)
-
+<center>
+<a href="https://www.buymeacoffee.com/harendra/e/159134" target="_blank">
+    <img src="https://res.cloudinary.com/harendra21/image/upload/w_300/awesome-blog/awesome-golang/Golang_Cheatsheet_PDF_Download_s37zyl.gif" />
+</a>
+</center>
 ## Go in a Nutshell
 
 * Imperative language
@@ -752,3 +755,8 @@ func main() {
 // }
 ```
 
+<center>
+    <a href="https://www.buymeacoffee.com/harendra/e/159134" target="_blank">
+        <img src="https://res.cloudinary.com/harendra21/image/upload/w_300/awesome-blog/awesome-golang/Golang_Cheatsheet_PDF_Download_s37zyl.gif" />
+    </a>
+</center>
