@@ -1,4 +1,10 @@
-<!--
-If you want to include any custom html just before </body>, put it in /layouts/partials/footer_custom.html
-Do not put anything in this file - it's only here so that hugo won't throw an error if /layouts/partials/footer_custom.html doesn't exist.
--->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.js"></script>
+<script type="text/javascript">
+  algoliasearchNetlify({
+    appId: '5X9B3CAHQF',
+    apiKey: '36c8f30540510e3ff3ba910cb8be3c8d',
+    siteId: 'c652f3fe-7295-4bce-b960-958a88add0a5',
+    branch: 'main',
+    selector: 'div#search',
+  });
+</script>

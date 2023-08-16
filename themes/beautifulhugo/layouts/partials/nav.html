@@ -29,6 +29,10 @@
           {{ end }}
         {{ end }}
 
+        <li class="navlinks-container">
+            <div type="text" id="search"></div>
+        </li>
+
         {{ if .Site.IsMultiLingual }}
           {{ if ge (len .Site.Languages) 3 }}
             <li class="navlinks-container">
