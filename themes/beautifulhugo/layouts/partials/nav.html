@@ -11,7 +11,11 @@
     </div>
 
     <div class="collapse navbar-collapse" id="main-navbar">
+      
       <ul class="nav navbar-nav navbar-right">
+        <li class="navlinks-container">
+          <div type="text" id="search"></div>
+       </li>
         {{ range .Site.Menus.main.ByWeight }}
           {{ if .HasChildren }}
             <li class="navlinks-container">
@@ -29,9 +33,7 @@
           {{ end }}
         {{ end }}
 
-        <li class="navlinks-container">
-            <div type="text" id="search"></div>
-        </li>
+       
 
         {{ if .Site.IsMultiLingual }}
           {{ if ge (len .Site.Languages) 3 }}
