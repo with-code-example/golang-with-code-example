@@ -26,22 +26,35 @@
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-  <meta name="google-site-verification" content="fue7PNhA52xYQulN0t0-ECyHH6D1rlGW7a4W2csyoio" />
- <!-- Site Title, Description, Author, and Favicon -->
-
+  <!-- <meta name="google-site-verification" content="fue7PNhA52xYQulN0t0-ECyHH6D1rlGW7a4W2csyoio" /> -->
+  {{ if .IsHome }}
+      {{- with .Site.Params.homeTitle }}
+        <title>{{ . }}</title>
+      {{- end }}
+    {{ else }}
+      {{- with ($.Scratch.Get "Title") }}
+        <title>{{ . }} - {{ $.Site.Params.homeTitle }}</title>
+      {{- end }}
+  {{ end }}
 {{ if .IsHome }}
-    {{- with .Site.Params.homeTitle }}
-      <title>{{ . }}</title>
-    {{- end }}
-  {{ else }}
-    {{- with ($.Scratch.Get "Title") }}
-      <title>{{ . }} - {{ $.Site.Params.homeTitle }}</title>
-    {{- end }}
+  {{- with .Site.Params.description }}
+    <meta name="description" content="{{ . }}" />
+  {{- end }}
+{{ else }}
+  {{- with ($.Scratch.Get "Description") }}
+    <meta name="description" content="{{ . }}">
+  {{- end }}
 {{ end }}
 
-{{- with ($.Scratch.Get "Description") }}
-  <meta name="description" content="{{ . }}">
+{{- if .Paginator -}}
+ {{- if .Paginator.HasPrev -}}
+   <link rel="prev" href="{{ .Paginator.Prev.URL | absURL }}" />
+ {{- end -}}
+ {{- if .Paginator.HasNext -}}
+   <link rel="prev" href="{{ .Paginator.Next.URL | absURL }}" />
+ {{- end -}}
 {{- end }}
+
 {{- with .Site.Author.name }}
   <meta name="author" content="{{ . }}"/>
 {{- end }}
@@ -50,16 +63,16 @@
   <link href='{{ . | absURL }}' rel='icon' type='image/x-icon'/>
 {{- end -}}
 <!-- Hugo Version number -->
-  {{ hugo.Generator -}}
+  <!-- {{ hugo.Generator -}} -->
 <!-- Links and stylesheets -->
   <link rel="alternate" href="{{ "index.xml" | absLangURL }}" type="application/rss+xml" title="{{ .Site.Title }}">
 
   {{- if .Site.Params.selfHosted -}}
-  <link rel="stylesheet" href="{{ "css/katex.min.css" | absURL }}" />
+  <!-- <link rel="stylesheet" href="{{ "css/katex.min.css" | absURL }}" /> -->
   <link rel="stylesheet" href="{{ "fontawesome/css/all.css" | absURL }}" />
   <link rel="stylesheet" href="{{ "css/bootstrap.min.css" | absURL }}" />
   {{- else -}}
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/katex.min.css" integrity="sha384-3UiQGuEI4TTMaFmGIZumfRPtfKQ3trwQE2JgosJxCnGmQpL/lJdjpcHkaaFwHlcI" crossorigin="anonymous">
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/katex.min.css" integrity="sha384-3UiQGuEI4TTMaFmGIZumfRPtfKQ3trwQE2JgosJxCnGmQpL/lJdjpcHkaaFwHlcI" crossorigin="anonymous"> -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
   {{- end -}}
@@ -77,9 +90,9 @@
   {{- end -}}
 
   {{- if .Site.Params.useHLJS }}
-  <link rel="stylesheet" href="{{ "css/highlight.min.css" | absURL }}" />
+    <link rel="stylesheet" href="{{ "css/highlight.min.css" | absURL }}" />
   {{- else -}}
-  <link rel="stylesheet" href="{{ "css/syntax.css" | absURL }}" />
+    <link rel="stylesheet" href="{{ "css/syntax.css" | absURL }}" />
   {{- end -}}
   <link rel="stylesheet" href="{{ "css/codeblock.css" | absURL }}" />
 {{- partial "head_custom.html" . }}

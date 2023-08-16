@@ -1,6 +1,8 @@
 # Awesome Golang
 
 ## [Awesome Golang](https://awesome-golang.netlify.app/)
+   -  [Golang Cheatsheet Pdf Download](https://awesome-golang.netlify.app/blog/golang-cheatsheet-pdf-download/)
+   -  [Security Best Practices for Go Applications](https://awesome-golang.netlify.app/blog/golang-security-best-practices/)
    -  [Package and Module Design in Golang](https://awesome-golang.netlify.app/blog/package-and-module-design-in-golang/)
    -  [Performance Optimization in Golang](https://awesome-golang.netlify.app/blog/performance-optimization-in-golang/)
    -  [Testing, Benchmarking and Continuous Integration in Golang](https://awesome-golang.netlify.app/blog/testing-benchmarking-continuous-integration-golang/)

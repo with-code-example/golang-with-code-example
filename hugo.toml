@@ -15,6 +15,7 @@ paginate = 10
 
 [Params]
   homeTitle = 'Awesome Golang'
+  description = "Master Golang programming with our comprehensive tutorials and practical examples. Learn Golang syntax, best practices, and advanced concepts to become a skilled developer."
   title = 'Awesome Golang'
   subtitle = "Learn Golang With Examples"
   mainSections = ["blog"]
