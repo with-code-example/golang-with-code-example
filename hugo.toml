@@ -99,7 +99,7 @@ paginate = 10
 
 [[menu.main]]
     name = "About"
-    url = "page/aboutme/"
+    url = "https://harendra21.github.io/"
     weight = 3
 [[menu.main]]
     name = "Sitemap"
