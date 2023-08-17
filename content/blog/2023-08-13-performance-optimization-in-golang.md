@@ -9,6 +9,7 @@ date: 2023-08-13
 toc: true
 draft: false
 slug: performance-optimization-in-golang
+series: ['Golang Best Practices']
 ---
 
 Welcome, learners, to the exciting world of performance optimization in Golang! As developers, we all strive to create efficient, lightning-fast applications that deliver exceptional user experiences. In this article, we will explore the essential techniques to optimize the performance of our Golang applications. So, let's buckle up and dive into the fascinating journey of making our code blazingly fast!

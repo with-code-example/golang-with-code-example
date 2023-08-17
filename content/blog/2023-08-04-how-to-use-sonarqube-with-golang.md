@@ -10,6 +10,7 @@ slug: how-to-use-sonarqube-with-golang
 date: 2023-08-04
 draft: false
 toc: true
+series: ['Golang Sonarqube']
 ---
 
 SonarQube is an open-source platform designed for continuous inspection of code quality. It is used by development teams and organizations to monitor, analyze, and manage the quality of their source code. SonarQube supports a wide range of programming languages and provides valuable insights into the health of software projects.

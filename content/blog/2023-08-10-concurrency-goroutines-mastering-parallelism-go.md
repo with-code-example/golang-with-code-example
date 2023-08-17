@@ -10,6 +10,7 @@ date: 2023-08-10
 toc: true
 draft: false
 slug: concurrency-goroutines-mastering-parallelism-go
+series: ['Golang Best Practices']
 ---
 
 Concurrency is a powerful aspect of modern programming that allows developers to handle multiple tasks simultaneously, making the most out of multi-core processors and enhancing the performance of applications. In Golang, concurrency is made simple and efficient with the concept of Goroutines. This article delves deep into the world of concurrency in Golang, covering the three main aspects - handling concurrency with Goroutines, synchronization with channels and mutexes, and best practices for managing Goroutine lifecycles. Throughout this journey, we will explore practical examples to understand these concepts better.

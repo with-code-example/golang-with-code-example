@@ -9,6 +9,7 @@ date: 2023-08-12
 toc: true
 draft: false
 slug: testing-benchmarking-continuous-integration-golang
+series: ['Golang Best Practices']
 ---
 
 

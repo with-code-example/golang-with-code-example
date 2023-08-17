@@ -10,6 +10,7 @@ date: 2023-08-09
 draft: false
 toc: true
 slug: error-handling-in-golang-a-comprehensive-guide-with-examples
+series: ['Golang Best Practices']
 ---
 
 As a developer, you know that error handling is a critical aspect of building reliable and robust applications. Golang provides powerful error handling mechanisms that help you identify and manage errors effectively. In this article, we'll explore three essential topics related to error handling in Golang: Using Error Types and Custom Errors, Defer and Panic - When to Use Them Wisely, and Error Wrapping and Error Chains. Let's dive in!

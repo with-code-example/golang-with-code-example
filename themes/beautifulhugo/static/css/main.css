@@ -985,3 +985,15 @@ h1,h2,h3{
 div#search {
   margin-top: 8px;
 }
+li.list-group-item.active {
+  background-color: #ffd700;
+  color: #000;
+  border-color: #ffd700;
+}
+.series-group{
+  max-width: 600px;
+  margin: 20px auto;
+}
+.list-group-item{
+  border-color: #333333;
+}

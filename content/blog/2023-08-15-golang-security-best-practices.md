@@ -10,6 +10,7 @@ date: 2023-08-15
 toc: true
 draft: false
 slug: golang-security-best-practices
+series: ['Golang Best Practices']
 ---
 
 In the realm of software development, security is not a mere afterthought but a fundamental cornerstone upon which robust and trustworthy applications are built. Ensuring the resilience of your Go applications against potential threats demands a comprehensive understanding of security best practices. This guide delves into the essential measures you can take to prevent vulnerabilities, handle user input securely, and protect against insidious attacks like code injection and cross-site scripting (XSS).

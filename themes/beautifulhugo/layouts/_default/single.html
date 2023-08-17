@@ -13,6 +13,7 @@
         {{ end }}
 
         {{ partial "toc.html" . }}
+        {{ partial "series.html" . }}
         {{ .Content }}
 
         {{ if .Params.tags }}

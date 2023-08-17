@@ -10,6 +10,7 @@ comments: true
 date: 2023-08-16
 toc: true
 draft: false
+series: ['Golang Best Practices']
 ---
 
 In the realm of software development, writing code is only half the battle. The other half revolves around creating clear, concise, and comprehensive documentation that not only aids developers in understanding the codebase but also serves as a roadmap for future development. In this guide, we delve into the essential practices for writing effective code comments and harnessing the power of documentation tools like Godoc and GoDoc to ensure your Golang projects are well-documented, easily maintainable, and a joy to work on.

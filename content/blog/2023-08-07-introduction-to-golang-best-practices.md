@@ -9,6 +9,7 @@ slug: introduction-to-golang-best-practices
 date: 2023-08-07
 draft: false
 toc: true
+series: ['Golang Best Practices']
 ---
 
 Golang, also known as Go, is a popular open-source programming language developed by the tech giant Google. With its simplicity, efficiency, and robust support for concurrency, Go has garnered immense popularity among developers in India and around the world. As Golang applications continue to scale in size and complexity, adhering to best practices becomes paramount for ensuring code quality, readability, and overall project success. In this article, we shall delve into the significance of Golang best practices, their crucial role in software development, and the multitude of benefits they bring to both developers and projects.

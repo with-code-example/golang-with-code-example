@@ -37,6 +37,9 @@ paginate = 10
   timeZone = "Asia/Kolkata"
   generateTOC = true
 
+[taxonomies]
+   series = "series"
+
 [Author]
   # Set only your "username" for default hosts and full URLs otherwise (e.g., "https://MyGitLab.org/username")
   name = "Harendra Kumar"

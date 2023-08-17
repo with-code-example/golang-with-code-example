@@ -10,6 +10,7 @@ slug: github-action-for-golang-with-sonarqube
 date: 2023-08-06
 draft: false
 toc: true
+series: ['Golang Sonarqube']
 ---
 
 To analyze a Golang project using GitHub Actions with SonarQube, you'll need to set up a workflow in your repository that triggers the SonarQube analysis on every code push. Here's a step-by-step guide to help you achieve this:

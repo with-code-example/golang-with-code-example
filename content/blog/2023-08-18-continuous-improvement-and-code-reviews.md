@@ -10,6 +10,7 @@ comments: true
 date: 2023-08-18
 toc: true
 draft: false
+series: ['Golang Best Practices']
 ---
 
 In the fast-paced world of software development, staying ahead of the curve is paramount. One of the cornerstones of achieving excellence in software engineering is the practice of continuous improvement, and a crucial tool in this journey is the process of code reviews. In this article, we'll delve into the significance of continuous improvement and explore how code reviews, when applied to Golang projects, can lead to enhanced software quality, collaboration, and efficiency.

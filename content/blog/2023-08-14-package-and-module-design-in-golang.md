@@ -9,6 +9,7 @@ date: 2023-08-14
 toc: true
 draft: false
 slug: package-and-module-design-in-golang
+series: ['Golang Best Practices']
 ---
 
 Go, also known as Golang, is a statically typed, compiled language that is popular among developers for its simplicity and robust support for concurrent programming. One of the key aspects of Go programming is its package and module systems, which allow for the creation of reusable, maintainable, and efficient code. This blog post will delve into the best practices for designing packages and modules in Go, focusing on creating cohesive and reusable packages, designing APIs with careful consideration, and managing versions and dependencies.

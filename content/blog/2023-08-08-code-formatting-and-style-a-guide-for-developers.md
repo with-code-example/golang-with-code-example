@@ -10,6 +10,7 @@ date: 2023-08-08
 draft: false
 toc: true
 slug: code-formatting-and-style-a-guide-for-developers
+series: ['Golang Best Practices']
 ---
 
 As a developer, writing clean and consistent code is essential for code readability and maintainability. Golang, with its strong emphasis on simplicity and elegance, has its own set of code formatting guidelines and style recommendations. In this article, we will explore the best practices for code formatting and style in Golang, covering consistent code formatting guidelines, effective use of indentation and whitespace, and naming conventions for variables and functions, all illustrated with practical examples.
