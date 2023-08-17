@@ -985,7 +985,7 @@ h1,h2,h3{
 div#search {
   margin-top: 8px;
 }
-li.list-group-item.active {
+li.list-group-item.active, li.list-group-item.active:hover {
   background-color: #ffd700;
   color: #000;
   border-color: #ffd700;
