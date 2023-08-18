@@ -997,6 +997,6 @@ li.list-group-item.active, li.list-group-item.active:hover {
 .list-group-item{
   border-color: #333333;
 }
-.series-heading{
+.series-heading, .blog-heading h1, .blog-subheading{
   text-align: center;
 }

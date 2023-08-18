@@ -61,6 +61,9 @@
               {{ if eq .Type "list" }}
                 <h1>{{ if .Data.Singular }}#{{ end }}{{ .Title }}</h1>
               {{ else }}
+                {{ if eq .Type "blog" }}
+                  {{ partial "breadcrumbs.html" . }}
+                {{ end }}
                 <h1>{{ with $title }}{{. | humanize | title}}{{ else }}<br/>{{ end }}</h1>
               {{ end }}
               {{ if ne .Type "post" }}
