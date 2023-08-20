@@ -1,4 +1,4 @@
-baseURL = 'https://awesome-golang.netlify.app/'
+baseURL = 'https://golang.withcodeexample.com/'
 languageCode = 'en-us'
 title = 'Awesome Golang'
 theme = 'beautifulhugo'
@@ -88,19 +88,14 @@ paginate = 10
 [[menu.main]]
   parent = "sites"
   name = "Awesome Golang"
-  url = "https://awesome-golang.netlify.app/"
+  url = "https://golang.withcodeexample.com/"
   weight = 1
 
 [[menu.main]]
   parent = "sites"
   name = "Awesome Javascript"
-  url = "https://awesome-javascript.netlify.app/"
+  url = "https://javascript.withcodeexample.com/"
   weight = 2
-
-[[menu.main]]
-    name = "About"
-    url = "https://harendra21.github.io/"
-    weight = 3
 [[menu.main]]
     name = "Sitemap"
     url = "sitemap.xml"
