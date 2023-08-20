@@ -14,9 +14,9 @@ enableRobotsTXT = true
 paginate = 10
 
 [Params]
-  homeTitle = 'Awesome Golang'
+  homeTitle = 'Golang With Code Example'
   description = "Master Golang programming with our comprehensive tutorials and practical examples. Learn Golang syntax, best practices, and advanced concepts to become a skilled developer."
-  title = 'Awesome Golang'
+  title = 'Golang With Code Example'
   subtitle = "Learn Golang With Examples"
   mainSections = ["blog"]
   #logo = "img/avatar-icon.png" # Expecting square dimensions
@@ -43,18 +43,18 @@ paginate = 10
 
 [Author]
   # Set only your "username" for default hosts and full URLs otherwise (e.g., "https://MyGitLab.org/username")
-  name = "Harendra Kumar"
-  website = "https://harendra21.github.io"
-  email = "harendraverma21@gmail.com"
-  facebook = "harendraverma21"
-  github = "harendra21"
+  name = "With Code Example"
+  website = "https://withcodeexample.com"
+  # email = "harendraverma21@gmail.com"
+  # facebook = "harendraverma21"
+  github = "awesome-blog"
   #gitlab = "username"
   #bitbucket = "username"
-  twitter = "harendraverma2"
+  # twitter = "harendraverma2"
   #reddit = "username"
-  linkedin = "harendra21/"
+  # linkedin = "harendra21/"
   #xing = "username"
-  stackoverflow = "users/6720451/harendra-kumar"
+  # stackoverflow = "users/6720451/harendra-kumar"
   #snapchat = "username"
   #instagram = "username"
   #youtube = "user/username" # or channel/channelname
@@ -96,11 +96,3 @@ paginate = 10
   name = "Javascript"
   url = "https://javascript.withcodeexample.com/"
   weight = 2
-[[menu.main]]
-    name = "Sitemap"
-    url = "sitemap.xml"
-    weight = 4
-[[menu.main]]
-    name = "Feeds"
-    url = "index.xml"
-    weight = 5
