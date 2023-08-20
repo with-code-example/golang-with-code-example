@@ -2,7 +2,7 @@
 title: "Understanding Error Handing in Golang"
 subtitle: Strategies and Examples for Handling Temporary and Final Errors in Golang
 description: Discover how to effectively handle temporary and final errors in Golang applications. Learn best practices, including retry mechanisms, exponential backoff, context usage, and graceful degradation, accompanied by illustrative code examples for resilient error management in your Golang projects.
-tags: [golang, error-handling]
+tags: [golang, golang-best-practices, error-handling]
 slug: golang-error-handling-temporary-final
 featured_image: https://res.cloudinary.com/harendra21/image/upload/w_750/golangwithexample/Understanding_Error_Handing_in_Golang_fl6rly.png
 thumbnail: https://res.cloudinary.com/harendra21/image/upload/w_400/golangwithexample/Understanding_Error_Handing_in_Golang_fl6rly.png
