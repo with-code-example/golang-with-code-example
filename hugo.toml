@@ -1,6 +1,6 @@
 baseURL = 'https://golang.withcodeexample.com/'
 languageCode = 'en-us'
-title = 'Awesome Golang'
+title = 'Golang With Code Example'
 theme = 'beautifulhugo'
 summaryLength = 25
 copyright = "Harendra Kumar Kanojiya"
@@ -87,13 +87,13 @@ paginate = 10
 
 [[menu.main]]
   parent = "sites"
-  name = "Awesome Golang"
+  name = "Golang"
   url = "https://golang.withcodeexample.com/"
   weight = 1
 
 [[menu.main]]
   parent = "sites"
-  name = "Awesome Javascript"
+  name = "Javascript"
   url = "https://javascript.withcodeexample.com/"
   weight = 2
 [[menu.main]]

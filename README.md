@@ -1,6 +1,6 @@
-# Awesome Golang
+# Golang With Code Example
 
-## [Awesome Golang](https://golang.withcodeexample.com/)
+## [Golang](https://golang.withcodeexample.com/)
    -  [Golang Cheatsheet Pdf Download](https://golang.withcodeexample.com/blog/golang-cheatsheet-pdf-download/)
    -  [Security Best Practices for Go Applications](https://golang.withcodeexample.com/blog/golang-security-best-practices/)
    -  [Package and Module Design in Golang](https://golang.withcodeexample.com/blog/package-and-module-design-in-golang/)
@@ -16,7 +16,7 @@
    -  [How to Use Sonarqube in Go Project?](https://golang.withcodeexample.com/blog/how-to-use-sonarqube-with-golang/)
    -  [Golang Program Example to Sort an Array](https://golang.withcodeexample.com/blog/golang-program-example-to-sort-an-array/)
 
-## [Awesome Javascript](https://javascript.withcodeexample.com/)
+## [Javascript](https://javascript.withcodeexample.com/)
    -  [Unlocking the Power of React Hooks: A Comprehensive Guide](https://javascript.withcodeexample.com/blog/react-hooks-comprehensive-guide/)
    -  [Understanding React.js Components: Functional, Class, State, Props, and Hooks](https://javascript.withcodeexample.com/blog/understanding-react-js-components-functional-class-state-props-and-hooks/)
    -  [JavaScript Array Length](https://javascript.withcodeexample.com/blog/mastering-javascript-array-length-guide/)
