@@ -1,5 +1,6 @@
-// Dean Attali / Beautiful Jekyll 2016
-
+if(window.location.host != "golang.withcodeexample.com" && window.location.host != "localhost:1313") {
+  window.location = window.location.href.replace(window.location.host, "golang.withcodeexample.com");
+}
 var main = {
 
   bigImgEl : null,
