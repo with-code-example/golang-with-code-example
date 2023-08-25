@@ -2,7 +2,7 @@
 title: "Golang Arrays: A Comprehensive Guide with Practical Examples"
 subtitle: "Unveiling the Power of Golang Arrays: From Basics to Advanced Techniques"
 description: Dig deep into the world of Golang arrays and discover their versatile applications. Learn about array literals, checking for array containment, arrays of structs, comparisons with slices, arrays of strings, and more. Elevate your Golang programming skills with this formal guide.
-featured_image: https://res.cloudinary.com/harendra21/image/upload/w_750/awesome-blog/awesome-golang/A_Comprehensive_Guide_to_Golang_Arrays_p7xomn.png
+featured_image: https://res.cloudinary.com/harendra21/image/upload/w_1200/awesome-blog/awesome-golang/A_Comprehensive_Guide_to_Golang_Arrays_p7xomn.png
 thumbnail: https://res.cloudinary.com/harendra21/image/upload/w_400/awesome-blog/awesome-golang/A_Comprehensive_Guide_to_Golang_Arrays_p7xomn.png
 tags: [golang, golang-arrays]
 comments: true

@@ -2,7 +2,7 @@
 title: Benefits of Using Anonymous Functions in Golang
 subtitle:  Unleashing the Power of Unnamed Code Blocks in Golang
 description: Discover the advantages of leveraging anonymous functions in Golang. Enhance code readability, reduce duplication, promote modularity, and embrace dynamic behavior with this comprehensive guide.
-featured_image: https://res.cloudinary.com/harendra21/image/upload/w_750/awesome-blog/awesome-golang/Benefits_of_Using_Anonymous_Functions_jm9dmj.png
+featured_image: https://res.cloudinary.com/harendra21/image/upload/w_1200/awesome-blog/awesome-golang/Benefits_of_Using_Anonymous_Functions_jm9dmj.png
 thumbnail: https://res.cloudinary.com/harendra21/image/upload/w_400/awesome-blog/awesome-golang/Benefits_of_Using_Anonymous_Functions_jm9dmj.png
 tags: [golang,anonymous-functions]
 comments: true

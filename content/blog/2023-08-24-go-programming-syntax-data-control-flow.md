@@ -4,7 +4,7 @@ subtitle: Exploring Syntax, Data Types, and Control Flow in Go Programming
 description: Dive into the fundamental concepts of Go programming, from its clean syntax and versatile data types to control flow mechanisms. Learn how to declare variables, create functions, and use control statements effectively, setting the stage for your exciting journey into the world of Go development.
 tags: [golang]
 slug: go-programming-syntax-data-control-flow
-featured_image: https://res.cloudinary.com/harendra21/image/upload/w_750/golangwithexample/Getting_Started_with_Go_Programming_pcq3yq.png
+featured_image: https://res.cloudinary.com/harendra21/image/upload/w_1200/golangwithexample/Getting_Started_with_Go_Programming_pcq3yq.png
 thumbnail: https://res.cloudinary.com/harendra21/image/upload/w_400/golangwithexample/Getting_Started_with_Go_Programming_pcq3yq.png
 comments: true
 date: 2023-08-24

@@ -4,7 +4,7 @@ subtitle: Strategies for Efficiently Handling One Million Requests with Golang
 description: Learn expert strategies and techniques for optimizing Golang-based web applications to gracefully handle a million requests, ensuring responsiveness and reliability even under high traffic.
 slug: efficient-handling-million-requests-golang 
 tags: [golang, golang-best-practices]
-featured_image: https://res.cloudinary.com/harendra21/image/upload/w_750/awesome-blog/awesome-golang/Handling_One_Million_Requests_jebnoq.png
+featured_image: https://res.cloudinary.com/harendra21/image/upload/w_1200/awesome-blog/awesome-golang/Handling_One_Million_Requests_jebnoq.png
 thumbnail: https://res.cloudinary.com/harendra21/image/upload/w_400/awesome-blog/awesome-golang/Handling_One_Million_Requests_jebnoq.png
 comments: true
 date: 2023-08-23

@@ -2,7 +2,7 @@
 title: Mastering Golang Anonymous Functions
 subtitle: A Comprehensive Guide to Understanding and Using Anonymous Functions in Golang
 description: Dive into the world of Golang anonymous functions! Learn how to wield the flexibility and power of unnamed code blocks through comprehensive examples and practical insights. Elevate your coding skills with this in-depth guide.
-featured_image: https://res.cloudinary.com/harendra21/image/upload/w_750/awesome-blog/awesome-golang/Benefits_of_Using_Anonymous_Functions_2_nvxugh.png
+featured_image: https://res.cloudinary.com/harendra21/image/upload/w_1200/awesome-blog/awesome-golang/Benefits_of_Using_Anonymous_Functions_2_nvxugh.png
 thumbnail: https://res.cloudinary.com/harendra21/image/upload/w_400/awesome-blog/awesome-golang/Benefits_of_Using_Anonymous_Functions_2_nvxugh.png
 tags: [ golang, anonymous-functions]
 comments: true

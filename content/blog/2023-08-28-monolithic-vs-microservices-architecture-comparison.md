@@ -4,7 +4,7 @@ subtitle: "A Comprehensive Comparison of Monolithic and Microservices Architectu
 description: "Understand the differences between monolithic and microservices architectures, including their characteristics, benefits, trade-offs, and factors to consider when choosing the right architecture for your software system."
 tags: [golang]
 slug: monolithic-vs-microservices-architecture-comparison
-featured_image: https://res.cloudinary.com/harendra21/image/upload/w_750/golangwithexample/Monolithic_vs._Microservices_hiucue.png
+featured_image: https://res.cloudinary.com/harendra21/image/upload/w_1200/golangwithexample/Monolithic_vs._Microservices_hiucue.png
 thumbnail: https://res.cloudinary.com/harendra21/image/upload/w_400/golangwithexample/Monolithic_vs._Microservices_hiucue.png
 comments: true
 date: 2023-08-28

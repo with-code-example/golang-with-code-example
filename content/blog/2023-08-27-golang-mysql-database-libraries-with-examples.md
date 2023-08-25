@@ -4,7 +4,7 @@ subtitle: A Comprehensive Guide to Golang MySQL Database Libraries for Efficient
 description: Discover the power of Golang MySQL database libraries through real-world examples and use cases. Explore GORM, Go-MySQL-Driver, SQLX, Beego, GORP, Go-firestorm, and SQLBoiler to streamline your data management process.
 tags: [golang, go-libreary]
 slug: golang-mysql-database-libraries
-featured_image: https://res.cloudinary.com/harendra21/image/upload/w_750/golangwithexample/Golang_MySQL_Database_Libraries_With_Examples.png
+featured_image: https://res.cloudinary.com/harendra21/image/upload/w_1200/golangwithexample/Golang_MySQL_Database_Libraries_With_Examples.png
 thumbnail: https://res.cloudinary.com/harendra21/image/upload/w_400/golangwithexample/Golang_MySQL_Database_Libraries_With_Examples.png
 comments: true
 date: 2023-08-27

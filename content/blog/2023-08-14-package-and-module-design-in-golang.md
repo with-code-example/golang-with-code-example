@@ -1,7 +1,7 @@
 ---
 title: Package and Module Design in Golang
 description: Package and Module Design in Golang, Designing Cohesive and Reusable Packages, Creating APIs with Careful Consideration, Versioning and Dependency Management
-featured_image: https://res.cloudinary.com/harendra21/image/upload/w_750/awesome-blog/awesome-golang/Package_and_Module_Design_in_Golang_oxy812.png
+featured_image: https://res.cloudinary.com/harendra21/image/upload/w_1200/awesome-blog/awesome-golang/Package_and_Module_Design_in_Golang_oxy812.png
 thumbnail: https://res.cloudinary.com/harendra21/image/upload/w_400/awesome-blog/awesome-golang/Package_and_Module_Design_in_Golang_oxy812.png
 tags: [golang, golang-best-practices]
 comments: true

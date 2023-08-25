@@ -4,7 +4,7 @@ subtitle: A Comprehensive Guide to Building Robust and Reliable Applications
 description: Learn how to handle errors effectively, implement advanced logging techniques, and integrate with error tracking platforms like Sentry in Go programming. Build resilient applications with graceful error handling and insightful logging practices.
 tags: [golang, error-handling]
 slug: mastering-error-handling-logging-go-guide
-featured_image: https://res.cloudinary.com/harendra21/image/upload/w_750/golangwithexample/Mastering_Error_Handling_and_Logging_in_Go_Programming_edtgda.png
+featured_image: https://res.cloudinary.com/harendra21/image/upload/w_1200/golangwithexample/Mastering_Error_Handling_and_Logging_in_Go_Programming_edtgda.png
 thumbnail: https://res.cloudinary.com/harendra21/image/upload/w_400/golangwithexample/Mastering_Error_Handling_and_Logging_in_Go_Programming_edtgda.png
 comments: true
 date: 2023-08-21

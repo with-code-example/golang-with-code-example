@@ -3,7 +3,7 @@ layout: post
 title: How to Use Sonarqube With Docker Compose
 subtitle: Install and use sonarqube with docker
 description: Docker and Docker Compose are powerful tools for containerization, allowing developers to package, distribute, and run applications and their dependencies in isolated containers.
-featured_image: https://res.cloudinary.com/harendra21/image/upload/w_750/awesome-blog/awesome-golang/How_To_Use_Soanrqube_With_Docker_Compose_c9jz7a.png
+featured_image: https://res.cloudinary.com/harendra21/image/upload/w_1200/awesome-blog/awesome-golang/How_To_Use_Soanrqube_With_Docker_Compose_c9jz7a.png
 thumbnail: https://res.cloudinary.com/harendra21/image/upload/w_400/awesome-blog/awesome-golang/How_To_Use_Soanrqube_With_Docker_Compose_c9jz7a.png
 tags: [golang, sonarqube]
 comments: true

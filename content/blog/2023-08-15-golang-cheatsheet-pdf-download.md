@@ -4,7 +4,7 @@ subtitle: Your Golang Resource for Golang Syntax, Tips, and Tricks - Download No
 description: Master Go programming with our comprehensive Golang cheatsheet. Get instant access to essential syntax, examples, and insights. Download your PDF now!
 tags: [golang,cheatsheet]
 slug: golang-cheatsheet-pdf-download
-featured_image: https://res.cloudinary.com/harendra21/image/upload/w_750/awesome-blog/awesome-golang/Golang_CheatSheet_PDF_Download_wggzzl.png
+featured_image: https://res.cloudinary.com/harendra21/image/upload/w_1200/awesome-blog/awesome-golang/Golang_CheatSheet_PDF_Download_wggzzl.png
 thumbnail: https://res.cloudinary.com/harendra21/image/upload/w_400/awesome-blog/awesome-golang/Golang_CheatSheet_PDF_Download_wggzzl.png
 comments: true
 date: 2023-08-15
