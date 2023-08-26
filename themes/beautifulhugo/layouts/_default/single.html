@@ -7,11 +7,9 @@
         <p class="post-meta">
           {{ partial "post_meta.html" . }}
         </p>
-
         {{ if .Params.featured_image }}
-          <img src="{{ .Params.featured_image }}" alt="{{ .Params.title  }}">
+          <img src="{{ .Params.featured_image }}" width="1200" height="auto" alt="{{ .Params.title  }}">
         {{ end }}
-
         {{ partial "toc.html" . }}
         {{ partial "series.html" . }}
         {{ .Content }}
@@ -65,8 +63,6 @@
           {{ end }}
         </ul>
       {{ end }}
-
-
       {{ if (.Params.comments) | or (and (or (not (isset .Params "comments")) (eq .Params.comments nil)) (and .Site.Params.comments (ne .Type "page"))) }}
         {{ if .Site.DisqusShortname }}
           {{ if .Site.Params.delayDisqus }}
@@ -78,7 +74,6 @@
               var disqus_config = function () {
               this.page.url = '{{ trim .Permalink "/" }}';
             };
-
           </script>
           </div>
           {{ else }}
@@ -93,7 +88,6 @@
           </div>
         {{ end }}
       {{ end }}
-
     </div>
   </div>
 </div>

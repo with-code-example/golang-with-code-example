@@ -2,7 +2,7 @@
     {{ if .Params.thumbnail }}
         <div class="col-md-4">
             <a href="{{ .Permalink }}">
-                <img src="{{ .Params.thumbnail }}" alt="{{ .Params.title }}" class="post-thumbnail thumbnail">
+                <img src="{{ .Params.thumbnail }}" alt="{{ .Params.title }}" width="400" height="auto" class="post-thumbnail thumbnail">
             </a>
         </div>
     {{ end }}
