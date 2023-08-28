@@ -2,7 +2,7 @@
 layout: post
 title: How to Use Sonarqube in Go Project?
 description: Learn about soarqube, how to install sonarqube? and analyse your go code with sonarqube.
-featured_image: https://res.cloudinary.com/harendra21/image/upload/w_1200/awesome-blog/awesome-golang/How_To_Use_Soanrqube_With_Go_ujnbhn.png
+featured_image: https://res.cloudinary.com/harendra21/image/upload/w_120750/awesome-blog/awesome-golang/How_To_Use_Soanrqube_With_Go_ujnbhn.png
 thumbnail: https://res.cloudinary.com/harendra21/image/upload/w_400/awesome-blog/awesome-golang/How_To_Use_Soanrqube_With_Go_ujnbhn.png
 tags: [golang, sonarqube]
 comments: true
@@ -128,3 +128,6 @@ Go back to the SonarQube web interface at `http://localhost:9000` (or the addres
 Now you can explore the code quality metrics, potential issues, and other analysis results for your Golang project in SonarQube.
 
 Please note that SonarGo is a third-party plugin and may not be as comprehensive as the built-in language analyzers. The support for Golang may also be limited compared to JVM-based languages like Java. However, SonarGo can still provide valuable insights into the code quality of your Golang projects.
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTE3ODQzOTg1NDVdfQ==
+-->
