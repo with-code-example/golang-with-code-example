@@ -2,7 +2,7 @@
 <div class="container" role="main">
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-      <article role="main" class="blog-post">
+      <article role="main" class="blog-post" data-clarity-region="article">
 
         <p class="post-meta">
           {{ partial "post_meta.html" . }}
@@ -53,12 +53,12 @@
         <ul class="pager blog-pager">
           {{ if .PrevInSection }}
             <li class="previous">
-              <a href="{{ .PrevInSection.Permalink }}" data-toggle="tooltip" data-placement="top" title="{{ .PrevInSection.Title }}">&larr; {{ i18n "previousPost" }}</a>
+              <a href="{{ .PrevInSection.Permalink }}" data-toggle="tooltip" data-placement="top" title="{{ .PrevInSection.Title }}">&larr; {{ .PrevInSection.Title }}</a>
             </li>
           {{ end }}
           {{ if .NextInSection }}
             <li class="next">
-              <a href="{{ .NextInSection.Permalink }}" data-toggle="tooltip" data-placement="top" title="{{ .NextInSection.Title }}">{{ i18n "nextPost" }} &rarr;</a>
+              <a href="{{ .NextInSection.Permalink }}" data-toggle="tooltip" data-placement="top" title="{{ .NextInSection.Title }}">{{ .NextInSection.Title }} &rarr;</a>
             </li>
           {{ end }}
         </ul>
