@@ -3,7 +3,7 @@ layout: post
 title: How to Use Sonarqube With Docker Compose
 subtitle: Install and use sonarqube with docker
 description: Docker and Docker Compose are powerful tools for containerization, allowing developers to package, distribute, and run applications and their dependencies in isolated containers.
-featured_image: https://res.cloudinary.com/harendra21/image/upload/w_1200/awesome-blog/awesome-golang/How_To_Use_Soanrqube_With_Docker_Compose_c9jz7a.png
+featured_image: https://res.cloudinary.com/harendra21/image/upload/w_120750/awesome-blog/awesome-golang/How_To_Use_Soanrqube_With_Docker_Compose_c9jz7a.png
 thumbnail: https://res.cloudinary.com/harendra21/image/upload/w_400/awesome-blog/awesome-golang/How_To_Use_Soanrqube_With_Docker_Compose_c9jz7a.png
 tags: [golang, sonarqube]
 comments: true
@@ -143,3 +143,6 @@ Once the SonarQube web interface is accessible, you need to complete the initial
 With SonarQube up and running, you can now analyze your code by integrating it with various build tools, such as Maven, Gradle, or npm. To analyze a project, you will typically need to use a SonarQube Scanner in combination with the appropriate build tool.
 
 That's it! You now have SonarQube deployed and ready to analyze code quality in your projects using Docker Compose. Remember that for production deployments, you may want to consider additional configurations and security measures, such as SSL certificates and proper data backups.
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTE3NTYzMDAxOTBdfQ==
+-->
