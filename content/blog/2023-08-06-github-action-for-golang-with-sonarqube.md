@@ -2,7 +2,7 @@
 title: How to Analyze Golang Project by Sonarqube With Github Actions/Workflow?
 subtitle: Analyze Golang Project by Sonarqube With Github Actions
 description: Learn how to use github workflow to check your golang code with sonqrqube.
-featured_image: https://res.cloudinary.com/harendra21/image/upload/w_1200/awesome-blog/awesome-golang/How_To_Use_Soanrqube_With_Github_Actions_m37akq.png
+featured_image: https://res.cloudinary.com/harendra21/image/upload/w_120750/awesome-blog/awesome-golang/How_To_Use_Soanrqube_With_Github_Actions_m37akq.png
 thumbnail: https://res.cloudinary.com/harendra21/image/upload/w_400/awesome-blog/awesome-golang/How_To_Use_Soanrqube_With_Github_Actions_m37akq.png
 tags: [golang, sonarqube]
 comments: true
@@ -90,3 +90,6 @@ GitHub Actions will now execute the workflow every time there's a push to the sp
 You can check the analysis results on your SonarQube server by navigating to the project and exploring the code quality metrics, issues, and other findings.
 
 **Please note that you need to adjust the workflow and Golang build steps according to your project's specific requirements, directory structure, and other configurations.**
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTgyMzU3MDM1Ml19
+-->
