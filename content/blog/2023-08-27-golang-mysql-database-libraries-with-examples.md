@@ -14,7 +14,7 @@ draft: false
 
 Golang, also known as Go, has emerged as a preferred language for building robust and high-performance applications. When it comes to working with MySQL databases, Golang offers a range of powerful libraries that simplify database interactions and improve efficiency. In this article, we'll delve into some of the most popular Golang MySQL database libraries, exploring their features with practical examples.
 
-## 1. GORM (github.com/go-gorm/gorm)
+## 1. [GORM](/series/gorm) (github.com/go-gorm/gorm)
 
 GORM is a feature-rich Object-Relational Mapping (ORM) library for Golang that simplifies database operations by providing an intuitive API for working with database models. Let's take a look at a simple example of how to use GORM:
 ### GORM Example
