@@ -1,0 +1,6 @@
+{{ if .Site.Params.isAlgolia }}
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.css" />
+{{ end }}
+{{ if .Site.Params.googleSiteVarify }}
+<meta name="google-site-verification" content="{{ .Site.Params.googleSiteVarify }}" />
+{{ end }}

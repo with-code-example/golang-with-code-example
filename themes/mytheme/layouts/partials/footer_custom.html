@@ -1,0 +1,23 @@
+{{ if .Site.Params.isAlgolia }}
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.js"></script>
+    <script type="text/javascript">
+    algoliasearchNetlify({
+        appId: '{{ .Site.Params.algoliaAppId }}',
+        apiKey: '{{ .Site.Params.algoliaApiKey }}',
+        siteId: '{{ .Site.Params.algoliaSiteId }}',
+        branch: 'main',
+        selector: 'div#search',
+    });
+    </script>
+{{ end }}
+{{ if not .Site.BuildDrafts }}
+    {{ if .Site.Params.isGgoogleAnalytics }}
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ .Site.Params.googleAnalytics }}"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', '{{ .Site.Params.googleAnalytics }}');
+    </script>
+    {{ end }}
+{{ end }}
