@@ -1,9 +1,9 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
+title: 
 subtitle: 
 description: 
-tags: [golang]
 slug: 
+tags: [golang]
 featured_image: 
 thumbnail: 
 comments: true
