@@ -8,18 +8,20 @@
           {{ partial "post_meta.html" . }}
         </p>
 
-        {{ if .Params.audio }}
-          <audio src="{{ .Params.audio }}" class="player"></audio>
-          <br>
-        {{ end }}
-        
-
         {{ if .Params.featured_image }}
           <img src="{{ .Params.featured_image }}"  width="1200" height="auto" alt="{{ .Params.title  }}">
         {{ end }}
 
         {{ partial "toc.html" . }}
         {{ partial "series.html" . }}
+
+        {{ if .Params.audio }}
+          <div class="fixme">
+            <audio src="{{ .Params.audio }}" class="player"></audio>
+          </div>
+          <br>
+        {{ end }}
+
         {{ .Content }}
 
         {{ if .Params.tags }}
@@ -111,9 +113,7 @@
       (function() {
         const players = Array.from(document.querySelectorAll('.player')).map(
           p => new Plyr(p, {
-            controls: ['play', 'progress', 'current-time', 'mute', 'volume', 'download', 'fullscreen'],
-            {{/*  autoplay: true,  */}}
-            {{/*  settings: ['speed']  */}}
+            controls: ['play','play-large', 'progress', 'current-time', 'mute', 'volume', 'fullscreen', 'restart','duration','pip','settings'],
           })
         );
         {{/*  Stop other players when starting  */}}

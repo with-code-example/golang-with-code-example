@@ -142,3 +142,21 @@ var main = {
   }
 };
 document.addEventListener('DOMContentLoaded', main.init);
+
+var fixmeTop = $('.fixme').offset().top;
+$(window).scroll(function() {
+  var currentScroll = $(window).scrollTop();
+  if (currentScroll >= fixmeTop) {
+    $('.fixme').css({
+      position: 'fixed',
+      top: '50px',
+      'z-index': '9',
+      width: "100%",
+      left: '0'
+    });
+  } else {
+    $('.fixme').css({
+        position: 'static',
+    });
+  }
+});
