@@ -11,6 +11,7 @@ date: 2023-09-15
 toc: true
 draft: false
 series: ["Concurrency In Go"]
+audio: "https://res.cloudinary.com/harendra21/video/upload/v1694934298/golangwithexample/Demystifying_Goroutines_in_Go_Lightweight_Concurrency_risnun.wav"
 ---
 
 

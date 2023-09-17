@@ -11,6 +11,7 @@ date: 2023-09-13
 toc: true
 draft: false
 series: ["Concurrency In Go"]
+audio: "https://res.cloudinary.com/harendra21/video/upload/v1694934586/golangwithexample/The_Power_of_Concurrency_in_Go_ofmlxm.wav"
 ---
 
 Concurrency is a fundamental concept in modern software development that enables programs to perform multiple tasks simultaneously, improving efficiency and responsiveness. In this article, we will explore the importance of concurrency in modern software development and delve into Go's unique approach to handling concurrent tasks.
