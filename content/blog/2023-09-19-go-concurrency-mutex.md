@@ -11,6 +11,7 @@ date: 2023-09-19
 toc: true
 draft: false
 series: ["Concurrency In Go"]
+audio: https://res.cloudinary.com/harendra21/video/upload/v1694936834/golangwithexample/Managing_Shared_Resources_with_Mutex_dq3mig.wav
 ---
 
 Concurrency is a powerful feature in Go that allows multiple Goroutines (concurrent threads) to execute simultaneously. However, with great power comes great responsibility. When multiple Goroutines access and modify shared resources concurrently, it can lead to data corruption, race conditions, and unpredictable program behavior. To address these issues, Go provides a synchronization primitive called the **Mutex** (short for mutual exclusion). In this article, we will explore the role of Mutex in managing shared resources, and the need for its use in concurrent programming.
