@@ -13,6 +13,8 @@ draft: false
 series: [GORM]
 ---
 
+[Download PDF](https://res.cloudinary.com/harendra21/image/upload/v1694109746/golangwithexample/PDF/GORM_Mastery_gmpc1k.pdf)
+
 In the dynamic landscape of application development, database schema changes are inevitable. GORM, the robust Go Object-Relational Mapping library, provides a seamless solution to manage these changes through migrations. This article serves as your comprehensive guide to mastering database migrations and schema management using GORM. We'll dive into automatic migrations, creating and applying migrations, and strategies for gracefully handling evolving schema requirements in your Go projects.
 
 ## Automatic Migrations in GORM

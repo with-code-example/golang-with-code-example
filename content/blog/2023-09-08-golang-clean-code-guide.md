@@ -12,6 +12,8 @@ toc: true
 draft: false
 ---
 
+[Download PDF](https://res.cloudinary.com/harendra21/image/upload/v1694109746/golangwithexample/PDF/GORM_Mastery_gmpc1k.pdf)
+
 Hi Devs, clean code refers to writing software code that is easy to read, understand, and maintain. It is code that follows a set of principles and practices that prioritize clarity, simplicity, and consistency. The goal of clean code is to make the codebase more manageable, reduce the likelihood of introducing bugs, and improve collaboration among developers. Clean code is not just about achieving a certain aesthetic; it has tangible benefits for both developers and the overall software development process.
 
 Here are some key aspects of clean code and why they are important:

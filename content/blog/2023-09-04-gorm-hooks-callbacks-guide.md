@@ -12,6 +12,9 @@ toc: true
 draft: false
 series: [GORM]
 ---
+
+[Download PDF](https://res.cloudinary.com/harendra21/image/upload/v1694109746/golangwithexample/PDF/GORM_Mastery_gmpc1k.pdf)
+
 In the realm of database management, customization is key to crafting efficient and tailored workflows. GORM, the dynamic Go Object-Relational Mapping library, empowers developers with hooks and callbacks, offering a way to inject custom logic into various stages of the database interaction process. This comprehensive guide unveils the potential of hooks and callbacks in GORM, exploring their utilization, the array of available hooks and their purposes, and the art of implementing your own custom callbacks. By the end, you'll be equipped to elevate your database interactions in Go, crafting workflows that align perfectly with your application's unique requirements.
 
 ## Using GORM Hooks in GORM

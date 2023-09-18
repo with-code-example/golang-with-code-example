@@ -12,6 +12,7 @@ toc: true
 draft: false
 ---
 
+[Download PDF](https://res.cloudinary.com/harendra21/image/upload/v1694109746/golangwithexample/PDF/GORM_Mastery_gmpc1k.pdf)
 
 In the intricate world of programming, functions are the building blocks that construct the edifice of your code. In this article, we embark on a journey to uncover the art of designing functions that are concise, coherent, and highly functional.
 

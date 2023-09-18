@@ -13,6 +13,8 @@ draft: false
 series: [GORM]
 ---
 
+[Download PDF](https://res.cloudinary.com/harendra21/image/upload/v1694109746/golangwithexample/PDF/GORM_Mastery_gmpc1k.pdf)
+
 Efficient data retrieval and presentation are crucial aspects of application development. GORM, the robust Go Object-Relational Mapping library, equips developers with powerful tools to achieve this. In this guide, we'll delve into the world of pagination and sorting in GORM. By the end, you'll be proficient in implementing these features to streamline data presentation and enhance user experience in your Go projects.
 
 ## Implementing Pagination with GORM

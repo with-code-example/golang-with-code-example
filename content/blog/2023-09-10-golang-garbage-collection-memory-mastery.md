@@ -12,6 +12,8 @@ toc: true
 draft: false
 ---
 
+[Download PDF](https://res.cloudinary.com/harendra21/image/upload/v1694109746/golangwithexample/PDF/GORM_Mastery_gmpc1k.pdf)
+
 Garbage collection, a fundamental process in modern programming languages, is the automatic management of memory resources. It ensures that memory occupied by objects that are no longer reachable or useful is reclaimed, preventing memory leaks and optimizing resource utilization. In the context of the Go programming language (Golang), an open-source language developed by Google, garbage collection plays a pivotal role in maintaining memory efficiency and program stability.
 
 Go, known for its emphasis on simplicity and performance, employs a garbage collector that employs a concurrent and parallel approach to manage memory. This essay will delve into the mechanisms, advantages, and considerations of garbage collection in Golang.

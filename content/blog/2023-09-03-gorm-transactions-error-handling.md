@@ -13,6 +13,8 @@ draft: false
 series: [GORM]
 ---
 
+[Download PDF](https://res.cloudinary.com/harendra21/image/upload/v1694109746/golangwithexample/PDF/GORM_Mastery_gmpc1k.pdf)
+
 In the world of database management, ensuring data integrity is paramount. GORM, the robust Go Object-Relational Mapping library, empowers developers with essential tools for maintaining data consistency and handling errors gracefully. This article serves as your comprehensive guide to mastering transactions and error handling with GORM. We'll delve into working with transactions to guarantee atomicity, and explore strategies for effectively handling errors and rollbacks to keep your database operations reliable and robust in your Go projects.
 
 ## Working with Transactions in GORM
