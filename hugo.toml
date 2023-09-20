@@ -14,10 +14,10 @@ enableRobotsTXT = true
 paginate = 10
 
 [Params]
-  homeTitle = 'Golang With Code Example'
+  homeTitle = 'Golang'
   description = "Master Golang programming with our comprehensive tutorials and practical examples. Learn Golang syntax, best practices, and advanced concepts to become a skilled developer."
   title = 'Golang With Code Example'
-  subtitle = "Learn Golang With Examples"
+  subtitle = "Learn with working Examples and Audio summary"
   mainSections = ["blog"]
   logo = "https://res.cloudinary.com/harendra21/image/upload/w_100/With_Code_Example_pemcaz.png" # Expecting square dimensions
   favicon = "https://res.cloudinary.com/harendra21/image/upload/w_400/With_Code_Example_pemcaz_nzrfh9.png"
@@ -83,13 +83,19 @@ paginate = 10
   #strava = "userid"
 
 [[menu.main]]
-    name = "Blog"
-    url = ""
+    name = "Home"
+    url = "/"
     weight = 1
 
 [[menu.main]]
-  name = "Sites"
+  name = "Courses"
   weight = 2
+  url = "https://courses.withcodeexample.com/course/"
+  identifier = "courses"
+
+[[menu.main]]
+  name = "Sites"
+  weight = 3
   identifier = "sites"
 
 [[menu.main]]
@@ -103,3 +109,19 @@ paginate = 10
   name = "Javascript"
   url = "https://javascript.withcodeexample.com/"
   weight = 2
+
+[[menu.main]]
+  parent = "sites"
+  name = "Courses"
+  url = "https://courses.withcodeexample.com/"
+  weight = 3
+
+[[menu.main]]
+    name = "Tags"
+    url = "/tags"
+    weight = 4
+
+[[menu.main]]
+    name = "Discord"
+    url = "https://discord.gg/hS2EqYqM"
+    weight = 5

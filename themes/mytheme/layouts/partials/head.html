@@ -43,6 +43,9 @@
   {{- with ($.Scratch.Get "Description") }}
     <meta name="description" content="{{ . }}">
   {{- end }}
+  {{ if .Params.canonical_url }}
+    <link rel="canonical" href="{{ .Params.canonical_url }}" />
+  {{ end }}
 {{ end }}
 
 {{- if .Paginator -}}
