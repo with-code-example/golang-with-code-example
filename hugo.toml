@@ -13,6 +13,9 @@ pygmentsCodefencesGuessSyntax = true
 enableRobotsTXT = true
 paginate = 10
 
+[markup.goldmark.renderer]
+  unsafe= true
+
 [Params]
   homeTitle = 'Golang'
   description = "Master Golang programming with our comprehensive tutorials and practical examples. Learn Golang syntax, best practices, and advanced concepts to become a skilled developer."

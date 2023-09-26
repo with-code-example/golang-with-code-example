@@ -7,7 +7,7 @@ tags: [golang, concurrency]
 featured_image: https://res.cloudinary.com/harendra21/image/upload/l_text:Roboto_70_bold:sync%20Package,co_rgb:fff/golangwithexample/bg_bczwj8.png
 thumbnail: https://res.cloudinary.com/harendra21/image/upload/l_text:Roboto_70_bold:sync%20Package,co_rgb:fff/golangwithexample/bg_bczwj8.png
 comments: true
-date: 2023-09-20
+date: 2023-09-21
 toc: true
 draft: false
 series: ["Concurrency In Go"]
