@@ -15,7 +15,7 @@ jobs:
         API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
       with:
         source_folder: 'content/blog'
-        destination_repo: 'harendra21/with-code-example'
+        destination_repo: 'with-code-example/with-code-example'
         destination_folder: 'content/posts/golang'
         user_email: 'harendraverma21@gmail.com'
         user_name: 'harendra21'
