@@ -45,6 +45,8 @@
   {{- end }}
   {{ if .Params.canonical_url }}
     <link rel="canonical" href="{{ .Params.canonical_url }}" />
+  {{ else }}
+    <link rel="canonical" href="{{ .Page.Permalink }}" />
   {{ end }}
 {{ end }}
 
