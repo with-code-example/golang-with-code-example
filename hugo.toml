@@ -17,7 +17,7 @@ paginate = 10
   unsafe= true
 
 [Imports]
-  path= github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-decap-cms
+  path= 'github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-decap-cms'
 
 [Params]
   homeTitle = 'Golang'
