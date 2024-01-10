@@ -16,8 +16,8 @@ paginate = 10
 [markup.goldmark.renderer]
   unsafe= true
 
-[Imports]
-  path= 'github.com/HugoBlox/hugo-blox-builder/tree/main/modules/blox-plugin-decap-cms'
+[[module.imports]]
+path = "github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-decap-cms"
 
 [Params]
   homeTitle = 'Golang'
