@@ -19,6 +19,7 @@ In Go, the `switch` statement is a powerful and flexible control flow construct 
 
 ### Basic Switch Statement
 
+
 The basic syntax of the `switch` statement looks like this:
 
 ```go
@@ -236,5 +237,6 @@ In summary, both `switch` and `if-else` statements have their strengths, and the
 
 ![thank you](https://res.cloudinary.com/harendra21/image/upload/w_500/golangwithexample/blog-2020-04-07-how_to_say_thank_you_in_business_i69dkn.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2MDM4MDkzMiw3NjIyMjA0MjJdfQ==
+eyJoaXN0b3J5IjpbLTEwNzA0MzkzMzgsMTc2MDM4MDkzMiw3Nj
+IyMjA0MjJdfQ==
 -->
