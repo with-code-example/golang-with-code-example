@@ -19,9 +19,6 @@ paginate = 10
 [Imports]
   path= 'github.com/with-code-example/golang-with-code-example'
 
-[Params.extensions.decap_cms]
-  branch= master
-
 [Params]
   homeTitle = 'Golang'
   description = "Master Golang programming with our comprehensive tutorials and practical examples. Learn Golang syntax, best practices, and advanced concepts to become a skilled developer."
