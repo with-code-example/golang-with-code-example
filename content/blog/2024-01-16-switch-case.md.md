@@ -230,7 +230,11 @@ func main() {
 - **Specific Requirements:**
   - Choose the construct that best fits the specific requirements of the decision logic.
 
-In summary, both `switch` and `if-else` statements have their strengths, and the choice depends on the complexity of the conditions and the readability goals of the code. Use `switch` for clear, concise value-based conditions, and use `if-else` for more flexible or complex conditions.![thank you](https://res.cloudinary.com/harendra21/image/upload/w_500/golangwithexample/blog-2020-04-07-how_to_say_thank_you_in_business_i69dkn.png)
+In summary, both `switch` and `if-else` statements have their strengths, and the choice depends on the complexity of the conditions and the readability goals of the code. Use `switch` for clear, concise value-based conditions, and use `if-else` for more flexible or complex conditions.
+
+
+
+![thank you](https://res.cloudinary.com/harendra21/image/upload/w_500/golangwithexample/blog-2020-04-07-how_to_say_thank_you_in_business_i69dkn.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0MzE3ODU3Miw3NjIyMjA0MjJdfQ==
+eyJoaXN0b3J5IjpbMTc2MDM4MDkzMiw3NjIyMjA0MjJdfQ==
 -->
