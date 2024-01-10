@@ -16,9 +16,6 @@ paginate = 10
 [markup.goldmark.renderer]
   unsafe= true
 
-[[module.imports]]
-path = "github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-decap-cms"
-
 [Params]
   homeTitle = 'Golang'
   description = "Master Golang programming with our comprehensive tutorials and practical examples. Learn Golang syntax, best practices, and advanced concepts to become a skilled developer."
@@ -131,8 +128,3 @@ path = "github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-decap-cms"
     name = "Discord"
     url = "https://discord.gg/hS2EqYqM"
     weight = 5
-
-[params]
-  [params.extensions]
-    [params.extensions.decap_cms]
-      branch = "master"
