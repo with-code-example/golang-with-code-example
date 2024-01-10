@@ -16,6 +16,11 @@ paginate = 10
 [markup.goldmark.renderer]
   unsafe= true
 
+imports:
+  # Add the Decap CMS module below, if it has not already been added:
+  - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-decap-cms
+  # Other imports here...
+
 [Params]
   homeTitle = 'Golang'
   description = "Master Golang programming with our comprehensive tutorials and practical examples. Learn Golang syntax, best practices, and advanced concepts to become a skilled developer."
