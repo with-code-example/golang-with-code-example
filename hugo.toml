@@ -16,7 +16,7 @@ paginate = 10
 [markup.goldmark.renderer]
   unsafe= true
 
-[imports]
+[Imports]
   path= github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-decap-cms
 
 [Params]
