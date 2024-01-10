@@ -131,3 +131,8 @@ path = "github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-decap-cms"
     name = "Discord"
     url = "https://discord.gg/hS2EqYqM"
     weight = 5
+
+[params]
+  [params.extensions]
+    [params.extensions.decap_cms]
+      branch = "master"
