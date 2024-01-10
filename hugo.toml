@@ -19,7 +19,7 @@ paginate = 10
 [Imports]
   path= 'github.com/with-code-example/golang-with-code-example'
 
-[params.extensions.decap_cms]
+[Params.extensions.decap_cms]
   branch= master
 
 [Params]
