@@ -1,18 +1,21 @@
 ---
 title: 10 Common Go (Golang) Code Snippets for Various Tasks
 subtitle: Explore Useful Go Code Snippets for Everyday Programming
-description: Discover 10 Go code snippets for common programming tasks, including Hello World, input handling, goroutines, slices, error handling, HTTP servers, JSON operations, concurrency, file I/O, and sorting. Use these snippets to simplify your Go development.
-slug: go-code-snippets-for-common-tasks
-tags: [golang, snippets]
+description: Discover 10 Go code snippets for common programming tasks,
+  including Hello World, input handling, goroutines, slices, error handling,
+  HTTP servers, JSON operations, concurrency, file I/O, and sorting. Use these
+  snippets to simplify your Go development.
+date: 2023-11-07
 featured_image: https://res.cloudinary.com/harendra21/image/upload/l_text:Roboto_45_bold:10%20Common%20Go%20(Golang)%20Code%20Snippets,co_rgb:fff/golangwithexample/bg5.png
 thumbnail: https://res.cloudinary.com/harendra21/image/upload/l_text:Roboto_45_bold:10%20Common%20Go%20(Golang)%20Code%20Snippets,co_rgb:fff/golangwithexample/bg5.png
+tags:
+  - golang
+  - snippets
 comments: true
-date: 2023-11-07
 toc: true
 draft: false
+slug: go-code-snippets-for-common-tasks
 ---
-
-
 It's challenging to provide a definitive list of the "top 10" Go (Golang) code snippets, as the usefulness of code snippets depends on the specific problem you're trying to solve. However, I can provide you with ten commonly used Go code snippets that cover a range of tasks and concepts:
 
 ## 1. Hello World:
