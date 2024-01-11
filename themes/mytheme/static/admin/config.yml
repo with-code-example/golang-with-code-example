@@ -12,7 +12,7 @@ collections:
     create: true # Allow users to create new documents in this collection
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}' # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
-      - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Subtitle", name: "subtitle", widget: "string"}
       - {label: "Description", name: "description", widget: "string"}
@@ -24,6 +24,6 @@ collections:
       - {label: "Table Of Content", name: "toc", widget: "boolean", default: true}
       - {label: "Draft", name: "draft", widget: "boolean", default: false}
       - {label: "Slug", name: "slug", widget: "string"}
-      - {label: "Series", name: "series", widget: "list"}
-      - {label: "Audio", name: "audio", widget: "string"}
+      - {label: "Series", name: "series", widget: "list", required: false}
+      - {label: "Audio", name: "audio", widget: "string", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
