@@ -11,10 +11,7 @@ featured_image: https://res.cloudinary.com/harendra21/image/upload/w_1200/golang
 thumbnail: https://res.cloudinary.com/harendra21/image/upload/w_400/golangwithexample/golang-base64-encoding-decoding_hkv9o3.jpg
 tags:
   - Golang Base64 Encoding
-  - encoding/base64 Package
-  - Data Transmission
-  - ASCII-Safe Representation
-  - Golang Best Practices
+  - Golng Best Practices
 comments: true
 toc: true
 draft: false
