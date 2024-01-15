@@ -1,16 +1,23 @@
 ---
-title: "Go Templating using Templ"
+title: Go Templating using Templ
 subtitle: A Guide to Efficient Dynamic Content Generation in Go Projects with Templ
-description: Explore how to simplify dynamic content generation in your Go projects using Templ. Learn about key features, practical examples, and how to create dynamic templates with conditional logic, loops, custom functions, and modularization. Discover the power of Templ for efficient and elegant content generation in Go.
-slug: go-templating-templ-dynamic-content-generation
-tags: [golang]
+description: Explore how to simplify dynamic content generation in your Go
+  projects using Templ. Learn about key features, practical examples, and how to
+  create dynamic templates with conditional logic, loops, custom functions, and
+  modularization. Discover the power of Templ for efficient and elegant content
+  generation in Go.
+date: 2023-12-07
 featured_image: https://res.cloudinary.com/harendra21/image/upload/l_text:Roboto_65_bold:Go%20Templating%20using%20Templ,co_rgb:fff/golangwithexample/bg3.png
 thumbnail: https://res.cloudinary.com/harendra21/image/upload/l_text:Roboto_65_bold:Go%20Templating%20using%20Templ,co_rgb:fff/golangwithexample/bg3.png
+tags:
+  - golang
+  - templating
+  - go
 comments: true
-date: 2023-12-07
-toc: true
+toc: false
 draft: false
-
+slug: go-templating-templ-dynamic-content-generation
+audio: https://res.cloudinary.com/harendra21/video/upload/v1705332283/golangwithexample/go-templ_ux0lvt.mp3
 ---
 
 Dynamic content generation is a fundamental aspect of web development. Whether you're building a website, web application, or API, the ability to generate dynamic content based on data and templates is crucial. In the world of Go programming, a powerful tool called "Templ" simplifies this process. In this comprehensive guide, we will explore Go templating using Templ, its key features, practical examples, and how it streamlines dynamic content generation in your Go projects.
