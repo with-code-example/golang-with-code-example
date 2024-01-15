@@ -87,7 +87,7 @@ func main() {
 
 #### Running the Application
 
-![man Running](https://res.cloudinary.com/harendra21/image/upload/w_700/golangwithexample/running-is-one-of-the-best-ways-to-stay-fit-royalty-free-image-1036780592-1553033495.jpg_jlkud5.jpg)
+![man Running](https://res.cloudinary.com/harendra21/image/upload/w_800/golangwithexample/running-is-one-of-the-best-ways-to-stay-fit-royalty-free-image-1036780592-1553033495.jpg_jlkud5.jpg)
 
 Execute your Gin application and access it in your web browser.
 
