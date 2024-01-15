@@ -1,17 +1,25 @@
 ---
 title: Secure Authentication and Authorization in GoLang Fiber
-subtitle: Mastering User Authentication, Authorization Middleware, Role-Based Access Control, and Token-Based Authentication with JWT
-description: Dive into the world of web security with GoLang Fiber. Learn to implement robust user authentication, secure user registration and login processes, create efficient authentication middleware, apply role-based access control, and harness the power of token-based authentication using JSON Web Tokens (JWT).
-slug: secure-authentication-authorization-golang-fiber-guide
-tags: [golang, fiber]
+subtitle: Mastering User Authentication, Authorization Middleware, Role-Based
+  Access Control, and Token-Based Authentication with JWT
+description: Dive into the world of web security with GoLang Fiber. Learn to
+  implement robust user authentication, secure user registration and login
+  processes, create efficient authentication middleware, apply role-based access
+  control, and harness the power of token-based authentication using JSON Web
+  Tokens (JWT).
+date: 2023-11-13
 featured_image: https://res.cloudinary.com/harendra21/image/upload/l_text:Roboto_35_bold:Authentication%20and%20Authorization%20in%20GoLang%20Fiber,co_rgb:fff/golangwithexample/golang-fiber-course.png
 thumbnail: https://res.cloudinary.com/harendra21/image/upload/l_text:Roboto_35_bold:Authentication%20and%20Authorization%20in%20GoLang%20Fiber,co_rgb:fff/golangwithexample/golang-fiber-course.png
+tags:
+  - golang
+  - fiber
 comments: true
-date: 2023-11-13
 toc: true
 draft: false
-series: ['Fiber Golang']
-
+slug: secure-authentication-authorization-golang-fiber-guide
+series:
+  - Fiber Golang
+audio: https://res.cloudinary.com/harendra21/video/upload/v1705332446/golangwithexample/go-templ_vrx1do.mp3
 ---
 
 
