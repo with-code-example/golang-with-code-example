@@ -12,7 +12,7 @@ tags:
   - database
   - gorm
 comments: true
-toc: true
+toc: false
 draft: false
 slug: gorm-database-migrations-guide
 series:
