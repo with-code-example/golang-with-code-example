@@ -17,10 +17,11 @@ tags:
   - learn golang
   - golang course
 comments: true
-toc: false
+toc: true
 draft: false
 slug: golang-tutorial-for-beginners
 ---
+
 Welcome to the world of Go, often known as Golang, a programming language that emphasises ease of use, simplicity, and efficiency. This Golang course is designed for all skill levels, from experienced developers learning a new language to total beginners venturing into the world of programming. We will walk you through the foundations of Go in this extensive tutorial, offering you practical advice, step-by-step explanations, and real-world examples to help you develop a solid Golang foundation.
 
 Google engineers developed Go to solve frequent problems that developers encountered when working on large-scale software development projects. Go is becoming more and more popular across a range of industries, including web development, system programming, and cloud computing. It is well-known for its clear syntax, strong concurrency support, and simple compilation.
@@ -36,17 +37,17 @@ This course is your key to learning the fundamentals of Golang, whether your goa
 
 You've decided to explore the world of Go (or Golang) and set out to become an expert coder. Fantastic decision! However, you must first set up your development environment before you can begin writing your first Go programme. We'll walk you through the whole Go installation process in this video, making sure you have everything you need to start your Golang journey.
 
-## Installing Go on Windows
+### Installing Go on Windows
 
-### Step 1: Download the Installer
+#### Step 1: Download the Installer
 
 Visit the official Go website (https://golang.org/dl/) to download the latest stable release for Windows. Choose the MSI installer suitable for your architecture (32-bit or 64-bit).
 
-### Step 2: Run the Installer
+#### Step 2: Run the Installer
 
 Once the installer is downloaded, double-click on the file to initiate the installation process. Follow the on-screen instructions to complete the installation. By default, Go will be installed in the `C:\Go` directory.
 
-### Step 3: Verify the Installation
+#### Step 3: Verify the Installation
 
 Open a command prompt and type the following command:
 
@@ -56,17 +57,17 @@ go version
 
 If Go is installed correctly, you should see information about the installed version.
 
-## Installing Go on macOS
+### Installing Go on macOS
 
-### Step 1: Download the Package
+#### Step 1: Download the Package
 
 On macOS, you can use Homebrew or download the package directly from the official Go website. For the direct download method, visit https://golang.org/dl/ and choose the macOS package suitable for your system.
 
-### Step 2: Run the Installer
+#### Step 2: Run the Installer
 
 Double-click on the downloaded package file and follow the installation instructions. By default, Go will be installed in the `/usr/local/go` directory.
 
-### Step 3: Verify the Installation
+#### Step 3: Verify the Installation
 
 Open a terminal and type the following command:
 
@@ -76,13 +77,13 @@ go version
 
 If Go is installed correctly, you should see information about the installed version.
 
-## Installing Go on Linux
+### Installing Go on Linux
 
-### Step 1: Download the Archive
+#### Step 1: Download the Archive
 
 On Linux, you can download the Go archive and extract it to your preferred location. Visit https://golang.org/dl/ and choose the Linux package suitable for your architecture.
 
-### Step 2: Extract the Archive
+#### Step 2: Extract the Archive
 
 Open a terminal and run the following commands to extract the archive:
 
@@ -90,7 +91,7 @@ Open a terminal and run the following commands to extract the archive:
 tar -C /usr/local -xzf go$VERSION.$OS-$ARCH.tar.gz
 ```
 
-### Step 3: Set Path Variables
+#### Step 3: Set Path Variables
 
 Add the Go binary directory to your `PATH` environment variable. Edit your shell profile file (e.g., `.bashrc` or `.zshrc`) and add the following lines:
 
@@ -105,7 +106,7 @@ Save the file and run:
 source ~/.bashrc
 ```
 
-### Step 4: Verify the Installation
+#### Step 4: Verify the Installation
 
 Run the following command in the terminal:
 
@@ -126,16 +127,16 @@ Congratulations! You've successfully installed Go on your machine. With your dev
 Having a strong and effective Integrated Development Environment (IDE) will greatly improve your coding experience as you dive deeper into the realm of Go programming. Go programming is easily supported by the well-liked and adaptable code editor Visual Studio Code (VSCode). We'll walk you through configuring VSCode for Golang in this article so you have the resources you need to optimise your development process.
 
 
-## Why Use Visual Studio Code for Go?
+### Why Use Visual Studio Code for Go?
 
 Visual Studio Code is a great option for Go programming because of its reputation for being feature-rich but lightweight. Both novice and seasoned developers will find VSCode to be a pleasant environment because to its abundance of extensions and user-friendly UI. You may take use of features like intelligent code completion, an integrated terminal, and robust debugging capabilities by setting up VSCode for Go.
 
 
-## Step 1: Install Visual Studio Code
+### Step 1: Install Visual Studio Code
 
 If you haven't already installed VSCode, you can download it from the official website: [Visual Studio Code](https://code.visualstudio.com/). Follow the installation instructions specific to your operating system.
 
-## Step 2: Install the Go Extension
+### Step 2: Install the Go Extension
 
 1. Open VSCode and navigate to the Extensions view by clicking on the Extensions icon in the Activity Bar on the side of the window or by using the shortcut `Ctrl + Shift + X`.
 
@@ -145,7 +146,7 @@ If you haven't already installed VSCode, you can download it from the official w
 
 4. Once the installation is complete, you may need to reload VSCode to activate the extension.
 
-## Step 3: Configure Your Workspace
+### Step 3: Configure Your Workspace
 
 1. Open your Go project folder or create a new one.
 
@@ -159,7 +160,7 @@ If you haven't already installed VSCode, you can download it from the official w
 
    Replace `example.com/myproject` with your project's import path.
 
-## Step 4: Configure Go Tools
+### Step 4: Configure Go Tools
 
 1. Open the VSCode settings by clicking on the gear icon in the bottom left corner and selecting "Settings."
 
@@ -167,7 +168,7 @@ If you haven't already installed VSCode, you can download it from the official w
 
 3. Scroll down and find the "Go" section. You can customize various settings here, such as formatting options and workspace-specific configurations.
 
-## Step 5: Install Additional Tools (Optional)
+### Step 5: Install Additional Tools (Optional)
 
 The Go extension for VSCode comes with built-in support for many Go tools. However, you might want to install additional tools for specific tasks. Open a terminal within VSCode and install the desired tools using the `go get` command. For example:
 
@@ -176,7 +177,7 @@ go get -u golang.org/x/tools/cmd/guru
 go get -u github.com/mdempsky/gocode
 ```
 
-## Step 6: Start Coding!
+### Step 6: Start Coding!
 
 With Visual Studio Code setup for Go, you're now ready to start coding. Launch your Go files, take use of the Go extension's robust capabilities, and experience intelligent code completion. VSCode will make your Golang development experience easy and fun by helping you with formatting, error checking, and code navigation.
 
