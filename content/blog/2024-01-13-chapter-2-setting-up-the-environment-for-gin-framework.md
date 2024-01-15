@@ -24,35 +24,14 @@ series:
 ---
 Embarking on a journey in web development often starts with choosing the right tools for the job. In this comprehensive guide, we'll walk you through the process of installing Go programming language and Gin Framework, a lightweight and flexible web framework for Go. From setting up your Go workspace to incorporating Gin into your projects, this guide is your roadmap to efficient and powerful web development.
 
-## [Installing Go Programming Language](https://go.dev/doc/install)
+## [Installing Go Programming Language](https://golang.withcodeexample.com/blog/golang-tutorial-for-beginners/#how-to-install-golang)
 
 ### Choosing the Right Version
 
 Before we dive into the installation process, it's crucial to choose the right version of Go for your development needs. Visit the official Go website (https://golang.org/dl/) to download the latest stable release.
 
-### Installing Go on Different Platforms
 
-#### Installing Go on Windows
-
-1. Download the Windows installer from the official Go website.
-2. Run the installer and follow the on-screen instructions.
-3. Set up environment variables (GOPATH, PATH) for a seamless Go development experience.
-
-#### Installing Go on macOS
-
-1. Use Homebrew to install Go: `brew install golang`.
-2. Update your profile to include the necessary environment variables.
-
-#### Installing Go on Linux
-
-1. Use the package manager for your distribution to install Go.
-2. Set up environment variables in your shell configuration file.
-
-### Verifying the Installation
-
-After installation, run `go version` in your terminal to ensure that Go is installed correctly and the version matches the one you downloaded.
-
-## Setting Up the Go Workspace
+## [Setting Up the Go Workspace](https://golang.withcodeexample.com/blog/golang-tutorial-for-beginners/#golang-workspace)
 
 ### Understanding the Go Workspace
 
@@ -63,11 +42,13 @@ The Go workspace is a specific directory structure that holds your Go code and i
 1. Define your workspace by setting the GOPATH environment variable.
 2. Create the necessary directory structure within your GOPATH.
 
-### Creating Your First Go Project
+### [Creating Your First Go Project](https://golang.withcodeexample.com/blog/golang-tutorial-for-beginners/#hello-world-program-in-golang)
 
 Use the `go mod` command to initialize a new Go module for your project. This helps manage dependencies and facilitates collaboration with other developers.
 
 ## Installing Gin Framework
+
+![install gin](https://res.cloudinary.com/harendra21/image/upload/v1705347459/golangwithexample/how_to_create_software_installation_guide_mghfyj.png)
 
 ### Overview of Gin Framework
 
@@ -105,6 +86,8 @@ func main() {
 ```
 
 #### Running the Application
+
+![man Running](https://res.cloudinary.com/harendra21/image/upload/w_700/golangwithexample/running-is-one-of-the-best-ways-to-stay-fit-royalty-free-image-1036780592-1553033495.jpg_jlkud5.jpg)
 
 Execute your Gin application and access it in your web browser.
 
