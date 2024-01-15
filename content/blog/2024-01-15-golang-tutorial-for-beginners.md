@@ -1,8 +1,7 @@
 ---
 layout: post
 title: Golang Tutorial For Beginners
-subtitle: Welcome to the world of Golang, a programming language that emphasises
-  ease of use, simplicity, and efficiency.
+subtitle: Golang is an amazing, modern, easy-to-learn, fast programming language.
 description: This course is your key to learning the fundamentals of Golang,
   whether your goal is to become a skilled Go developer or you just want to
   learn more about programming.
