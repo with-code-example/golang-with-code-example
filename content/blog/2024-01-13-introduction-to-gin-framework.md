@@ -20,71 +20,61 @@ slug: chapter-1-introduction-to-gin-framework
 series:
   - GIN Course
 ---
-### Overview of Gin Framework
+## Overview of Gin Framework
 
 Gin is a web framework for the Go programming language that is designed for simplicity and high performance. It provides a set of lightweight and flexible tools for building web applications and RESTful APIs. One of Gin's key strengths is its minimalistic design, allowing developers to have fine-grained control over their applications while maintaining a high level of performance.
 
 Gin is built on top of the net/http package in Go, and its design is inspired by other web frameworks but tailored to the idioms of the Go language. It is widely used in the Go community for its speed and efficiency, making it an excellent choice for building scalable and performant applications.
 
-#### Code Example:
+### Code Example:
 
 Let's start with a simple "Hello, Gin!" example to illustrate the basic structure of a Gin application:
 
-```go
-// Import the Gin package
-import "github.com/gin-gonic/gin"
-
-func main() {
-  // Create a new Gin router
-  router := gin.Default()
-
-  // Define a route handler for the root path
-  router.GET("/", func(c *gin.Context) {
-    // Respond with JSON
-    c.JSON(200, gin.H{
-      "message": "Hello, Gin!",
-    })
-  })
-
-  // Run the server on port 8080
-  err := router.Run(":8080")
-  if err != nil {
-    panic(err)
-  }
-}
-```
+![GIN hello world](https://res.cloudinary.com/harendra21/image/upload/v1705347281/golangwithexample/code_20240116_010413_via_10015_io_k3l29n.png)
 
 In this example, we import the "github.com/gin-gonic/gin" package, create a new Gin router, define a route for the root path ("/"), and specify a route handler function that responds with a JSON message. Finally, we run the server on port 8080.
 
-### Why use Gin in Go?
+## Why use Gin in Go?
 
-#### Performance
+![Gin Golang](https://res.cloudinary.com/harendra21/image/upload/v1705347359/golangwithexample/1_HtCjHzGwf6iWNqXu5Cndsg_vqaavg.png)
+
+### Performance
 
 One of the primary reasons developers choose Gin is its exceptional performance. Gin boasts one of the fastest HTTP request processing speeds among Go web frameworks. It achieves this speed by minimizing unnecessary overhead and providing a lean and efficient routing engine.
 
-#### Minimalistic Design
+### Minimalistic Design
 
 Gin embraces a minimalistic design philosophy, focusing on providing essential features and leaving room for developers to choose additional libraries based on their specific needs. This design approach ensures that the framework remains lightweight while offering flexibility.
 
-#### Easy to Learn
+### Easy to Learn
 
 Gin's API is straightforward and intuitive, making it accessible to developers of varying experience levels. The framework's simplicity doesn't compromise its power, and its ease of use contributes to quicker development cycles and easier onboarding for new team members.
 
-### Features and Benefits
+## Features and Benefits
 
-#### Routing
+![Features and Benefits](https://res.cloudinary.com/harendra21/image/upload/v1705347408/golangwithexample/Features-Benefits_yqnxbl.png)
+
+### Routing
 
 Gin provides a robust and flexible routing system that allows developers to define how incoming requests should be handled. Routes can include parameters, enabling dynamic URL patterns, and can be grouped to apply common middleware to sets of routes.
 
-#### Middleware
+### Middleware
 
 Middleware functions in Gin are a powerful concept that allows developers to inject behavior into the request-response cycle. Middleware can be used for tasks such as logging, authentication, input validation, and more. Gin comes with built-in middleware, and developers can easily create custom middleware to suit their application's requirements.
 
-#### JSON and XML Support
+### JSON and XML Support
 
 Working with JSON and XML data is a common requirement in modern web applications. Gin simplifies these tasks by providing convenient methods for parsing and generating JSON and XML responses. This makes it well-suited for building RESTful APIs where data exchange is often done in JSON format.
 
-### Installation and Setup
+## Installation and Setup
+
+### Install Go first
+
+To install golang in your system you can follow the following guide - [Install Golang In Windows/MacOs/Linux](https://golang.withcodeexample.com/blog/golang-tutorial-for-beginners/#how-to-install-golang) 
+
+### Install Gin
+
+![install gin](https://res.cloudinary.com/harendra21/image/upload/v1705347459/golangwithexample/how_to_create_software_installation_guide_mghfyj.png)
 
 Getting started with Gin is straightforward. The framework can be installed using the `go get` command:
 
@@ -94,35 +84,13 @@ go get -u github.com/gin-gonic/gin
 
 This command fetches the latest version of the Gin package and installs it in your Go workspace. Once installed, you can import it in your Go code and start building web applications with Gin.
 
-#### Code Example (continued):
+### Code Example (continued):
 
-```go
-// Import the Gin package
-import "github.com/gin-gonic/gin"
-
-func main() {
-  // Create a new Gin router with default middleware
-  router := gin.Default()
-
-  // Define a route handler for the root path
-  router.GET("/", func(c *gin.Context) {
-    // Respond with JSON
-    c.JSON(200, gin.H{
-      "message": "Hello, Gin!",
-    })
-  })
-
-  // Run the server on port 8080
-  err := router.Run(":8080")
-  if err != nil {
-    panic(err)
-  }
-}
-```
+![gin hello world](https://res.cloudinary.com/harendra21/image/upload/v1705347281/golangwithexample/code_20240116_010413_via_10015_io_k3l29n.png)
 
 In this continuation, we use `gin.Default()` to create a Gin router with some default middleware, such as logging and recovery from panics. This ensures that the application benefits from some essential features out of the box.
 
-### Your First Gin Application
+## Your First Gin Application
 
 Now that we've covered the basics, let's create a simple "Hello, Gin!" application to reinforce what we've learned so far. Follow these steps:
 
@@ -138,7 +106,7 @@ go run main.go
 
 Congratulations! You've successfully set up and run your first Gin application.
 
-### Conclusion
+## Conclusion
 
 In this chapter, we've introduced the Gin framework, explored its key features, and set up a basic application. As you progress through this course, you'll delve deeper into Gin's capabilities, including routing, middleware, database integration, and more. The goal is to equip you with the knowledge and skills needed to build robust web applications and APIs using the Gin framework.
 
