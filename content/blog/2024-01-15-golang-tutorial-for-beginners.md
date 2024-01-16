@@ -19,6 +19,8 @@ comments: true
 toc: true
 draft: false
 slug: golang-tutorial-for-beginners
+series: []
+audio: https://res.cloudinary.com/harendra21/video/upload/v1705391137/golangwithexample/Golang_Tutorial_for_Beginners_a_Guide_mkwbdm.mp3
 ---
 
 Welcome to the world of Go, often known as Golang, a programming language that emphasises ease of use, simplicity, and efficiency. This Golang course is designed for all skill levels, from experienced developers learning a new language to total beginners venturing into the world of programming. We will walk you through the foundations of Go in this extensive tutorial, offering you practical advice, step-by-step explanations, and real-world examples to help you develop a solid Golang foundation.
