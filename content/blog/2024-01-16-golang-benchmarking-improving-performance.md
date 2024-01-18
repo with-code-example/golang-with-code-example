@@ -22,8 +22,9 @@ The statically typed, compiled language Golang—also referred to as Go—has gr
 
 ## Why Golang Benchmarking is Crucial
 
-Golang benchmarking is evaluating a piece of code's performance in order to find bottlenecks, maximise resource utilisation, and improve overall effectiveness. The integrated testing package in Golang offers a stable environment for creating and executing benchmarks. Appropriate benchmarking ensures that code optimisation decisions are well-informed and that modifications yield quantifiable performance gains.
+[Golang](https://go.dev/) benchmarking is evaluating a piece of code's performance in order to find bottlenecks, maximise resource utilisation, and improve overall effectiveness. The integrated testing package in Golang offers a stable environment for creating and executing benchmarks. Appropriate benchmarking ensures that code optimisation decisions are well-informed and that modifications yield quantifiable performance gains.
 
+**Read**: [Golang Tutorial for Beginners a Guide](https://golang.withcodeexample.com/blog/golang-tutorial-for-beginners/)
 
 ### Setting Up Your Benchmark Environment
 
