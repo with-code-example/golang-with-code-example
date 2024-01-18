@@ -71,7 +71,7 @@ func BenchmarkAdd(b *testing.B) {
 
 In this golang benchmark, we use the `Benchmark*` naming convention, and the benchmarking framework will run the function `BenchmarkAdd` multiple times to collect statistics. The `b.N` value represents the number of iterations, and the framework adjusts it dynamically to achieve a reasonable execution time.
 
-Run the benchmark with the following command:
+Run the [benchmark](https://en.wikipedia.org/wiki/Benchmark_(computing)#:~:text=In%20computing%2C%20a%20benchmark%20is,tests%20and%20trials%20against%20it.) with the following command:
 
 ```bash
 go test -bench=.
@@ -236,3 +236,5 @@ Benchmarking should become a routine part of your development process as you wor
 You may build Golang apps that are more effective and performant by implementing benchmarking into your development process. Recall that optimisation is an ongoing process, and that benchmarking may help you gain a better knowledge of your code's performance characteristics, which is essential for long-term success.
 
 Cheers to optimising and benchmarking!
+
+**Read**: [Go Switch Statement](https://golang.withcodeexample.com/blog/go-switch-statement-guide/)
