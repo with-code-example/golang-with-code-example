@@ -6,8 +6,8 @@ description: Golang benchmarking is the process of assessing a piece of code's
   efficiency to identify bottlenecks, maximise resource usage, and enhance
   overall performance.
 date: 2024-01-17T16:27:52.797Z
-featured_image: https://res.cloudinary.com/harendra21/image/upload/v1705422688/golangwithexample/compare-best-insurance-companies_bhikfw.jpg
-thumbnail: https://res.cloudinary.com/harendra21/image/upload/w_400/golangwithexample/compare-best-insurance-companies_bhikfw.jpg
+featured_image: https://res.cloudinary.com/harendra21/image/upload/w_1200/golangwithexample/benchmarking_uoehmt.png
+thumbnail: https://res.cloudinary.com/harendra21/image/upload/w_400/golangwithexample/benchmarking_uoehmt.png
 tags:
   - GO
   - Golang
