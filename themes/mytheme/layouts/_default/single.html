@@ -48,12 +48,12 @@
 
           {{ if $.Scratch.Get "has_related" }}
                   <h4 class="see-also">{{ i18n "seeAlso" }}</h4>
-                  <ul>
-                {{ $num_to_show := .Site.Params.related_content_limit | default 5 }}
-                {{ range first $num_to_show (where (where .Site.Pages ".Params.tags" "intersect" .Params.tags) "Permalink" "!=" .Permalink) }}
-                    <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
-                {{ end }}
-              </ul>
+                  
+                    {{ $num_to_show := .Site.Params.related_content_limit | default 5 }}
+                    {{ range first $num_to_show (where (where .Site.Pages ".Params.tags" "intersect" .Params.tags) "Permalink" "!=" .Permalink) }}
+                      {{ partial "post_preview" . }}
+                    {{ end }}
+                  
 
           {{ end }}
         {{ end }}
