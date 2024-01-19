@@ -6,8 +6,8 @@ description: Discover the intricacies of Go programming's data sorcery in "The
   Art of Marshal and Unmarshal in Go." Decode the magic for seamless data
   handling!
 date: 2024-01-19T18:24:47.098Z
-featured_image: https://res.cloudinary.com/harendra21/image/upload/w_1200/kosli-blog-understanding-golang-command-line-arguments_o86b7i.jpg
-thumbnail: https://res.cloudinary.com/harendra21/image/upload/w_400/kosli-blog-understanding-golang-command-line-arguments_o86b7i.jpg
+featured_image: https://res.cloudinary.com/harendra21/image/upload/w_1200/golangwithexample/golang/dZ3TG9R6Y7aVtcAYqwIkEWHvAah2-7v02av9_sd91p3.jpg
+thumbnail: https://res.cloudinary.com/harendra21/image/upload/w_400/golangwithexample/golang/dZ3TG9R6Y7aVtcAYqwIkEWHvAah2-7v02av9_sd91p3.jpg
 tags:
   - Go Programming
   - Data Serialization
