@@ -12,7 +12,7 @@ tags:
   - Go
   - Golang
 comments: true
-toc: true
+toc: false
 draft: false
 slug: go-1.22
 ---
