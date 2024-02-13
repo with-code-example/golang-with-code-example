@@ -1,7 +1,7 @@
 ---
-title: 'Challenges of Error Handling in Concurrent Code'
-subtitle: 'Overcoming Complexity in Concurrent Programming'
-description: 'Explore the complexities and solutions of error handling in concurrent programming, including error propagation and grouping in Go.'
+title: "Challenges of Error Handling in Concurrent Code"
+subtitle: "Overcoming Complexity in Concurrent Programming"
+description: "Explore the complexities and solutions of error handling in concurrent programming, including error propagation and grouping in Go."
 slug: challenges-error-handling-concurrent-code
 tags: ['golang', 'concurrency']
 date: 2023-09-27
