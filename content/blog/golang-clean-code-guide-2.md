@@ -1,7 +1,7 @@
 ---
-title: Golang Clean Code Guide - 2
-subtitle: Unleash the Benefits of Readable and Maintainable Software - Part 2
-description: Explore the significance of clean code in development. Learn how it enhances clarity, simplifies maintenance, and fosters collaboration among developers.
+title: 'Golang Clean Code Guide - 2'
+subtitle: 'Unleash the Benefits of Readable and Maintainable Software - Part 2'
+description: 'Explore the significance of clean code in development. Learn how it enhances clarity, simplifies maintenance, and fosters collaboration among developers.'
 slug: golang-clean-code-guide-2
 tags: ['golang']
 date: 2023-09-09
