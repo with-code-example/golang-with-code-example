@@ -2,10 +2,11 @@
 title: The Power of Concurrency in Go
 subtitle: Unlocking Efficiency and Responsiveness
 description: Explore the significance of concurrency in modern software development and discover how Go's innovative approach with goroutines and channels revolutionizes concurrent programming.
+slug: power-of-concurrency-in-go
+tags: ['golang', 'concurrency']
 date: 2023-09-13
 featured_image: https://res.cloudinary.com/harendra21/image/upload/l_text:Roboto_50_bold:The%20Power%20of%20Concurrency%20in%20Go,co_rgb:fff/golangwithexample/bg_bczwj8.png
 thumbnail: https://res.cloudinary.com/harendra21/image/upload/l_text:Roboto_50_bold:The%20Power%20of%20Concurrency%20in%20Go,co_rgb:fff/golangwithexample/bg_bczwj8.png
-tags: ['golang', 'concurrency']
 comments: True
 toc: True
 series: ['Concurrency In Go']
