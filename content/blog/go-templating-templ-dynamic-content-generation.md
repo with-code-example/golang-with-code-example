@@ -1,7 +1,7 @@
 ---
-title: 'Go Templating using Templ'
-subtitle: 'A Guide to Efficient Dynamic Content Generation in Go Projects with Templ'
-description: 'Explore how to simplify dynamic content generation in your Go projects using Templ. Learn about key features, practical examples, and how to create dynamic templates with conditional logic, loops, custom functions, and modularization. Discover the power of Templ for efficient and elegant content generation in Go.'
+title: "Go Templating using Templ"
+subtitle: "A Guide to Efficient Dynamic Content Generation in Go Projects with Templ"
+description: "Explore how to simplify dynamic content generation in your Go projects using Templ. Learn about key features, practical examples, and how to create dynamic templates with conditional logic, loops, custom functions, and modularization. Discover the power of Templ for efficient and elegant content generation in Go."
 slug: go-templating-templ-dynamic-content-generation
 tags: ['golang', 'templating', 'go']
 date: 2023-12-07
