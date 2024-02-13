@@ -1,7 +1,7 @@
 ---
-title: Advanced Querying with GORM
-subtitle: A Deep Dive into GORM's Advanced Querying Features for Effortless Data Retrieval in Go
-description: Elevate your data retrieval skills with GORM's advanced querying capabilities. Explore WHERE conditions, joins, preloading, and raw SQL queries for seamless data exploration in your Go projects.
+title: 'Advanced Querying with GORM'
+subtitle: 'A Deep Dive into GORM's Advanced Querying Features for Effortless Data Retrieval in Go'
+description: 'Elevate your data retrieval skills with GORM's advanced querying capabilities. Explore WHERE conditions, joins, preloading, and raw SQL queries for seamless data exploration in your Go projects.'
 slug: advanced-querying-with-gorm
 tags: ['golang', 'database', 'gorm']
 date: 2023-09-01
