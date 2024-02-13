@@ -1,7 +1,7 @@
 ---
-title: 'Introduction to Golang Best Practices'
-subtitle: ''
-description: 'Golang best practices ensure maintainable, efficient code by emphasizing consistency, readability, and scalability. They reduce bugs, enable seamless collaboration, and enhance code quality.'
+title: "Introduction to Golang Best Practices"
+subtitle: ""
+description: "Golang best practices ensure maintainable, efficient code by emphasizing consistency, readability, and scalability. They reduce bugs, enable seamless collaboration, and enhance code quality."
 slug: introduction-to-golang-best-practices
 tags: ['golang', 'golang-best-practices']
 date: 2023-08-07
