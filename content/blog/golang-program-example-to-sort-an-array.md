@@ -1,7 +1,7 @@
 ---
-title: 'Golang Program Example to Sort an Array'
-subtitle: 'Learn how to sort an array in golang with examples'
-description: 'Sorting algorithms are crucial for organizing data in a specific order. Golang provides a variety of sorting algorithms, each with its advantages and disadvantages.'
+title: "Golang Program Example to Sort an Array"
+subtitle: "Learn how to sort an array in golang with examples"
+description: "Sorting algorithms are crucial for organizing data in a specific order. Golang provides a variety of sorting algorithms, each with its advantages and disadvantages."
 slug: golang-program-example-to-sort-an-array
 tags: ['Golang', 'Go Programming', 'Golang Basics', 'Golang Arrays', 'Software Development']
 date: 2023-08-03
