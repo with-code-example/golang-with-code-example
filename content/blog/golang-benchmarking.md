@@ -1,7 +1,7 @@
 ---
-title: Golang Benchmarking: Improving Performance
-subtitle: Golang benchmarking to improve function performance
-description: Golang benchmarking is the process of assessing a piece of code's efficiency to identify bottlenecks, maximise resource usage, and enhance overall performance.
+title: 'Golang Benchmarking: Improving Performance'
+subtitle: 'Golang benchmarking to improve function performance'
+description: 'Golang benchmarking is the process of assessing a piece of code's efficiency to identify bottlenecks, maximise resource usage, and enhance overall performance.'
 slug: golang-benchmarking
 tags: ['GO', 'Golang', 'Golang Benchmark']
 date: 2024-01-17 16:27:52.797000+00:00
