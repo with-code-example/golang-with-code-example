@@ -1,7 +1,7 @@
 ---
-title: 'Security Best Practices for Go Applications'
-subtitle: 'Preventing Vulnerabilities, Securing User Input, and Defending Against Code Injection and XSS in Go'
-description: 'Learn essential security practices to protect your Go applications from common vulnerabilities, securely manage user input and data, and guard against malicious attacks like code injection and cross-site scripting (XSS).'
+title: "Security Best Practices for Go Applications"
+subtitle: "Preventing Vulnerabilities, Securing User Input, and Defending Against Code Injection and XSS in Go"
+description: "Learn essential security practices to protect your Go applications from common vulnerabilities, securely manage user input and data, and guard against malicious attacks like code injection and cross-site scripting (XSS)."
 slug: golang-security-best-practices
 tags: ['golang', 'golang-best-practices']
 date: 2023-08-15
