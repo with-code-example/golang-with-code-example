@@ -1,7 +1,7 @@
 ---
-title: Database Integration in GoLang Fiber
-subtitle: Mastering Database Connection, CRUD Operations, ORM, Data Validation, and Error Handling in GoLang Fiber
-description: Learn the art of integrating databases with GoLang Fiber, a high-performance web framework. Explore connecting to various database systems, performing CRUD operations, using GORM as an ORM, data validation and sanitation, and best practices for handling database-related errors.
+title: 'Database Integration in GoLang Fiber'
+subtitle: 'Mastering Database Connection, CRUD Operations, ORM, Data Validation, and Error Handling in GoLang Fiber'
+description: 'Learn the art of integrating databases with GoLang Fiber, a high-performance web framework. Explore connecting to various database systems, performing CRUD operations, using GORM as an ORM, data validation and sanitation, and best practices for handling database-related errors.'
 slug: database-integration-fiber-data-driven-apps
 tags: ['golang', 'fiber']
 date: 2023-11-12
