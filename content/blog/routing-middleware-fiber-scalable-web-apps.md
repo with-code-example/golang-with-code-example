@@ -1,7 +1,7 @@
 ---
-title: Routing and Middleware in Fiber Golang
-subtitle: Master the Art of Routing and Middleware in GoLang Fiber for Efficient Web Development
-description: Explore the intricacies of routing and middleware in GoLang Fiber, a high-performance web framework.
+title: 'Routing and Middleware in Fiber Golang'
+subtitle: 'Master the Art of Routing and Middleware in GoLang Fiber for Efficient Web Development'
+description: 'Explore the intricacies of routing and middleware in GoLang Fiber, a high-performance web framework.'
 slug: routing-middleware-fiber-scalable-web-apps
 tags: ['golang', 'fiber']
 date: 2023-11-09
