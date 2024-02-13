@@ -1,7 +1,7 @@
 ---
-title: Enhancing Go Programming: What's Inside Go 1.22?
-subtitle: Dive into the Go 1.22 Release and Its Language Enhancements
-description: Take a guided tour through the imminent release of Go 1.22, uncovering the language's new capabilities and improvements that promise to shape the future of Go programming.
+title: 'Enhancing Go Programming: What's Inside Go 1.22?'
+subtitle: 'Dive into the Go 1.22 Release and Its Language Enhancements'
+description: 'Take a guided tour through the imminent release of Go 1.22, uncovering the language's new capabilities and improvements that promise to shape the future of Go programming.'
 slug: go-1.22
 tags: ['Go', 'Golang']
 date: 2024-01-21 06:03:25.986000+00:00
