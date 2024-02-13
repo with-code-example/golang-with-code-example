@@ -1,7 +1,7 @@
 ---
-title: How to Analyze Golang Project by Sonarqube With Github Actions/Workflow?
-subtitle: Analyze Golang Project by Sonarqube With Github Actions
-description: Learn how to use github workflow to check your golang code with sonqrqube.
+title: 'How to Analyze Golang Project by Sonarqube With Github Actions/Workflow?'
+subtitle: 'Analyze Golang Project by Sonarqube With Github Actions'
+description: 'Learn how to use github workflow to check your golang code with sonqrqube.'
 slug: github-action-for-golang-with-sonarqube
 tags: ['golang', 'sonarqube']
 date: 2023-08-06
