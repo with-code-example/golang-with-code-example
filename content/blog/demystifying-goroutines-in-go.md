@@ -1,7 +1,7 @@
 ---
-title: 'Demystifying Goroutines in Go: Lightweight Concurrency'
-subtitle: 'Understanding Goroutines, their Efficiency, and Synchronization Challenges'
-description: 'Explore the world of Goroutines in Go, their lightweight nature, and how to create them with the 'go' keyword. Learn how to tackle synchronization challenges, including race conditions and shared data issues.'
+title: "Demystifying Goroutines in Go: Lightweight Concurrency"
+subtitle: "Understanding Goroutines, their Efficiency, and Synchronization Challenges"
+description: "Explore the world of Goroutines in Go, their lightweight nature, and how to create them with the 'go' keyword. Learn how to tackle synchronization challenges, including race conditions and shared data issues."
 slug: demystifying-goroutines-in-go
 tags: ['golang', 'concurrency']
 date: 2023-09-15
