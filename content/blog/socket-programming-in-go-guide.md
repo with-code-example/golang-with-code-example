@@ -1,7 +1,7 @@
 ---
-title: 'Socket Programming in Go: Guide with Code Examples'
-subtitle: 'Building Robust Network Applications with Go's Concurrency Features'
-description: 'Explore the essentials of socket programming in Go, harness the power of concurrency, and gain practical insights through code examples. This comprehensive guide covers TCP and UDP communication, error handling, real-world examples like a chat server, and best practices for optimal performance and security.'
+title: "Socket Programming in Go: Guide with Code Examples"
+subtitle: "Building Robust Network Applications with Go's Concurrency Features"
+description: "Explore the essentials of socket programming in Go, harness the power of concurrency, and gain practical insights through code examples. This comprehensive guide covers TCP and UDP communication, error handling, real-world examples like a chat server, and best practices for optimal performance and security."
 slug: socket-programming-in-go-guide
 tags: ['Go', 'Golang', 'Socket Programming', 'Concurrency', 'Golang Best Practices']
 date: 2024-01-09
