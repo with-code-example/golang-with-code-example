@@ -1,7 +1,7 @@
 ---
-title: Testing, Benchmarking and Continuous Integration in Golang
-subtitle: In Golang, memory management is handled by the built-in garbage collector, which automates memory allocation and deallocation.
-description: 
+title: 'Testing, Benchmarking and Continuous Integration in Golang'
+subtitle: 'In Golang, memory management is handled by the built-in garbage collector, which automates memory allocation and deallocation.'
+description: ''
 slug: testing-benchmarking-continuous-integration-golang
 tags: ['golang', 'golang-best-practices']
 date: 2023-08-12
