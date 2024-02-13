@@ -1,7 +1,7 @@
 ---
-title: '10 Common Go (Golang) Code Snippets for Various Tasks'
-subtitle: 'Explore Useful Go Code Snippets for Everyday Programming'
-description: 'Discover 10 Go code snippets for common programming tasks, including Hello World, input handling, goroutines, slices, error handling, HTTP servers, JSON operations, concurrency, file I/O, and sorting. Use these snippets to simplify your Go development.'
+title: "10 Common Go (Golang) Code Snippets for Various Tasks"
+subtitle: "Explore Useful Go Code Snippets for Everyday Programming"
+description: "Discover 10 Go code snippets for common programming tasks, including Hello World, input handling, goroutines, slices, error handling, HTTP servers, JSON operations, concurrency, file I/O, and sorting. Use these snippets to simplify your Go development."
 slug: go-code-snippets-for-common-tasks
 tags: ['golang', 'snippets']
 date: 2023-11-07
