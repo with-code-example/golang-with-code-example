@@ -5,7 +5,7 @@ description: "Discover the must-have tools for Go developers! Explore these 9 es
 slug: 9-essential-go-libraries-on-github
 tags: ['GoLang', ' Open Source', ' Programming']
 date: 2024-02-12T18:30:00.000Z
-featured_image: 
+featured_image: https://appwrite.withcodeexample.com/v1/storage/buckets/65cb3fcd6bbe0f7e04d4/files/65cb437f25ac856eb993/preview?width=1200&height=0&gravity=center&quality=90&project=65ca51d2711f0f5e1fa8
 thumbnail: https://appwrite.withcodeexample.com/v1/storage/buckets/65cb3fcd6bbe0f7e04d4/files/65cb437f25ac856eb993/preview?width=400&height=0&gravity=center&quality=90&project=65ca51d2711f0f5e1fa8
 comments: True
 toc: False
