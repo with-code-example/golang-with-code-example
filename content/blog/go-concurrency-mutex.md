@@ -1,7 +1,7 @@
 ---
-title: Managing Shared Resources with Mutex
-subtitle: Ensuring Concurrency Safety in Go
-description: Explore the essential concept of Mutex (mutual exclusion) in Go to manage shared resources effectively. Learn about Mutex locking and unlocking, the need for Mutex, and strategies for avoiding deadlocks in concurrent programming.
+title: 'Managing Shared Resources with Mutex'
+subtitle: 'Ensuring Concurrency Safety in Go'
+description: 'Explore the essential concept of Mutex (mutual exclusion) in Go to manage shared resources effectively. Learn about Mutex locking and unlocking, the need for Mutex, and strategies for avoiding deadlocks in concurrent programming.'
 slug: go-concurrency-mutex
 tags: ['golang', 'concurrency']
 date: 2023-09-19
