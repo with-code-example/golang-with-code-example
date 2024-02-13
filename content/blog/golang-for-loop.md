@@ -1,7 +1,7 @@
 ---
-title: 'Golang for Loop'
-subtitle: 'From Fundamentals to Advanced Techniques, Concurrency, and Channels'
-description: 'Dive into the heart of Go programming with this comprehensive guide on the Golang 'for' loop.'
+title: "Golang for Loop"
+subtitle: "From Fundamentals to Advanced Techniques, Concurrency, and Channels"
+description: "Dive into the heart of Go programming with this comprehensive guide on the Golang 'for' loop."
 slug: golang-for-loop
 tags: ['golang', 'for loop', 'loops', 'go loop', 'golang loop']
 date: 2023-11-30
