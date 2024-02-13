@@ -1,7 +1,7 @@
 ---
-title: 'Getting Started with Go Programming'
-subtitle: 'Exploring Syntax, Data Types, and Control Flow in Go Programming'
-description: 'Dive into the fundamental concepts of Go programming, from its clean syntax and versatile data types to control flow mechanisms. Learn how to declare variables, create functions, and use control statements effectively, setting the stage for your exciting journey into the world of Go development.'
+title: "Getting Started with Go Programming"
+subtitle: "Exploring Syntax, Data Types, and Control Flow in Go Programming"
+description: "Dive into the fundamental concepts of Go programming, from its clean syntax and versatile data types to control flow mechanisms. Learn how to declare variables, create functions, and use control statements effectively, setting the stage for your exciting journey into the world of Go development."
 slug: go-programming-syntax-data-control-flow
 tags: ['golang']
 date: 2023-08-24
