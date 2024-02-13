@@ -1,7 +1,7 @@
 ---
-title: 'Introduction to GoLang Fiber'
-subtitle: 'Harness the Power of GoLang Fiber for High-Performance Web Development'
-description: 'Explore the world of GoLang Fiber, learn about its features, installation, creating a basic Fiber application.'
+title: "Introduction to GoLang Fiber"
+subtitle: "Harness the Power of GoLang Fiber for High-Performance Web Development"
+description: "Explore the world of GoLang Fiber, learn about its features, installation, creating a basic Fiber application."
 slug: introduction-golang-fiber-web-applications
 tags: ['golang', 'fiber']
 date: 2023-11-08
