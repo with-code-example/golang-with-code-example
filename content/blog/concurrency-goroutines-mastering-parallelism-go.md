@@ -1,7 +1,7 @@
 ---
-title: Concurrency and Goroutines - Mastering Parallelism in Golang
-subtitle: Learn concurrency in golang
-description: Concurrency is a powerful aspect of modern programming that allows developers to handle multiple tasks simultaneously, making the most out of multi-core processors and enhancing the performance of applications.
+title: 'Concurrency and Goroutines - Mastering Parallelism in Golang'
+subtitle: 'Learn concurrency in golang'
+description: 'Concurrency is a powerful aspect of modern programming that allows developers to handle multiple tasks simultaneously, making the most out of multi-core processors and enhancing the performance of applications.'
 slug: concurrency-goroutines-mastering-parallelism-go
 tags: ['golang', 'golang-best-practices']
 date: 2023-08-10
