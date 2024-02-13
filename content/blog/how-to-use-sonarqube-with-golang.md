@@ -1,7 +1,7 @@
 ---
-title: How to Use Sonarqube in Go Project?
-subtitle: Learn how to install and use sonarqube?
-description: Learn about soarqube, how to install sonarqube? and analyse your go code with sonarqube.
+title: 'How to Use Sonarqube in Go Project?'
+subtitle: 'Learn how to install and use sonarqube?'
+description: 'Learn about soarqube, how to install sonarqube? and analyse your go code with sonarqube.'
 slug: how-to-use-sonarqube-with-golang
 tags: ['SonarQube', 'Code Quality', 'Continuous Integration', 'Golang', 'Static Code Analysis']
 date: 2023-08-04
