@@ -1,7 +1,7 @@
 ---
-title: 'GORM: Effortless Database Management in Go'
-subtitle: 'A Comprehensive Introduction to GORM - The Go Object-Relational Mapping Library'
-description: 'Discover the power of GORM, a versatile Go library for database management. Learn why using an ORM like GORM can simplify your Go projects.'
+title: "GORM: Effortless Database Management in Go"
+subtitle: "A Comprehensive Introduction to GORM - The Go Object-Relational Mapping Library"
+description: "Discover the power of GORM, a versatile Go library for database management. Learn why using an ORM like GORM can simplify your Go projects."
 slug: introduction-to-gorm-library
 tags: ['golang', 'database', 'gorm']
 date: 2023-08-29
