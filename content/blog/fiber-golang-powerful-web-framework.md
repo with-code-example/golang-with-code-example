@@ -1,7 +1,7 @@
 ---
-title: Fiber Golang: A Powerful Web Framework for Go (Golang)
-subtitle: Unveiling the Features and Advantages of Fiber in Go Web Development
-description: Discover Fiber Golang, a game-changing web framework for Go (Golang). Learn about its speed, flexibility, and features for modern web apps. Streamline your development journey with routing, middleware, error handling, and more.
+title: 'Fiber Golang: A Powerful Web Framework for Go (Golang)'
+subtitle: 'Unveiling the Features and Advantages of Fiber in Go Web Development'
+description: 'Discover Fiber Golang, a game-changing web framework for Go (Golang). Learn about its speed, flexibility, and features for modern web apps. Streamline your development journey with routing, middleware, error handling, and more.'
 slug: fiber-golang-powerful-web-framework
 tags: ['golang', 'fiber-golang']
 date: 2023-08-22
