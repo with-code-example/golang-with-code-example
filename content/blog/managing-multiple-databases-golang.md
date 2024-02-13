@@ -1,7 +1,7 @@
 ---
-title: 'Managing Multiple Databases in Golang Applications'
-subtitle: 'Master the Art of Handling Multiple Databases in Your Golang Projects'
-description: 'Learn how to effectively manage multiple databases in Golang applications. Explore the reasons for managing multiple databases, setting up connections, and performing transactions across various databases.'
+title: "Managing Multiple Databases in Golang Applications"
+subtitle: "Master the Art of Handling Multiple Databases in Your Golang Projects"
+description: "Learn how to effectively manage multiple databases in Golang applications. Explore the reasons for managing multiple databases, setting up connections, and performing transactions across various databases."
 slug: managing-multiple-databases-golang
 tags: ['golang', 'database']
 date: 2023-10-04
