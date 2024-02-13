@@ -1,7 +1,7 @@
 ---
-title: 'Error Handling in Golang: A Comprehensive Guide with Examples'
-subtitle: 'Handle errors in golang'
-description: 'Golang provides a robust error handling mechanism that allows developers to manage errors effectively. By understanding how to use error types and custom errors, defer and panic, and error wrapping, you can build reliable and resilient applications that gracefully handle unexpected situations.'
+title: "Error Handling in Golang: A Comprehensive Guide with Examples"
+subtitle: "Handle errors in golang"
+description: "Golang provides a robust error handling mechanism that allows developers to manage errors effectively. By understanding how to use error types and custom errors, defer and panic, and error wrapping, you can build reliable and resilient applications that gracefully handle unexpected situations."
 slug: error-handling-in-golang-a-comprehensive-guide-with-examples
 tags: ['golang', 'golang-best-practices', 'error-handling']
 date: 2023-08-09
