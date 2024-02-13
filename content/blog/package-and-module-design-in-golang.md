@@ -1,7 +1,7 @@
 ---
-title: Package and Module Design in Golang
-subtitle: 
-description: Package and Module Design in Golang, Designing Cohesive and Reusable Packages, Creating APIs with Careful Consideration, Versioning and Dependency Management
+title: 'Package and Module Design in Golang'
+subtitle: ''
+description: 'Package and Module Design in Golang, Designing Cohesive and Reusable Packages, Creating APIs with Careful Consideration, Versioning and Dependency Management'
 slug: package-and-module-design-in-golang
 tags: ['golang', 'golang-best-practices']
 date: 2023-08-14
