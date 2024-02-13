@@ -1,7 +1,7 @@
 ---
-title: 'Go Application Bootstrapping Guide with Docker'
-subtitle: 'Preparing Your Go App for Deployment in Docker'
-description: 'Explore the seamless integration of a Golang stack within Docker containers. Learn to deploy and orchestrate with Docker Compose for an efficient development workflow.'
+title: "Go Application Bootstrapping Guide with Docker"
+subtitle: "Preparing Your Go App for Deployment in Docker"
+description: "Explore the seamless integration of a Golang stack within Docker containers. Learn to deploy and orchestrate with Docker Compose for an efficient development workflow."
 slug: go-app-deployment-docker-guide
 tags: ['Go', 'Docker', 'Containerization', 'DevOps', 'Docker Compose']
 date: 2024-01-03
