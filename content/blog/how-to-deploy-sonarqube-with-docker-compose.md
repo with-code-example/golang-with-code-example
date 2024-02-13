@@ -1,7 +1,7 @@
 ---
-title: How to Use Sonarqube With Docker Compose
-subtitle: Install and use sonarqube with docker
-description: Docker and Docker Compose are powerful tools for containerization, allowing developers to package, distribute, and run applications and their dependencies in isolated containers.
+title: 'How to Use Sonarqube With Docker Compose'
+subtitle: 'Install and use sonarqube with docker'
+description: 'Docker and Docker Compose are powerful tools for containerization, allowing developers to package, distribute, and run applications and their dependencies in isolated containers.'
 slug: how-to-deploy-sonarqube-with-docker-compose
 tags: ['Docker', 'Docker Compose', 'Containerization', 'SonarQube', 'Code Quality']
 date: 2023-08-05
