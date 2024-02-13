@@ -1,7 +1,7 @@
 ---
-title: Top Highest Paying Programming Languages To Learn in 2024
-subtitle: Top Paying Programming Languages To Learn in 2024
-description: Top Highest Paying Programming Languages To Learn in 2024.
+title: 'Top Highest Paying Programming Languages To Learn in 2024'
+subtitle: 'Top Paying Programming Languages To Learn in 2024'
+description: 'Top Highest Paying Programming Languages To Learn in 2024.'
 slug: top-highest-paying-programming-languages-to-learn-in-2024
 tags: ['golang']
 date: 2023-12-13
