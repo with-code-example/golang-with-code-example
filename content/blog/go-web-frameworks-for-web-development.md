@@ -1,7 +1,7 @@
 ---
-title: '5 Go Web Frameworks for Building Web Applications'
-subtitle: 'Explore the Top Go Frameworks for Efficient Web Development'
-description: 'Discover the simplicity and efficiency of Go programming with these five notable web frameworks, including Gin, Fiber, Echo, Beego, and Buffalo.'
+title: "5 Go Web Frameworks for Building Web Applications"
+subtitle: "Explore the Top Go Frameworks for Efficient Web Development"
+description: "Discover the simplicity and efficiency of Go programming with these five notable web frameworks, including Gin, Fiber, Echo, Beego, and Buffalo."
 slug: go-web-frameworks-for-web-development
 tags: ['golang', 'go', 'gin', 'fiber', 'beego', 'echo', 'buffalo']
 date: 2023-11-01
