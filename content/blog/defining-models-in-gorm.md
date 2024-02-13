@@ -1,7 +1,7 @@
 ---
-title: 'Defining Models in GORM'
-subtitle: 'A Comprehensive Guide to Crafting Effective Models in GORM for Seamless Database Interaction'
-description: 'Learn how to create, annotate, and associate models using GORM for efficient and organized database management in your applications.'
+title: "Defining Models in GORM"
+subtitle: "A Comprehensive Guide to Crafting Effective Models in GORM for Seamless Database Interaction"
+description: "Learn how to create, annotate, and associate models using GORM for efficient and organized database management in your applications."
 slug: defining-models-in-gorm
 tags: ['golang', 'database', 'gorm']
 date: 2023-08-30
