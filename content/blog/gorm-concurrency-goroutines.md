@@ -1,7 +1,7 @@
 ---
-title: Concurrency and Goroutines in GORM
-subtitle: A Comprehensive Guide to Safely Utilizing GORM with Goroutines for Concurrent Data Processing
-description: Harness the power of concurrency with GORM and Goroutines. Learn best practices for parallel database operations, ensuring efficiency and data integrity in your Go projects.
+title: 'Concurrency and Goroutines in GORM'
+subtitle: 'A Comprehensive Guide to Safely Utilizing GORM with Goroutines for Concurrent Data Processing'
+description: 'Harness the power of concurrency with GORM and Goroutines. Learn best practices for parallel database operations, ensuring efficiency and data integrity in your Go projects.'
 slug: gorm-concurrency-goroutines
 tags: ['golang', 'database', 'gorm']
 date: 2023-09-06
