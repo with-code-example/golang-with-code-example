@@ -1,7 +1,7 @@
 ---
-title: Mastering Golang Anonymous Functions
-subtitle: A Comprehensive Guide to Understanding and Using Anonymous Functions in Golang
-description: Dive into the world of Golang anonymous functions! Learn how to wield the flexibility and power of unnamed code blocks through comprehensive examples and practical insights. Elevate your coding skills with this in-depth guide.
+title: 'Mastering Golang Anonymous Functions'
+subtitle: 'A Comprehensive Guide to Understanding and Using Anonymous Functions in Golang'
+description: 'Dive into the world of Golang anonymous functions! Learn how to wield the flexibility and power of unnamed code blocks through comprehensive examples and practical insights. Elevate your coding skills with this in-depth guide.'
 slug: golang-anonymous-functions-guide
 tags: ['golang', 'anonymous-functions']
 date: 2023-08-20
