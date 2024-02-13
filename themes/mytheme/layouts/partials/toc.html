@@ -1,3 +1,7 @@
 {{ if .Params.toc }}
-  {{ .TableOfContents }}
+<ul>
+  {{ range .TableOfContents }}
+    <li><a href="{{ .URL }}" title="{{ .Title }}">{{ .Text }}</a></li>
+  {{ end }}
+</ul>
 {{ end }}
