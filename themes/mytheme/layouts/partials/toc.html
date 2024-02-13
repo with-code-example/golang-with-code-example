@@ -1,9 +1,7 @@
 {{ if .Params.toc }}
-<ul>
-  {{ range $.Site.Pages }}
-    <li>
-      <a href="#{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a>
-    </li>
-  {{ end }}
-</ul>
+{{ range $heading := findRE "<h[2-4].*?>(.|\n)+?</h[2-4]>" ( .Content ) }}
+<li>
+  <a href="#{{ uniqueID $heading }}" title="{{ plainify (substr $heading 4 (rindex $heading ">" ) ) }}">{{ plainify (substr $heading 4 (rindex $heading ">" ) ) }}</a>
+</li>
+{{ end }}
 {{ end }}
