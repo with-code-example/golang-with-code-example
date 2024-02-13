@@ -1,7 +1,12 @@
 {{ if .Params.toc }}
-<ul>
-  {{ range .TableOfContents }}
-    <li><a href="{{ .URL }}" title="{{ .Title }}">{{ .Text }}</a></li>
-  {{ end }}
-</ul>
+<nav id="TableOfContents">
+  <ul>
+    {{ $toc := .Page.TableOfContents }}
+    {{ if $toc }}
+      {{ range $toc }}
+        <li><a href="#{{ .ID }}" title="{{ .Title }}">{{ .Text }}</a></li>
+      {{ end }}
+    {{ end }}
+  </ul>
+</nav>
 {{ end }}
