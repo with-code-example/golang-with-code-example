@@ -1,7 +1,7 @@
 ---
-title: Golang Switch Case
-subtitle: Mastering Decision-Making in Go with the Versatile Switch Statement
-description: Dive into the power and flexibility of the `Golang switch case`. This guide covers the basics, including syntax and examples.
+title: 'Golang Switch Case'
+subtitle: 'Mastering Decision-Making in Go with the Versatile Switch Statement'
+description: 'Dive into the power and flexibility of the `Golang switch case`. This guide covers the basics, including syntax and examples.'
 slug: go-switch-statement-guide
 tags: ['Go', 'Golang', 'Control Flow', 'Switch Statement']
 date: 2024-01-16
