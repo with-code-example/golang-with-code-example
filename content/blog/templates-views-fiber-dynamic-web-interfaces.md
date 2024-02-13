@@ -1,7 +1,7 @@
 ---
-title: 'Templates and Views in Fiber Golang'
-subtitle: 'Mastering Template Rendering and Dynamic Views in GoLang Fiber for Engaging Web Applications'
-description: 'Learn the art of rendering HTML templates, creating dynamic views, and implementing layouts and partials in GoLang Fiber, a high-performance web framework.'
+title: "Templates and Views in Fiber Golang"
+subtitle: "Mastering Template Rendering and Dynamic Views in GoLang Fiber for Engaging Web Applications"
+description: "Learn the art of rendering HTML templates, creating dynamic views, and implementing layouts and partials in GoLang Fiber, a high-performance web framework."
 slug: templates-views-fiber-dynamic-web-interfaces
 tags: ['golang', 'fiber']
 date: 2023-11-11
