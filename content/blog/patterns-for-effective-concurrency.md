@@ -1,7 +1,7 @@
 ---
-title: Patterns for Effective Concurrency in Go
-subtitle: Designing Efficient and Reliable Concurrent Systems
-description: Explore five fundamental patterns for achieving effective concurrency in Go, including task decomposition, worker pools, cancellation and context management, and testing concurrent code.
+title: 'Patterns for Effective Concurrency in Go'
+subtitle: 'Designing Efficient and Reliable Concurrent Systems'
+description: 'Explore five fundamental patterns for achieving effective concurrency in Go, including task decomposition, worker pools, cancellation and context management, and testing concurrent code.'
 slug: patterns-for-effective-concurrency
 tags: ['golang', 'concurrency']
 date: 2023-10-03
