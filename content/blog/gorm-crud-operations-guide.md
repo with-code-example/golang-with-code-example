@@ -1,7 +1,7 @@
 ---
-title: A Guide to CRUD Operations with GORM
-subtitle: A Step-by-Step Tutorial on Creating, Reading, Updating, and Deleting Records using GORM in Go
-description: Dive into GORM's CRUD operations and learn how to effortlessly manage data in your Go applications. Explore practical examples for creating, reading, updating, and deleting records using GORM.
+title: 'A Guide to CRUD Operations with GORM'
+subtitle: 'A Step-by-Step Tutorial on Creating, Reading, Updating, and Deleting Records using GORM in Go'
+description: 'Dive into GORM's CRUD operations and learn how to effortlessly manage data in your Go applications. Explore practical examples for creating, reading, updating, and deleting records using GORM.'
 slug: gorm-crud-operations-guide
 tags: ['golang', 'database', 'gorm']
 date: 2023-08-31
