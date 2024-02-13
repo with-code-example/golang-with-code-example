@@ -1,7 +1,7 @@
 ---
-title: A Guide to Migrations in GORM
-subtitle: Explore the World of Database Migrations and Schema Changes using GORM in Go
-description: Learn how to effortlessly manage database schema changes through GORM's migration features. Explore automatic migrations, creating and applying migrations, and handling evolving schema needs in your Go projects.
+title: 'A Guide to Migrations in GORM'
+subtitle: 'Explore the World of Database Migrations and Schema Changes using GORM in Go'
+description: 'Learn how to effortlessly manage database schema changes through GORM's migration features. Explore automatic migrations, creating and applying migrations, and handling evolving schema needs in your Go projects.'
 slug: gorm-database-migrations-guide
 tags: ['golang', 'database', 'gorm']
 date: 2023-09-02
