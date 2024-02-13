@@ -1,7 +1,7 @@
 ---
-title: Continuous Improvement and Code Reviews
-subtitle: Improve the Software Quality with Golang
-description: In this article, we'll delve into the significance of continuous improvement and explore how code reviews, when applied to Golang projects, can lead to enhanced software quality, collaboration, and efficiency.
+title: 'Continuous Improvement and Code Reviews'
+subtitle: 'Improve the Software Quality with Golang'
+description: 'In this article, we'll delve into the significance of continuous improvement and explore how code reviews, when applied to Golang projects, can lead to enhanced software quality, collaboration, and efficiency.'
 slug: continuous-improvement-and-code-reviews
 tags: ['golang', 'golang-best-practices']
 date: 2023-08-18
