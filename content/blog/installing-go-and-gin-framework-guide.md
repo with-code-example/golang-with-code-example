@@ -1,7 +1,7 @@
 ---
-title: 'Chapter 2: Setting Up the Environment for GIN Framework'
-subtitle: 'Empower Your Web Development Journey with Go and Gin - A Step-by-Step Installation Guide'
-description: 'Learn how to set up your Go workspace, install the Go language, and incorporate the powerful Gin Framework for seamless web development.'
+title: "Chapter 2: Setting Up the Environment for GIN Framework"
+subtitle: "Empower Your Web Development Journey with Go and Gin - A Step-by-Step Installation Guide"
+description: "Learn how to set up your Go workspace, install the Go language, and incorporate the powerful Gin Framework for seamless web development."
 slug: installing-go-and-gin-framework-guide
 tags: ['Go programming', 'Gin Framework', 'Web Development', 'Go installation', 'Gin installation']
 date: 2024-01-15 15:12:38.409000+00:00
