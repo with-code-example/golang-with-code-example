@@ -1,7 +1,7 @@
 ---
-title: The Golang Playground: Enhance Your Skills with Ease
-subtitle: Explore, Experiment, and Learn Go with the Golang Playground
-description: Discover the features, benefits, and tips to make the most out of the Golang Playground.
+title: 'The Golang Playground: Enhance Your Skills with Ease'
+subtitle: 'Explore, Experiment, and Learn Go with the Golang Playground'
+description: 'Discover the features, benefits, and tips to make the most out of the Golang Playground.'
 slug: golang-playground-guide
 tags: ['Go', 'Golang', 'Golang Playground', 'Code Experimentation', 'Go Basics', 'Concurrency']
 date: 2024-01-24
