@@ -1,7 +1,3 @@
 {{ if .Params.toc }}
-{{ range $heading := findRE "<h[2-4].*?>(.|\n)+?</h[2-4]>" ( .Content ) }}
-<li>
-  <a href="#{{ $heading }}" title="{{ plainify (substr $heading 4 ($heading ">" ) ) }}">{{ plainify (substr $heading 4 ($heading ">" ) ) }}</a>
-</li>
-{{ end }}
+  {{ .TableOfContents }}
 {{ end }}
