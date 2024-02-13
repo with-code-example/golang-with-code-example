@@ -1,7 +1,7 @@
 ---
-title: Learn Pagination and Sorting in GORM
-subtitle: A Comprehensive Guide to Implementing Pagination and Sorting in GORM for Efficient Data Retrieval and Presentation
-description: Elevate your GORM skills with pagination and sorting. Learn how to implement efficient data retrieval and sorting mechanisms for seamless data presentation in your Go projects.
+title: 'Learn Pagination and Sorting in GORM'
+subtitle: 'A Comprehensive Guide to Implementing Pagination and Sorting in GORM for Efficient Data Retrieval and Presentation'
+description: 'Elevate your GORM skills with pagination and sorting. Learn how to implement efficient data retrieval and sorting mechanisms for seamless data presentation in your Go projects.'
 slug: gorm-pagination-sorting-guide
 tags: ['golang', 'database', 'gorm']
 date: 2023-09-06
