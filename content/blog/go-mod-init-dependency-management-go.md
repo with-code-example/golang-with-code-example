@@ -1,7 +1,7 @@
 ---
-title: 'Understanding Go Mod Init'
-subtitle: 'A Guide to Initialising Go Modules (go mod init) and Managing Dependencies'
-description: 'Manage dependencies like a pro! Learn everything about creating & using Go modules with our in-depth go mod init tutorial.'
+title: "Understanding Go Mod Init"
+subtitle: "A Guide to Initialising Go Modules (go mod init) and Managing Dependencies"
+description: "Manage dependencies like a pro! Learn everything about creating & using Go modules with our in-depth go mod init tutorial."
 slug: go-mod-init-dependency-management-go
 tags: ['golang', 'go', 'go modules']
 date: 2023-09-29
