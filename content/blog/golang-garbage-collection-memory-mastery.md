@@ -1,7 +1,7 @@
 ---
-title: 'Golang Garbage Collection: Memory Mastery'
-subtitle: 'Efficiency, Optimization, and Best Practices for Memory Management in Go'
-description: 'Unlock the full potential of Golang's garbage collection with our comprehensive guide. Discover essential techniques to optimize memory, enhance performance, and maintain program stability.'
+title: "Golang Garbage Collection: Memory Mastery"
+subtitle: "Efficiency, Optimization, and Best Practices for Memory Management in Go"
+description: "Unlock the full potential of Golang's garbage collection with our comprehensive guide. Discover essential techniques to optimize memory, enhance performance, and maintain program stability."
 slug: golang-garbage-collection-memory-mastery
 tags: ['golang']
 date: 2023-09-10
