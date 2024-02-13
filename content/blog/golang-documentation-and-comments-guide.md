@@ -1,7 +1,7 @@
 ---
-title: 'Documentation and Comments in Go'
-subtitle: 'A Guide to Writing Clear, Concise, and Comprehensive Code Documentation'
-description: 'Discover the art of writing clear and concise code comments, documenting functions and packages with Godoc, and harnessing the power of GoDoc for thorough code documentation in your Golang projects.'
+title: "Documentation and Comments in Go"
+subtitle: "A Guide to Writing Clear, Concise, and Comprehensive Code Documentation"
+description: "Discover the art of writing clear and concise code comments, documenting functions and packages with Godoc, and harnessing the power of GoDoc for thorough code documentation in your Golang projects."
 slug: golang-documentation-and-comments-guide
 tags: ['golang', 'golang-best-practices']
 date: 2023-08-16
