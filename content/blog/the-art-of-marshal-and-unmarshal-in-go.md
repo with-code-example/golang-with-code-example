@@ -1,7 +1,7 @@
 ---
-title: The Art of Marshal and Unmarshal in Go
-subtitle: Unleashing the Power of Go: A Deep Dive into Marshal and Unmarshal Wizardry
-description: Discover the intricacies of Go programming's data sorcery in "The Art of Marshal and Unmarshal in Go." Decode the magic for seamless data handling!
+title: 'The Art of Marshal and Unmarshal in Go'
+subtitle: 'Unleashing the Power of Go: A Deep Dive into Marshal and Unmarshal Wizardry'
+description: 'Discover the intricacies of Go programming's data sorcery in "The Art of Marshal and Unmarshal in Go." Decode the magic for seamless data handling!'
 slug: the-art-of-marshal-and-unmarshal-in-go
 tags: ['Go Programming', 'Data Serialization', 'Coding Magic', 'Tech Mastery', 'Golang']
 date: 2024-01-19 18:24:47.098000+00:00
