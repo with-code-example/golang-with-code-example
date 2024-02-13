@@ -1,7 +1,7 @@
 ---
-title: 'Memory Management in Golang - Safeguarding Efficiency and Stability'
-subtitle: 'In Golang, memory management is handled by the built-in garbage collector, which automates memory allocation and deallocation.'
-description: ''
+title: "Memory Management in Golang - Safeguarding Efficiency and Stability"
+subtitle: "In Golang, memory management is handled by the built-in garbage collector, which automates memory allocation and deallocation."
+description: ""
 slug: memory-management-golang-safeguarding-efficiency-stability
 tags: ['golang', 'golang-best-practices']
 date: 2023-08-11
