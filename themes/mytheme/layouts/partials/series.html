@@ -2,7 +2,7 @@
 <div>
     <ul class="list-group series-group">
         <li class="list-group-item">
-            Series - <a href="/series/{{ (index .Params.series 0 | urlize) }}" title="{{ {{ (index .Params.series 0) }} }}">{{ (index .Params.series 0) }}</a>
+            Series - <a href="/series/{{ (index .Params.series 0 | urlize) }}" title="{{ (index .Params.series 0) }}">{{ (index .Params.series 0) }}</a>
         </li>
         {{ range $num,$post := (index .Site.Taxonomies.series (index .Params.series 0 | urlize)).Pages.ByDate }}
             {{ if eq $post.Permalink $.Page.Permalink }}
