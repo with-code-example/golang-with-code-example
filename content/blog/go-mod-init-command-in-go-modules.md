@@ -1,7 +1,7 @@
 ---
-title: 'Understanding the go mod init Command in Go'
-subtitle: 'Managing Dependencies and Versioning with Go Modules'
-description: 'Learn how to use the 'go mod init' command to initialize a Go module, manage dependencies, and ensure versioning in your Go projects. Explore the key aspects and benefits of this essential tool.'
+title: "Understanding the go mod init Command in Go"
+subtitle: "Managing Dependencies and Versioning with Go Modules"
+description: "Learn how to use the 'go mod init' command to initialize a Go module, manage dependencies, and ensure versioning in your Go projects. Explore the key aspects and benefits of this essential tool."
 slug: go-mod-init-command-in-go-modules
 tags: ['golang']
 date: 2023-11-21
