@@ -1,7 +1,7 @@
 ---
-title: Synchronization Primitives in the `sync` Package
-subtitle: Mastering Concurrency in Go with `sync` Package Primitives
-description: Explore the `sync` package in Go (Golang) and learn about essential synchronization primitives like Wait Groups, RWMutex, Condition Variables, and Atomic Operations for efficient concurrent programming.
+title: 'Synchronization Primitives in the `sync` Package'
+subtitle: 'Mastering Concurrency in Go with `sync` Package Primitives'
+description: 'Explore the `sync` package in Go (Golang) and learn about essential synchronization primitives like Wait Groups, RWMutex, Condition Variables, and Atomic Operations for efficient concurrent programming.'
 slug: synchronization-primitives-sync-package-go
 tags: ['golang', 'concurrency']
 date: 2023-09-21
