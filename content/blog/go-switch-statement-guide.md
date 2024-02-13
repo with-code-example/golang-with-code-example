@@ -1,15 +1,14 @@
 ---
-title: "Golang Switch Case"
+title: "Golang's Switch Case: A Technical Guide"
 subtitle: "Mastering Decision-Making in Go with the Versatile Switch Statement"
-description: "Dive into the power and flexibility of the `Golang switch case`. This guide covers the basics, including syntax and examples."
+description: "Crack the code on Golang switch case statement with this detailed technical guide. Elevate your Go programming knowledge and conquer any challenge!"
 slug: go-switch-statement-guide
 tags: ['Go', 'Golang', 'Control Flow', 'Switch Statement']
-date: 2024-01-16
+date: 2024-01-16T00:00:00.000Z
 featured_image: https://res.cloudinary.com/harendra21/image/upload/w_1200/golangwithexample/1_9Bjg5V7zLT42HsodmuNEkw_kcifxb.png
 thumbnail: https://res.cloudinary.com/harendra21/image/upload/w_400/golangwithexample/1_9Bjg5V7zLT42HsodmuNEkw_kcifxb.png
-comments: True
+comments: False
 toc: False
-series: []
 audio: 
 ---
  
