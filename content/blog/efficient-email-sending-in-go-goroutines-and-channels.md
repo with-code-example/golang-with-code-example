@@ -1,7 +1,7 @@
 ---
-title: 'How To Send Email in Go: Goroutines and Channels'
-subtitle: 'Learn How to send Emails in Go with Goroutines and Channels'
-description: 'Learn how to send emails in Go using goroutines and channels. Enhance your email sending process, implement error handling, and achieve efficient concurrency in your Go applications.'
+title: "How To Send Email in Go: Goroutines and Channels"
+subtitle: "Learn How to send Emails in Go with Goroutines and Channels"
+description: "Learn how to send emails in Go using goroutines and channels. Enhance your email sending process, implement error handling, and achieve efficient concurrency in your Go applications."
 slug: efficient-email-sending-in-go-goroutines-and-channels
 tags: ['golang']
 date: 2023-10-16
