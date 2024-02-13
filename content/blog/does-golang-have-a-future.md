@@ -1,7 +1,7 @@
 ---
-title: Does Golang Have a Future?
-subtitle: Unwrapping the Potential: A Comprehensive Exploration of Golang's Future in Software Development
-description: Explore the trajectory of Golang – Google's Go language – as we dissect its rise, strengths, challenges, and integration in the software development ecosystem. 
+title: 'Does Golang Have a Future?'
+subtitle: 'Unwrapping the Potential: A Comprehensive Exploration of Golang's Future in Software Development'
+description: 'Explore the trajectory of Golang – Google's Go language – as we dissect its rise, strengths, challenges, and integration in the software development ecosystem. '
 slug: does-golang-have-a-future
 tags: ['Golang Future', 'Google Go Language', 'Programming Trends']
 date: 2024-02-01 17:03:43.146000+00:00
