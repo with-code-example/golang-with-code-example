@@ -1,7 +1,7 @@
 ---
-title: 'Hooks and Callbacks in GORM'
-subtitle: 'A Comprehensive Guide to Harnessing the Power of Hooks and Callbacks in GORM for Tailored Database Workflows'
-description: 'Elevate your GORM skills with hooks and callbacks. Explore available hooks, their purposes, and learn to implement custom callbacks for flexible and personalized database interactions in Go.'
+title: "Hooks and Callbacks in GORM"
+subtitle: "A Comprehensive Guide to Harnessing the Power of Hooks and Callbacks in GORM for Tailored Database Workflows"
+description: "Elevate your GORM skills with hooks and callbacks. Explore available hooks, their purposes, and learn to implement custom callbacks for flexible and personalized database interactions in Go."
 slug: gorm-hooks-callbacks-guide
 tags: ['golang', 'database', 'gorm']
 date: 2023-09-04
