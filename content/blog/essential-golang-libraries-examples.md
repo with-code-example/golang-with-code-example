@@ -1,7 +1,7 @@
 ---
-title: 'Essential Golang Libraries With Examples and Applications'
-subtitle: 'Enhance Your Golang Development with Essential Libraries and Examples'
-description: 'Discover how Gorilla Mux, Go Modules, Go Testing, Zap, and sqlx can streamline your development process, from building APIs and managing dependencies to testing, logging, and database interactions.'
+title: "Essential Golang Libraries With Examples and Applications"
+subtitle: "Enhance Your Golang Development with Essential Libraries and Examples"
+description: "Discover how Gorilla Mux, Go Modules, Go Testing, Zap, and sqlx can streamline your development process, from building APIs and managing dependencies to testing, logging, and database interactions."
 slug: essential-golang-libraries-examples
 tags: ['golang', 'go-libreary']
 date: 2023-08-26
