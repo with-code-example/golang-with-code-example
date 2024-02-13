@@ -1,15 +1,14 @@
 ---
-title: "The Art of Marshal and Unmarshal in Go"
+title: "The Art Of Marshal And Unmarshal In Go"
 subtitle: "Unleashing the Power of Go: A Deep Dive into Marshal and Unmarshal Wizardry"
 description: "Discover the intricacies of Go programming's data sorcery in 'The Art of Marshal and Unmarshal in Go.' Decode the magic for seamless data handling!"
 slug: the-art-of-marshal-and-unmarshal-in-go
 tags: ['Go Programming', 'Data Serialization', 'Coding Magic', 'Tech Mastery', 'Golang']
-date: 2024-01-19 18:24:47.098000+00:00
+date: 2024-01-19T18:24:47.098Z
 featured_image: https://res.cloudinary.com/harendra21/image/upload/w_1200/golangwithexample/golang/dZ3TG9R6Y7aVtcAYqwIkEWHvAah2-7v02av9_sd91p3.jpg
 thumbnail: https://res.cloudinary.com/harendra21/image/upload/w_400/golangwithexample/golang/dZ3TG9R6Y7aVtcAYqwIkEWHvAah2-7v02av9_sd91p3.jpg
-comments: True
-toc: True
-series: []
+comments: False
+toc: False
 audio: 
 ---
 Welcome to the complex world of Go programming, where data serialisation and deserialisation take front stage. In the digital symphony of disparate systems, efficient **marshalling** and **unmarshaling** emerge as the unsung conductors, allowing for smooth communication, data storage, and dexterous handling of external formats. In this fascinating blog journey, we'll delve into the complexities of these processes, shining light on their fundamental relevance and revealing practical applications. Prepare for a deep dive into the essence of Go, where at the conclusion, you'll not only understand these principles but also can carefully optimise your Go applications. Let the decoding begin.
