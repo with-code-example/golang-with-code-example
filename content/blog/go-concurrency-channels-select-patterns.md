@@ -1,7 +1,7 @@
 ---
-title: Working with Channels and Patterns
-subtitle: Mastering Concurrent Programming in Go with Channels, Select Statement, and Best Practices
-description: Explore the role of channels, learn to multiplex with select statements, and implement best practices like Fan-out, Fan-in, and proper channel closing for efficient, responsive, and synchronized software development.
+title: 'Working with Channels and Patterns'
+subtitle: 'Mastering Concurrent Programming in Go with Channels, Select Statement, and Best Practices'
+description: 'Explore the role of channels, learn to multiplex with select statements, and implement best practices like Fan-out, Fan-in, and proper channel closing for efficient, responsive, and synchronized software development.'
 slug: go-concurrency-channels-select-patterns
 tags: ['golang', 'concurrency']
 date: 2023-09-17
