@@ -43,7 +43,7 @@
         <p class="credits copyright text-muted">
           {{ if .Site.Author.name }}
             {{ if .Site.Author.website }}
-              <a href="{{ .Site.Author.website }}">{{ .Site.Author.name }}</a>
+              <a href="{{ .Site.Author.website }}" title="{{ .Site.Author.name }}">{{ .Site.Author.name }}</a>
             {{ else }}
               {{ .Site.Author.name }}
             {{ end }}
@@ -58,7 +58,7 @@
 
           {{ if .Site.Title }}
             &nbsp;&bull;&nbsp;
-            <a href="{{ "" | absLangURL }}">{{ .Site.Title }}</a>
+            <a href="{{ "" | absLangURL }}" title="{{ .Site.Title }}">{{ .Site.Title }}</a>
           {{ end }}
         </p>
         <!-- Please don't remove this, keep my open source work credited :) -->

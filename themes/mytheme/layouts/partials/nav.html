@@ -7,7 +7,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="{{ "" | absLangURL }}">{{ .Site.Title }}</a>
+      <a class="navbar-brand" href="{{ "" | absLangURL }}" title="{{ .Site.Title }}">{{ .Site.Title }}</a>
     </div>
 
     <div class="collapse navbar-collapse" id="main-navbar">
@@ -18,10 +18,10 @@
         {{ range .Site.Menus.main.ByWeight }}
           {{ if .HasChildren }}
             <li class="navlinks-container">
-              <a class="navlinks-parent">{{ .Name }}</a>
+              <a class="navlinks-parent" title="{{ .Name }}">{{ .Name }}</a>
               <div class="navlinks-children">
                 {{ range .Children }}
-                  <a href="{{ .URL | relLangURL }}">{{ .Name }}</a>
+                  <a href="{{ .URL | relLangURL }}" title="{{ .Name }}" >{{ .Name }}</a>
                 {{ end }}
               </div>
             </li>
@@ -35,11 +35,11 @@
         {{ if .Site.IsMultiLingual }}
           {{ if ge (len .Site.Languages) 3 }}
             <li class="navlinks-container">
-              <a class="navlinks-parent">{{ i18n "languageSwitcherLabel" }}</a>
+              <a class="navlinks-parent" title="{{ i18n "languageSwitcherLabel" }}">{{ i18n "languageSwitcherLabel" }}</a>
               <div class="navlinks-children">
                 {{ range .Translations }}
                   {{ if not (eq .Lang $.Site.Language.Lang) }}
-                  <a href="{{ .Permalink }}">{{ default .Lang .Site.Language.LanguageName }}</a>
+                  <a href="{{ .Permalink }}" title="{{ default .Lang .Site.Language.LanguageName }}">{{ default .Lang .Site.Language.LanguageName }}</a>
                   {{ end }}
                 {{ end }}
               </div>
@@ -48,7 +48,7 @@
             <li>
               {{ if .IsTranslated }}
                 {{ range .Translations }}
-                  <a href="{{ .Permalink }}">{{ default .Lang .Site.Language.LanguageName }}</a>
+                  <a href="{{ .Permalink }}" title="{{ default .Lang .Site.Language.LanguageName }}">{{ default .Lang .Site.Language.LanguageName }}</a>
                 {{ end}}
               {{ end }}
             </li>
@@ -57,7 +57,7 @@
 
         {{ if isset .Site.Params "gcse" }}
           <li>
-            <a href="#modalSearch" data-toggle="modal" data-target="#modalSearch" style="outline: none;">
+            <a href="#modalSearch" data-toggle="modal" data-target="#modalSearch" style="outline: none;" title='{{ i18n "gcseLabelShort" }}'>
               <span class="hidden-sm hidden-md hidden-lg">{{ i18n "gcseLabelShort" }}</span> <span id="searchGlyph" class="glyphicon glyphicon-search"></span>
             </a>
           </li>

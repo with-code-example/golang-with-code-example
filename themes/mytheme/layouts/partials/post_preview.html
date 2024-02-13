@@ -1,7 +1,7 @@
 <div class="row">
     {{ if .Params.thumbnail }}
         <div class="col-md-4">
-            <a href="{{ .Permalink }}">
+            <a href="{{ .Permalink }}" title="{{ .Title }}">
                 <img src="{{ .Params.thumbnail }}" alt="{{ .Params.title }}" width="400" height="auto" class="post-thumbnail thumbnail">
             </a>
         </div>
@@ -12,7 +12,7 @@
         <div class="col-md-12">
     {{ end }}
         <article class="post-preview">
-            <a href="{{ .Permalink }}">
+            <a href="{{ .Permalink }}" title="{{ .Title }}">
                 <h2 class="post-title">{{ .Title }}</h2>
                 {{ if .Params.subtitle }}
                 <!-- <h3 class="post-subtitle">
@@ -34,7 +34,7 @@
             <div class="post-entry">
                 {{ if or (.Truncated) (.Params.summary) }}
                 {{ .Summary }}
-                <a href="{{ .Permalink }}" class="post-read-more">[{{ i18n "readMore" }}]</a>
+                <a href="{{ .Permalink }}" class="post-read-more" title="{{ i18n "readMore" }}">[{{ i18n "readMore" }}]</a>
                 {{ else }}
                 {{ .Content }}
                 {{ end }}
@@ -42,7 +42,7 @@
             {{ if .Params.tags }}
             <div class="blog-tags">
                 {{ range .Params.tags }}
-                <a href="{{ $.Site.LanguagePrefix | absURL }}tags/{{ . | urlize }}/">{{ . }}</a>&nbsp;
+                <a href="{{ $.Site.LanguagePrefix | absURL }}tags/{{ . | urlize }}/" title="{{ . }}">{{ . }}</a>&nbsp;
                 {{ end }}
             </div>
             {{ end }}
