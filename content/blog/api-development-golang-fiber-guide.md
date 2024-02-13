@@ -1,7 +1,7 @@
 ---
-title: 'API Development with GoLang Fiber'
-subtitle: 'Building Scalable and Interactive RESTful APIs'
-description: 'Explore the nuances of building powerful and efficient RESTful APIs with GoLang Fiber, a high-performance web framework.'
+title: "API Development with GoLang Fiber"
+subtitle: "Building Scalable and Interactive RESTful APIs"
+description: "Explore the nuances of building powerful and efficient RESTful APIs with GoLang Fiber, a high-performance web framework."
 slug: api-development-golang-fiber-guide
 tags: []
 date: 2023-11-15
