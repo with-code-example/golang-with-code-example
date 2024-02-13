@@ -1,7 +1,7 @@
 ---
-title: 'Golang Base64 Encode: A Comprehensive Guide to Encoding in Go'
-subtitle: 'Unveiling the Power of Golang's Base64 Encoding: From Fundamentals to Practical Implementation'
-description: 'Discover the ins and outs of Golang's Base64 encoding with this comprehensive guide. Learn the basics, explore the versatility of the encoding/base64 package, and dive into real-world examples and use cases.'
+title: "Golang Base64 Encode: A Comprehensive Guide to Encoding in Go"
+subtitle: "Unveiling the Power of Golang's Base64 Encoding: From Fundamentals to Practical Implementation"
+description: "Discover the ins and outs of Golang's Base64 encoding with this comprehensive guide. Learn the basics, explore the versatility of the encoding/base64 package, and dive into real-world examples and use cases."
 slug: golang-base64-encode
 tags: ['Golang Base64 Encoding', 'Golng Best Practices']
 date: 2024-02-14 17:51:15.008000+00:00
