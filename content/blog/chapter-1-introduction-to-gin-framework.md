@@ -1,7 +1,7 @@
 ---
-title: Introduction to Gin Framework
-subtitle: Mastering Gin: Unveiling the Secrets of Go's Premier Web Framework
-description: Explore Gin Framework's minimalistic design, understand its advantages, and delve into key features like routing, middleware, and JSON support.
+title: 'Introduction to Gin Framework'
+subtitle: 'Mastering Gin: Unveiling the Secrets of Go's Premier Web Framework'
+description: 'Explore Gin Framework's minimalistic design, understand its advantages, and delve into key features like routing, middleware, and JSON support.'
 slug: chapter-1-introduction-to-gin-framework
 tags: ['Go web development', 'Gin framework', 'High performance', 'Web application development']
 date: 2024-01-13 14:46:24.400000+00:00
