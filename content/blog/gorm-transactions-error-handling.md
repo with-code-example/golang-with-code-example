@@ -1,7 +1,7 @@
 ---
-title: Transactions and Error Handling with GORM
-subtitle: A Comprehensive Guide to Managing Transactions and Errors in GORM for Reliable Database Operations
-description: Learn how to maintain data integrity by utilizing transactions and error handling techniques in GORM. Explore practical examples for working with transactions and gracefully handling errors in your Go projects.
+title: 'Transactions and Error Handling with GORM'
+subtitle: 'A Comprehensive Guide to Managing Transactions and Errors in GORM for Reliable Database Operations'
+description: 'Learn how to maintain data integrity by utilizing transactions and error handling techniques in GORM. Explore practical examples for working with transactions and gracefully handling errors in your Go projects.'
 slug: gorm-transactions-error-handling
 tags: ['golang', 'database', 'gorm']
 date: 2023-09-03
