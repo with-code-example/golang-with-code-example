@@ -1,7 +1,7 @@
 ---
-title: 'Handling One Million Requests with Golang: Strategies and Best Practices'
-subtitle: 'Strategies for Efficiently Handling One Million Requests with Golang'
-description: 'Learn expert strategies and techniques for optimizing Golang-based web applications to gracefully handle a million requests, ensuring responsiveness and reliability even under high traffic.'
+title: "Handling One Million Requests with Golang: Strategies and Best Practices"
+subtitle: "Strategies for Efficiently Handling One Million Requests with Golang"
+description: "Learn expert strategies and techniques for optimizing Golang-based web applications to gracefully handle a million requests, ensuring responsiveness and reliability even under high traffic."
 slug: efficient-handling-million-requests-golang
 tags: ['golang', 'golang-best-practices']
 date: 2023-08-23
