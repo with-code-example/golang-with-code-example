@@ -1,7 +1,7 @@
 ---
-title: Golang Random Number Generator
-subtitle: A Comprehensive Guide to Pseudo-Randomness in Go
-description: Unlock the potential of Golang's random number generator with this comprehensive guide. Explore the nuances of pseudo-randomness, learn best practices with code examples, and discover how to harness both math/rand and crypto/rand packages.
+title: 'Golang Random Number Generator'
+subtitle: 'A Comprehensive Guide to Pseudo-Randomness in Go'
+description: 'Unlock the potential of Golang's random number generator with this comprehensive guide. Explore the nuances of pseudo-randomness, learn best practices with code examples, and discover how to harness both math/rand and crypto/rand packages.'
 slug: golang-random-number-generator
 tags: ['math/rand Package', 'crypto/rand Package', 'Golang Code Examples', 'Golang Best Practices']
 date: 2024-02-08 17:39:25.482000+00:00
