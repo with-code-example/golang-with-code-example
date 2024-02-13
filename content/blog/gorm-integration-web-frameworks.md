@@ -1,7 +1,7 @@
 ---
-title: Seamlessly Integrating GORM with Go Web Frameworks
-subtitle: Explore the Harmonious Integration of GORM with Popular Go Web Frameworks for Efficient Data Management
-description: Elevate your Go application development by seamlessly integrating GORM with popular web frameworks like Gin, Echo, and Beego. Learn through practical examples for optimized data management and efficient workflow.
+title: 'Seamlessly Integrating GORM with Go Web Frameworks'
+subtitle: 'Explore the Harmonious Integration of GORM with Popular Go Web Frameworks for Efficient Data Management'
+description: 'Elevate your Go application development by seamlessly integrating GORM with popular web frameworks like Gin, Echo, and Beego. Learn through practical examples for optimized data management and efficient workflow.'
 slug: gorm-integration-web-frameworks
 tags: ['golang', 'database', 'gorm']
 date: 2023-09-07
