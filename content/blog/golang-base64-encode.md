@@ -7,8 +7,8 @@ tags: ['Golang Base64 Encoding', 'Golng Best Practices']
 date: 2024-02-13T18:30:00.000Z
 featured_image: https://res.cloudinary.com/harendra21/image/upload/w_1200/golangwithexample/golang-base64-encoding-decoding_hkv9o3.jpg
 thumbnail: https://res.cloudinary.com/harendra21/image/upload/w_400/golangwithexample/golang-base64-encoding-decoding_hkv9o3.jpg
-comments: True
-toc: False
+comments: False
+toc: True
 audio: 
 ---
 In the realm of encoding and decoding data, Base64 stands out as a widely used scheme that provides a compact representation of binary data. Golang, with its robust standard library, offers a seamless and efficient way to perform Base64 encoding. In this blog post, we will embark on a journey through Golang's Base64 encoding capabilities, exploring its fundamentals, use cases, and practical implementation. Join us as we delve into the world of Golang Base64 encode and unravel its intricacies.
