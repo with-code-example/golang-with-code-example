@@ -4,15 +4,18 @@ subtitle: "Empower Your Web Development Journey with Go and Gin - A Step-by-Step
 description: "Learn how to set up your Go workspace, install the Go language, and incorporate the powerful Gin Framework for seamless web development."
 slug: installing-go-and-gin-framework-guide
 tags: ['Go programming', 'Gin Framework', 'Web Development', 'Go installation', 'Gin installation']
-date: 2024-01-15 15:12:38.409000+00:00
+date: 2024-01-15T15:12:38.409Z
 featured_image: https://res.cloudinary.com/harendra21/image/upload/l_text:Roboto_30_bold:Chapter%202:%20Setting%20Up%20the%20Environment%20for%20GIN%20Framework,co_rgb:ffffff/golangwithexample/gin-course_ijbjnk.png
 thumbnail: https://res.cloudinary.com/harendra21/image/upload/l_text:Roboto_30_bold:Chapter%202:%20Setting%20Up%20the%20Environment%20for%20GIN%20Framework,co_rgb:ffffff/golangwithexample/gin-course_ijbjnk.png
-comments: True
-toc: True
+comments: False
+toc: False
 series: ['GIN Course', '']
 audio: 
 ---
 Embarking on a journey in web development often starts with choosing the right tools for the job. In this comprehensive guide, we'll walk you through the process of installing Go programming language and Gin Framework, a lightweight and flexible web framework for Go. From setting up your Go workspace to incorporating Gin into your projects, this guide is your roadmap to efficient and powerful web development.
+
+**Prerequisites** 
+- Introduction to [Golang](https://golang.withcodeexample.com/blog/golang-tutorial-for-beginners/)
 
 ## [Installing Go Programming Language](https://golang.withcodeexample.com/blog/golang-tutorial-for-beginners/#how-to-install-golang)
 
