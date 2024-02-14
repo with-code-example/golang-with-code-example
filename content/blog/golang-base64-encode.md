@@ -4,7 +4,7 @@ subtitle: "Efficiently Encode Data in GoLang: Mastering Base64 Encoding Techniqu
 description: "Master the art of Golang Base64 encoding with this expert guide & unlock new levels of data manipulation in Go programming language."
 slug: golang-base64-encode
 tags: ['Golang Base64 Encoding', 'Golng Best Practices']
-date: 2024-02-14T17:51:15.008Z
+date: 2024-02-13T18:30:00.000Z
 featured_image: https://res.cloudinary.com/harendra21/image/upload/w_1200/golangwithexample/golang-base64-encoding-decoding_hkv9o3.jpg
 thumbnail: https://res.cloudinary.com/harendra21/image/upload/w_400/golangwithexample/golang-base64-encoding-decoding_hkv9o3.jpg
 comments: False
