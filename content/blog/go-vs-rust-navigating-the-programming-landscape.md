@@ -58,9 +58,9 @@ Contrary to Go's focus on simplicity, Rust prioritizes safety and performance wi
 
 ### Memory Management: A Tale of Automation vs Control
 
-In the realm of [memory management](https://golang.withcodeexample.com/blog/memory-management-golang-safeguarding-efficiency-stability/), Go and Rust diverge significantly in their approaches. Go opts for a garbage-collected runtime, where memory allocation and deallocation are handled automatically by the runtime environment. This approach simplifies memory management for developers, eliminating the need for manual memory management and reducing the risk of memory leaks and dangling pointers. However, the trade-off is a potential performance overhead, as the garbage collector periodically pauses the program to reclaim unused memory.
+In the realm of [memory management](https://golang.withcodeexample.com/blog/memory-management-golang-safeguarding-efficiency-stability/), Go and Rust diverges significantly in their approaches. Go opts for a garbage-collected runtime, where memory allocation and deallocation are handled automatically by the runtime environment. This approach simplifies memory management for developers, eliminating the need for manual memory management and reducing the risk of memory leaks and dangling pointers. However, the trade-off is a potential performance overhead, as the garbage collector periodically pauses the program to reclaim unused memory.
 
-On the other hand, Rust takes a more hands-on approach to memory management, eschewing a garbage collector in favor of manual memory management with compile-time checks. The language introduces ownership and borrowing concepts, which enforce strict rules at compile time to ensure memory safety and prevent data races. While this approach offers unparalleled performance and control over memory usage, it comes with a steeper learning curve and requires developers to be more mindful of memory management issues.
+On the other hand, Rust takes a more hands-on approach to memory management, eschewing a garbage collector in favour of manual memory management with compile-time checks. The language introduces ownership and borrowing concepts, which enforce strict rules at compile time to ensure memory safety and prevent data races. While this approach offers unparalleled performance and control over memory usage, it comes with a steeper learning curve and requires developers to be more mindful of memory management issues.
 
 ### Concurrency and Multi-threading: Lightweight vs System Threads
 
@@ -80,9 +80,9 @@ Rust, on the other hand, takes performance to the next level with its zero-cost 
 
 ### Stack Overflow Developer Survey: Insights into Developer Preferences
 
-To gauge developer sentiment and preferences, we turn to the annual Stack Overflow Developer Survey, which provides valuable insights into the programming languages, tools, and technologies favored by developers worldwide. According to the latest survey data, both Go and Rust enjoy a healthy level of popularity among developers, with Go often ranking among the top 10 most loved and wanted languages, thanks to its simplicity, performance, and strong ecosystem of libraries and tools.
+To gauge developer sentiment and preferences, we turn to the annual Stack Overflow Developer Survey, which provides valuable insights into the programming languages, tools, and technologies favoured by developers worldwide. According to the latest survey data, both Go and Rust enjoy a healthy level of popularity among developers, with Go often ranking among the top 10 most loved and wanted languages, thanks to its simplicity, performance, and strong ecosystem of libraries and tools.
 
-However, when it comes to satisfaction and interest in using the language again, Rust developers tend to express higher levels of satisfaction and enthusiasm compared to their Go counterparts. This sentiment is reflected in the survey data, which shows that a higher percentage of Rust developers express a desire to continue using Rust in the future, highlighting the language's strong community support and favorable developer experience.
+However, when it comes to satisfaction and interest in using the language again, Rust developers tend to express higher levels of satisfaction and enthusiasm compared to their Go counterparts. This sentiment is reflected in the survey data, which shows that a higher percentage of Rust developers express a desire to continue using Rust in the future, highlighting the language's strong community support and favourable developer experience.
 
 ![golang stackoverflow](https://appwrite.withcodeexample.com/v1/storage/buckets/65cb3fcd6bbe0f7e04d4/files/65ccee4326ec8be9a598/preview?width=1280&height=0&gravity=center&quality=90&project=65ca51d2711f0f5e1fa8)
 
@@ -106,7 +106,7 @@ In addition to developer sentiment, salary data provides valuable insights into 
 
 ![choose](https://appwrite.withcodeexample.com/v1/storage/buckets/65cb3fcd6bbe0f7e04d4/files/65ccec47a85e780fdaeb/preview?width=1280&height=0&gravity=center&quality=90&project=65ca51d2711f0f5e1fa8)
 
-As you weigh the merits of Go and Rust, it's essential to consider your learning style, career aspirations, and long-term goals. If you're new to programming or prefer a language that's easy to learn and approachable, Go may be the ideal choice. Its simplicity, readability, and robust standard library make it an excellent starting point for beginners and experienced developers alike. Additionally, Go's focus on concurrency and scalability makes it well-suited for building cloud-native applications, microservices, and distributed systems.
+As you weigh the merits of Go and Rust, it's essential to consider your learning style, career aspirations, and long-term goals. If you're new to programming or prefer a language that's easy to learn and approachable, Go may be the ideal choice. Its simplicity, readability, and a robust standard library make it an excellent starting point for beginners and experienced developers alike. Additionally, Go's focus on concurrency and scalability makes it well-suited for building cloud-native applications, microservices, and distributed systems.
 
 On the other hand, if you're seeking a challenge and are passionate about systems programming, performance optimization, and low-level control, Rust may be the perfect fit. While Rust has a steeper learning curve compared to Go, its emphasis on safety, performance, and concurrency makes it a compelling choice for building high-performance applications, system software, and embedded systems. Additionally, Rust's strong type system and expressive syntax enable developers to write safe and efficient code with confidence, making it an excellent choice for projects where reliability and performance are paramount.
 
@@ -114,7 +114,7 @@ On the other hand, if you're seeking a challenge and are passionate about system
 
 Regardless of which language you choose, embarking on your journey with Go or Rust is an exciting opportunity to expand your skill set, tackle new challenges, and contribute to the vibrant communities surrounding these languages. To help you get started, we've compiled a list of resources for learning Go and Rust, ranging from interactive tutorials to project-based learning platforms:
 
-1. **exercism.io**: An interactive platform for practicing Go and Rust through hands-on coding exercises and mentorship.
+1. **exercism.io**: An interactive platform for practising Go and Rust through hands-on coding exercises and mentorship.
 2. **codecraftrs.com**: A project-based learning platform that offers tutorials, screencasts, and real-world projects for Go and Rust enthusiasts.
 3. **Official Documentation**: Explore the official documentation and guides provided by the Go and Rust communities for comprehensive insights
 
@@ -123,9 +123,9 @@ Regardless of which language you choose, embarking on your journey with Go or Ru
 
 In the ever-evolving landscape of programming languages, the choice between Go and Rust represents a significant decision for developers seeking to expand their skill set and tackle new challenges. Both languages offer compelling features, strong communities, and diverse applications, making them valuable assets in any developer's toolkit.
 
-As we've explored in this article, Go embodies simplicity, efficiency, and scalability, making it an excellent choice for building cloud-native applications, microservices, and distributed systems. Its approachable syntax, built-in concurrency, and robust standard library make it an ideal starting point for beginners and experienced developers alike.
+As we've explored in this article, Go embodies simplicity, efficiency, and scalability, making it an excellent choice for building cloud-native applications, microservices, and distributed systems. Its approachable syntax, built-in concurrency, and a robust standard library make it an ideal starting point for beginners and experienced developers alike.
 
-On the other hand, Rust champions safety, performance, and low-level control, offering developers the power to build fast, reliable, and secure systems. With its ownership model, fearless concurrency, and zero-cost abstractions, Rust empowers developers to tackle performance-critical applications, system software, and embedded systems with confidence and precision.
+On the other hand, Rust champions safety, performance, and low-level control offering developers the power to build fast, reliable, and secure systems. With its ownership model, fearless concurrency, and zero-cost abstractions, Rust empowers developers to tackle performance-critical applications, system software, and embedded systems with confidence and precision.
 
 Ultimately, the decision between Go and Rust comes down to your learning style, goals, and aspirations. Whether you're drawn to the simplicity of Go or the challenge of Rust, both languages offer rich learning experiences, vibrant communities, and exciting opportunities for growth and exploration.
 
