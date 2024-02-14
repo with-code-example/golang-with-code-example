@@ -9,6 +9,7 @@ featured_image: https://appwrite.withcodeexample.com/v1/storage/buckets/65cb3fcd
 thumbnail: https://appwrite.withcodeexample.com/v1/storage/buckets/65cb3fcd6bbe0f7e04d4/files/65cc63e0c85821dc11e1/preview?width=1280&height=0&gravity=center&quality=90&project=65ca51d2711f0f5e1fa8
 comments: False
 toc: False
+series: ['GIN Course']
 audio: 
 ---
 In chapter 3 of the Gin Framework tutorial, we delve into the crucial aspect of the project structure. How you organize your files and directories, configure the project layout, and adhere to best practices significantly impact the maintainability, scalability, and readability of your Gin projects.
