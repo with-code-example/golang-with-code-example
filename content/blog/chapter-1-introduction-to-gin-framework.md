@@ -1,14 +1,14 @@
 ---
-title: "Introduction to Gin Framework"
+title: "Chapter-1: Introduction to Gin Framework"
 subtitle: "Mastering Gin: Unveiling the Secrets of Go's Premier Web Framework"
 description: "Explore Gin Framework's minimalistic design, understand its advantages, and delve into key features like routing, middleware, and JSON support."
 slug: chapter-1-introduction-to-gin-framework
 tags: ['Go web development', 'Gin framework', 'High performance', 'Web application development']
-date: 2024-01-13 14:46:24.400000+00:00
+date: 2024-01-13T14:46:24.400Z
 featured_image: https://res.cloudinary.com/harendra21/image/upload/l_text:Roboto_40_bold:Chapter%201:%20Introduction,co_rgb:ffffff/golangwithexample/gin-course_ijbjnk.png
 thumbnail: https://res.cloudinary.com/harendra21/image/upload/l_text:Roboto_40_bold:Chapter%201:%20Introduction,co_rgb:ffffff/golangwithexample/gin-course_ijbjnk.png
-comments: True
-toc: True
+comments: False
+toc: False
 series: ['GIN Course']
 audio: 
 ---
@@ -17,6 +17,9 @@ audio:
 Gin is a web framework for the Go programming language that is designed for simplicity and high performance. It provides a set of lightweight and flexible tools for building web applications and RESTful APIs. One of Gin's key strengths is its minimalistic design, allowing developers to have fine-grained control over their applications while maintaining a high level of performance.
 
 Gin is built on top of the net/http package in Go, and its design is inspired by other web frameworks but tailored to the idioms of the Go language. It is widely used in the Go community for its speed and efficiency, making it an excellent choice for building scalable and performant applications.
+
+**Prerequisites** 
+- Introduction to [Golang](https://golang.withcodeexample.com/blog/golang-tutorial-for-beginners/)
 
 ### Code Example:
 
