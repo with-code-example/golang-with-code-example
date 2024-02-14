@@ -4,12 +4,11 @@ subtitle: "Golang is an amazing, modern, easy-to-learn, fast programming languag
 description: "Golang Tutorial For Beginners is your key to learning the fundamentals of Golang, whether your goal is to become a skilled Go developer or you just want to learn more about programming."
 slug: golang-tutorial-for-beginners
 tags: ['go', 'golang', 'golang tutorial', 'learn go', 'learn golang', 'golang course']
-date: 2024-01-14 19:16:16.978000+00:00
+date: 2024-01-14T19:16:16.978Z
 featured_image: https://res.cloudinary.com/harendra21/image/upload/w_1200/golangwithexample/Golang%20Tutorial%20For%20Beginners/Golang_Tutorial_For_Beginners_t2caqp.png
 thumbnail: https://res.cloudinary.com/harendra21/image/upload/w_400/golangwithexample/Golang%20Tutorial%20For%20Beginners/Golang_Tutorial_For_Beginners_t2caqp.png
-comments: True
-toc: True
-series: []
+comments: False
+toc: False
 audio: https://res.cloudinary.com/harendra21/video/upload/v1705391137/golangwithexample/Golang_Tutorial_for_Beginners_a_Guide_mkwbdm.mp3
 ---
 
