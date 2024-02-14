@@ -1,13 +1,13 @@
 ---
 title: "Chapter 4: Getting Started with Gin"
 subtitle: "Unleash Your Inner Bartender with Chapter 4: Getting Started with Gin"
-description: "Discover the ultimate guide to mastering "Chapter 4: Getting Started with Gin" – Your ticket to unlocking the potential of this popular web framework. Cheers!"
+description: "Discover the ultimate guide to mastering Chapter 4: Getting Started with Gin – Your ticket to unlocking the potential of this popular web framework. Cheers!"
 slug: chapter-4-getting-started-with-gin
 tags: ['gin', ' web development', ' go lang', ' backend development', ' programming']
 date: 2024-02-14T18:30:00.000Z
 featured_image: https://res.cloudinary.com/harendra21/image/upload/l_text:Roboto_50_bold:Chapter%204:%20Getting%20Started%20with%20Gin,co_rgb:ffffff/golangwithexample/gin-course_ijbjnk.png
 thumbnail: https://res.cloudinary.com/harendra21/image/upload/l_text:Roboto_50_bold:Chapter%204:%20Getting%20Started%20with%20Gin,co_rgb:ffffff/golangwithexample/gin-course_ijbjnk.png
-comments: False
+comments: True
 toc: False
 series: ['GIN Course']
 audio: 
