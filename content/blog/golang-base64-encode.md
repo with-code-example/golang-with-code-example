@@ -7,7 +7,7 @@ tags: ['Golang Base64 Encoding', 'Golng Best Practices']
 date: 2024-02-13T18:30:00.000Z
 featured_image: https://res.cloudinary.com/harendra21/image/upload/w_1200/golangwithexample/golang-base64-encoding-decoding_hkv9o3.jpg
 thumbnail: https://res.cloudinary.com/harendra21/image/upload/w_400/golangwithexample/golang-base64-encoding-decoding_hkv9o3.jpg
-comments: False
+comments: True
 toc: False
 audio: 
 ---
