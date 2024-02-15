@@ -7,7 +7,7 @@ tags: ['gin', ' web development', ' go lang', ' backend development', ' programm
 date: 2024-02-14T18:30:00.000Z
 featured_image: https://res.cloudinary.com/harendra21/image/upload/l_text:Roboto_50_bold:Chapter%204:%20Getting%20Started%20with%20Gin,co_rgb:ffffff/golangwithexample/gin-course_ijbjnk.png
 thumbnail: https://res.cloudinary.com/harendra21/image/upload/l_text:Roboto_50_bold:Chapter%204:%20Getting%20Started%20with%20Gin,co_rgb:ffffff/golangwithexample/gin-course_ijbjnk.png
-comments: False
+comments: True
 toc: False
 series: ['GIN Course']
 audio: 
