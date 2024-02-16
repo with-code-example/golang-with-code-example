@@ -15,7 +15,7 @@ audio:
 ---
 In the vibrant ecosystem of Golang development, GitHub serves as a treasure trove of invaluable libraries and packages that streamline development workflows, enhance productivity, and facilitate code reuse. From web frameworks to database drivers, the GitHub repository hosts a plethora of essential Go libraries that empower developers to build robust and scalable applications. In this article, we will explore nine essential Go libraries available on GitHub, each addressing specific aspects of Golang development.
 
-##1. Gorilla Mux: Powerful HTTP Router
+## 1. Gorilla Mux: Powerful HTTP Router
 
 Gorilla Mux is a powerful HTTP router and dispatcher for Go. It provides a flexible and expressive routing mechanism for building web applications with ease. Leveraging Gorilla Mux, developers can define complex routing patterns, handle URL parameters, and implement middleware for request processing. With its intuitive API and robust feature set, Gorilla Mux is widely regarded as one of the top choices for routing in Golang applications.
 
@@ -43,7 +43,7 @@ func main() {
 
 ## 2. Gin: High-Performance Web Framework
 
-Gin is a high-performance web framework for Go, inspired by Sinatra. It offers a minimalist yet powerful API for building web applications and RESTful APIs. With its blazing-fast routing engine, middleware support, and built-in JSON rendering, Gin enables developers to create scalable and efficient web services with ease. Whether building microservices or full-fledged web applications, Gin provides the tools and features needed to accelerate development.
+[Gin](https://golang.withcodeexample.com/series/gin-course/) is a high-performance web framework for Go, inspired by Sinatra. It offers a minimalist yet powerful API for building web applications and RESTful APIs. With its blazing-fast routing engine, middleware support, and built-in JSON rendering, Gin enables developers to create scalable and efficient web services with ease. Whether building microservices or full-fledged web applications, Gin provides the tools and features needed to accelerate development.
 
 ```go
 package main
@@ -65,7 +65,7 @@ func main() {
 [Github: https://github.com/gin-gonic/gin](https://github.com/gin-gonic/gin)
 
 
-3. GoDotEnv: Environment Variable Loader
+## 3. GoDotEnv: Environment Variable Loader
 
 GoDotEnv is a lightweight and flexible library for loading environment variables from `.env` files in Go applications. It simplifies the process of managing configuration settings across different environments by allowing developers to specify environment variables in a `.env` file and load them into their application at runtime. With GoDotEnv, developers can keep sensitive information such as API keys and database credentials out of version control and easily configure their applications in a consistent manner.
 
@@ -91,7 +91,7 @@ func main() {
 ```
 [Github: https://github.com/joho/godotenv](https://github.com/joho/godotenv)
 
-4. GORM: Object-Relational Mapping
+## 4. [GORM](https://golang.withcodeexample.com/series/gorm/): Object-Relational Mapping
 
 GORM is a powerful and feature-rich ORM (Object-Relational Mapping) library for Go, designed to simplify database interactions and streamline data access. With GORM, developers can define models, perform CRUD operations, execute complex queries, and handle database migrations with ease. Leveraging its expressive API and support for multiple database dialects, GORM empowers developers to build scalable and efficient applications without sacrificing productivity.
 
@@ -134,7 +134,7 @@ func main() {
 
 [Github: https://github.com/go-gorm/gorm](https://github.com/go-gorm/gorm)
 
-5. Viper: Configuration Management
+## 5. Viper: Configuration Management
 
 Viper is a flexible and powerful configuration management library for Go, designed to simplify the process of reading and managing configuration settings from various sources. It supports a wide range of configuration formats, including JSON, YAML, TOML, and environment variables. With Viper, developers can define configuration defaults, load configuration settings from files or remote sources, and access configuration values using a simple and intuitive API.
 
@@ -163,7 +163,7 @@ func main() {
 
 [Github: https://github.com/spf13/viper](https://github.com/spf13/viper)
 
-6. Cobra: Command-Line Interface
+## 6. Cobra: Command-Line Interface
 
 Cobra is a powerful and flexible library for building command-line interfaces (CLIs) in Go. It provides a robust framework for defining commands, flags, and subcommands, as well as handling input/output, error handling, and help messages. With Cobra, developers can easily create sophisticated command-line tools with support for auto-generated help, flag validation, and interactive prompts. Whether building simple utilities or complex CLI applications, Cobra simplifies the process of creating command-line interfaces in Go.
 
@@ -193,9 +193,9 @@ examples and usage of using your application.`,
 }
 ```
 
-[Githib: https://github.com/spf13/cobra](https://github.com/spf13/cobra)
+[Github: https://github.com/spf13/cobra](https://github.com/spf13/cobra)
 
-7. GoJWT: JSON Web Token Authentication
+## 7. GoJWT: JSON Web Token Authentication
 
 GoJWT is a comprehensive library for implementing JSON Web Token (JWT) authentication in Go applications. It provides a simple and secure way to handle user authentication, authorization, and session management. With GoJWT, developers can generate, verify, and decode JWTs, as well as enforce access control policies and protect sensitive endpoints. By integrating GoJWT into their applications, developers can enhance security and ensure that only authorized users can access protected resources.
 
@@ -225,7 +225,7 @@ func main() {
 
 [Github: https://github.com/nickvellios/gojwt](https://github.com/nickvellios/gojwt)
 
-**8. GoMock: Mocking Framework**
+## 8. GoMock: Mocking Framework
 
 GoMock is a powerful mocking framework for Go, designed to simplify the process of writing unit tests for code that depends on external dependencies. It provides a flexible and intuitive API for creating mock objects, defining expectations, and asserting behavior. With GoMock, developers can isolate components under test, simulate various scenarios, and verify interactions with external dependencies. By incorporating GoMock into their testing workflow, developers can write reliable and maintainable unit tests with ease.
 
@@ -264,7 +264,7 @@ func TestGetUser(t *testing.T) {
 }
 ```
 
-9. GoLogrus: Structured Logging
+## 9. GoLogrus: Structured Logging
 
 GoLogrus is a structured logging library for Go, built on top of Logrus. It enables developers to log messages in a structured format, making it easier to analyze and interpret log data. With GoLogrus, developers can define custom log fields, specify log levels, and output logs to various destinations, including files, stdout, and external log management systems. By adopting GoLogrus for logging in their applications, developers can gain insights into application behavior, diagnose issues, and troubleshoot errors effectively.
 
