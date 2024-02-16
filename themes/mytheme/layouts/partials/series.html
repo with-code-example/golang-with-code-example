@@ -1,4 +1,4 @@
-{{ if .Params.series }}
+{{ if and (isset .Params "series") (ne (index .Params.series 0) "") }}
 <div>
     <ul class="list-group series-group">
         <li class="list-group-item">
