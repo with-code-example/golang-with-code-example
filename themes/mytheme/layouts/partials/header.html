@@ -64,7 +64,7 @@
                 {{ if eq .Type "blog" }}
                   {{ partial "breadcrumbs.html" . }}
                 {{ end }}
-                <h1>{{ with $title }}{{. | humanize | title}}{{ else }}<br/>{{ end }}</h1>
+                <h1>{{ with $title }}{{. | title}}{{ else }}<br/>{{ end }}</h1>
               {{ end }}
               {{ if ne .Type "post" }}
                 <hr class="small">
