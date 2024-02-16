@@ -90,21 +90,20 @@ e.GET("/ping", func(c echo.Context) error {
 })
 ```
 
-Want to learn more about routing? Watch this YouTube video
+**Want to learn more about routing? Watch this YouTube video**
 
 {{< youtube yU29VSTlE3s >}}
 
 
-### Templating
 
-![Templating](https://appwrite.withcodeexample.com/v1/storage/buckets/65cb3fcd6bbe0f7e04d4/files/65cf92f7cdf4ab9e8148/preview?width=1200&height=0&gravity=center&quality=90&project=65ca51d2711f0f5e1fa8)
+### Templating
 
 GIN provides limited support for server-side templating, primarily through the HTML rendering engine. In contrast, Echo offers greater flexibility by allowing developers to integrate with a variety of template engines, including HTML, Markdown, and JSON.
 
 
 **Gin Framework:**
 
-Gin framework offers built-in support for template rendering using the `html/template` package from the Go standard library. Here's how you can use template rendering in Gin:
+Gin framework offers built-in support for template rendering using the `html/template` package from the Go standard library. Here's how you can use
 
 1. **Template Parsing:** Gin provides a `LoadHTMLGlob` function to load HTML templates from a directory. You can use this function to parse and load templates:
 
