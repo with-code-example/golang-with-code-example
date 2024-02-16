@@ -4,10 +4,10 @@ subtitle: "Go Frameworks Unleashed: GIN vs Echo, the Ultimate Showdown for Your 
 description: "Deciding on a go framework can be a daunting task. Fear not! Dive into our blog as we pit GIN vs Echo to help you make the right choice."
 slug: gin-vs-echo-a-guide-to-choosing-the-right-go-framework
 tags: ['gin', ' echo', ' go framework', ' web development', ' choosing the right framework']
-date: 2024-02-16T18:30:00.000Z
+date: 2024-02-13T18:30:00.000Z
 featured_image: https://appwrite.withcodeexample.com/v1/storage/buckets/65cb3fcd6bbe0f7e04d4/files/65cc99ae7e92e13fb7f2/preview?width=1280&height=0&gravity=center&quality=90&project=65ca51d2711f0f5e1fa8
 thumbnail: https://appwrite.withcodeexample.com/v1/storage/buckets/65cb3fcd6bbe0f7e04d4/files/65cc99ae7e92e13fb7f2/preview?width=400&height=0&gravity=center&quality=90&project=65ca51d2711f0f5e1fa8
-comments: True
+comments: False
 toc: False
 draft: False
 series: ['']
@@ -89,6 +89,11 @@ e.GET("/ping", func(c echo.Context) error {
     return c.String(http.StatusOK, "pong")
 })
 ```
+
+Want to learn more about routing? Watch this YouTube video
+
+{{< youtube yU29VSTlE3s >}}
+
 
 ### Templating
 
