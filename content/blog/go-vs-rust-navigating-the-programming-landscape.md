@@ -4,7 +4,7 @@ subtitle: "Choosing Your Programming Adventure: Go vs Rust in the Ever-Evolving 
 description: "Seeking programming prowess? Dive into the high-stakes duel between Go and Rust, and explore how these languages dominate the programming landscape."
 slug: go-vs-rust-navigating-the-programming-landscape
 tags: ['go programming', ' rust programming', ' programming languages', ' software development', ' coding']
-date: 2024-02-16T18:30:00.000Z
+date: 2024-02-16
 featured_image: https://appwrite.withcodeexample.com/v1/storage/buckets/65cb3fcd6bbe0f7e04d4/files/65cceb199df54af7a6de/preview?width=1280&height=0&gravity=center&quality=90&project=65ca51d2711f0f5e1fa8
 thumbnail: https://appwrite.withcodeexample.com/v1/storage/buckets/65cb3fcd6bbe0f7e04d4/files/65cceb199df54af7a6de/preview?width=400&height=0&gravity=center&quality=90&project=65ca51d2711f0f5e1fa8
 comments: True
