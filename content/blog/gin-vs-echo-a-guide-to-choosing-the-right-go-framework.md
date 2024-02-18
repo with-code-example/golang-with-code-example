@@ -7,8 +7,8 @@ tags: ['gin', ' echo', ' go framework', ' web development', ' choosing the right
 date: 2024-02-17
 featured_image: https://appwrite.withcodeexample.com/v1/storage/buckets/65cb3fcd6bbe0f7e04d4/files/65cc99ae7e92e13fb7f2/preview?width=1280&height=0&gravity=center&quality=90&borderWidth=1&borderColor=000000&borderRadius=5&opacity=1&rotation=0&background=000000&output=webp&project=65ca51d2711f0f5e1fa8
 thumbnail: https://appwrite.withcodeexample.com/v1/storage/buckets/65cb3fcd6bbe0f7e04d4/files/65cc99ae7e92e13fb7f2/preview?width=400&height=0&gravity=center&quality=90&borderWidth=1&borderColor=000000&borderRadius=5&opacity=1&rotation=0&background=000000&output=webp&project=65ca51d2711f0f5e1fa8
-comments: True
-toc: True
+comments: False
+toc: False
 draft: False
 series: ['']
 audio: 
