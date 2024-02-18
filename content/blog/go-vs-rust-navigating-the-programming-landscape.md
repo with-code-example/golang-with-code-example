@@ -5,10 +5,10 @@ description: "Seeking programming prowess? Dive into the high-stakes duel betwee
 slug: go-vs-rust-navigating-the-programming-landscape
 tags: ['go programming', ' rust programming', ' programming languages', ' software development', ' coding']
 date: 2024-02-16
-featured_image: https://appwrite.withcodeexample.com/v1/storage/buckets/65cb3fcd6bbe0f7e04d4/files/65cceb199df54af7a6de/preview?width=1280&height=0&gravity=center&quality=90&project=65ca51d2711f0f5e1fa8
-thumbnail: https://appwrite.withcodeexample.com/v1/storage/buckets/65cb3fcd6bbe0f7e04d4/files/65cceb199df54af7a6de/preview?width=400&height=0&gravity=center&quality=90&project=65ca51d2711f0f5e1fa8
-comments: True
-toc: False
+featured_image: https://appwrite.withcodeexample.com/v1/storage/buckets/65cb3fcd6bbe0f7e04d4/files/65cceb199df54af7a6de/preview?width=1280&height=0&gravity=center&quality=90&borderWidth=1&borderColor=000000&borderRadius=5&opacity=1&rotation=0&background=000000&output=webp&project=65ca51d2711f0f5e1fa8
+thumbnail: https://appwrite.withcodeexample.com/v1/storage/buckets/65cb3fcd6bbe0f7e04d4/files/65cceb199df54af7a6de/preview?width=400&height=0&gravity=center&quality=90&borderWidth=1&borderColor=000000&borderRadius=5&opacity=1&rotation=0&background=000000&output=webp&project=65ca51d2711f0f5e1fa8
+comments: False
+toc: True
 draft: False
 series: ['golang vs']
 audio: 
@@ -41,7 +41,7 @@ We weigh their approaches to concurrency, safety, speed, interoperability and mo
 
 ## Go vs Rust requests
 
-![go vs rust requests](https://appwrite.withcodeexample.com/v1/storage/buckets/65cb3fcd6bbe0f7e04d4/files/65ccefb87493b552b827/preview?width=1280&height=0&gravity=center&quality=90&project=65ca51d2711f0f5e1fa8)
+![go vs rust requests](https://appwrite.withcodeexample.com/v1/storage/buckets/65cb3fcd6bbe0f7e04d4/files/65ccefb87493b552b827/preview?width=700&height=0&gravity=center&quality=90&borderWidth=1&borderColor=000000&borderRadius=5&opacity=1&rotation=0&background=000000&output=webp&project=65ca51d2711f0f5e1fa8)
 
 
 ## Philosophies and Mindsets of Go and Rust
@@ -54,7 +54,7 @@ Go, affectionately known as Golang, boasts a philosophy grounded in simplicity a
 
 Contrary to Go's focus on simplicity, Rust prioritizes safety and performance without compromising on productivity. Born out of Mozilla's Research division, Rust was conceived as a systems programming language that could eliminate entire classes of bugs, particularly memory safety violations and data races. Rust achieves this feat through its sophisticated ownership model, which ensures that memory is managed safely and efficiently at compile time, without the need for a garbage collector. With its powerful abstractions and fearless concurrency, Rust empowers developers to write fast, safe, and concurrent code, making it an ideal choice for building performance-critical applications, system software, and embedded systems.
 
-![golang](https://appwrite.withcodeexample.com/v1/storage/buckets/65cb3fcd6bbe0f7e04d4/files/65ccec6fdcec9548cc70/preview?width=1280&height=0&gravity=center&quality=90&project=65ca51d2711f0f5e1fa8)
+![golang](https://appwrite.withcodeexample.com/v1/storage/buckets/65cb3fcd6bbe0f7e04d4/files/65ccec6fdcec9548cc70/preview?width=700&height=0&gravity=center&quality=90&borderWidth=1&borderColor=000000&borderRadius=5&opacity=1&rotation=0&background=000000&output=webp&project=65ca51d2711f0f5e1fa8)
 
 ## Features of Go and Rust
 
@@ -76,7 +76,7 @@ Performance is a critical consideration for many developers, especially those wo
 
 Rust, on the other hand, takes performance to the next level with its zero-cost abstractions and fine-grained control over memory layout and execution. The language's emphasis on compile-time safety checks and optimization opportunities ensures that Rust code can rival the performance of handcrafted C or C++ code, making it an excellent choice for performance-critical applications and systems programming tasks.
 
-![rust](https://appwrite.withcodeexample.com/v1/storage/buckets/65cb3fcd6bbe0f7e04d4/files/65ccecc83d335f34289e/preview?width=1280&height=0&gravity=center&quality=90&project=65ca51d2711f0f5e1fa8)
+![rust](https://appwrite.withcodeexample.com/v1/storage/buckets/65cb3fcd6bbe0f7e04d4/files/65ccecc83d335f34289e/preview?width=700&height=0&gravity=center&quality=90&borderWidth=1&borderColor=000000&borderRadius=5&opacity=1&rotation=0&background=000000&output=webp&project=65ca51d2711f0f5e1fa8)
 
 ## Developer Opinions and Job Market
 
@@ -86,9 +86,9 @@ To gauge developer sentiment and preferences, we turn to the annual Stack Overfl
 
 However, when it comes to satisfaction and interest in using the language again, Rust developers tend to express higher levels of satisfaction and enthusiasm compared to their Go counterparts. This sentiment is reflected in the survey data, which shows that a higher percentage of Rust developers express a desire to continue using Rust in the future, highlighting the language's strong community support and favourable developer experience.
 
-![golang stackoverflow](https://appwrite.withcodeexample.com/v1/storage/buckets/65cb3fcd6bbe0f7e04d4/files/65ccee4326ec8be9a598/preview?width=1280&height=0&gravity=center&quality=90&project=65ca51d2711f0f5e1fa8)
+![golang stackoverflow](https://appwrite.withcodeexample.com/v1/storage/buckets/65cb3fcd6bbe0f7e04d4/files/65ccee4326ec8be9a598/preview?width=700&height=0&gravity=center&quality=90&borderWidth=1&borderColor=000000&borderRadius=5&opacity=1&rotation=0&background=000000&output=webp&project=65ca51d2711f0f5e1fa8)
 
-![rust stacksoverflow](https://appwrite.withcodeexample.com/v1/storage/buckets/65cb3fcd6bbe0f7e04d4/files/65ccee434d7663fda6e1/preview?width=1280&height=0&gravity=center&quality=90&project=65ca51d2711f0f5e1fa8)
+![rust stacksoverflow](https://appwrite.withcodeexample.com/v1/storage/buckets/65cb3fcd6bbe0f7e04d4/files/65ccee434d7663fda6e1/preview?width=700&height=0&gravity=center&quality=90&borderWidth=1&borderColor=000000&borderRadius=5&opacity=1&rotation=0&background=000000&output=webp&project=65ca51d2711f0f5e1fa8)
 
 [Source](https://survey.stackoverflow.co/2023/#section-admired-and-desired-programming-scripting-and-markup-languages)
 
@@ -106,7 +106,7 @@ In addition to developer sentiment, salary data provides valuable insights into 
 
 ### Consider Your Learning Style and Goals
 
-![choose](https://appwrite.withcodeexample.com/v1/storage/buckets/65cb3fcd6bbe0f7e04d4/files/65ccec47a85e780fdaeb/preview?width=1280&height=0&gravity=center&quality=90&project=65ca51d2711f0f5e1fa8)
+![choose](https://appwrite.withcodeexample.com/v1/storage/buckets/65cb3fcd6bbe0f7e04d4/files/65ccec47a85e780fdaeb/preview?width=700&height=0&gravity=center&quality=90&borderWidth=1&borderColor=000000&borderRadius=5&opacity=1&rotation=0&background=000000&output=webp&project=65ca51d2711f0f5e1fa8)
 
 As you weigh the merits of Go and Rust, it's essential to consider your learning style, career aspirations, and long-term goals. If you're new to programming or prefer a language that's easy to learn and approachable, Go may be the ideal choice. Its simplicity, readability, and a robust standard library make it an excellent starting point for beginners and experienced developers alike. Additionally, Go's focus on concurrency and scalability makes it well-suited for building cloud-native applications, microservices, and distributed systems.
 
