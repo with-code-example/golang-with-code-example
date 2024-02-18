@@ -5,8 +5,8 @@ description: "Deciding on a go framework can be a daunting task. Fear not! Dive 
 slug: gin-vs-echo-a-guide-to-choosing-the-right-go-framework
 tags: ['gin', ' echo', ' go framework', ' web development', ' choosing the right framework']
 date: 2024-02-17
-featured_image: https://appwrite.withcodeexample.com/v1/storage/buckets/65cb3fcd6bbe0f7e04d4/files/65cc99ae7e92e13fb7f2/preview?width=1280&height=0&gravity=center&quality=90&project=65ca51d2711f0f5e1fa8
-thumbnail: https://appwrite.withcodeexample.com/v1/storage/buckets/65cb3fcd6bbe0f7e04d4/files/65cc99ae7e92e13fb7f2/preview?width=400&height=0&gravity=center&quality=90&project=65ca51d2711f0f5e1fa8
+featured_image: https://appwrite.withcodeexample.com/v1/storage/buckets/65cb3fcd6bbe0f7e04d4/files/65cc99ae7e92e13fb7f2/preview?width=1280&height=0&gravity=center&quality=90&borderWidth=1&borderColor=000000&borderRadius=5&opacity=1&rotation=0&background=000000&output=webp&project=65ca51d2711f0f5e1fa8
+thumbnail: https://appwrite.withcodeexample.com/v1/storage/buckets/65cb3fcd6bbe0f7e04d4/files/65cc99ae7e92e13fb7f2/preview?width=400&height=0&gravity=center&quality=90&borderWidth=1&borderColor=000000&borderRadius=5&opacity=1&rotation=0&background=000000&output=webp&project=65ca51d2711f0f5e1fa8
 comments: True
 toc: True
 draft: False
