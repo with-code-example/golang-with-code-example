@@ -8,8 +8,8 @@ date: 2024-02-18
 featured_image: https://appwrite.withcodeexample.com/v1/storage/buckets/65cb3fcd6bbe0f7e04d4/files/65cf8f45c5d1d939417b/preview?width=1280&height=0&gravity=center&quality=90&project=65ca51d2711f0f5e1fa8
 thumbnail: https://appwrite.withcodeexample.com/v1/storage/buckets/65cb3fcd6bbe0f7e04d4/files/65cf8f45c5d1d939417b/preview?width=400&height=0&gravity=center&quality=90&project=65ca51d2711f0f5e1fa8
 comments: False
-toc: False
-draft: True
+toc: True
+draft: False
 series: ['golang vs']
 audio: 
 ---
