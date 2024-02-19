@@ -105,40 +105,40 @@ One of the standout features of Golang is its native support for concurrency via
 
 In conclusion, the benchmarking results paint a clear picture of the performance differences between Golang and Node.js. While both platforms excel in their own right, Golang demonstrates superior performance in terms of raw speed, concurrency, and resource efficiency. Its compiled nature, lightweight goroutines, and efficient runtime make it a compelling choice for high-performance applications requiring fast response times and scalable concurrency. On the other hand, Node.js offers unparalleled developer productivity, extensive ecosystem support, and seamless integration with JavaScript front-end frameworks. Ultimately, the choice between Golang and Node.js depends on the specific requirements and priorities of your project, whether it's maximizing performance, leveraging existing JavaScript expertise, or optimizing for developer efficiency.
 
-## FAQ 
+**FAQ**
 
-### What are the main differences between Node.js and Golang?
+#### What are the main differences between Node.js and Golang?
 
 > Node.js is a JavaScript runtime built on Chrome's V8 engine. It uses an event-driven, non-blocking I/O model ideal for scalable network applications. Golang is an open-source programming language developed by Google. It uses static typing, concurrency features like goroutines, and compiles to standalone machine code.
 
-### What are Node.js and Golang commonly used for?
+#### What are Node.js and Golang commonly used for?
 
 > Node.js is commonly used for building fast and scalable network applications like web servers, real-time services, and API backends. Its ecosystem makes Node.js popular for web development. Golang is used for building high-performance backends, services, and command line tools. Its speed and concurrency also make Golang suitable for microservices and cloud-native development.
 
-### What are the main advantages of using Node.js?
+#### What are the main advantages of using Node.js?
 
 > - Great for I/O bound applications due to its asynchronous, event-driven model
-- Very fast for real-time services and API backends
-- Simple concurrency model based on callbacks/promises
-- Huge ecosystem of open-source libraries and tools
+> - Very fast for real-time services and API backends
+> - Simple concurrency model based on callbacks/promises
+> - Huge ecosystem of open-source libraries and tools
 
-### What are the main advantages of using Golang?
+#### What are the main advantages of using Golang?
 
 > - Excellent performance thanks to static typing and compiled nature
-- Built-in concurrency features like goroutines and channels
-- Produces standalone executable binaries 
-- Excellent for CPU-bound applications and microservices
-- Simple and clean syntax that is easy to learn
+> - Built-in concurrency features like goroutines and channels
+> - Produces standalone executable binaries 
+> - Excellent for CPU-bound applications and microservices
+> - Simple and clean syntax that is easy to learn
 
-### When is Node.js the right choice over Golang?
+#### When is Node.js the right choice over Golang?
 
 > Node.js is a great choice when building scalable, I/O-intensive web services. Its ecosystem and JavaScript language skills make Node.js a great choice for web development.
 
-### When is Golang the right choice over Node.js?
+#### When is Golang the right choice over Node.js?
 
 > Golang shines for CPU-intensive tasks like data processing, algorithms, and microservices. Its performance, concurrency support, and small memory footprint make Golang a great choice for backend systems and CLI tools.
 
-### Can Node.js and Golang be used together?
+#### Can Node.js and Golang be used together?
 
 > Yes, Golang and Node.js can complement each other in a technology stack. For example, using Node.js for the web layer and Golang for CPU intensive backend services and utilities. The two languages can interoperate via REST APIs and protocol buffers.
 
