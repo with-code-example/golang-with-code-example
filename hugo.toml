@@ -86,45 +86,21 @@ paginate = 10
   #strava = "userid"
 
 [[menu.main]]
-    name = "Home"
-    url = "/"
-    weight = 1
-
-[[menu.main]]
-  name = "Courses"
-  weight = 2
-  url = "https://courses.withcodeexample.com/course/"
-  identifier = "courses"
-
-[[menu.main]]
-  name = "Sites"
-  weight = 3
-  identifier = "sites"
-
-[[menu.main]]
-  parent = "sites"
-  name = "Golang"
-  url = "https://golang.withcodeexample.com/"
+  name = "Series"
   weight = 1
-
-[[menu.main]]
-  parent = "sites"
-  name = "Javascript"
-  url = "https://javascript.withcodeexample.com/"
-  weight = 2
-
-[[menu.main]]
-  parent = "sites"
-  name = "Courses"
-  url = "https://courses.withcodeexample.com/"
-  weight = 3
+  url = "https://golang.withcodeexample.com/series/"
 
 [[menu.main]]
     name = "Tags"
     url = "/tags"
-    weight = 4
+    weight = 2
 
 [[menu.main]]
-    name = "Discord"
-    url = "https://discord.gg/hS2EqYqM"
-    weight = 5
+  name = "Learn JS"
+  url = "https://javascript.withcodeexample.com/"
+  weight = 3
+
+[[menu.main]]
+  name = "Python"
+  url = "https://python.withcodeexample.com/"
+  weight = 4
