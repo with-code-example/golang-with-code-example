@@ -4,10 +4,10 @@ subtitle: "A Detailed Comparison of Golang and Java Programming Languages"
 description: "Make a well-informed decision for your next project by comparing Golang and Java in terms of syntax, libraries, and community support."
 slug: golang-vs-java-choosing-the-right-tool-for-your-next-project
 tags: ['Golang', ' Java', ' programming languages', ' software development', ' project management']
-date: 2024-02-21
+date: 2024-02-22
 featured_image: https://appwrite.withcodeexample.com/v1/storage/buckets/65cb3fcd6bbe0f7e04d4/files/65d3135c7225f110dffa/preview?width=1280&height=0&gravity=center&quality=90&borderWidth=1&borderColor=000000&borderRadius=5&opacity=1&rotation=0&background=000000&output=webp&project=65ca51d2711f0f5e1fa8
 thumbnail: https://appwrite.withcodeexample.com/v1/storage/buckets/65cb3fcd6bbe0f7e04d4/files/65d3135c7225f110dffa/preview?width=400&height=0&gravity=center&quality=90&borderWidth=1&borderColor=000000&borderRadius=5&opacity=1&rotation=0&background=000000&output=webp&project=65ca51d2711f0f5e1fa8
-comments: False
+comments: True
 toc: False
 draft: False
 series: ['golang vs']
