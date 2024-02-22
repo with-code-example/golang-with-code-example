@@ -29,7 +29,7 @@ Go is an open-source programming language developed by Google in 2007. It is a s
 > [Download and install Golang](https://golang.withcodeexample.com/blog/golang-tutorial-for-beginners/#how-to-install-golang)
 
 <div class="row">
-<div class="col-md-6">
+<div class="col-md-7">
 
 ### Hello World
 
@@ -39,7 +39,7 @@ Go is an open-source programming language developed by Google in 2007. It is a s
 - `fmt.Println("Hello World!")` - Calls the Println function from the fmt package to print "Hello World!" to the console
 
 </div>
-<div class="col-md-6">
+<div class="col-md-5">
 
 ```go
 package main
@@ -55,7 +55,7 @@ func main() {
 
 
 <div class="row">
-<div class="col-md-6">
+<div class="col-md-7">
 
 ### Variables
 
@@ -63,7 +63,7 @@ Variables are declared with the var keyword followed by the variable name and ty
 - Common built-in types: int, float64, bool, string, array, slice, struct, map, interface
 - Variables must be used, unused variables will generate a compiler error
 </div>
-<div class="col-md-6">
+<div class="col-md-5">
 
 ```go
 var name string
