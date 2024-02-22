@@ -7,8 +7,8 @@ tags: ['Golang', ' Cheat Sheet', ' Quick Reference', ' Programming', ' Developme
 date: 2024-02-22
 featured_image: 
 thumbnail: 
-comments: True
-toc: True
+comments: False
+toc: False
 draft: False
 series: ['']
 audio: 
@@ -36,7 +36,7 @@ Go is an open-source programming language developed by Google in 2007. It is a s
 - `package main` - Defines the main package for the program. Every Go program must declare a main package.
 - `import "fmt"` - Imports the fmt package, which contains functions for formatted I/O.
 - `func main()` - Defines the main function that will run when executing the program.
-- `fmt.Println("Hello World!")` - Calls the Println function from the fmt package to print "Hello World!" to the console.
+- `fmt.Println("Hello World!")` - Calls the Println function from the fmt package to print "Hello World!" to the console
 
 </div>
 <div class="col-md-6">
@@ -56,6 +56,8 @@ func main() {
 
 <div class="row">
 <div class="col-md-6">
+
+### Variables
 
 Variables are declared with the var keyword followed by the variable name and type:
 - Common built-in types: int, float64, bool, string, array, slice, struct, map, interface
