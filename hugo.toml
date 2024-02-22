@@ -13,6 +13,9 @@ pygmentsCodefencesGuessSyntax = true
 enableRobotsTXT = true
 paginate = 10
 
+[markup]
+  defaultMarkdownHandler = 'goldmark'
+
 [markup.goldmark.renderer]
   unsafe= true
 
