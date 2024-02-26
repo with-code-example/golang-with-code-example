@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "/"
+baseURL = "https://golang.withcodeexample.com/"
 title = "Golang With Code Example"
 theme = "hugoplate"
 timeZone = "Asia/Kolkata"
