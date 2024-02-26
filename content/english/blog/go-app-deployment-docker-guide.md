@@ -1,6 +1,6 @@
 ---
 title: "Getting started with Golang and Docker"
-subtitle: "1. Learn the basics of Golang and Docker integration for beginners"
+subtitle: "Learn the basics of Golang and Docker integration for beginners"
 description: "Explore the seamless integration of a Golang stack within Docker containers. Learn to deploy and orchestrate with Docker Compose for an efficient development workflow."
 slug: go-app-deployment-docker-guide
 tags: ['Go', 'Docker', 'Containerization', 'DevOps', 'Docker Compose']
