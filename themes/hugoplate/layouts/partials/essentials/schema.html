@@ -1,0 +1,6 @@
+{{ partial "essentials/structured/website.html" . }}
+{{ partial "essentials/structured/organization.html" . }}
+{{ if .IsPage }}
+{{ partial "essentials/structured/breadcrumb.html" . }}
+{{ partial "essentials/structured/article.html" . }}
+{{ end }}
