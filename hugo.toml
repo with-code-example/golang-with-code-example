@@ -1,6 +1,6 @@
 ######################## default configuration ####################
 baseURL = "/"
-title = "Javascript With Code Example"
+title = "Golang With Code Example"
 theme = "hugoplate"
 timeZone = "Asia/Kolkata"
 
