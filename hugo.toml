@@ -1,109 +1,180 @@
-baseURL = 'https://golang.withcodeexample.com/'
-languageCode = 'en-us'
-title = 'Golang With Code Example'
-theme = 'mytheme'
-summaryLength = 25
-copyright = "Harendra Kumar Kanojiya"
-disqusShortname = "awesome-golang"
-#googleAnalytics = "UA-1XXXXXXX1-X"
-pygmentsCodeFences = true
-pygmentsStyle = "trac"
-pygmentsUseClasses = true
-pygmentsCodefencesGuessSyntax = true
-enableRobotsTXT = true
-paginate = 10
+######################## default configuration ####################
+baseURL = "/"
+title = "Golang With Code Example"
+theme = "hugoplate"
+timeZone = "Asia/Kolkata"
 
+
+# post pagination
+paginate = 10 # see https://gohugo.io/extras/pagination/
+
+# post excerpt
+summaryLength = 20 # see https://gohugo.io/content-management/excerpts/
+
+# disable language
+disableLanguages = [
+] # example: ["fr"] for disable french language. see https://gohugo.io/content-management/multilingual/
+
+hasCJKLanguage = false #  If hasCJKLanguage true, auto-detect Chinese/Japanese/Korean Languages in the content. see: https://gohugo.io/getting-started/configuration/#hascjklanguage
+
+
+########################### Services #############################
+[services]
+[services.googleAnalytics]
+ID = 'G-GQKKYY4MGH' # see https://gohugo.io/templates/internal/#configure-google-analytics
+
+[services.disqus]
+#shortname = "javascript-with-code-example" # we use disqus to show comments in blog posts . To install disqus please follow this tutorial https://portfolio.peter-baumgartner.net/2017/09/10/how-to-install-disqus-on-hugo/
+
+########################## Permalinks ############################
+[permalinks.page]
+"pages" = "/:slugorfilename/"
+
+
+############################# Modules ############################
+[module]
+[[module.mounts]]
+source = "assets"
+target = "assets"
+
+[[module.mounts]]
+source = "hugo_stats.json"
+target = "assets/watching/hugo_stats.json"
+
+############################# Build ##############################
+[build]
+noJSConfigInAssets = false
+useResourceCacheWhen = 'fallback'
+[build.buildStats]
+enable = true
+[[build.cachebusters]]
+source = 'assets/watching/hugo_stats\.json'
+target = 'style\.css'
+[[build.cachebusters]]
+source = '(postcss|tailwind)\.config\.js'
+target = 'css'
+[[build.cachebusters]]
+source = 'assets/.*\.(js|ts|jsx|tsx)'
+target = 'js'
+[[build.cachebusters]]
+source = 'assets/.*\.(css|scss|sass)'
+target = 'css'
+[[build.cachebusters]]
+source = 'data/.*\.(.*)$'
+target = 'css'
+[[build.cachebusters]]
+source = 'assets/.*\.(.*)$'
+target = '$1'
+
+
+############################# Outputs ############################
+[outputs]
+home = ["HTML", "RSS", "WebAppManifest", "SearchIndex"]
+
+############################# Imaging ############################
+[imaging]
+# See https://github.com/disintegration/imaging
+# Default JPEG or WebP quality setting. Default is 75.
+quality = 80
+resampleFilter = "Lanczos"
+
+############################ Caches ##############################
+[caches]
+[caches.images]
+dir = ":resourceDir/_gen"
+maxAge = "720h"
+
+[caches.assets]
+dir = ":resourceDir/_gen"
+maxAge = "720h"
+
+
+############################ Markup ##############################
 [markup]
-  defaultMarkdownHandler = 'goldmark'
-
 [markup.goldmark.renderer]
-  unsafe= true
+unsafe = true
 
-[Params]
-  homeTitle = 'Golang'
-  description = "Master Golang programming with our comprehensive tutorials and practical examples. Learn Golang syntax, best practices, and advanced concepts to become a skilled developer."
-  title = 'Golang With Code Example'
-  subtitle = "Learn with working Examples and Audio summary"
-  mainSections = ["blog"]
-  logo = "https://res.cloudinary.com/harendra21/image/upload/w_100/With_Code_Example_pemcaz.png" # Expecting square dimensions
-  favicon = "https://res.cloudinary.com/harendra21/image/upload/w_400/With_Code_Example_pemcaz_nzrfh9.png"
-  dateFormat = "January 2, 2006"
-  commit = true
-  rss = true
-  comments = true
-  readingTime = true
-  wordCount = false
-  useHLJS = true
-  socialShare = true
-  delayDisqus = false
-  showRelatedPosts = true
-  hideAuthor = true
-#  gcse = "667de25a4f13c494d" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
-#  disclaimerText = "The opinions expressed herein are my own personal opinions and do not represent my employer’s view in any way."
-  timeZone = "Asia/Kolkata"
-  generateTOC = true
-  isAlgolia=true
-  algoliaAppId='F701JT5NS8'
-  algoliaApiKey='f4d750ec053ee30ae47ea71a681796a8'
-  algoliaSiteId='c652f3fe-7295-4bce-b960-958a88add0a5'
-  isGgoogleAnalytics=true
-  googleAnalytics = "G-GQKKYY4MGH"
-  googleSiteVarify='Q7NS0IbakCR3A0QWxE1ka9o2xThUBLTCuIbD750UFgU'
+[markup.highlight]
+style = 'onedark'
+
+[markup.tableOfContents]
+startLevel = 2
+endLevel = 5
+ordered = true
+
+
+########################### Media types ###########################
+[mediaTypes]
+[mediaTypes."application/manifest+json"]
+suffixes = ["webmanifest"]
+
+
+########################### Output Format ##########################
+[outputFormats]
+[outputFormats.WebAppManifest]
+mediaType = "application/manifest+json"
+rel = "manifest"
+
+[outputFormats.SearchIndex]
+mediaType = "application/json"
+baseName = "searchindex"
+isPlainText = true
+notAlternative = true
+
+
+############################# Plugins ##############################
+
+# CSS Plugins
+[[params.plugins.css]]
+link = "plugins/swiper/swiper-bundle.css"
+lazy = true
+[[params.plugins.css]]
+link = "plugins/glightbox/glightbox.css"
+lazy = true
+[[params.plugins.css]]
+link = "plugins/font-awesome/v6/brands.css"
+lazy = true
+[[params.plugins.css]]
+link = "plugins/font-awesome/v6/solid.css"
+lazy = true
+[[params.plugins.css]]
+link = "plugins/font-awesome/v6/icons.css"
+lazy = true
+
+# JS Plugins
+[[params.plugins.js]]
+link = "js/search.js"
+lazy = false
+[[params.plugins.js]]
+link = "plugins/swiper/swiper-bundle.js"
+lazy = false
+[[params.plugins.js]]
+link = "plugins/cookie.js"
+lazy = false
+[[params.plugins.js]]
+link = "plugins/glightbox/glightbox.js"
+lazy = true
+[[params.plugins.js]]
+link = "js/gallery-slider.js"
+lazy = true
+[[params.plugins.js]]
+link = "js/accordion.js"
+lazy = true
+[[params.plugins.js]]
+link = "js/tab.js"
+lazy = true
+[[params.plugins.js]]
+link = "js/modal.js"
+lazy = true
+[[params.plugins.js]]
+link = "plugins/youtube-lite.js"
+lazy = true
+
 
 [taxonomies]
-   series = "series"
-   tags = "tags"
+series = "series"
+tags = "tags"
 
 [Author]
   # Set only your "username" for default hosts and full URLs otherwise (e.g., "https://MyGitLab.org/username")
   name = "With Code Example"
-  website = "https://withcodeexample.com"
-  # email = "harendraverma21@gmail.com"
-  # facebook = "harendraverma21"
-  github = "awesome-blog"
-  #gitlab = "username"
-  #bitbucket = "username"
-  # twitter = "harendraverma2"
-  #reddit = "username"
-  # linkedin = "harendra21/"
-  #xing = "username"
-  # stackoverflow = "users/6720451/harendra-kumar"
-  #snapchat = "username"
-  #instagram = "username"
-  #youtube = "user/username" # or channel/channelname
-  #soundcloud = "username"
-  #spotify = "username"
-  #bandcamp = "username"
-  #itchio = "username"
-  #vk = "username"
-  #paypal = "username"
-  #elegram = "username"
-  #500px = "username"
-  #codepen = "username"
-  #mastodon = "url"
-  #kaggle = "username"
-  #eibo = "username"
-  #slack = "username"
-  #medium = "username"
-  #discord = "invite code (https://discord.gg/XXXXXXX)"
-  #strava = "userid"
-
-[[menu.main]]
-  name = "Series"
-  weight = 1
-  url = "/series"
-
-[[menu.main]]
-    name = "Tags"
-    url = "/tags"
-    weight = 2
-
-[[menu.main]]
-  name = "Learn JS"
-  url = "https://javascript.withcodeexample.com/"
-  weight = 3
-
-[[menu.main]]
-  name = "Python"
-  url = "https://python.withcodeexample.com/"
-  weight = 4

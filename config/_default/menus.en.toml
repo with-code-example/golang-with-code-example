@@ -1,0 +1,56 @@
+############# English navigation ##############
+
+# main menu
+[[main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[main]]
+name = "About"
+url = "about/"
+weight = 2
+
+[[main]]
+name = "Blog"
+url = "blog/"
+weight = 4
+
+[[main]]
+weight = 5
+name = "Pages"
+hasChildren = true
+
+[[main]]
+parent = "Pages"
+name = "Tags"
+url = "tags/"
+weight = 1
+
+[[main]]
+parent = "Pages"
+name = "Series"
+url = "series/"
+weight = 2
+
+
+# footer menu
+[[footer]]
+name = "About"
+url = "about/"
+weight = 1
+
+[[footer]]
+name = "Tags"
+url = "tags/"
+weight = 2
+
+[[footer]]
+name = "Series"
+url = "series/"
+weight = 3
+
+[[footer]]
+name = "Privacy Policy"
+url = "privacy-policy/"
+weight = 4
