@@ -1,0 +1,7 @@
+User-agent: *
+
+User-agent: facebookexternalhit
+Disallow:
+
+User-agent: Twitterbot
+Disallow:
