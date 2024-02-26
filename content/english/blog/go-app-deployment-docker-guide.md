@@ -1,19 +1,21 @@
 ---
-title: "Go Application Bootstrapping Guide with Docker"
-subtitle: "Preparing Your Go App for Deployment in Docker"
+title: "Getting started with Golang and Docker"
+subtitle: "1. Learn the basics of Golang and Docker integration for beginners"
 description: "Explore the seamless integration of a Golang stack within Docker containers. Learn to deploy and orchestrate with Docker Compose for an efficient development workflow."
 slug: go-app-deployment-docker-guide
 tags: ['Go', 'Docker', 'Containerization', 'DevOps', 'Docker Compose']
 date: 2024-01-03
 featured_image: https://res.cloudinary.com/harendra21/image/upload/w_1200/golangwithexample/1_jesgUWcmdloZw7Y1MpyjpQ_ixcu2z.webp
 thumbnail: https://res.cloudinary.com/harendra21/image/upload/w_400/golangwithexample/1_jesgUWcmdloZw7Y1MpyjpQ_ixcu2z.webp
-comments: False
-toc: False
-series: []
+comments: True
+toc: True
+draft: False
+series: ['Golang With']
 audio: 
 ---
-
 When developing a web application with Go, whether it's for HTTP or another type of service, deploying it across different stages or environments (local development, production, etc.) is a common consideration. In this article, we will explore integrating a Golang stack inside a Docker container, a widely adopted approach, and using Docker Compose for orchestration.
+
+Before starting this tutorial make sure Golang is installed and running on your local machine, If not follow the tutorial to [install the Golang](https://golang.withcodeexample.com/blog/golang-tutorial-for-beginners/#how-to-install-golang) on your machine.
 
 ## Getting Your Go Application Ready
 
@@ -50,7 +52,7 @@ This code sets up a basic HTTP server that responds with "Hello World" and dynam
 
 ![dockerfile](https://res.cloudinary.com/harendra21/image/upload/v1704300713/golangwithexample/w203qkq2umde2wgc0uej_pv9lsg.jpg)
 
-The next step is to create a Dockerfile that defines the environment for building and running your Go application.
+The next step is to create a [Dockerfile](https://docs.docker.com/reference/dockerfile/) that defines the environment for building and running your Go application.
 
 ```Dockerfile
 # /Dockerfile
@@ -101,7 +103,7 @@ Visit `localhost:3030` in your browser, and you should see the text "Hello World
 
 ![Docker Compose](https://res.cloudinary.com/harendra21/image/upload/v1704300794/golangwithexample/docker-compose-button_zpc6vy.jpg)
 
-Docker Compose allows the integration of multiple containers. While it might be overkill for this exercise, it's valuable knowledge for future scenarios. Create a `docker-compose.yml` file:
+[Docker Compose](https://docs.docker.com/compose/) allows the integration of multiple containers. While it might be overkill for this exercise, it's valuable knowledge for future scenarios. Create a `docker-compose.yml` file:
 
 ```yaml
 # /docker-compose.yml
@@ -136,5 +138,3 @@ Notice that we never installed Go in our local environment. By only installing D
 ## Summary
 
 We've successfully configured a Dockerfile to build images and run containers with the necessary environment for Go applications. Additionally, a Docker Compose definition file allows us to run containers alongside other services seamlessly when needed.
-
-![thank you](https://res.cloudinary.com/harendra21/image/upload/w_500/golangwithexample/blog-2020-04-07-how_to_say_thank_you_in_business_i69dkn.png)
