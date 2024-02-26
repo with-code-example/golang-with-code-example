@@ -48,9 +48,9 @@ series:
 
   - title: "Key Features"
     image: "https://appwrite.withcodeexample.com/v1/storage/buckets/65cb3fcd6bbe0f7e04d4/files/65dcbb736992b8212e32/preview?width=500&height=0&gravity=center&quality=90&borderWidth=1&borderColor=000000&borderRadius=15&opacity=1&rotation=0&background=000000&output=webp&project=65ca51d2711f0f5e1fa8"
-    content: "Enhance your JavaScript knowledge with our insightful blog, providing comprehensive coverage of key concepts, practical examples for hands-on learning, regular updates on industry trends, and clear explanations of code snippets."
+    content: "Enhance your Golang knowledge with our insightful blog, providing comprehensive coverage of key concepts, practical examples for hands-on learning, regular updates on industry trends, and clear explanations of code snippets."
     bulletpoints:
-      - "Comprehensive coverage of JavaScript concepts"
+      - "Comprehensive coverage of Golang concepts"
       - "Practical examples for hands-on learning"
       - "Regular updates to reflect industry developments"
       - "Clear explanations of code snippets"
