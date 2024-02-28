@@ -5,14 +5,17 @@ description: "Looking to streamline your data processing? Explore the power of c
 slug: a-practical-guide-to-using-golang-with-apache-kafka
 tags: ['Golang', ' Apache Kafka', ' programming', ' technology']
 date: 2024-02-25
-featured_image: https://res.cloudinary.com/harendra21/image/upload/w_1200,f_auto/golang-kafka_brxt5c.webp
-thumbnail: https://res.cloudinary.com/harendra21/image/upload/w_400,f_auto/golang-kafka_brxt5c.webp
-comments: False
-toc: True
-draft: False
+featured_image: "https://res.cloudinary.com/harendra21/image/upload/w_1200,f_auto/golang-kafka_brxt5c.webp"
+thumbnail: "https://res.cloudinary.com/harendra21/image/upload/w_400,f_auto/golang-kafka_brxt5c.webp"
+comments: true
+toc: false
+draft: false
 series: ['Golang With']
-audio: https://res.cloudinary.com/harendra21/video/upload/v1708966611/apacke-kafka_hhihz2.mp3
+audio: "https://res.cloudinary.com/harendra21/video/upload/v1708966611/apacke-kafka_hhihz2.mp3"
 ---
+
+{{< toc >}}
+
 Apache Kafka is an **open-source** distributed event streaming platform used for high-performance data pipelines, streaming analytics, data integration, and mission-critical applications. It was originally developed by LinkedIn and later became an open-source Apache project in 2011.
 
 ![Apache kafka architecture](https://appwrite.withcodeexample.com/v1/storage/buckets/65cb3fcd6bbe0f7e04d4/files/65d7108f1fd83016f1fc/preview?width=1280&height=0&gravity=center&quality=90&borderWidth=1&borderColor=000000&borderRadius=5&opacity=1&rotation=0&background=000000&output=webp&project=65ca51d2711f0f5e1fa8)
