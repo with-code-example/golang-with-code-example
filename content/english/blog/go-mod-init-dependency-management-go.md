@@ -30,7 +30,7 @@ This guide delves into the magic of go mod init, helping you:
 * **Version like a pro:** Navigate dependency management like a maestro, ensuring compatibility and reproducibility.
 * **Utilize go mod tidy:** Keep your dependencies in perfect tune with this cleanup tool.
 
-{{< notice "note" >}}
+{{< notice "summary" >}}
 In the Go programming language (often referred to as Golang), the `go mod init` command is used to initialize a new Go module, which is a collection of related Go packages versioned together. This command is typically executed at the root of a project directory to create a new module or initialize an existing project as a module. You specify a unique module path, often based on a URL, as an argument to ensure global uniqueness and enable package importation by other projects. After initializing the module, dependencies can be added using the `go get` command, which automatically downloads and manages the required packages.
 {{< /notice >}}
 
