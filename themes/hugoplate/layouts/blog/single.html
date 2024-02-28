@@ -58,18 +58,7 @@
             Your browser does not support the audio tag.
           </audio>
         {{ end }}
-        {{ if .Params.toc }}
-        <details class="table-of-content">
-          <summary>
-            {{ with i18n "toc" }}
-              {{ . }}
-            {{ else }}
-              Table Of Contents
-            {{ end }}
-          </summary>
-          {{ .TableOfContents }}
-        </details>
-        {{ end }}
+        
 
 
         <div class="content mb-10">
