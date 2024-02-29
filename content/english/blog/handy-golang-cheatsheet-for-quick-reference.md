@@ -16,6 +16,8 @@ audio: ""
 
 Go, also known as Golang, is a statically typed, compiled programming language designed for simplicity and efficiency. Developed by Google, Go emphasizes readability, conciseness, and robustness. With a rich standard library and support for concurrent programming, Go excels in building scalable, high-performance applications for web development, cloud computing, and system programming. Its features include goroutines for lightweight concurrency, channels for communication between goroutines, and interfaces for polymorphism. Go's fast compilation and execution, along with its strong focus on simplicity and efficiency, make it a popular choice for modern software development across various domains.
 
+{{< toc >}}
+
 ## Hello world in Go
 
 ```go
