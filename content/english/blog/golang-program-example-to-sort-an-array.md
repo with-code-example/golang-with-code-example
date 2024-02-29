@@ -104,8 +104,6 @@ Considerations such as handling edge cases, adapting the example to different ar
 
 ## Conclusion
 
-Here is an expanded conclusion:
-
 Sorting arrays is a ubiquitous task in programming, and Golang makes this process seamless with its clean syntax and robust standard library. At their core, sorting algorithms involve rearranging elements into a desired order, often numerically or alphabetically. 
 
 Golang's built-in sort package implements common algorithms like quicksort and heapsort for convenient use. By simply calling sort.Slice() on an array variable, and you can sort its elements in ascending order in place. For more control, you can define custom functions to handle different data types and sorting logic.
