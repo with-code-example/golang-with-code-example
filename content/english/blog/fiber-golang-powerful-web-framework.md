@@ -11,7 +11,7 @@ comments: false
 toc: false
 draft: false
 series: ['']
-audio: ""
+audio: "https://with-code-example.s3.ap-south-1.amazonaws.com/blog/golang-fiber.2fbb1867-fbc1-4883-9eba-bf4c0989d966.mp3"
 ---
 
 
