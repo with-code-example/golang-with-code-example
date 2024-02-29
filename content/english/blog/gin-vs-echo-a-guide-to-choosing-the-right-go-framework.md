@@ -23,7 +23,7 @@ Are you building a web app in Go? Picking the right framework is crucial! Two ho
 
   {{< tab "Summary" >}}
 
-Choosing the right framework for Go web development is crucial for project success. GIN and Echo are two popular choices, each with unique strengths. GIN prioritizes performance and simplicity, making it ideal for APIs and microservices. Echo offers extensive customization and flexibility, suitable for complex web applications with intricate routing needs. Consider project requirements, developer familiarity, and specific use cases when deciding between the two. GIN excels in high-performance applications, while Echo is great for projects requiring customization. Both frameworks have active communities, thorough documentation, and different levels of performance and feature sets. Choose wisely based on your project's needs.
+<p>Choosing the right framework for Go web development is crucial for project success. GIN and Echo are two popular choices, each with unique strengths. GIN prioritizes performance and simplicity, making it ideal for APIs and microservices. Echo offers extensive customization and flexibility, suitable for complex web applications with intricate routing needs. Consider project requirements, developer familiarity, and specific use cases when deciding between the two. GIN excels in high-performance applications, while Echo is great for projects requiring customization. Both frameworks have active communities, thorough documentation, and different levels of performance and feature sets. Choose wisely based on your project's needs.<p>
 
   {{< /tab >}}
 
