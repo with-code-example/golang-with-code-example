@@ -820,3 +820,8 @@ func main() {
 {{< notice "note" >}}
 In this example, we define a `Shape` interface with `Area()` and `Perimeter()` methods. We then define a `Circle` struct with `Radius` field and implement the `Area()` and `Perimeter()` methods for the `Circle` struct. Finally, we create a `Circle` instance and use it as an instance of the `Shape` interface. This demonstrates the power of interfaces in Go, allowing different types to share common behaviors through method signatures.
 {{< /notice >}}
+
+## Download
+
+[**Download PDF**](https://res.cloudinary.com/harendra21/image/upload/v1709216185/golangwithexample/PDF/golang-cheatsheet-for-quick-reference_dqet5v.pdf)
+
