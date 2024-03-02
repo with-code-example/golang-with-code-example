@@ -36,10 +36,11 @@ audio: ""
 - Use as a scripting or glue language to connect components
 
 
-
 {{< notice "note" >}}
 Go was designed for performance, reliability and ease of concurrency while Python was designed for developer productivity, readability, and rapid application development. Both languages are well-suited for their own domains.
 {{< /notice >}}
+
+{{< toc >}}
 
 ## Key differences between Go and Python
 
