@@ -7,11 +7,11 @@ tags: ['Golang', ' Python', ' Programming', ' Comparison', ' Development']
 date: 2024-03-02
 featured_image: "https://appwrite.withcodeexample.com/v1/storage/buckets/65cb3fcd6bbe0f7e04d4/files/65e2dfda8b2fb7ae9e13/preview?width=1280&height=0&gravity=center&quality=90&borderWidth=1&borderColor=000000&borderRadius=5&opacity=1&rotation=0&background=000000&output=webp&project=65ca51d2711f0f5e1fa8"
 thumbnail: "https://appwrite.withcodeexample.com/v1/storage/buckets/65cb3fcd6bbe0f7e04d4/files/65e2dfda8b2fb7ae9e13/preview?width=500&height=0&gravity=center&quality=90&borderWidth=1&borderColor=000000&borderRadius=5&opacity=1&rotation=0&background=000000&output=webp&project=65ca51d2711f0f5e1fa8"
-comments: false
+comments: true
 toc: false
 draft: false
 series: ['Golang vs']
-audio: ""
+audio: "https://with-code-example.s3.ap-south-1.amazonaws.com/blog/go-vs-python.78e8a0b4-e365-44c5-963b-87dc9afc673e.mp3"
 ---
 
 **Go** was designed by Google to be a fast, statically typed, compiled language for building simple, reliable and efficient software. Key goals for Go include:
