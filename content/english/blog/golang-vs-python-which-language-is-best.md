@@ -7,14 +7,12 @@ tags: ['Golang', ' Python', ' Programming', ' Comparison', ' Development']
 date: 2024-03-02
 featured_image: "https://appwrite.withcodeexample.com/v1/storage/buckets/65cb3fcd6bbe0f7e04d4/files/65e2dfda8b2fb7ae9e13/preview?width=1280&height=0&gravity=center&quality=90&borderWidth=1&borderColor=000000&borderRadius=5&opacity=1&rotation=0&background=000000&output=webp&project=65ca51d2711f0f5e1fa8"
 thumbnail: "https://appwrite.withcodeexample.com/v1/storage/buckets/65cb3fcd6bbe0f7e04d4/files/65e2dfda8b2fb7ae9e13/preview?width=500&height=0&gravity=center&quality=90&borderWidth=1&borderColor=000000&borderRadius=5&opacity=1&rotation=0&background=000000&output=webp&project=65ca51d2711f0f5e1fa8"
-comments: true
-toc: true
+comments: false
+toc: false
 draft: false
 series: ['Golang vs']
 audio: ""
 ---
-
-{{< toc >}}
 
 **Go** was designed by Google to be a fast, statically typed, compiled language for building simple, reliable and efficient software. Key goals for Go include:
 
@@ -36,6 +34,8 @@ audio: ""
 - Support for multiple programming paradigms 
 - Portability across platforms and integration with other languages
 - Use as a scripting or glue language to connect components
+
+
 
 {{< notice "note" >}}
 Go was designed for performance, reliability and ease of concurrency while Python was designed for developer productivity, readability, and rapid application development. Both languages are well-suited for their own domains.
