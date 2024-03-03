@@ -11,7 +11,7 @@ comments: true
 toc: false
 draft: false
 series: ['Golang vs']
-audio: "https://with-code-example.s3.ap-south-1.amazonaws.com/blog/go-vs-python.78e8a0b4-e365-44c5-963b-87dc9afc673e.mp3"
+audio: "https://storage.googleapis.com/with-code-example/blog-audio/golang-vs-python-which-language-is-best.wav"
 ---
 
 **Go** was designed by Google to be a fast, statically typed, compiled language for building simple, reliable and efficient software. Key goals for Go include:
