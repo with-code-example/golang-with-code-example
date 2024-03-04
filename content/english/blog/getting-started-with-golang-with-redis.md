@@ -5,17 +5,22 @@ description: "Want to learn how to fasten your Golang applications with Redis? T
 slug: getting-started-with-golang-with-redis
 tags: ['Golang', ' Redis', ' Programming', ' Tutorial', ' Development']
 date: 2024-02-20
-featured_image: https://appwrite.withcodeexample.com/v1/storage/buckets/65cb3fcd6bbe0f7e04d4/files/65d483ee6ee6f878e473/preview?width=1280&height=0&gravity=center&quality=90&borderWidth=1&borderColor=000000&borderRadius=5&opacity=1&rotation=0&background=000000&output=webp&project=65ca51d2711f0f5e1fa8
-thumbnail: https://appwrite.withcodeexample.com/v1/storage/buckets/65cb3fcd6bbe0f7e04d4/files/65d483ee6ee6f878e473/preview?width=400&height=0&gravity=center&quality=90&borderWidth=1&borderColor=000000&borderRadius=5&opacity=1&rotation=0&background=000000&output=webp&project=65ca51d2711f0f5e1fa8
-comments: False
-toc: False
-draft: False
+featured_image: "https://appwrite.withcodeexample.com/v1/storage/buckets/65cb3fcd6bbe0f7e04d4/files/65d483ee6ee6f878e473/preview?width=1280&height=0&gravity=center&quality=90&borderWidth=1&borderColor=000000&borderRadius=5&opacity=1&rotation=0&background=000000&output=webp&project=65ca51d2711f0f5e1fa8"
+thumbnail: "https://appwrite.withcodeexample.com/v1/storage/buckets/65cb3fcd6bbe0f7e04d4/files/65d483ee6ee6f878e473/preview?width=400&height=0&gravity=center&quality=90&borderWidth=1&borderColor=000000&borderRadius=5&opacity=1&rotation=0&background=000000&output=webp&project=65ca51d2711f0f5e1fa8"
+comments: true
+toc: false
+draft: false
 series: ['Golang With']
-audio: 
+audio: "https://storage.googleapis.com/with-code-example/blog-audio/getting-started-with-golang-with-redis.wav"
 ---
+
 Golang, also known as Go, has gained significant traction in recent years due to its simplicity, efficiency, and concurrency support. Redis, on the other hand, is a powerful in-memory data store that excels in caching, session storage, and real-time analytics. Combining these two technologies can lead to scalable and efficient solutions for various use cases. In this guide, we'll delve into the fundamentals of using Golang with Redis, exploring how to integrate them seamlessly into your applications.
 
-> [Golang Tutorial for Beginners a Guide](https://golang.withcodeexample.com/blog/golang-tutorial-for-beginners/)
+{{< toc >}}
+
+{{< notice "note" >}}
+[Golang Tutorial](https://golang.withcodeexample.com/blog/golang-tutorial-for-beginners/)
+{{< /notice >}}
 
 ## What is Redis?
 
