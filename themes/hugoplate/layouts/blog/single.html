@@ -53,10 +53,13 @@
         {{ end }}
 
         {{ if and .Params.audio (ne  (index .Params.audio ) "") }}
-          <audio controls class="audio-player">
-            <source src="{{ .Params.audio }}" type="audio/mp3">
-            Your browser does not support the audio tag.
-          </audio>
+
+          <div>
+            <audio id="player" controls crossorigin playsinline>
+              <source src="{{ .Params.audio }}">
+            </audio>
+          </div>
+
         {{ end }}
 
 
