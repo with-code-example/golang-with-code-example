@@ -7,7 +7,7 @@ tags: ['golang', 'database', 'gorm']
 date: 2023-09-01
 featured_image: "https://res.cloudinary.com/harendra21/image/upload/w_1200/golangwithexample/learn-gorm_yqoeio.png"
 thumbnail: "https://res.cloudinary.com/harendra21/image/upload/w_400/golangwithexample/learn-gorm_yqoeio.png"
-comments: false
+comments: true
 toc: false
 draft: false
 series: ['GORM']
