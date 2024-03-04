@@ -41,7 +41,9 @@ There are several reasons why Redis is favoured in many applications:
 
 ![docker logo](https://appwrite.withcodeexample.com/v1/storage/buckets/65cb3fcd6bbe0f7e04d4/files/65d484844e16d6ccf6e5/preview?width=1280&height=0&gravity=center&quality=90&borderWidth=1&borderColor=000000&borderRadius=5&opacity=1&rotation=0&background=000000&output=webp&project=65ca51d2711f0f5e1fa8)
 
-> [Installing Docker and Docker Compose](https://golang.withcodeexample.com/blog/how-to-deploy-sonarqube-with-docker-compose/#installing-docker-and-docker-compose-on-ubuntu)
+{{< notice "note" >}}
+[Installing Docker and Docker Compose](https://golang.withcodeexample.com/blog/how-to-deploy-sonarqube-with-docker-compose/#installing-docker-and-docker-compose-on-ubuntu)
+{{< /notice >}}
 
 To get started with Redis locally, you can use Docker to set up a Redis instance quickly. First, ensure you have Docker installed on your system. Then, run the following command in your terminal:
 
@@ -218,7 +220,6 @@ func main() {
 ```
 
 This program connects to a local Redis instance, performs a ping to verify the connection, sets a value in Redis, retrieves it, updates it, deletes it, and checks if it's deleted successfully. You can run this program to see the interaction between Golang and Redis in action. Make sure you have Redis running locally on port 6379 before executing the program.
-
 
 **Conclusion**
 
