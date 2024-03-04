@@ -7,11 +7,11 @@ tags: ['Golang', ' Cheat Sheet', ' Quick Reference', ' Programming', ' Developme
 date: 2024-02-22
 featured_image: "https://appwrite.withcodeexample.com/v1/storage/buckets/65cb3fcd6bbe0f7e04d4/files/65d77ed710fbf938e52b/preview?width=1280&height=0&gravity=center&quality=90&borderWidth=1&borderColor=000000&borderRadius=5&opacity=1&rotation=0&background=000000&output=webp&project=65ca51d2711f0f5e1fa8"
 thumbnail: "https://appwrite.withcodeexample.com/v1/storage/buckets/65cb3fcd6bbe0f7e04d4/files/65d77ed710fbf938e52b/preview?width=400&height=0&gravity=center&quality=90&borderWidth=1&borderColor=000000&borderRadius=5&opacity=1&rotation=0&background=000000&output=webp&project=65ca51d2711f0f5e1fa8"
-comments: true
+comments: false
 toc: false
 draft: false
 series: ['']
-audio: ""
+audio: "https://storage.googleapis.com/with-code-example/blog-audio/handy-golang-cheatsheet-for-quick-reference.wav"
 ---
 
 Go, also known as Golang, is a statically typed, compiled programming language designed for simplicity and efficiency. Developed by Google, Go emphasizes readability, conciseness, and robustness. With a rich standard library and support for concurrent programming, Go excels in building scalable, high-performance applications for web development, cloud computing, and system programming. Its features include goroutines for lightweight concurrency, channels for communication between goroutines, and interfaces for polymorphism. Go's fast compilation and execution, along with its strong focus on simplicity and efficiency, make it a popular choice for modern software development across various domains.
