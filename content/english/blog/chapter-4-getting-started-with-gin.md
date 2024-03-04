@@ -16,6 +16,8 @@ audio: "https://storage.googleapis.com/with-code-example/blog-audio/chapter-4-ge
 
 In this chapter, we'll dive into the Gin, a powerful Go web framework. We'll unravel the process of crafting a simple Gin application, unravelling the intricacies of handling routes and requests. Furthermore, we'll explore the implementation of fundamental middleware, unveiling techniques to define routes and route parameters with precision. Additionally, we'll delve into the creation of controllers and the art of grouping routes, enabling better organization and maintainability within our application.
 
+
+
 {{< notice "Prerequisites" >}}
 
 - Introduction to [Golang](https://golang.withcodeexample.com/blog/golang-tutorial-for-beginners/)
