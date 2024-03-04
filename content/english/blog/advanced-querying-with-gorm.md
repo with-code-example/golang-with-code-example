@@ -5,13 +5,15 @@ description: "Elevate your data retrieval skills with GORM's advanced querying c
 slug: advanced-querying-with-gorm
 tags: ['golang', 'database', 'gorm']
 date: 2023-09-01
-featured_image: https://res.cloudinary.com/harendra21/image/upload/w_1200/golangwithexample/learn-gorm_yqoeio.png
-thumbnail: https://res.cloudinary.com/harendra21/image/upload/w_400/golangwithexample/learn-gorm_yqoeio.png
-comments: True
-toc: True
+featured_image: "https://res.cloudinary.com/harendra21/image/upload/w_1200/golangwithexample/learn-gorm_yqoeio.png"
+thumbnail: "https://res.cloudinary.com/harendra21/image/upload/w_400/golangwithexample/learn-gorm_yqoeio.png"
+comments: false
+toc: false
+draft: false
 series: ['GORM']
-audio: 
+audio: "https://storage.googleapis.com/with-code-example/blog-audio/advanced-querying-with-gorm.wav"
 ---
+
 
 Effective data retrieval is fundamental to the functionality of any programme. The robust Go Object-Relational Mapping package, known as GORM, provides sophisticated querying capabilities in addition to standard CRUD operations. This is your all-in-one resource for learning how to use GORM for advanced queries. WHERE conditions, joins, associations, preloading relevant data, and even dabbling with raw SQL queries will all be covered. By the end, your Go apps will be equipped with the ability to extract and manipulate data with unmatched accuracy.
 
