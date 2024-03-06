@@ -1,19 +1,23 @@
 ---
 title: "Package and Module Design in Golang"
-subtitle: ""
+subtitle: "Understanding the Basics of Packages in Golang"
 description: "Package and Module Design in Golang, Designing Cohesive and Reusable Packages, Creating APIs with Careful Consideration, Versioning and Dependency Management"
 slug: package-and-module-design-in-golang
 tags: ['golang', 'golang-best-practices']
 date: 2023-08-14
-featured_image: https://res.cloudinary.com/harendra21/image/upload/w_1200/awesome-blog/awesome-golang/Package_and_Module_Design_in_Golang_oxy812.png
-thumbnail: https://res.cloudinary.com/harendra21/image/upload/w_400/awesome-blog/awesome-golang/Package_and_Module_Design_in_Golang_oxy812.png
-comments: True
-toc: True
+featured_image: "https://res.cloudinary.com/harendra21/image/upload/w_1200/awesome-blog/awesome-golang/Package_and_Module_Design_in_Golang_oxy812.png"
+thumbnail: "https://res.cloudinary.com/harendra21/image/upload/w_400/awesome-blog/awesome-golang/Package_and_Module_Design_in_Golang_oxy812.png"
+comments: false
+toc: false
+draft: false
 series: ['Golang Best Practices']
-audio: 
+audio: ""
 ---
 
+
 Go, also known as Golang, is a statically typed, compiled language that is popular among developers for its simplicity and robust support for concurrent programming. One of the key aspects of Go programming is its package and module systems, which allow for the creation of reusable, maintainable, and efficient code. This blog post will delve into the best practices for designing packages and modules in Go, focusing on creating cohesive and reusable packages, designing APIs with careful consideration, and managing versions and dependencies.
+
+{{< toc >}}
 
 ## Designing Cohesive and Reusable Packages
 
@@ -21,9 +25,9 @@ In Go, the most fundamental building blocks that enable code reuse are functions
 
 When designing packages, it's important to follow the DRY (Don't Repeat Yourself) principle, which states that you should never write the same code again. Instead, you should strive to reuse and expand upon existing code as much as possible.
 
-Go packages offer several design features that aid in creating "firewalls" within programs, allowing various pieces to be completely isolated, exposing only what is needed for a minimum and clean API. These features include:
+Go packages offer several design features that aid in creating "firewalls" within programs, allowing various pieces to be completely isolated, and exposing only what is needed for a minimum and clean API. These features include:
 
-### 1. Namespacing:  
+### Namespacing:  
 This allows you to choose short and clear names for types and functions in a package without worrying if common names have already been used in other packages, as packages are self-contained.
 **Example:**
 ```go
@@ -44,7 +48,7 @@ func PrintUser(u User) {
     fmt.Printf("User ID: %d, Name: %s\n", u.ID, u.Name)
 }
 ```
-### 2. Encapsulation:
+### Encapsulation:
 Through the use of exported variables and functions, you control what is accessible outside of a package. This restricted visibility allows for the possibility of having a very intentional API at the package level.
 **Example:**
 ```go
@@ -100,22 +104,22 @@ In this example:
 Note that by making the `isManager` field unexported and providing a method to modify it, we encapsulate the internal state of the `Employee` object and control access to it. This prevents direct modification of the `isManager` field from outside the `Employee` type.
 
 Remember that Go doesn't have traditional access modifiers like some other languages, so encapsulation relies on naming conventions and exporting or unexporting identifiers.
-### 3. Internal packages:
+### Internal packages:
 These disallow the importing of code containing the element "internal" from outside the tree rooted at the parent directory of the internal directory.
 
 ## Creating APIs with Careful Consideration
 
 When creating APIs, it's crucial to carefully consider what to expose to the outside world. In Go, this is achieved through the use of exported variables and functions. By controlling what is accessible outside of a package, you can provide a very intentional API at the package level, and have the flexibility to change unexported code without worrying about breaking that API.
 
-Moreover, designing APIs with careful consideration can also help in ensuring the maintainability and durability of the software. As Dave Cheney stated in his Golang UK 2016 keynote talk, "the maintenance of Go programs, the ease of which they can change, will be a key factor in their decision".
+Moreover, designing APIs with careful consideration can also help in ensuring the maintainability and durability of the software. As Dave Cheney stated in his Golang UK 2016 keynote talk, "The maintenance of Go programs, the ease of which they can change, will be a key factor in their decision".
 
 ## Versioning and Dependency Management
 
-Go modules are collections of Go packages, and each project is a module. The packages used in the module are managed by Go with the  `go.mod`  file.
+Go modules are collections of Go packages, and each project is a module. The packages used in the module are managed by Go with the  [go.mod](https://golang.withcodeexample.com/blog/go-mod-init-dependency-management-go/)  file.
 
 Go modules use the Semantic Versioning (Semver) system for versioning, which has three parts: major, minor, and patch. For example, a package in version 1.2.3 has 1 as its major version, 2 as its minor version, and 3 as its patch version.
 
-Developers make their modules available for other developers to use from their own repository and publish with a version number. Go tools make it easier for you to manage dependencies, including getting a module’s source, upgrading, and so on.
+Developers make their modules available for other developers to use from their repository and publish with a version number. Go tools make it easier for you to manage dependencies, including getting a module’s source, upgrading, and so on.
 
 When you're ready to release a new version of your module, you can use the  `go mod tidy`  command to ensure that your  `go.mod`  file includes all the necessary dependencies. Then, you can tag the new version in your version control system.
 
