@@ -7,7 +7,7 @@ tags: ['gin framework', ' project structure', ' web development', ' software eng
 date: 2024-02-13
 featured_image: "https://appwrite.withcodeexample.com/v1/storage/buckets/65cb3fcd6bbe0f7e04d4/files/65cc63e0c85821dc11e1/preview?width=1280&height=0&gravity=center&quality=90&project=65ca51d2711f0f5e1fa8"
 thumbnail: "https://appwrite.withcodeexample.com/v1/storage/buckets/65cb3fcd6bbe0f7e04d4/files/65cc63e0c85821dc11e1/preview?width=1280&height=0&gravity=center&quality=90&project=65ca51d2711f0f5e1fa8"
-comments: false
+comments: true
 toc: false
 draft: false
 series: ['GIN Course']
@@ -34,7 +34,7 @@ A well-organized project structure is fundamental for seamless development and c
 
 ### Main Directory:
    - `main.go`: This file serves as the entry point of the application. It typically contains the initialization logic for your Gin router and other essential configurations.
-   - `go.mod` and `go.sum`: These files are used for managing dependencies with Go modules. They list the project's dependencies and their versions.
+   - [go.mod](https://golang.withcodeexample.com/blog/go-mod-init-dependency-management-go/) and `go.sum`: These files are used for managing dependencies with Go modules. They list the project's dependencies and their versions.
    - `README.md`: A README file containing essential information about the project, such as its purpose, installation instructions, and usage guidelines.
 
 ### Internal Packages:
