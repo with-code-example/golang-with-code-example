@@ -7,7 +7,7 @@ tags: ['Golang', ' Apache Kafka', ' programming', ' technology']
 date: 2024-02-25
 featured_image: "https://res.cloudinary.com/harendra21/image/upload/w_1200,f_auto/golang-kafka_brxt5c.webp"
 thumbnail: "https://res.cloudinary.com/harendra21/image/upload/w_400,f_auto/golang-kafka_brxt5c.webp"
-comments: true
+comments: false
 toc: false
 draft: false
 series: ['Golang With']
@@ -71,7 +71,6 @@ Before getting started with Golang with Apache Kafka we have to make sure the go
 {{< notice "Install golang" >}}
 [Install golang](https://golang.withcodeexample.com/blog/golang-tutorial-for-beginners/#how-to-install-golang)
 {{< /notice >}}
-> 
 
 ### Install Kafka
 
@@ -315,7 +314,8 @@ This example demonstrates how to:
 ### Single Consumer: 
 In this pattern, a single consumer instance reads messages from one or more partitions of a topic. This is useful when you only need one instance of your consumer application to process all messages from a topic.
 
-### Consumer Groups: Consumer groups allow you to scale out consumption by distributing message processing across multiple consumer instances. Each consumer group can have multiple consumers, and each consumer within the group reads from a subset of partitions. This enables parallel processing of messages, providing both fault tolerance and high throughput.
+### Consumer Groups: 
+Consumer groups allow you to scale out consumption by distributing message processing across multiple consumer instances. Each consumer group can have multiple consumers, and each consumer within the group reads from a subset of partitions. This enables parallel processing of messages, providing both fault tolerance and high throughput.
 
 In the provided example, the `group.id` configuration setting is used to specify the consumer group ID. This allows multiple instances of the consumer application to work together in a consumer group to consume messages from the Kafka topic.
 
