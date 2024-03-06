@@ -1,21 +1,26 @@
 ---
-title: "Concurrency and Goroutines - Mastering Parallelism in Golang"
+title: "Concurrency and Goroutines - Learn Parallelism in Golang"
 subtitle: "Learn concurrency in golang"
 description: "Concurrency is a powerful aspect of modern programming that allows developers to handle multiple tasks simultaneously, making the most out of multi-core processors and enhancing the performance of applications."
 slug: concurrency-goroutines-mastering-parallelism-go
 tags: ['golang', 'golang-best-practices']
 date: 2023-08-10
-featured_image: https://res.cloudinary.com/harendra21/image/upload/w_1200/awesome-blog/awesome-golang/Concurrency_and_Goroutines_c2f2vw.png
-thumbnail: https://res.cloudinary.com/harendra21/image/upload/w_400/awesome-blog/awesome-golang/Concurrency_and_Goroutines_c2f2vw.png
-comments: True
-toc: True
+featured_image: "https://res.cloudinary.com/harendra21/image/upload/w_1200/awesome-blog/awesome-golang/Concurrency_and_Goroutines_c2f2vw.png"
+thumbnail: "https://res.cloudinary.com/harendra21/image/upload/w_400/awesome-blog/awesome-golang/Concurrency_and_Goroutines_c2f2vw.png"
+comments: false
+toc: false
+draft: false
 series: ['Golang Best Practices']
-audio: 
+audio: ""
 ---
 
-Concurrency is a powerful aspect of modern programming that allows developers to handle multiple tasks simultaneously, making the most out of multi-core processors and enhancing the performance of applications. In Golang, concurrency is made simple and efficient with the concept of Goroutines. This article delves deep into the world of concurrency in Golang, covering the three main aspects - handling concurrency with Goroutines, synchronization with channels and mutexes, and best practices for managing Goroutine lifecycles. Throughout this journey, we will explore practical examples to understand these concepts better.
 
-## 1. Handling Concurrency with Goroutines
+Concurrency is a powerful aspect of modern programming that allows developers to handle multiple tasks simultaneously, making the most out of multi-core processors and enhancing the performance of applications. In Golang, concurrency is made simple and efficient with the concept of Goroutines. This article delves deep into the world of concurrency in Golang, covering the three main aspects - handling concurrency with [Goroutines](https://golang.withcodeexample.com/blog/demystifying-goroutines-in-go/), synchronization with channels and mutexes, and best practices for managing Goroutine lifecycles. Throughout this journey, we will explore practical examples to understand these concepts better.
+
+{{< toc >}}
+
+
+## Handling Concurrency with Goroutines
 
 Goroutines are lightweight threads that enable concurrent execution in Golang. Unlike traditional threads, Goroutines are managed by the Go runtime, making them highly efficient and scalable. Creating a Goroutine is as simple as using the `go` keyword followed by a function call.
 
@@ -50,7 +55,7 @@ func main() {
 
 In this example, the `printNumbers` function runs concurrently as a Goroutine, printing numbers from 1 to 5. The `main` function continues executing independently, printing its numbers in parallel with the Goroutine. The use of `time.Sleep` ensures that the Goroutine has enough time to complete before the program exits.
 
-## 2. Synchronization with Channels and Mutexes
+## Synchronization with Channels and Mutexes
 
 Concurrency brings challenges of its own, such as race conditions and data races. To safely communicate and synchronize data between Goroutines, Golang provides channels and mutexes.
 
@@ -120,7 +125,7 @@ func main() {
 
 In this example, we use a mutex to protect the shared `counter` variable from concurrent access by multiple Goroutines.
 
-## 3. Best Practices for Managing Goroutine Lifecycles
+## Best Practices for Managing Goroutine Lifecycles
 
 Managing Goroutine lifecycles is crucial to avoid resource leaks and ensure that Goroutines terminate gracefully. Best practices include using WaitGroups, channels, and context package to manage the lifecycle of Goroutines effectively.
 
