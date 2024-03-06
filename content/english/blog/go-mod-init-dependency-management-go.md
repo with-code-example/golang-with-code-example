@@ -7,14 +7,12 @@ tags: ['golang', 'go', 'go modules']
 date: 2023-09-29
 featured_image: "https://res.cloudinary.com/harendra21/image/upload/w_800/golangwithexample/go-mod-init_xmiuqo.png"
 thumbnail: "https://res.cloudinary.com/harendra21/image/upload/w_400/golangwithexample/go-mod-init_xmiuqo.png"
-comments: true
+comments: false
 toc: false
 draft: false
 series: ['']
 audio: "https://with-code-example.s3.ap-south-1.amazonaws.com/blog/go-mod-init.d2e34829-989f-4db0-9709-29ed65b04a39.mp3"
 ---
-
-{{< toc >}}
 
 HI, Today, we'll look at the relevance of a command that sets the stage for your coding endeavours: **go mod init**. This command is more than simply commencement; it is about designing your project as a **well-organized**, **versioned module** that is ready for success in the programming landscape.
 
@@ -23,6 +21,8 @@ When you run **go mod init** in the project root, you're not simply **building a
 But the magic does not end there. `go mod init` creates a **unique identifier** for your module known as the module path. Derived from a URL, this route differentiates your project internationally, guaranteeing that its packages may be smoothly imported and used by other projects.
 
 As we dig into the complexities of 'go mod init', see it as the architect's plan, building the groundwork for a strong, versionable module. This is where the business of coding intersects with the art of structure, and your project's future takes form. Ready to up your coding game? Let's start with 'go mod init' and give your codebase the professionalism it deserves. 🚀
+
+{{< toc >}}
 
 This guide delves into the magic of go mod init, helping you:
 
@@ -57,7 +57,7 @@ Here's an example of how to initialize a new Go module using the `go mod init` c
 
 Let's say you have a project named "myapp" and you want to create a new Go module for it. Here's what you would do in your terminal:
 
-1. Open your terminal.
+1Open your terminal.
 2. Navigate to the root directory of your project, where you want to create the Go module.
 3. Run the following command:
 
@@ -85,7 +85,7 @@ Remember that the module path you choose should be unique and representative of 
 
 Importing dependencies in Go is a straightforward process. You use the `import` keyword to include external packages or modules into your code. Here's how you can import dependencies:
 
-### 1. Using the `import` Statement:
+### Using the `import` Statement:
 
    Let's say you want to import the "fmt" package, which is a standard library package used for formatted I/O. Here's how you would import it in your Go code:
 
@@ -103,7 +103,7 @@ func main() {
 
    In this example, the "fmt" package is imported using the `import` statement inside the import block.
 
-### 2. Importing Third-Party Packages:
+### Importing Third-Party Packages:
 
    If you want to import packages from external sources or third-party libraries, you can use the package's URL or path. For example, to import the "github.com/gin-gonic/gin" package, you would do:
 
@@ -126,7 +126,7 @@ func main() {
 
    Here, the "github.com/gin-gonic/gin" package is imported along with the standard "fmt" package.
 
-### 3. Managing Dependencies with `go get`:
+### Managing Dependencies with `go get`:
 
    Go uses the `go get` command to download and install packages from external sources. For example, to install the "github.com/gin-gonic/gin" package, you would run:
 
@@ -144,7 +144,7 @@ In Go, versioning is a critical aspect of managing dependencies and ensuring tha
 
 Here's how versioning works in Go Modules:
 
-### 1. Module Initialization:
+### Module Initialization:
 
    To start using Go Modules in your project, you need to initialize it as a module. Run the following command in your project's root directory:
 
@@ -154,7 +154,7 @@ go mod init <module-name>
 
    This creates a `go.mod` file that serves as the module's manifest and includes information about your project and its dependencies.
 
-### 2. Dependency Declarations:
+### Dependency Declarations:
 
    In your `go.mod` file, you can specify the desired versions of external packages. For example:
 
@@ -170,11 +170,11 @@ require (
 
    Here, `github.com/someuser/some-package` is the package you depend on, and `v1.2.3` is the specific version you want to use. Go Modules follows Semantic Versioning (SemVer) principles for version selection.
 
-### 3. Version Selection:
+### Version Selection:
 
    When you build your project or run a Go command (like `go build`, `go run`, or `go test`), Go Modules will analyze your dependencies and ensure that the specified versions are used. It also checks for **compatibility between packages** to avoid conflicts.
 
-### 4. Version Queries:
+### Version Queries:
 
    You can use commands like `go get` to update or retrieve packages with specific versions:
 
@@ -184,7 +184,7 @@ go get github.com/someuser/some-package@v1.2.4
 
    This fetches version `v1.2.4` of the `some-package` package.
 
-### 5. Module Updates:
+### Module Updates:
 
    Go Modules also supports automatic updates of your dependencies while maintaining compatibility. You can run commands like `go get -u` to update dependencies within defined version bounds.
 
@@ -196,23 +196,23 @@ The 'go mod tidy' command is a handy utility offered by Go Modules that keeps yo
 
 Here's how the `go mod tidy` command works and why you should use it:
 
-### 1. Dependency Cleanup:
+### Dependency Cleanup:
 
    When you work on a project and use various packages, your `go.mod` file might accumulate unnecessary dependencies over time. These dependencies could be added as indirect dependencies by other packages you're using. The `go mod tidy` command scans your codebase, detects which dependencies are actually used, and removes those that are no longer necessary.
 
-### 2. Add Missing Dependencies:
+### Add Missing Dependencies:
 
    If your code references functions, types, or symbols from other packages that are not currently listed as dependencies in your `go.mod` file, the `go mod tidy` command will identify these references and add the required packages as dependencies. This helps ensure that your `go.mod` file accurately reflects the packages your code relies on.
 
-### 3. Vendor Directory Cleanup:
+### Vendor Directory Cleanup:
 
    The `go mod tidy` command also prunes your project's **[vendor directory](https://blog.gopheracademy.com/advent-2015/vendor-folder/)** by removing packages that are not required based on your code's actual usage. This can help reduce the size of your project's repository and improve build times.
 
-### 4. Maintain Version Consistency:
+### Maintain Version Consistency:
 
    Running `go mod tidy` helps maintain version consistency by updating the versions of dependencies based on your code's requirements. It ensures that the appropriate versions of packages are selected to avoid conflicts and compatibility issues.
 
-### 5. Usage Examples:
+### Usage Examples:
 
    To use the `go mod tidy` command, navigate to your project's root directory and run the following command:
 
