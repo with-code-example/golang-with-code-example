@@ -4,17 +4,22 @@ subtitle: "Golang is an amazing, modern, easy-to-learn, fast programming languag
 description: "Golang Tutorial For Beginners is your key to learning the fundamentals of Golang, whether your goal is to become a skilled Go developer or you just want to learn more about programming."
 slug: golang-tutorial-for-beginners
 tags: ['go', 'golang', 'golang tutorial', 'learn go', 'learn golang', 'golang course']
-date: 2024-01-14T19:16:16.978Z
-featured_image: https://res.cloudinary.com/harendra21/image/upload/w_1200/golangwithexample/Golang%20Tutorial%20For%20Beginners/Golang_Tutorial_For_Beginners_t2caqp.png
-thumbnail: https://res.cloudinary.com/harendra21/image/upload/w_400/golangwithexample/Golang%20Tutorial%20For%20Beginners/Golang_Tutorial_For_Beginners_t2caqp.png
-comments: False
-toc: False
-audio: https://res.cloudinary.com/harendra21/video/upload/v1705391137/golangwithexample/Golang_Tutorial_for_Beginners_a_Guide_mkwbdm.mp3
+date: 2024-01-14
+featured_image: "https://res.cloudinary.com/harendra21/image/upload/w_1200/golangwithexample/Golang%20Tutorial%20For%20Beginners/Golang_Tutorial_For_Beginners_t2caqp.png"
+thumbnail: "https://res.cloudinary.com/harendra21/image/upload/w_400/golangwithexample/Golang%20Tutorial%20For%20Beginners/Golang_Tutorial_For_Beginners_t2caqp.png"
+comments: true
+toc: false
+draft: false
+series: ['']
+audio: "https://res.cloudinary.com/harendra21/video/upload/v1705391137/golangwithexample/Golang_Tutorial_for_Beginners_a_Guide_mkwbdm.mp3"
 ---
+
 
 Welcome to the world of Go, often known as Golang, a programming language that emphasises ease of use, simplicity, and efficiency. This Golang course is designed for all skill levels, from experienced developers learning a new language to total beginners venturing into the world of programming. We will walk you through the foundations of Go in this extensive tutorial, offering you practical advice, step-by-step explanations, and real-world examples to help you develop a solid Golang foundation.
 
 Google engineers developed Go to solve frequent problems that developers encountered when working on large-scale software development projects. Go is becoming more and more popular across a range of industries, including web development, system programming, and cloud computing. It is well-known for its clear syntax, strong concurrency support, and simple compilation.
+
+{{< toc >}}
 
 ## What is Golang tutorial for beginners
 
@@ -142,7 +147,7 @@ If you haven't already installed VSCode, you can download it from the official w
 
 1. Open your Go project folder or create a new one.
 
-2. Create a new file named `go.mod` in the root of your project. This file will manage your project's dependencies.
+2. Create a new file named [go.mod](https://golang.withcodeexample.com/blog/go-mod-init-dependency-management-go/) in the root of your project. This file will manage your project's dependencies.
 
 3. Open a terminal within VSCode (`Ctrl + `), navigate to your project folder, and run:
 
