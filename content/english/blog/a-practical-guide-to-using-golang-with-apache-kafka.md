@@ -7,7 +7,7 @@ tags: ['Golang', ' Apache Kafka', ' programming', ' technology']
 date: 2024-02-25
 featured_image: "https://res.cloudinary.com/harendra21/image/upload/w_1200,f_auto/golang-kafka_brxt5c.webp"
 thumbnail: "https://res.cloudinary.com/harendra21/image/upload/w_400,f_auto/golang-kafka_brxt5c.webp"
-comments: false
+comments: true
 toc: false
 draft: false
 series: ['Golang With']
@@ -15,11 +15,11 @@ audio: "https://res.cloudinary.com/harendra21/video/upload/v1708966611/apacke-ka
 ---
 
 
-Are you looking to build scalable, high-performance applications that can process streaming data in real-time? If so, combining Apache Kafka and Golang is a great choice. Golang's lightweight threads make it perfect for writing concurrent network applications like Kafka producers and consumers. Its built-in concurrency primitives like goroutines and channels pair nicely with Kafka's asynchronous messaging. Golang also has fantastic Kafka client libraries like Sarama that provide idiomatic APIs for working with Kafka. 
+Are you looking to build scalable, high-performance applications that can process streaming data in real time? If so, combining Apache Kafka and Golang is a great choice. Golang's lightweight threads make it perfect for writing concurrent network applications like Kafka producers and consumers. Its built-in concurrency primitives like [goroutines](https://golang.withcodeexample.com/blog/demystifying-goroutines-in-go/) and channels pair nicely with Kafka's asynchronous messaging. Golang also has fantastic Kafka client libraries like Sarama that provide idiomatic APIs for working with Kafka. 
 
 With Kafka handling the distributed messaging and storage and Golang providing the concurrency and speed, you get a powerful stack for building reactive systems. Processing never-ending streams of data efficiently is a breeze with Kafka's pub/sub semantics and Golang's slick concurrency. By leveraging these two technologies together, you can quickly build the next generation of real-time applications for the cloud-native world. So start building your streaming pipelines with Golang and Kafka today!
 
-{{< toc >}}
+{{< youtube-lite JLzdPxDd_fI >}}
 
 Apache Kafka is an **open-source** distributed event streaming platform used for high-performance data pipelines, streaming analytics, data integration, and mission-critical applications. It was originally developed by LinkedIn and later became an open-source Apache project in 2011.
 
@@ -37,6 +37,7 @@ Apache Kafka is an **open-source** distributed event streaming platform used for
 - **Log Aggregation** - Kafka is commonly used to aggregate logs from different servers and applications into a central repository. This allows unified access to log data.
 
 With its distributed, scalable and fault-tolerant architecture, Kafka is a popular choice for building real-time data pipelines and streaming applications at large scale and is used by thousands of companies worldwide.
+
 {{< /notice >}}
 
 {{< notice "Summary" >}}
@@ -67,17 +68,22 @@ Together, Kafka and Golang combine performance, scalability and concurrency with
 
 Before getting started with Golang with Apache Kafka we have to make sure the golang is installed and running on our machine. If not please check out the following tutorial to set up the golang.
 
-> [Install golang](https://golang.withcodeexample.com/blog/golang-tutorial-for-beginners/#how-to-install-golang)
+{{< notice "Install golang" >}}
+[Install golang](https://golang.withcodeexample.com/blog/golang-tutorial-for-beginners/#how-to-install-golang)
+{{< /notice >}}
+> 
 
 ### Install Kafka
 
 Another important thing is to install Kafka on our local instance, for this I found the official guide to getting started with Apache Kafka.
 
-> [Apache Kafka Quickstart](https://kafka.apache.org/quickstart)
+{{< notice "Apache Kafka Quickstart" >}}
+[Apache Kafka Quickstart](https://kafka.apache.org/quickstart)
+{{< /notice >}}
 
 You can also follow the youtube tutorial to install apache kafka on windows machine.
 
-{{< youtube BwYFuhVhshI >}}
+{{< youtube-lite BwYFuhVhshI >}}
 
 ### Golang package for Apache Kafka
 
@@ -218,7 +224,10 @@ This example demonstrates how to:
 
 Make sure to replace `localhost:9092` with the address of your Kafka broker, and `test-topic` with the desired topic name. Additionally, you may need to handle more complex error scenarios and implement retry logic based on your specific requirements.
 
-> [Apache Kafka Documentation](https://kafka.apache.org/10/documentation.html)
+{{< notice "Apache Kafka Documentation" >}}
+[Apache Kafka Documentation](https://kafka.apache.org/10/documentation.html)
+{{< /notice >}}
+
 
 ## Building a Consumer
 
@@ -301,11 +310,12 @@ This example demonstrates how to:
 4. Start consuming messages from the subscribed topic.
 5. Process and handle consumed messages, as well as Kafka errors.
 
-Different consumption patterns:
+## Different consumption patterns:
 
-- **Single Consumer**: In this pattern, a single consumer instance reads messages from one or more partitions of a topic. This is useful when you only need one instance of your consumer application to process all messages from a topic.
+### Single Consumer: 
+In this pattern, a single consumer instance reads messages from one or more partitions of a topic. This is useful when you only need one instance of your consumer application to process all messages from a topic.
 
-- **Consumer Groups**: Consumer groups allow you to scale out consumption by distributing message processing across multiple consumer instances. Each consumer group can have multiple consumers, and each consumer within the group reads from a subset of partitions. This enables parallel processing of messages, providing both fault tolerance and high throughput.
+### Consumer Groups: Consumer groups allow you to scale out consumption by distributing message processing across multiple consumer instances. Each consumer group can have multiple consumers, and each consumer within the group reads from a subset of partitions. This enables parallel processing of messages, providing both fault tolerance and high throughput.
 
 In the provided example, the `group.id` configuration setting is used to specify the consumer group ID. This allows multiple instances of the consumer application to work together in a consumer group to consume messages from the Kafka topic.
 
