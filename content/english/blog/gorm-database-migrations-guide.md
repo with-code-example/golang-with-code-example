@@ -7,7 +7,7 @@ tags: ['golang', 'database', 'gorm']
 date: 2023-09-02
 featured_image: "https://res.cloudinary.com/harendra21/image/upload/w_1200/golangwithexample/learn-gorm_yqoeio.png"
 thumbnail: "https://res.cloudinary.com/harendra21/image/upload/w_400/golangwithexample/learn-gorm_yqoeio.png"
-comments: true
+comments: false
 draft: false
 series: ['GORM']
 audio: "https://res.cloudinary.com/harendra21/video/upload/v1705332071/golangwithexample/gorm-migration-guide_rsuybz.mp3"
@@ -31,7 +31,7 @@ In this comprehensive guide, we embark on a journey through the intricate world 
 - 🛠️ Integration with migration management tools like Atlas can enhance migration processes
 - 🚧 Common challenges in migrations include conflicts and data integrity issues that require careful handling
 - 📚 Resources like the GORM documentation can aid in further learning about database migrations in Go
-Summarized by https://chrome.google.com/webstore/detail/cbgecfllfhmmnknmamkejadjmnmpfjmp
+
 {{< /notice >}}
 
 
@@ -90,9 +90,9 @@ GORM provides a set of commands and utilities to manage manual migrations. Devel
 
 Manual migrations also offer advantages when it comes to collaboration and version control. Since the migration files are part of the codebase, they can be easily shared among team members and tracked using version control systems like Git. This promotes transparency, code reviews, and better collaboration within the development team.
 
-### Workflow for Manual Migrations
+**Workflow for Manual Migrations**
 
-#### Generating Migration Files
+### Generating Migration Files
 
 
 GORM provides a CLI tool for generating migration files:
@@ -101,7 +101,7 @@ GORM provides a CLI tool for generating migration files:
 gorm migration generate --name=create_users_table
 ```
 
-#### Editing Migration Files
+### Editing Migration Files
 
 
 Once generated, migration files can be edited to define specific schema changes:
@@ -132,7 +132,7 @@ func main() {
 }
 ```
 
-#### Applying Migrations
+### Applying Migrations
 
 To apply the migration scripts to the database, execute:
 
@@ -140,10 +140,10 @@ To apply the migration scripts to the database, execute:
 go run filename_timestamp_create_users_table.go
 ```
 
-### Guidelines for Manual Migrations
 
+{{< notice "note" >}}
 When writing manual migration scripts, adhere to best practices for clarity and maintainability. Keep migration files organized, document changes thoroughly, and ensure backward compatibility where necessary.
-
+{{< /notice >}}
 
 ## Importance of Migrations
 
