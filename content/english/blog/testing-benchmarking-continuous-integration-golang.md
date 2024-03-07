@@ -1,17 +1,19 @@
 ---
 title: "Testing, Benchmarking and Continuous Integration in Golang"
-subtitle: "In Golang, memory management is handled by the built-in garbage collector, which automates memory allocation and deallocation."
-description: ""
+subtitle: "Importance of Testing and Benchmarking in Golang Development"
+description: "Learn how to enhance your Golang code quality through effective testing and benchmarking strategies in this informative blog post."
 slug: testing-benchmarking-continuous-integration-golang
 tags: ['golang', 'golang-best-practices']
 date: 2023-08-12
-featured_image: https://res.cloudinary.com/harendra21/image/upload/w_1200/awesome-blog/awesome-golang/Testing_Benchmarking_and_Continuous_Integration_zg2deq.png
-thumbnail: https://res.cloudinary.com/harendra21/image/upload/w_400/awesome-blog/awesome-golang/Testing_Benchmarking_and_Continuous_Integration_zg2deq.png
-comments: True
-toc: True
+featured_image: "https://res.cloudinary.com/harendra21/image/upload/w_1200/awesome-blog/awesome-golang/Testing_Benchmarking_and_Continuous_Integration_zg2deq.png"
+thumbnail: "https://res.cloudinary.com/harendra21/image/upload/w_400/awesome-blog/awesome-golang/Testing_Benchmarking_and_Continuous_Integration_zg2deq.png"
+comments: false
+toc: false
+draft: false
 series: ['Golang Best Practices']
-audio: 
+audio: ""
 ---
+
 
 
 Unit testing is a crucial aspect of software development that ensures code correctness and identifies bugs early in the development process. In Go, writing effective unit tests is straightforward and provides developers with confidence in their code. In this article, we will explore the best practices for writing unit tests in Go, covering test organization, testing techniques, and leveraging testing frameworks.
