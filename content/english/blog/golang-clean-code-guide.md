@@ -1,17 +1,19 @@
 ---
 title: "Golang Clean Code Guide"
 subtitle: "Unleash the Benefits of Readable and Maintainable Software - Part 1"
-description: "Explore the significance of clean code in development. Learn how it enhances clarity, simplifies maintenance, and fosters collaboration among developers."
+description: "Explore the significance of clean code in golang development. Learn how it enhances clarity, simplifies maintenance, and fosters collaboration among developers."
 slug: golang-clean-code-guide
 tags: ['golang']
 date: 2023-09-08
-featured_image: https://res.cloudinary.com/harendra21/image/upload/w_1200/golangwithexample/Golang_Clean_Code_Guide_-_Part_1_ohd2qw.png
-thumbnail: https://res.cloudinary.com/harendra21/image/upload/w_400/golangwithexample/Golang_Clean_Code_Guide_-_Part_1_ohd2qw.png
-comments: True
-toc: True
-series: []
-audio: 
+featured_image: "https://res.cloudinary.com/harendra21/image/upload/w_1200/golangwithexample/Golang_Clean_Code_Guide_-_Part_1_ohd2qw.png"
+thumbnail: "https://res.cloudinary.com/harendra21/image/upload/w_400/golangwithexample/Golang_Clean_Code_Guide_-_Part_1_ohd2qw.png"
+comments: false
+toc: false
+draft: false
+series: ['']
+audio: ""
 ---
+
 
 [Download PDF](https://res.cloudinary.com/harendra21/image/upload/v1694109746/golangwithexample/PDF/GORM_Mastery_gmpc1k.pdf)
 
