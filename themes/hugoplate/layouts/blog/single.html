@@ -95,7 +95,6 @@
         </div>
         {{ end }}
 
-        {{ partial "valine-comment.html" . }}
 
         <!-- Related posts -->
         {{ $related := (where site.RegularPages "Section" "in" site.Params.mainSections) | intersect (where
