@@ -7,17 +7,20 @@ tags: ['golang']
 date: 2023-09-08
 featured_image: "https://res.cloudinary.com/harendra21/image/upload/w_1200/golangwithexample/Golang_Clean_Code_Guide_-_Part_1_ohd2qw.png"
 thumbnail: "https://res.cloudinary.com/harendra21/image/upload/w_400/golangwithexample/Golang_Clean_Code_Guide_-_Part_1_ohd2qw.png"
-comments: false
-toc: false
+comments: true
 draft: false
-series: ['']
+series: ['Golang Clean Code']
 audio: ""
 ---
 
 
+Hi Devs, clean code refers to writing software code that is easy to read, understand, and maintain. It is code that follows a set of principles and practices that prioritize clarity, simplicity, and consistency. The goal of clean code is to make the codebase more manageable, reduce the likelihood of introducing bugs, and improve collaboration among developers. Clean code is not just about achieving a certain aesthetic; it has tangible benefits for both developers and the overall software development process.
+
+{{< toc >}}
+
 [Download PDF](https://res.cloudinary.com/harendra21/image/upload/v1694109746/golangwithexample/PDF/GORM_Mastery_gmpc1k.pdf)
 
-Hi Devs, clean code refers to writing software code that is easy to read, understand, and maintain. It is code that follows a set of principles and practices that prioritize clarity, simplicity, and consistency. The goal of clean code is to make the codebase more manageable, reduce the likelihood of introducing bugs, and improve collaboration among developers. Clean code is not just about achieving a certain aesthetic; it has tangible benefits for both developers and the overall software development process.
+{{< notice "note" >}}
 
 Here are some key aspects of clean code and why they are important:
 
@@ -31,15 +34,16 @@ Here are some key aspects of clean code and why they are important:
 
 5. **Scalability:** As a project grows, maintaining a clean codebase becomes even more important. Clean code helps prevent the accumulation of technical debt, where shortcuts or suboptimal solutions are taken in the short term, leading to long-term maintenance challenges.
 
-6. **Refactoring:** Refactoring, which involves improving the internal structure of code without changing its external behavior, is easier and safer with clean code. Developers can confidently refactor code knowing that the changes won't introduce unintended side effects.
+6. **Refactoring:** Refactoring, which involves improving the internal structure of code without changing its external behaviour, is easier and safer with clean code. Developers can confidently refactor code knowing that the changes won't introduce unintended side effects.
 
 7. **Documentation:** Clean code is often self-documenting to a certain extent. Meaningful variable names, well-organized functions, and clear comments make it easier for other developers (including your future self) to understand the code's purpose and functionality.
 
 8. **Code Reviews:** During code reviews, clean code is more likely to pass scrutiny. Reviewers can focus on higher-level design and logic issues rather than getting bogged down in deciphering convoluted code.
 
-9. **Time Efficiency:** Writing clean code may take a little more time initially, but the time saved in debugging, maintenance, and understanding will more than make up for it in the long run.
+9. **Time Efficiency:** Writing clean code may take a little more time initially, but the time saved in debugging, maintenance, and understanding will more than makeup for it in the long run.
 
 In essence, clean code is a way to show respect for your fellow developers and for your future self. It leads to more efficient and enjoyable software development, reduces frustration, and contributes to the overall success of a project. It's not just about writing code that works; it's about writing code that is clear, maintainable, and easy to work with over time.
+{{< /notice >}}
 
 ## 1. Use Descriptive Naming
 
@@ -129,7 +133,6 @@ In the second example, the variable name `fruitSet` clearly indicates that we ar
 
 ## Indentation and Formatting
 
-**Title:** Mastering Code Indentation and Formatting in Go: Best Practices and Tools
 
 In the world of programming, writing clean and well-formatted code is just as important as writing functional code. Proper indentation and formatting not only enhance the readability of your code but also contribute to the overall maintainability of your project. In this article, we'll delve into the art of code indentation and formatting, focusing on the best practices and tools to achieve elegance and consistency in your Go codebase.
 
@@ -259,9 +262,6 @@ func CircleArea(radius float64) float64 {
 In this example, the comment above the `CircleArea` function encapsulates its purpose and expected behavior. By adhering to the Godoc format, you're providing others with a clear roadmap to understanding and utilizing your code.
 
 
-
-
-
 ## Effective Error Handling
 
 In the ever-evolving landscape of software development, errors are the inevitable gusts that can disrupt even the most seamless code. In this article, we'll explore the art of error handling, unveiling techniques to tame the tempestuous realm of bugs and glitches.
@@ -350,3 +350,5 @@ This structured approach ensures that your imports are neatly compartmentalized,
 In this voyage of importing packages, clarity is your North Star. By importing only what's needed, utilizing package aliases for distinction, and grouping imports, you're crafting a codebase that is both efficient and comprehensible.
 
 Remember, just as a well-organized ship sails smoothly, a well-structured codebase paves the way for innovation, collaboration, and the successful realization of your software's objectives. So, set sail with confidence, and let your import statements guide your code towards a brighter horizon.
+
+[Golang Clean Code Guide Part 2](https://golang.withcodeexample.com/blog/golang-clean-code-guide-2/)
