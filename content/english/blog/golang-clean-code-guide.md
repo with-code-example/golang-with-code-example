@@ -45,7 +45,7 @@ Here are some key aspects of clean code and why they are important:
 In essence, clean code is a way to show respect for your fellow developers and for your future self. It leads to more efficient and enjoyable software development, reduces frustration, and contributes to the overall success of a project. It's not just about writing code that works; it's about writing code that is clear, maintainable, and easy to work with over time.
 {{< /notice >}}
 
-## 1. Use Descriptive Naming
+## Use Descriptive Naming
 
 In the world of coding, where precision and clarity reign supreme, the choice of names can significantly impact the quality and maintainability of your codebase. Descriptive naming not only enhances the readability of your code but also communicates the purpose and functionality of various elements within your program. In this article, we'll explore the importance of using meaningful names for variables, functions, and types, while also delving into practical examples that highlight the power of this coding practice.
 
