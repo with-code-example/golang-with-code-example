@@ -4,7 +4,7 @@
     {{ partial "image" (dict "Src" $image "Alt" .Title "Class" "mb-6 w-full rounded") }}
   {{ end }}
   <h4 class="mb-3">
-    <a href="{{ .RelPermalink }}">
+    <a href="{{ .RelPermalink }}" title="{{ .Title }}">
       {{ .Title }}
     </a>
   </h4>
@@ -12,7 +12,7 @@
   {{ if $categories }}
     <ul class="mb-4">
       <li class="mr-4 inline-block">
-        <a href="{{ `authors/` | relLangURL }}{{ .Params.Author | urlize }}/">
+        <a href="{{ `authors/` | relLangURL }}{{ .Params.Author | urlize }}/" title="{{ .Params.author }}">
           <i class="fa-regular fa-circle-user mr-2"></i>{{ .Params.author }}
         </a>
       </li>
@@ -22,6 +22,7 @@
           <a
             href="{{ `categories/` | relLangURL }}{{ . | urlize | lower }}/"
             class="ms-1"
+            title="{{ . | humanize }}"
             >{{ . | humanize }}{{ if ne $i (sub (len $categories) 1) }}
               {{ "," }}
             {{ end }}

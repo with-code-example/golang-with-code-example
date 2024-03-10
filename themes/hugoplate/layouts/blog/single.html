@@ -40,12 +40,12 @@
         {{ if and .Params.series (ne  (index .Params.series 0 | urlize) "") }}
           <div class="bg-theme-light dark:bg-darkmode-theme-light rounded p-6">
 
-            <h5 class="mb-6">Series - <a href="/series/{{ index .Params.series 0 | urlize }}" class="text-blue-500">{{ index .Params.series 0 }}</a></h5>
+            <h5 class="mb-6">Series - <a href="/series/{{ index .Params.series 0 | urlize }}" class="text-blue-500" title="{ index .Params.series 0 }}">{{ index .Params.series 0 }}</a></h5>
             <ul class="space-y-2">
               {{ range $num, $post := (index .Site.Taxonomies.series (index .Params.series 0 | urlize)).Pages.ByDate }}
               <li class="flex items-center{{ if eq $post.Permalink $.Page.Permalink }} bg-blue-100{{ end }} rounded-lg p-2">
                 <span class="text-gray-500 mr-2">{{ add $num 1 }}:</span>
-                <a href="{{ $post.Permalink }}" class="text-blue-500 hover:text-blue-700">{{ $post.Title }}</a>
+                <a href="{{ $post.Permalink }}" class="text-blue-500 hover:text-blue-700" title="{{ $post.Title }}">{{ $post.Title }}</a>
               </li>
               {{ end }}
             </ul>

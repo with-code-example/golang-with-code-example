@@ -11,7 +11,7 @@
                 class="hover:text-primary dark:hover:text-darkmode-primary {{ if (and (eq $.Page.Kind `term`) (eq $.Page.Type `series`) (eq $.Page.Title .Page.Title)) }}
                   active
                 {{ end }} flex justify-between"
-                href="{{ .Page.RelPermalink }}">
+                href="{{ .Page.RelPermalink }}" title="{{ .Page.Title }}">
                 {{ .Page.Title }} <span>( {{ len $items }} )</span>
               </a>
             </li>
