@@ -16,6 +16,7 @@ audio: ""
 A few days ago, I encountered an issue while using [Gorm](https://golang.withcodeexample.com/blog/advanced-querying-with-gorm/) with Postgres. The problem arose when I attempted to retrieve the last inserted ID, only to be met with an error message stating that it wasn't supported by the driver. Puzzled by this, I turned to Google for assistance and discovered that I needed to adjust the SQL query to obtain the inserted ID from Gorm with Postgres. With this newfound knowledge, I proceeded to address the issue.
 
 ![issue gif](https://appwrite.withcodeexample.com/v1/storage/buckets/65cb3fcd6bbe0f7e04d4/files/65edbe7bac582f1e8cef/preview?project=65ca51d2711f0f5e1fa8)
+{.gif}
 
 The issue lies in PostgreSQL's lack of support for the last insert ID concept. To obtain the inserted ID, one must employ QueryRow alongside the RETURNING clause.
 
