@@ -1,0 +1,79 @@
+---
+title: "Gorm With Postgres LastInsertId Is Not Supported By This Driver"
+subtitle: "Understanding the Limitations of Gorm and Postgres LastInsertId"
+description: "Experiencing issues with Gorm and Postgres? Learn why LastInsertId is not supported by the driver in our latest blog post."
+slug: gorm-lastinsertid-is-not-supported
+tags: ['gorm', ' postgres']
+date: 2024-03-10T06:51:03.711Z
+featured_image: "https://appwrite.withcodeexample.com/v1/storage/buckets/65cb3fcd6bbe0f7e04d4/files/65ed5a2bbe45b35fb8ee/preview?width=1280&height=0&gravity=center&quality=90&borderWidth=1&borderColor=000000&borderRadius=5&opacity=1&rotation=0&background=000000&output=webp&project=65ca51d2711f0f5e1fa8"
+thumbnail: "https://appwrite.withcodeexample.com/v1/storage/buckets/65cb3fcd6bbe0f7e04d4/files/65ed5a2bbe45b35fb8ee/preview?width=1280&height=0&gravity=center&quality=90&borderWidth=1&borderColor=000000&borderRadius=5&opacity=1&rotation=0&background=000000&output=webp&project=65ca51d2711f0f5e1fa8"
+comments: true
+draft: false
+series: ['']
+audio: ""
+---
+
+A few days ago, I encountered an issue while using Gorm with Postgres. The problem arose when I attempted to retrieve the last inserted ID, only to be met with an error message stating that it wasn't supported by the driver. Puzzled by this, I turned to Google for assistance and discovered that I needed to adjust the SQL query to obtain the inserted ID from Gorm with Postgres. With this newfound knowledge, I proceeded to address the issue.
+
+## Solution
+
+To fix the issue we have to add the `RETURNING id` to our query.
+
+```go
+
+var id int
+err := db.QueryRow("INSERT INTO user (name) VALUES ('John') RETURNING id").Scan(&id)
+if err != nil {
+...
+}
+
+```
+
+## Example
+
+Below is a complete Go program that demonstrates how to use Gorm to insert data into a Postgres table and retrieve the inserted ID:
+
+```go
+package main
+
+import (
+    "fmt"
+    "log"
+
+    "gorm.io/driver/postgres"
+    "gorm.io/gorm"
+)
+
+type User struct {
+    ID   uint
+    Name string
+}
+
+func main() {
+    // Connect to the Postgres database
+    dsn := "host=localhost user=your_username password=your_password dbname=your_dbname port=5432 sslmode=disable"
+    db, err := gorm.Open(postgres.Open(dsn), &gorm.Config{})
+    if err != nil {
+        log.Fatalf("Error connecting to database: %v", err)
+    }
+    defer db.Close()
+
+    // AutoMigrate the User model to create the 'users' table
+    err = db.AutoMigrate(&User{})
+    if err != nil {
+        log.Fatalf("Error auto migrating table: %v", err)
+    }
+
+    // Insert a new user record
+    var id int
+    err = db.QueryRow("INSERT INTO users (name) VALUES ('John') RETURNING id").Scan(&id)
+    if err != nil {
+        log.Fatalf("Error inserting record: %v", err)
+    }
+
+    fmt.Printf("Inserted ID: %d\n", id)
+}
+```
+
+Before running this program, make sure to replace `your_username`, `your_password`, and `your_dbname` with your actual database credentials and database name. Additionally, ensure that you have the necessary Postgres driver (`github.com/lib/pq`) and Gorm (`gorm.io/gorm`) installed in your environment. This program establishes a connection to a Postgres database, creates a `User` model with an `ID` and `Name` field, auto migrates the model to create the 'users' table if it doesn't exist, inserts a new record into the 'users' table with the name 'John', and prints the inserted ID to the console.
+
