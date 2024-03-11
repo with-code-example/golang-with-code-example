@@ -3,12 +3,7 @@
   <div class="container">
     <div class="row justify-center">
       <article class="lg:col-8">
-        {{ $image:= .Params.featured_image }}
-        {{ if $image }}
-        <div class="mb-10">
-          <img src="{{ $image }}" alt="{{ .Title }}" class="w-full rounded img" title="{{ .Title }}">
-        </div>
-        {{ end }}
+
         <h1 class="h2 mb-4">
           {{ .Title }}
         </h1>
@@ -36,6 +31,14 @@
             {{ time.Format ":date_long" .PublishDate }}
           </li>
         </ul>
+
+        {{ $image:= .Params.featured_image }}
+        {{ if $image }}
+        <div class="mb-10">
+          <img src="{{ $image }}" alt="{{ .Title }}" title="{{ .Title }}">
+        </div>
+        {{ end }}
+        
 
         {{ if and .Params.series (ne  (index .Params.series 0 | urlize) "") }}
           <div class="bg-theme-light dark:bg-darkmode-theme-light rounded p-6">
