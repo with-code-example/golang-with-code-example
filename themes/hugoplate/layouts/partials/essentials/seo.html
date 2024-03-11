@@ -148,26 +148,14 @@
         {{ replaceRE `^jpg$` `jpeg` $imageExt }}
       {{ end }}" />
   {{ end }}
-
-
-  <!-- /if image exist -->
 {{ end }}
-<!-- /check cdn/static image -->
-<!-- ######### /Opengraph and Twitter image meta ############## -->
 
-<!-- ######### opengraph others meta ############## -->
 <meta property="og:title" content="{{ $title }}" />
 <meta property="og:description" content="{{ $description }}" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="{{ .Permalink }}" />
 
-<!-- ########## twitter others meta ############### -->
 <meta name="twitter:title" content="{{ $title }}" />
 <meta name="twitter:description" content="{{ $description }}" />
-
-{{ with site.Social.twitter }}
-  <meta name="twitter:site" content="@{{ . }}" />
-{{ end }}
-{{ range site.Authors }}
-  {{ with .twitter }}<meta name="twitter:creator" content="@{{ . }}" />{{ end }}
-{{ end }}
+<meta name="twitter:site" content="@withcodeexample">
+<meta name="twitter:creator" content="@harendraverma2">

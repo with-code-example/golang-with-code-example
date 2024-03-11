@@ -9,6 +9,7 @@
   <head>
     <meta name="robots" content="max-image-preview:large">
     <!-- head (don't cache it) -->
+    
     {{ partial "essentials/head.html" . }}
 
     {{ partial "essentials/seo.html" . }}
@@ -19,9 +20,7 @@
       posthog.init('phc_725Y2HIAz1fH1l2j7aISgX1AUr2iTBUVM5bcn5IIzoJ',{api_host:'https://app.posthog.com'})
     </script> -->
     {{ $image:= .Params.featured_image }}
-    {{ if $image }}
-      <link rel="preload" href="{{ $image }}" as="image">
-    {{ end }}
+    
     {{ if and .Params.audio (ne  (index .Params.audio ) "") }}
       <link rel="stylesheet" href="https://unpkg.com/plyr@3.7.8/dist/plyr.css">
     {{ end }}
