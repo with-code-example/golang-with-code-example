@@ -7,6 +7,7 @@
   lang="{{ site.LanguageCode | default `en-US` }}"
   itemtype="http://schema.org/WebPage">
   <head>
+    <meta name="robots" content="max-image-preview:large">
     <!-- head (don't cache it) -->
     {{ partial "essentials/head.html" . }}
 
@@ -54,6 +55,11 @@
       {{ partial "essentials/footer.html" . }}
       {{ partial "essentials/script.html" . }}
     {{ end }}
+    {{ $image:= .Params.featured_image }}
+    {{ if $image }}
+      <link rel="preload" href="{{ $image }}" as="image">
+    {{ end }}
+
     {{ if and .Params.audio (ne  (index .Params.audio ) "") }}
     <script src="https://unpkg.com/plyr@3.7.8/dist/plyr.min.js" defer></script>
       <script>
