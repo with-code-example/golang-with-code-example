@@ -17,6 +17,8 @@ Are you a newbie, learning golang and lacking the motivation to practice what yo
 
 To begin with, make sure you have Golang installed on your machine and have a basic understanding of it. If you are new to the language, then you can follow my Golang tutorial step by step to get started.
 
+{{< toc >}}
+
 Now let us begin with what’s new today in our blog and have a glance at some golang project ideas.
 
 ## Building Dynamic Web Applications
@@ -711,3 +713,7 @@ In the example above we have:
 To run this example, [GoCV](https://gocv.io/getting-started/linux/) should be installed on your system and OpenCV should be installed as its dependency first. Then, save this code into a file (e.g., image_processing.go) and execute it using go run command.
 
 This is just a basic introduction to Go programming language for image processing. You can also try advanced properties of GoCV and OpenCV such as object detection, face recognition or image segmentation in order to solve the mentioned tasks as well
+
+{{< notice "note" >}}
+Thank you for taking the time to read this article. If you found it helpful, please consider sharing it with others and bookmarking this site for future reference.
+{{< /notice >}}
