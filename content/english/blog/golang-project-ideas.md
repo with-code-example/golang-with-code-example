@@ -1,5 +1,5 @@
 ---
-title: "10 Projects Ideas To Learn Golang In 2024"
+title: "10 Project Ideas To Learn Golang In 2024"
 subtitle: "Learn Coding with These 10 Golang Project Ideas "
 description: "Explore 10 unique golang project ideas to enhance your Golang skills and build impressive applications from scratch."
 slug: golang-project-ideas
