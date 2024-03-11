@@ -6,7 +6,7 @@
         {{ $image:= .Params.featured_image }}
         {{ if $image }}
         <div class="mb-10">
-          {{ partial "image" (dict "Src" $image "Alt" .Title "Class" "w-full rounded") }}
+          <img src="{{ $image }}" alt="{{ .Title }}" class="w-full rounded img" title="{{ .Title }}">
         </div>
         {{ end }}
         <h1 class="h2 mb-4">
