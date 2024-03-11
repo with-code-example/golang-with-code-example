@@ -15,6 +15,13 @@
   {{ $title = .Params.title }}
 {{ end }}
 
+{{ if in .Permalink "/tags/" }}
+  {{ $title = printf "Blog Posts Tagged in %s" $title | humanize | title }}
+{{ end }}
+{{ if in .Permalink "/series/" }}
+  {{ $title = printf "Learn %s with code examples" $title | humanize | title }}
+{{ end }}
+
 <title>{{ $title }}</title>
 
 {{ partial "essentials/schema.html" . }}
@@ -50,11 +57,22 @@
 {{ end }}
 
 
-<!-- meta description -->
-<meta
-  name="description"
-  content="{{ .Params.description | default site.Params.metadata.description }}" />
 
+<!-- title -->
+{{ $meta_description := site.Params.metadata.description | default }}
+<!-- checking page meta title -->
+{{ if .Params.description }}
+  {{ $meta_description = .Params.description }}
+{{ end }}
+
+{{ if in .Permalink "/tags/" }}
+  {{ $meta_description = printf "Explore blog posts tagged in %s for insights on various topics. Discover curated content on %s. Start exploring now!" (.Params.title | humanize | title ) (site.Title)}}
+{{ end }}
+{{ if in .Permalink "/series/" }}
+{{ $meta_description = printf "Explore our %s series for insights on various topics. Discover curated content on %s. Start exploring now!" (.Params.title | humanize | title ) (site.Title)}}
+{{ end }}
+
+<meta name="description" content="{{  $meta_description  }}" />
 <!-- meta author -->
 {{ with site.Params.metadata.author }}
   <meta name="author" content="{{ . }}" />
