@@ -34,24 +34,12 @@
         </ul>
         <br>
 
-        
-        {{ $u := .Params.featured_image }}
-        {{ with resources.GetRemote $u }}
-        {{ with .Err }}
-        {{ errorf "%s" . }}
-          {{ else }}
-            <img src="{{ .RelPermalink }}" alt="{{ .Title }}" title="{{ .Title }}" width="{{ .Width }}" height="{{ .Height }}">
-          {{ end }}
-        {{ else }}
-          {{ errorf "Unable to get remote resource %q" $u }}
-        {{ end }}
-
-        <!-- {{ $image:= .Params.featured_image }}
+        {{ $image:= resources.GetRemote .Params.featured_image }}
         {{ if $image }}
         <div class="mb-10">
-          <img src="{{ $image }}" alt="{{ .Title }}" title="{{ .Title }}">
+          <img src="{{ $image.RelPermalink }}" alt="{{ .Title }}" title="{{ .Title }}" width="{{ $image.Width }}" height="{{ $image.Height }}">
         </div>
-        {{ end }} -->
+        {{ end }}
 
         {{ if and .Params.series (ne  (index .Params.series 0 | urlize) "") }}
           <div class="bg-theme-light dark:bg-darkmode-theme-light rounded p-6">
