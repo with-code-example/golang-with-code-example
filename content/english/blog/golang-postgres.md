@@ -35,6 +35,11 @@ To install PostgreSQL using Docker Compose follow the steps below:
 3. **Define PostgreSQL Service**:
    In the `docker-compose.yml` file, define the PostgreSQL service with the desired configuration. Below is an example configuration:
 
+{{< tabs "docker" >}}
+
+{{< tab "docker-compose.yaml" >}}
+
+
    ```yaml
    version: '3.8'
 
@@ -51,6 +56,10 @@ To install PostgreSQL using Docker Compose follow the steps below:
        volumes:
          - ./data:/var/lib/postgresql/data
    ```
+
+{{< /tab >}}
+
+{{< /tabs >}}
 
 ![install postgres](https://res.cloudinary.com/harendra21/image/upload/f_auto/images/646620_sjcstr.gif)
 
