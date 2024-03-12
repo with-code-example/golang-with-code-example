@@ -7,6 +7,7 @@
         <h1 class="h2 mb-4">
           {{ .Title }}
         </h1>
+        <br>
         <ul class="mb-4">
           <li class="mr-4 inline-block">
             <a href="{{ `authors/` | relLangURL }}{{ "With Code Example" | urlize }}/">
@@ -31,6 +32,7 @@
             {{ time.Format ":date_long" .PublishDate }}
           </li>
         </ul>
+        <br>
 
         {{ $image:= .Params.featured_image }}
         {{ if $image }}
@@ -38,7 +40,6 @@
           <img src="{{ $image }}" alt="{{ .Title }}" title="{{ .Title }}">
         </div>
         {{ end }}
-        
 
         {{ if and .Params.series (ne  (index .Params.series 0 | urlize) "") }}
           <div class="bg-theme-light dark:bg-darkmode-theme-light rounded p-6">
