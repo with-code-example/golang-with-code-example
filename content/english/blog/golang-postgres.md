@@ -38,8 +38,6 @@ To install PostgreSQL using Docker Compose follow the steps below:
 {{< tabs "docker" >}}
 
 {{< tab "docker-compose.yaml" >}}
-
-
    ```yaml
    version: '3.8'
 
