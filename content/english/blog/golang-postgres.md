@@ -52,6 +52,8 @@ To install PostgreSQL using Docker Compose follow the steps below:
          - ./data:/var/lib/postgresql/data
    ```
 
+![install postgres](https://res.cloudinary.com/harendra21/image/upload/f_auto/images/646620_sjcstr.gif)
+
    Replace `"your_username"`, `"your_password"`, and `"your_database_name"` with your desired PostgreSQL username, password, and database name respectively.
 
 4. **Run Docker Compose**:
@@ -77,8 +79,7 @@ You can connect to PostgreSQL from a Golang application using the `github.com/li
    go get github.com/lib/pq
    ```
 
-<script async id="asciicast-646618" src="https://asciinema.org/a/646618.js"></script>
-
+![install golang postgres package](https://res.cloudinary.com/harendra21/image/upload/f_auto/images/646618_m8q845.gif)
 
 3. **Import the Required Packages**:
    In your Golang code, import the `database/sql` and `github.com/lib/pq` packages:
