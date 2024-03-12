@@ -58,19 +58,20 @@
 
     {{ if and .Params.audio (ne  (index .Params.audio ) "") }}
     <script src="https://unpkg.com/plyr@3.7.8/dist/plyr.min.js"></script>
-      <script>
-        const player = new Plyr('#player', {
+    <script>
+      const player = new Plyr('#player', {
+        title: '{{ .Title }}',
+      });
+      window.player = player;
+      player.on('play', (event) => {
+        posthog.capture('paying_audio', {
           title: '{{ .Title }}',
-        });
-        window.player = player;
-        player.on('play', (event) => {
-          posthog.capture('paying_audio', {
-            title: '{{ .Title }}',
-            url: '{{ .Permalink }}',
-          })
-        });
-      </script>
+          url: '{{ .Permalink }}',
+        })
+      });
+    </script>
     {{ end }}
+    <script defer>(function(w,d, s, id) {if(typeof(w.webpushr)!=='undefined') return;w.webpushr=w.webpushr||function(){(w.webpushr.q=w.webpushr.q||[]).push(arguments)};var js, fjs = d.getElementsByTagName(s)[0];js = d.createElement(s); js.id = id;js.async=1;js.src = "https://cdn.webpushr.com/app.min.js";fjs.parentNode.appendChild(js);}(window,document, 'script', 'webpushr-jssdk'));webpushr('setup',{'key':'BIR5tlAWFhUL6hqGzC2Vt8Q4K712DBSyDXGH3YvEt48jp3Hthmf0kttFYAh5dfjacVNyIM_kzBdzFPggRTxfPxM' });</script>
 
   </body>
 </html>
