@@ -7,7 +7,7 @@ description: ""
 testimonials:
   - name: "Understanding Go Mod Init"
     designation: "Go Modules"
-    avatar: "https://res.cloudinary.com/harendra21/image/upload/w_800/golangwithexample/go-mod-init_xmiuqo.png"
+    avatar: "https://res.cloudinary.com/harendra21/image/upload/w_80/golangwithexample/go-mod-init_xmiuqo.png"
     content: "In the Go programming language (often referred to as Golang), the go mod init command is used to initialize a new Go module, which is a collection of related Go packages versioned together."
     link: "/blog/go-mod-init-dependency-management-go"
 
@@ -19,7 +19,7 @@ testimonials:
 
   - name: "Migrations in GORM"
     designation: "Gorm"
-    avatar: "https://res.cloudinary.com/harendra21/image/upload/w_1200/golangwithexample/learn-gorm_yqoeio.png"
+    avatar: "https://res.cloudinary.com/harendra21/image/upload/w_80/golangwithexample/learn-gorm_yqoeio.png"
     content: "In this comprehensive guide, we look on a journey through the intricate world of migrations within GORM , delving deep into both the automated and manual paradigms."
     link: "blog/gorm-database-migrations-guide"
 
