@@ -1,5 +1,5 @@
 ---
-title: "How Golang Compiler Works"
+title: "How Golang Compiler Works?"
 subtitle: "Exploring the inner workings of the Golang compiler"
 description: "The Go compiler’s inner mechanisms can now be revealed. Lexical analysis, parsing, optimization and code generation are the subjects of discussion in this wise article."
 slug: how-golang-compiler-works
@@ -7,7 +7,7 @@ tags: ['golang', ' golang compiler', ' programming', ' software development', ' 
 date: 2024-03-13T05:42:11.978Z
 featured_image: "https://res.cloudinary.com/harendra21/image/upload/w_1280,f_auto/images/Go_Compiler_gqpqdg.png"
 thumbnail: "https://res.cloudinary.com/harendra21/image/upload/w_1280,f_auto/images/Go_Compiler_gqpqdg.png"
-comments: false
+comments: true
 draft: false
 series: ['']
 audio: ""
@@ -172,7 +172,7 @@ The code generation phase of the Go compiler is responsible for generating platf
 
 3. **Instruction Selection**: To implement operations and constructs represented in AST or IR, appropriate machine instructions are selected by code generator. In this process high-level idioms get mapped to low-level instruction sequences.
 
-4.** Register Allocation**: The code generator assigns frequently used values and temporary results to CPU registers in order to minimize memory accesses improving performance. This process is called register allocation and it is critical for an efficient code generation.
+4. ** Register Allocation**: The code generator assigns frequently used values and temporary results to CPU registers in order to minimize memory accesses improving performance. This process is called register allocation and it is critical for an efficient code generation.
 
 5. **Instruction Scheduling**: The code generator schedules the generated instructions in an order that optimizes performance, taking into account dependencies, pipeline hazards, and other architectural constraints of the target processor.
 
