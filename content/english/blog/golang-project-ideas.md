@@ -3,11 +3,11 @@ title: "10 Project Ideas To Learn Golang In 2024"
 subtitle: "Learn Coding with These 10 Golang Project Ideas "
 description: "Explore 10 unique golang project ideas to enhance your Golang skills and build impressive applications from scratch."
 slug: golang-project-ideas
-tags: ['Golang', ' Programming', ' Development']
+tags: ['Golang', ' Programming', ' Development', ' 2024']
 date: 2024-03-11T14:16:47.572Z
 featured_image: "https://res.cloudinary.com/harendra21/image/upload/w_1280,f_auto/images/Golang%20Project%20Ideas-gojajaet_hctmTFez.jpg"
 thumbnail: "https://res.cloudinary.com/harendra21/image/upload/w_1280,f_auto/images/Golang%20Project%20Ideas-gojajaet_hctmTFez.jpg"
-comments: false
+comments: true
 draft: false
 series: ['']
 audio: ""
