@@ -5,10 +5,9 @@ description: "Deciding on a go framework can be a daunting task. Fear not! Dive 
 slug: gin-vs-echo-a-guide-to-choosing-the-right-go-framework
 tags: ['gin', ' echo', ' go framework', ' web development', ' choosing the right framework']
 date: 2024-02-17
-featured_image: "https://appwrite.withcodeexample.com/v1/storage/buckets/65cb3fcd6bbe0f7e04d4/files/65cc99ae7e92e13fb7f2/preview?width=1280&height=0&gravity=center&quality=90&borderWidth=1&borderColor=000000&borderRadius=5&opacity=1&rotation=0&background=000000&output=webp&project=65ca51d2711f0f5e1fa8"
-thumbnail: "https://appwrite.withcodeexample.com/v1/storage/buckets/65cb3fcd6bbe0f7e04d4/files/65cc99ae7e92e13fb7f2/preview?width=400&height=0&gravity=center&quality=90&borderWidth=1&borderColor=000000&borderRadius=5&opacity=1&rotation=0&background=000000&output=webp&project=65ca51d2711f0f5e1fa8"
-comments: false
-toc: false
+featured_image: "https://res.cloudinary.com/harendra21/image/upload/v1710401090/images/gin-vs-echo_mquavt.webp"
+thumbnail: "https://res.cloudinary.com/harendra21/image/upload/v1710401090/images/gin-vs-echo_mquavt.webp"
+comments: true
 draft: false
 series: ['']
 audio: ""
@@ -77,7 +76,7 @@ Comparison between the Gin and Echo frameworks:
 | **Template Rendering** | Supports template rendering with HTML and text templates | Built-in support for template rendering with HTML templates and support for various template engines |
 | **License**        | MIT License                              | MIT License                              |
 
-![Comparision](https://appwrite.withcodeexample.com/v1/storage/buckets/65cb3fcd6bbe0f7e04d4/files/65cf9369af8a8e9f1f71/preview?width=800&height=0&gravity=center&quality=90&borderWidth=1&borderColor=000000&borderRadius=5&opacity=1&rotation=0&background=000000&output=webp&project=65ca51d2711f0f5e1fa8)
+![Comparision](https://res.cloudinary.com/harendra21/image/upload/w_1280,f_auto/images/Comparison-amprCrrr_SCZhH0ua.jpg)
 
 ## Introduction:
 
@@ -113,7 +112,7 @@ With a clear understanding of the importance of framework selection and an intro
 
 ### Routing
 
-![routing](https://appwrite.withcodeexample.com/v1/storage/buckets/65cb3fcd6bbe0f7e04d4/files/65cf932e7d92db2c8277/preview?width=800&height=0&gravity=center&quality=90&borderWidth=1&borderColor=000000&borderRadius=5&opacity=1&rotation=0&background=000000&output=webp&project=65ca51d2711f0f5e1fa8)
+![routing](https://res.cloudinary.com/harendra21/image/upload/w_1280,f_auto/images/routing-rrorrnug_8O4cAG4m.jpg)
 
 Routing in GIN is concise and intuitive, utilizing a minimalistic syntax that makes defining routes straightforward. Echo offers similar functionality with a flexible routing API that allows for dynamic route patterns and parameter parsing. Both frameworks support middleware, enabling developers to add pre- and post-processing logic to routes efficiently.
 
@@ -231,7 +230,7 @@ Both Gin and Echo provide similar functionality for template rendering, allowing
 
 ### Validation
 
-![validation](https://appwrite.withcodeexample.com/v1/storage/buckets/65cb3fcd6bbe0f7e04d4/files/65cf92f7cdf4ab9e8148/preview?width=800&height=0&gravity=center&quality=90&borderWidth=1&borderColor=000000&borderRadius=5&opacity=1&rotation=0&background=000000&output=webp&project=65ca51d2711f0f5e1fa8)
+![validation](https://res.cloudinary.com/harendra21/image/upload/f_auto/images/validation-inianivv_WgygQDmX.gif)
 
 Both GIN and Echo offer built-in validation capabilities for handling user input. However, Echo provides more extensive support through its integration with popular validation libraries like Go Validator and go-playground/validator.
 
@@ -347,7 +346,7 @@ Overall, both Gin and Echo provide options for input validation, with Gin relyin
 
 ### Database Interaction
 
-![Database]( https://appwrite.withcodeexample.com/v1/storage/buckets/65cb3fcd6bbe0f7e04d4/files/65cf92a52bef10ec043b/preview?width=800&height=0&gravity=center&quality=90&borderWidth=1&borderColor=000000&borderRadius=5&opacity=1&rotation=0&background=000000&output=webp&project=65ca51d2711f0f5e1fa8)
+![Database]( https://res.cloudinary.com/harendra21/image/upload/w_1280,f_auto/images/Database-aeaaeeaa_HDkm1KZr.jpg)
 
 GIN and Echo provide seamless integration with databases, allowing developers to interact with SQL and NoSQL databases effortlessly. While GIN offers basic database functionality, Echo's flexibility enables more advanced database operations and ORM integrations.
 
@@ -473,7 +472,7 @@ In both examples, we're using the [`gorm`](https://golang.withcodeexample.com/bl
 
 ### Performance
 
-![speed](https://appwrite.withcodeexample.com/v1/storage/buckets/65cb3fcd6bbe0f7e04d4/files/65cf9279b7ce5306cd56/preview?width=800&height=0&gravity=center&quality=90&borderWidth=1&borderColor=000000&borderRadius=5&opacity=1&rotation=0&background=000000&output=webp&project=65ca51d2711f0f5e1fa8)
+![speed](https://res.cloudinary.com/harendra21/image/upload/w_1280,f_auto/images/speed-peddeeee_Zqz5rIRc.jpg)
 
 Comparing the performance of Gin and Echo frameworks can be complex and depends on various factors such as the specific use case, server configuration, and application implementation. However, I can provide some general insights into their performance characteristics.
 
@@ -498,7 +497,7 @@ Benchmarking results can vary depending on factors such as server hardware, netw
 
 ## Community and Support
 
-![support](https://appwrite.withcodeexample.com/v1/storage/buckets/65cb3fcd6bbe0f7e04d4/files/65cf924d287a372d999e/preview?width=1280&height=0&gravity=center&quality=90&borderWidth=1&borderColor=000000&borderRadius=5&opacity=1&rotation=0&background=000000&output=webp&project=65ca51d2711f0f5e1fa8)
+![support](https://res.cloudinary.com/harendra21/image/upload/w_1280,f_auto/images/support-topspurs_Ity3hfXM.jpg)
 
 Both GIN and Echo boast active and supportive communities, with extensive documentation, tutorials, and community-contributed resources. However, GIN's larger user base and longer history may result in more readily available resources and plugins.
 
