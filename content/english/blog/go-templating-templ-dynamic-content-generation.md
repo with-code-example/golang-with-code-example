@@ -7,8 +7,7 @@ tags: ['golang', 'templating', 'go']
 date: 2023-12-07
 featured_image: "https://res.cloudinary.com/harendra21/image/upload/l_text:Roboto_65_bold:Go%20Templating%20using%20Templ,co_rgb:fff/golangwithexample/bg3.png"
 thumbnail: "https://res.cloudinary.com/harendra21/image/upload/l_text:Roboto_65_bold:Go%20Templating%20using%20Templ,co_rgb:fff/golangwithexample/bg3.png"
-comments: false
-toc: false
+comments: true
 draft: false
 series: ['']
 audio: "https://res.cloudinary.com/harendra21/video/upload/v1705332283/golangwithexample/go-templ_ux0lvt.mp3"
@@ -21,7 +20,7 @@ Dynamic content generation is a fundamental aspect of [web development](https://
 
 ## Understanding Templ and Go Templating
 
-![template](https://appwrite.withcodeexample.com/v1/storage/buckets/65cb3fcd6bbe0f7e04d4/files/65e6217a27b0df5f6215/preview?width=1280&height=0&gravity=center&quality=90&borderWidth=1&borderColor=000000&borderRadius=5&opacity=1&rotation=0&background=000000&output=webp&project=65ca51d2711f0f5e1fa8)
+![template](https://res.cloudinary.com/harendra21/image/upload/w_1280,f_auto/images/template-temametm_NcGvA0aV.jpg)
 
 Templ is a Go package that provides a lightweight and efficient templating engine. It is inspired by the popular Go templating package, "text/template," and aims to enhance its capabilities while maintaining simplicity and performance. Templ is designed to work seamlessly with Go applications, making it an excellent choice for dynamic content generation.
 
