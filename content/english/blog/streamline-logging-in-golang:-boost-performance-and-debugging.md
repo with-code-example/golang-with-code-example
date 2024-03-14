@@ -4,14 +4,19 @@ subtitle: "Maximize Efficiency & Troubleshoot Effectively: Streamline Logging in
 description: "Struggling with slow logging in Golang? Learn how to effortlessly streamline your logging operations, boost performance, and squash pesky bugs with ease! "
 slug: streamline-logging-in-golang:-boost-performance-and-debugging
 tags: ['Golang', ' logging', ' golang logging ']
-date: 2024-02-13T18:30:00.000Z
-featured_image: https://appwrite.withcodeexample.com/v1/storage/buckets/65cb3fcd6bbe0f7e04d4/files/65cbb66b235592126784/preview?width=1280&height=0&gravity=center&quality=90&project=65ca51d2711f0f5e1fa8
-thumbnail: https://appwrite.withcodeexample.com/v1/storage/buckets/65cb3fcd6bbe0f7e04d4/files/65cbb66b235592126784/preview?width=400&height=0&gravity=center&quality=90&project=65ca51d2711f0f5e1fa8
-comments: True
-toc: False
-audio: 
+date: 2024-02-13
+featured_image: "https://res.cloudinary.com/harendra21/image/upload/w_1280,f_auto/images/Debugging-Debeugng_LzjD6YMb.jpg"
+thumbnail: "https://res.cloudinary.com/harendra21/image/upload/w_1280,f_auto/images/Debugging-Debeugng_LzjD6YMb.jpg"
+comments: false
+draft: false
+series: ['']
+audio: ""
 ---
+
 Logging is an essential aspect of software development, aiding in debugging, monitoring, and understanding the flow of an application. In Golang, effective logging practices can significantly enhance performance and streamline debugging processes. This article explores techniques to optimize logging in Golang, leveraging its native logging capabilities.
+
+![debugging](https://res.cloudinary.com/harendra21/image/upload/f_auto/images/Debugging-uugeunig_k4eb3I01.gif)
+{.gif}
 
 ### Introduction to Golang Logging
 
