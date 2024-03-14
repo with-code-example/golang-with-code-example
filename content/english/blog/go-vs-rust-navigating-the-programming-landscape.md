@@ -7,7 +7,7 @@ tags: ['go programming', ' rust programming', ' programming languages', ' softwa
 date: 2024-02-16
 featured_image: "https://res.cloudinary.com/harendra21/image/upload/w_1280,f_auto/images/go_vs_rust_q4bqlo.jpg"
 thumbnail: "https://res.cloudinary.com/harendra21/image/upload/w_1280,f_auto/images/go_vs_rust_q4bqlo.jpg"
-comments: false
+comments: true
 draft: false
 series: ['Golang vs']
 audio: "https://storage.googleapis.com/with-code-example/blog-audio/go-vs-rust-navigating-the-programming-landscape.wav"
@@ -89,9 +89,9 @@ To gauge developer sentiment and preferences, we turn to the annual Stack Overfl
 
 However, when it comes to satisfaction and interest in using the language again, Rust developers tend to express higher levels of satisfaction and enthusiasm compared to their Go counterparts. This sentiment is reflected in the survey data, which shows that a higher percentage of Rust developers express a desire to continue using Rust in the future, highlighting the language's strong community support and favourable developer experience.
 
-![golang stackoverflow](https://appwrite.withcodeexample.com/v1/storage/buckets/65cb3fcd6bbe0f7e04d4/files/65ccee4326ec8be9a598/preview?width=700&height=0&gravity=center&quality=90&borderWidth=1&borderColor=000000&borderRadius=5&opacity=1&rotation=0&background=000000&output=webp&project=65ca51d2711f0f5e1fa8)
+![golang stackoverflow](https://res.cloudinary.com/harendra21/image/upload/v1710412562/images/go-stackoverflow_FJctzUaI.webp)
 
-![rust stacksoverflow](https://appwrite.withcodeexample.com/v1/storage/buckets/65cb3fcd6bbe0f7e04d4/files/65ccee434d7663fda6e1/preview?width=700&height=0&gravity=center&quality=90&borderWidth=1&borderColor=000000&borderRadius=5&opacity=1&rotation=0&background=000000&output=webp&project=65ca51d2711f0f5e1fa8)
+![rust stacksoverflow](https://res.cloudinary.com/harendra21/image/upload/v1710412619/images/rust-stackoverflow_du7n1ah4.webp)
 
 [Source](https://survey.stackoverflow.co/2023/#section-admired-and-desired-programming-scripting-and-markup-languages)
 
