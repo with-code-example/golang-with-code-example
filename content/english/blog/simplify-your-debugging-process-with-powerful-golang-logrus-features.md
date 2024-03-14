@@ -5,10 +5,9 @@ description: "Uncover how Golang Logrus can streamline your debugging process. G
 slug: simplify-your-debugging-process-with-powerful-golang-logrus-features
 tags: ['Golang', ' logging', ' Golang logging ']
 date: 2024-02-13
-featured_image: "https://appwrite.withcodeexample.com/v1/storage/buckets/65cb3fcd6bbe0f7e04d4/files/65cbb985ba6928cb5c12/preview?width=1280&height=0&gravity=center&quality=90&project=65ca51d2711f0f5e1fa8"
-thumbnail: "https://appwrite.withcodeexample.com/v1/storage/buckets/65cb3fcd6bbe0f7e04d4/files/65cbb985ba6928cb5c12/preview?width=400&height=0&gravity=center&quality=90&project=65ca51d2711f0f5e1fa8"
-comments: false
-toc: false
+featured_image: "https://res.cloudinary.com/harendra21/image/upload/w_1280,f_auto/images/logrus_d7v994M8.jpg"
+thumbnail: "https://res.cloudinary.com/harendra21/image/upload/w_1280,f_auto/images/logrus_d7v994M8.jpg"
+comments: true
 draft: false
 series: ['']
 audio: ""
