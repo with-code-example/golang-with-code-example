@@ -5,10 +5,9 @@ description: "Discover the untapped power of structured logging with this ultima
 slug: mastering-structured-logging-a-comprehensive-guide
 tags: ['loggingbestpractices', ' logmanagement', ' loganalysis']
 date: 2024-02-15
-featured_image: "https://appwrite.withcodeexample.com/v1/storage/buckets/65cb3fcd6bbe0f7e04d4/files/65cc756bf26fe1cf766a/preview?width=1280&height=0&gravity=center&quality=90&project=65ca51d2711f0f5e1fa8"
-thumbnail: "https://appwrite.withcodeexample.com/v1/storage/buckets/65cb3fcd6bbe0f7e04d4/files/65cc756bf26fe1cf766a/preview?width=400&height=0&gravity=center&quality=90&project=65ca51d2711f0f5e1fa8"
-comments: false
-toc: false
+featured_image: "https://res.cloudinary.com/harendra21/image/upload/w_1280,f_auto/images/programming%20logs-p%20mmg%20ni_b0LsIQIx.jpg"
+thumbnail: "https://res.cloudinary.com/harendra21/image/upload/w_1280,f_auto/images/programming%20logs-p%20mmg%20ni_b0LsIQIx.jpg"
+comments: true
 draft: false
 series: ['']
 audio: "https://storage.googleapis.com/with-code-example/blog-audio/mastering-structured-logging-a-comprehensive-guide.wav"
