@@ -5,10 +5,9 @@ description: "Simplify your coding process with our comprehensive Golang cheatsh
 slug: handy-golang-cheatsheet-for-quick-reference
 tags: ['Golang', ' Cheat Sheet', ' Quick Reference', ' Programming', ' Development']
 date: 2024-02-22
-featured_image: "https://appwrite.withcodeexample.com/v1/storage/buckets/65cb3fcd6bbe0f7e04d4/files/65d77ed710fbf938e52b/preview?width=1280&height=0&gravity=center&quality=90&borderWidth=1&borderColor=000000&borderRadius=5&opacity=1&rotation=0&background=000000&output=webp&project=65ca51d2711f0f5e1fa8"
-thumbnail: "https://appwrite.withcodeexample.com/v1/storage/buckets/65cb3fcd6bbe0f7e04d4/files/65d77ed710fbf938e52b/preview?width=400&height=0&gravity=center&quality=90&borderWidth=1&borderColor=000000&borderRadius=5&opacity=1&rotation=0&background=000000&output=webp&project=65ca51d2711f0f5e1fa8"
-comments: false
-toc: false
+featured_image: "https://res.cloudinary.com/harendra21/image/upload/v1710401094/images/golang_cheatsheet_t7bjqn.webp"
+thumbnail: "https://res.cloudinary.com/harendra21/image/upload/v1710401094/images/golang_cheatsheet_t7bjqn.webp"
+comments: true
 draft: false
 series: ['']
 audio: "https://storage.googleapis.com/with-code-example/blog-audio/handy-golang-cheatsheet-for-quick-reference.wav"
