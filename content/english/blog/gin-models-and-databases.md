@@ -7,7 +7,7 @@ tags: ['Modeling', ' Database Management', ' Data Relationships', ' Data Analysi
 date: 2024-03-08
 featured_image: "https://res.cloudinary.com/harendra21/image/upload/l_text:Roboto_40_bold:Chapter%205:%20Working%20with%20Models%20and%20Databases,co_rgb:ffffff/golangwithexample/gin-course_ijbjnk.png"
 thumbnail: "https://res.cloudinary.com/harendra21/image/upload/l_text:Roboto_40_bold:Chapter%205:%20Working%20with%20Models%20and%20Databases,co_rgb:ffffff/golangwithexample/gin-course_ijbjnk.png"
-comments: false
+comments: true
 draft: false
 series: [' GIN Course']
 audio: ""
@@ -19,7 +19,7 @@ In this blog of [Gin tutorial](https://golang.withcodeexample.com/series/gin-cou
 
 ## Integrating with Databases
 
-![datacenter](https://appwrite.withcodeexample.com/v1/storage/buckets/65cb3fcd6bbe0f7e04d4/files/65cf92a52bef10ec043b/preview?width=1280&height=0&gravity=center&quality=90&borderWidth=1&borderColor=000000&borderRadius=5&opacity=1&rotation=0&background=000000&output=webp&project=65ca51d2711f0f5e1fa8)
+![datacenter](https://res.cloudinary.com/harendra21/image/upload/w_1280,f_auto/images/Database-aeaaeeaa_HDkm1KZr.jpg)
 
 ### Connecting to a Database with Gin
 
@@ -124,7 +124,7 @@ func main() {
 
 ## Data Validation and Serialization
 
-![data visitation](https://appwrite.withcodeexample.com/v1/storage/buckets/65cb3fcd6bbe0f7e04d4/files/65eae4708ab6f83dae9f/preview?width=1280&height=0&gravity=center&quality=90&borderWidth=1&borderColor=000000&borderRadius=5&opacity=1&rotation=0&background=000000&output=webp&project=65ca51d2711f0f5e1fa8)
+![data visitation](https://res.cloudinary.com/harendra21/image/upload/v1710412417/images/data_DRe87xV3.webp)
 
 ### Validating Incoming Data
 
