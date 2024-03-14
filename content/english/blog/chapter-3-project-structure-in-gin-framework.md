@@ -5,10 +5,9 @@ description: "Discover how to create an impeccable project structure in the powe
 slug: chapter-3-project-structure-in-gin-framework
 tags: ['gin framework', ' project structure', ' web development', ' software engineering', ' coding']
 date: 2024-02-13
-featured_image: "https://appwrite.withcodeexample.com/v1/storage/buckets/65cb3fcd6bbe0f7e04d4/files/65cc63e0c85821dc11e1/preview?width=1280&height=0&gravity=center&quality=90&project=65ca51d2711f0f5e1fa8"
-thumbnail: "https://appwrite.withcodeexample.com/v1/storage/buckets/65cb3fcd6bbe0f7e04d4/files/65cc63e0c85821dc11e1/preview?width=1280&height=0&gravity=center&quality=90&project=65ca51d2711f0f5e1fa8"
-comments: true
-toc: false
+featured_image: "https://res.cloudinary.com/harendra21/image/upload/w_1280,f_auto/images/gin-course-3_lecmjr.png"
+thumbnail: "https://res.cloudinary.com/harendra21/image/upload/w_1280,f_auto/images/gin-course-3_lecmjr.png"
+comments: false
 draft: false
 series: ['GIN Course']
 audio: "https://storage.googleapis.com/with-code-example/blog-audio/chapter-3-project-structure-in-gin-framework.wav"
@@ -28,7 +27,7 @@ In chapter 3 of the Gin Framework tutorial, we delve into the crucial aspect of 
 
 ## Organizing Files and Directories
 
-![strecture](https://appwrite.withcodeexample.com/v1/storage/buckets/65cb3fcd6bbe0f7e04d4/files/65cc61b69f6ce3e7e3ee/preview?width=1280&height=0&gravity=center&quality=90&project=65ca51d2711f0f5e1fa8)
+![strecture](https://res.cloudinary.com/harendra21/image/upload/w_1280,f_auto/images/folder-hero_1lh6c3fe.jpg)
 
 A well-organized project structure is fundamental for seamless development and collaboration. Here's a recommended layout for a Gin project:
 
@@ -65,7 +64,7 @@ A well-organized project structure is fundamental for seamless development and c
 
 ## Configuring the Project Layout
 
-![layout](https://appwrite.withcodeexample.com/v1/storage/buckets/65cb3fcd6bbe0f7e04d4/files/65cc61f7d0f87adc54f7/preview?width=1200&height=0&gravity=center&quality=90&project=65ca51d2711f0f5e1fa8)
+![layout](https://res.cloudinary.com/harendra21/image/upload/w_1280,f_auto/images/layout-tyoaltuu_ZGBaDY6W.jpg)
 
 When setting up your Gin project, it's essential to configure the layout according to your team's preferences and project requirements. Utilize tools like `gin-gonic/gin`, a minimalistic web framework, to streamline routing and middleware management. Additionally, leverage Gin's support for HTTP handlers, middleware, and routing groups to structure your application efficiently.
 
