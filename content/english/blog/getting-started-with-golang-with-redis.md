@@ -5,10 +5,9 @@ description: "Want to learn how to fasten your Golang applications with Redis? T
 slug: getting-started-with-golang-with-redis
 tags: ['Golang', ' Redis', ' Programming', ' Tutorial', ' Development']
 date: 2024-02-20
-featured_image: "https://appwrite.withcodeexample.com/v1/storage/buckets/65cb3fcd6bbe0f7e04d4/files/65d483ee6ee6f878e473/preview?width=1280&height=0&gravity=center&quality=90&borderWidth=1&borderColor=000000&borderRadius=5&opacity=1&rotation=0&background=000000&output=webp&project=65ca51d2711f0f5e1fa8"
-thumbnail: "https://appwrite.withcodeexample.com/v1/storage/buckets/65cb3fcd6bbe0f7e04d4/files/65d483ee6ee6f878e473/preview?width=400&height=0&gravity=center&quality=90&borderWidth=1&borderColor=000000&borderRadius=5&opacity=1&rotation=0&background=000000&output=webp&project=65ca51d2711f0f5e1fa8"
-comments: true
-toc: false
+featured_image: "https://res.cloudinary.com/harendra21/image/upload/v1710401095/images/golang_with_redis_cqmbrj.webp"
+thumbnail: "https://res.cloudinary.com/harendra21/image/upload/v1710401095/images/golang_with_redis_cqmbrj.webp"
+comments: false
 draft: false
 series: ['Golang With']
 audio: "https://storage.googleapis.com/with-code-example/blog-audio/getting-started-with-golang-with-redis.wav"
@@ -24,7 +23,7 @@ Golang, also known as Go, has gained significant traction in recent years due to
 
 ## What is Redis?
 
-![redis logo](https://appwrite.withcodeexample.com/v1/storage/buckets/65cb3fcd6bbe0f7e04d4/files/65d4846adaa52cf07b0d/preview?width=1280&height=0&gravity=center&quality=90&borderWidth=1&borderColor=000000&borderRadius=5&opacity=1&rotation=0&background=000000&output=webp&project=65ca51d2711f0f5e1fa8)
+![redis logo](https://res.cloudinary.com/harendra21/image/upload/v1710401716/images/redis_0WQz9g2L.webp)
 
 [Redis](https://redis.io/) is an open-source, in-memory data structure store that can be used as a database, cache, and message broker. It supports various data structures such as strings, hashes, lists, sets, and sorted sets, making it versatile for different types of applications. Redis is known for its high performance, scalability, and rich set of features, including replication, clustering, and Lua scripting.
 
@@ -39,7 +38,7 @@ There are several reasons why Redis is favoured in many applications:
 
 ## Running Redis with Docker on Local
 
-![docker logo](https://appwrite.withcodeexample.com/v1/storage/buckets/65cb3fcd6bbe0f7e04d4/files/65d484844e16d6ccf6e5/preview?width=1280&height=0&gravity=center&quality=90&borderWidth=1&borderColor=000000&borderRadius=5&opacity=1&rotation=0&background=000000&output=webp&project=65ca51d2711f0f5e1fa8)
+![docker logo](https://res.cloudinary.com/harendra21/image/upload/v1710401712/images/docker_XLAYxScc.webp)
 
 {{< notice "note" >}}
 [Installing Docker and Docker Compose](https://golang.withcodeexample.com/blog/how-to-deploy-sonarqube-with-docker-compose/#installing-docker-and-docker-compose-on-ubuntu)
@@ -65,7 +64,7 @@ You can install the Redis client for Golang using the following `go get` command
 go get github.com/go-redis/redis/v8
 ```
 
-![go-redis](https://appwrite.withcodeexample.com/v1/storage/buckets/65cb3fcd6bbe0f7e04d4/files/65d484f5bfd04b2cd63c/preview?width=1280&height=0&gravity=center&quality=90&borderWidth=1&borderColor=000000&borderRadius=5&opacity=1&rotation=0&background=000000&output=webp&project=65ca51d2711f0f5e1fa8)
+![go-redis](https://res.cloudinary.com/harendra21/image/upload/v1710401709/images/go-redis_GFpV7jDJ.webp)
 
 ### Create Redis Client
 
