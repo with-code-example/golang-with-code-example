@@ -5,10 +5,9 @@ description: "The ultimate showdown between Golang and Node.js as we push these 
 slug: benchmarking-golang-and-node.js-which-is-faster
 tags: ['benchmarking', ' Golang', ' Node.js', ' speed', ' performance']
 date: 2024-02-18
-featured_image: "https://appwrite.withcodeexample.com/v1/storage/buckets/65cb3fcd6bbe0f7e04d4/files/65cf8f45c5d1d939417b/preview?width=1280&height=0&gravity=center&quality=90&project=65ca51d2711f0f5e1fa8"
-thumbnail: "https://appwrite.withcodeexample.com/v1/storage/buckets/65cb3fcd6bbe0f7e04d4/files/65cf8f45c5d1d939417b/preview?width=400&height=0&gravity=center&quality=90&project=65ca51d2711f0f5e1fa8"
-comments: true
-toc: false
+featured_image: "https://res.cloudinary.com/harendra21/image/upload/w_1280,f_auto/images/go-vs-node-js_qba1od.jpg"
+thumbnail: "https://res.cloudinary.com/harendra21/image/upload/w_1280,f_auto/images/go-vs-node-js_qba1od.jpg"
+comments: false
 draft: false
 series: ['golang vs']
 audio: ""
@@ -24,13 +23,13 @@ As a software developer, I'm always looking for the fastest, most efficient tool
 
 Golang and [Node.js](https://nodejs.org/docs/latest/api/) have gained significant traction in recent years, each boasting its own set of strengths and advantages. Golang, also known as Go, is a statically typed, compiled programming language developed by Google. It's lauded for its simplicity, concurrency support via goroutines, and blazing-fast performance. On the other hand, Node.js is an event-driven, non-blocking I/O platform built on Chrome's V8 JavaScript engine. It's highly regarded for its asynchronous programming model, extensive package ecosystem via npm, and rapid development capabilities.
 
-![golang-vs-nodejs](https://appwrite.withcodeexample.com/v1/storage/buckets/65cb3fcd6bbe0f7e04d4/files/65d30712c7168cab5bd9/preview?width=1280&height=0&gravity=center&quality=90&borderWidth=1&borderColor=000000&borderRadius=5&opacity=1&rotation=0&background=000000&output=webp&project=65ca51d2711f0f5e1fa8)
+![golang-vs-nodejs](https://res.cloudinary.com/harendra21/image/upload/v1710408726/images/golang-features_UH3153jf.webp)
 
 ## Benchmarking Methodology
 
 Before diving into the benchmarking results, it's crucial to establish a standardized methodology to ensure fair and accurate comparisons. In our benchmarking tests, we'll focus on common performance metrics such as response time, throughput, and resource utilization. The benchmarking environment will consist of identical hardware specifications and configurations for both Golang and Node.js applications. Additionally, we'll employ reputable benchmarking tools and frameworks to conduct our tests, ensuring reliability and consistency across all experiments.
 
-![golang nodejs benchmarking](https://appwrite.withcodeexample.com/v1/storage/buckets/65cb3fcd6bbe0f7e04d4/files/65d303febee7b7d769c7/preview?width=1280&height=0&gravity=center&quality=90&borderWidth=1&borderColor=000000&borderRadius=5&opacity=1&rotation=0&background=000000&output=webp&project=65ca51d2711f0f5e1fa8)
+![golang nodejs benchmarking](https://res.cloudinary.com/harendra21/image/upload/v1710408729/images/g-node-benchmark_meR5rRvb.webp)
 
 ## Response Time Comparison
 
@@ -48,7 +47,7 @@ const server = http.createServer((req, res) => {
 server.listen(3000);
 ```
 
-![request per second](https://appwrite.withcodeexample.com/v1/storage/buckets/65cb3fcd6bbe0f7e04d4/files/65d3070fd98cc270796f/preview?width=1280&height=0&gravity=center&quality=90&borderWidth=1&borderColor=000000&borderRadius=5&opacity=1&rotation=0&background=000000&output=webp&project=65ca51d2711f0f5e1fa8)
+![request per second](https://res.cloudinary.com/harendra21/image/upload/v1710408732/images/go-node-requests_XyxPtmwp.webp)
 
 ```go
 // Golang HTTP server
@@ -99,7 +98,7 @@ In addition to response time and throughput, it's essential to assess the resour
 
 ## Concurrency Performance
 
-![golang vs nodejs](https://appwrite.withcodeexample.com/v1/storage/buckets/65cb3fcd6bbe0f7e04d4/files/65d30713a189a84bed9a/preview?width=1280&height=0&gravity=center&quality=90&borderWidth=1&borderColor=000000&borderRadius=5&opacity=1&rotation=0&background=000000&output=webp&project=65ca51d2711f0f5e1fa8)
+![golang vs nodejs](https://res.cloudinary.com/harendra21/image/upload/v1710408735/images/go-vs-node-features_D8nYvgvZ.webp)
 
 One of the standout features of Golang is its native support for concurrency via lightweight goroutines and channels. This enables Golang applications to efficiently handle thousands of concurrent tasks with minimal overhead, making it well-suited for building highly concurrent systems such as web servers, microservices, and distributed applications. In contrast, Node.js relies on an event-driven, non-blocking I/O model to achieve concurrency, leveraging asynchronous functions and event loops. We'll compare the concurrency performance of Golang vs Node.js by stress-testing both platforms with a high volume of concurrent tasks and evaluating their responsiveness and scalability.
 
