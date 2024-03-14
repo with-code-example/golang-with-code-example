@@ -7,8 +7,7 @@ tags: ['Fiber', ' Golang', ' Web Framework', ' Go', ' Programming']
 date: 2023-08-22
 featured_image: "https://res.cloudinary.com/harendra21/image/upload/w_1200/golangwithexample/fiber-golang_elojg5.png"
 thumbnail: "https://res.cloudinary.com/harendra21/image/upload/w_400/golangwithexample/fiber-golang_elojg5.png"
-comments: false
-toc: false
+comments: true
 draft: false
 series: ['']
 audio: "https://with-code-example.s3.ap-south-1.amazonaws.com/blog/golang-fiber.2fbb1867-fbc1-4883-9eba-bf4c0989d966.mp3"
@@ -41,7 +40,7 @@ Web frameworks play a crucial role in streamlining the web development process. 
 
 ## Key Features of Fiber Golang: What Sets It Apart
 
-![Fiber Golang](https://appwrite.withcodeexample.com/v1/storage/buckets/65cb3fcd6bbe0f7e04d4/files/65e04a9a9014646f5709/preview?width=1280&height=0&gravity=center&quality=90&borderWidth=1&borderColor=000000&borderRadius=5&opacity=1&rotation=0&background=000000&output=webp&project=65ca51d2711f0f5e1fa8)
+![Fiber Golang](https://res.cloudinary.com/harendra21/image/upload/v1710412294/images/fiber-golang-framework_l4knUfg3.webp)
 
 Fiber stands out in the crowded field of web frameworks due to its exceptional features that empower developers to create efficient and robust web applications. Let's explore some of the key features that make Fiber a standout choice:
 
