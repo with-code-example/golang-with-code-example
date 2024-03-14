@@ -7,8 +7,7 @@ tags: ['Golang', ' Apache Kafka', ' programming', ' technology']
 date: 2024-02-25
 featured_image: "https://res.cloudinary.com/harendra21/image/upload/w_1200,f_auto/golang-kafka_brxt5c.webp"
 thumbnail: "https://res.cloudinary.com/harendra21/image/upload/w_400,f_auto/golang-kafka_brxt5c.webp"
-comments: false
-toc: false
+comments: true
 draft: false
 series: ['Golang With']
 audio: "https://res.cloudinary.com/harendra21/video/upload/v1708966611/apacke-kafka_hhihz2.mp3"
@@ -23,7 +22,7 @@ With Kafka handling the distributed messaging and storage and Golang providing t
 
 Apache Kafka is an **open-source** distributed event streaming platform used for high-performance data pipelines, streaming analytics, data integration, and mission-critical applications. It was originally developed by LinkedIn and later became an open-source Apache project in 2011.
 
-![Apache kafka architecture](https://appwrite.withcodeexample.com/v1/storage/buckets/65cb3fcd6bbe0f7e04d4/files/65d7108f1fd83016f1fc/preview?width=1280&height=0&gravity=center&quality=90&borderWidth=1&borderColor=000000&borderRadius=5&opacity=1&rotation=0&background=000000&output=webp&project=65ca51d2711f0f5e1fa8)
+![Apache kafka architecture](https://res.cloudinary.com/harendra21/image/upload/v1710412171/images/apache-kafka-architecture_ZDExzfDR.webp)
 
 {{< notice "Use cases and Capabilities of Kafka" >}}
  - **Streaming Data Pipelines** - Kafka provides a distributed publish-subscribe messaging system that streams data between systems or applications. It offers robust queueing with data replication and fault tolerance.
@@ -121,7 +120,7 @@ func main() {
 
 A Kafka producer, an essential component in the Apache Kafka ecosystem, serves as a client application tasked with publishing (writing) events to a Kafka cluster. This segment provides a comprehensive overview of the Kafka producer, along with an introductory exploration of the configuration settings aimed at fine-tuning its behaviour.
 
-![Apache kafka working](https://appwrite.withcodeexample.com/v1/storage/buckets/65cb3fcd6bbe0f7e04d4/files/65d71022cf87f52f099d/preview?width=1280&height=0&gravity=center&quality=90&borderWidth=1&borderColor=000000&borderRadius=5&opacity=1&rotation=0&background=000000&output=webp&project=65ca51d2711f0f5e1fa8)
+![Apache kafka working](https://res.cloudinary.com/harendra21/image/upload/v1710412219/images/apache-kafka-working_7jP9ti2e.webp)
 
 Below is an example of a Golang application that produces data and publishes it to a Kafka topic. It also illustrates how to serialize data in Golang for Kafka messages and demonstrates handling errors and retries.
 
