@@ -13,7 +13,7 @@ series: ['']
 audio: ""
 ---
 
-Technology and software development are changing all the time, so your choice of programming languages could be a big deal for your career path and skills in this area. As we approach the year 2024, there is an increasing need for people who can program because of advancements in areas such as artificial intelligence (AI), data science/ analysis, cyber security etc. In such a dynamic setup, it becomes very essential for aspiring developers or even experts to determine what programming languages they should focus on. This article aims at discussing some of the major programming languages expected to have great influence on computing world in 2024 based on their relatedness, flexibility and popularity with consumers in order to help you make wise choices as far as your programming journey is concerned.
+Technology and software development are changing all the time, so your choice of programming languages could be a big deal for your career path and skills in this area. As we approach the year 2024, there is an increasing need for people who can program because of advancements in areas such as artificial intelligence (AI), data science/ analysis, cyber security etc. In such a dynamic setup, it becomes very essential for aspiring developers or even experts to determine what programming languages they should focus on. This article aims to discuss some of the major programming languages expected to have a great influence on the computing world in 2024 based on their relatedness, flexibility and popularity with consumers to help you make wise choices as far as your programming journey is concerned.
 
 {{< toc >}}
 
