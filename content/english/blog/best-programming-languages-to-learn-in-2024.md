@@ -1,13 +1,13 @@
 ---
 title: "Best Programming Languages To Learn In 2024"
 subtitle: "List of top Programming Languages with average salary to Learn in 2024"
-description: "Explore the best programming languages with their average salary you should learn in 2024 for a successful career in tech. Stay ahead of the curve with our expert recommendations."
+description: "Discover the top programming languages to learn in 2024. Stay ahead in the dynamic tech industry with insights on language trends and career prospects."
 slug: best-programming-languages-to-learn-in-2024
 tags: ['programming', ' top picks', ' tech trends', ' software development']
 date: 2024-03-14T18:30:00.000Z
 featured_image: "https://res.cloudinary.com/harendra21/image/upload/v1710340302/images/bast-programming-languages-to-learn-in-2024_QYiHQxBI.webp"
 thumbnail: "https://res.cloudinary.com/harendra21/image/upload/v1710340302/images/bast-programming-languages-to-learn-in-2024_QYiHQxBI.webp"
-comments: false
+comments: true
 draft: false
 series: ['']
 audio: ""
