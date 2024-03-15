@@ -1,13 +1,13 @@
 ---
 title: "Top Cloud Platform That You Can Explore In 2024"
 subtitle: "Top Cloud Platform That You Can Explore In 2024"
-description: "Top Cloud Platform That You Can Explore In 2024"
+description: "Explore the top cloud platforms of 2024, including Amazon Web Services (AWS), Microsoft Azure, Google Cloud Platform (GCP), Cloudflare, and Firebase."
 slug: top-cloud-platform-in-2024
 tags: ['cloud']
 date: 2024-03-13T17:59:52.988Z
 featured_image: "https://res.cloudinary.com/harendra21/image/upload/w_1280,f_auto/images/top-cloud-providers-in-2024_HDas3vXn.png"
 thumbnail: "https://res.cloudinary.com/harendra21/image/upload/w_1280,f_auto/images/top-cloud-providers-in-2024_HDas3vXn.png"
-comments: false
+comments: true
 draft: false
 series: ['']
 audio: ""
