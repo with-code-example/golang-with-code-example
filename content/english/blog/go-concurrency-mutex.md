@@ -5,15 +5,18 @@ description: "Explore the essential concept of Mutex (mutual exclusion) in Go to
 slug: go-concurrency-mutex
 tags: ['golang', 'concurrency']
 date: 2023-09-19
-featured_image: https://res.cloudinary.com/harendra21/image/upload/l_text:Roboto_50_bold:Managing%20Shared%20Resources%20with%20Mutex,co_rgb:fff/golangwithexample/bg_bczwj8.png
-thumbnail: https://res.cloudinary.com/harendra21/image/upload/l_text:Roboto_50_bold:Managing%20Shared%20Resources%20with%20Mutex,co_rgb:fff/golangwithexample/bg_bczwj8.png
-comments: True
-toc: True
+featured_image: "https://res.cloudinary.com/harendra21/image/upload/w_1920,f_auto/images/mutex_jlPKq3Gh.png"
+thumbnail: "https://res.cloudinary.com/harendra21/image/upload/w_1280,f_auto/images/mutex_jlPKq3Gh.png"
+comments: false
+draft: false
 series: ['Concurrency In Go']
-audio: https://res.cloudinary.com/harendra21/video/upload/v1694936834/golangwithexample/Managing_Shared_Resources_with_Mutex_dq3mig.wav
+audio: "https://res.cloudinary.com/harendra21/video/upload/v1694936834/golangwithexample/Managing_Shared_Resources_with_Mutex_dq3mig.wav"
 ---
 
-Concurrency is a powerful feature in Go that allows multiple Goroutines (concurrent threads) to execute simultaneously. However, with great power comes great responsibility. When multiple Goroutines access and modify shared resources concurrently, it can lead to data corruption, race conditions, and unpredictable program behavior. To address these issues, Go provides a synchronization primitive called the **Mutex** (short for mutual exclusion). In this article, we will explore the role of Mutex in managing shared resources, and the need for its use in concurrent programming.
+
+Concurrency is a powerful feature in Go that allows multiple [Goroutines](https://golang.withcodeexample.com/blog/demystifying-goroutines-in-go/) (concurrent threads) to execute simultaneously. However, with great power comes great responsibility. When multiple Goroutines access and modify shared resources concurrently, it can lead to data corruption, race conditions, and unpredictable program behaviour. To address these issues, Go provides a synchronization primitive called the **Mutex** (short for mutual exclusion). In this article, we will explore the role of Mutex in managing shared resources and the need for its use in concurrent programming.
+
+
 
 ## Introduction to Mutex
 
