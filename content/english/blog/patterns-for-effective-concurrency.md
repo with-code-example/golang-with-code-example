@@ -5,16 +5,17 @@ description: "Explore five fundamental patterns for achieving effective concurre
 slug: patterns-for-effective-concurrency
 tags: ['golang', 'concurrency']
 date: 2023-10-03
-featured_image: https://res.cloudinary.com/harendra21/image/upload/l_text:Roboto_45_bold:Patterns%20for%20Effective%20Concurrency%20in%20Go,co_rgb:fff/golangwithexample/bg_bczwj8.png
-thumbnail: https://res.cloudinary.com/harendra21/image/upload/l_text:Roboto_45_bold:Patterns%20for%20Effective%20Concurrency%20in%20Go,co_rgb:fff/golangwithexample/bg_bczwj8.png
-comments: True
-toc: True
+featured_image: "https://res.cloudinary.com/harendra21/image/upload/w_1920,f_auto/images/patterns-for-effective-concurrency_ZmPr2akK.png"
+thumbnail: "https://res.cloudinary.com/harendra21/image/upload/w_1280,f_auto/images/patterns-for-effective-concurrency_ZmPr2akK.png"
+comments: false
+draft: false
 series: ['Concurrency In Go']
-audio: 
+audio: ""
 ---
 
+In this age of advanced software programming, it is important to use parallelism for better results. With the increasing complexity of applications and demands for data processing, there’s a need for coders to write efficient and reliable concurrent programs. To tackle this problem, designers have come up with templates and methods that help in the design and management of concurrent systems. In this article we will take a look at 5 basic concurrency patterns in Go that should be known: distinguishing between parallelism and concurrency, breaking down tasks, using worker pools, cancellation and context, and testing concurrent code.
 
-In the realm of modern software development, harnessing the power of concurrency has become essential. As applications grow in complexity and data processing demands increase, writing concurrent code that is both efficient and reliable is a paramount concern. To address this challenge, developers have developed patterns and best practices that enable the effective design and management of concurrent systems. In this article, we will delve into five fundamental patterns for effective concurrency in Go: understanding the distinction between parallelism and concurrency, the concept of task decomposition, the utility of worker pools, cancellation and context, and testing concurrent code.
+{{< toc >}}
 
 ## Parallelism vs. Concurrency
 
