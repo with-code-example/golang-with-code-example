@@ -1,26 +1,27 @@
 ---
-title: "Demystifying Goroutines in Go: Lightweight Concurrency"
+title: "Understanding Goroutines in Go Language"
 subtitle: "Understanding Goroutines, their Efficiency, and Synchronization Challenges"
-description: "Explore the world of Goroutines in Go, their lightweight nature, and how to create them with the 'go' keyword. Learn how to tackle synchronization challenges, including race conditions and shared data issues."
+description: "Understand the power of Goroutines in Go language. Find out how this lightweight concurrency mechanism can handle thousands of tasks simultaneously."
 slug: demystifying-goroutines-in-go
 tags: ['golang', 'concurrency']
 date: 2023-09-15
-featured_image: https://res.cloudinary.com/harendra21/image/upload/l_text:Roboto_50_bold:Demystifying%20Goroutines%20in%20Go,co_rgb:fff/golangwithexample/bg_bczwj8.png
-thumbnail: https://res.cloudinary.com/harendra21/image/upload/l_text:Roboto_50_bold:Demystifying%20Goroutines%20in%20Go,co_rgb:fff/golangwithexample/bg_bczwj8.png
-comments: True
-toc: True
+featured_image: "https://res.cloudinary.com/harendra21/image/upload/w_1920,f_auto/images/goroutines-in-go_t01BUsIL.png"
+thumbnail: "https://res.cloudinary.com/harendra21/image/upload/w_1280,f_auto/images/goroutines-in-go_t01BUsIL.png"
+comments: false
+draft: false
 series: ['Concurrency In Go']
-audio: https://res.cloudinary.com/harendra21/video/upload/v1694934298/golangwithexample/Demystifying_Goroutines_in_Go_Lightweight_Concurrency_risnun.wav
+audio: "https://res.cloudinary.com/harendra21/video/upload/v1694934298/golangwithexample/Demystifying_Goroutines_in_Go_Lightweight_Concurrency_risnun.wav"
 ---
 
+In today's software development, we are using the concept of concurrency, which allows executing multiple tasks at a time. In Go programming understanding Goroutines is vital. This article seeks to explain in detail what goroutines are, how lightweight they can be, creating them by simply using the ‘go’ keyword and the major synchronisation difficulties such as race conditions and shared data issues that may arise.
 
-Concurrency is a fundamental concept in modern software development, enabling programs to execute multiple tasks simultaneously. In the realm of Go programming, understanding Goroutines is essential. This article will provide a comprehensive overview of Goroutines, their lightweight nature, how to create them using the `go` keyword, and the synchronization challenges they present, including race conditions and shared data issues.
+{{< toc >}}
 
 ## Explanation of Goroutines
 
 A **Goroutine** is a fundamental building block of concurrent programming in the Go programming language. It is essentially a lightweight thread of execution that runs concurrently with other Goroutines within a Go program. Unlike traditional threads in other programming languages, Goroutines are managed by the Go runtime and are more efficient in terms of both memory and CPU utilization.
 
-## Lightweight Nature and Efficiency
+## Nature and Efficiency
 
 One of the standout features of Goroutines is their **lightweight** nature. Traditional threads can be resource-intensive, consuming a significant amount of memory and CPU resources. In contrast, Goroutines are extremely efficient, allowing you to create thousands of them without causing significant overhead.
 
@@ -57,7 +58,6 @@ In the example above, the `sayHello` function is executed concurrently with the 
 ## Synchronization Challenges
 
 While Goroutines offer numerous advantages in concurrent programming, they also bring about synchronization challenges that must be carefully managed:
-
 
 
 ## Race Conditions in Go
@@ -139,7 +139,7 @@ In this revised code, we use the `mu` Mutex to protect the critical section of c
 
 Shared data issues in Go occur when multiple Goroutines access and manipulate shared data concurrently without proper synchronization. These issues can manifest in two primary forms:
 
-1. **Data Races**: Data races happen when two or more Goroutines simultaneously access shared data, leading to unpredictable results. Data races can result in data corruption or incorrect program behavior.
+1. **Data Races**: Data races happen when two or more Goroutines simultaneously access shared data, leading to unpredictable results. Data races can result in data corruption or incorrect program behaviour.
 
 2. **Deadlocks**: Deadlocks occur when Goroutines become stuck, waiting for each other to release resources. This can lead to a program coming to a standstill.
 
