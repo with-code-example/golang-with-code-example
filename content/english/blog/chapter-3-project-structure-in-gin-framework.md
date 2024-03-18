@@ -7,7 +7,7 @@ tags: ['gin framework', ' project structure', ' web development', ' software eng
 date: 2024-02-13
 featured_image: "https://res.cloudinary.com/harendra21/image/upload/w_1280,f_auto/images/gin-course-3_lecmjr.png"
 thumbnail: "https://res.cloudinary.com/harendra21/image/upload/w_1280,f_auto/images/gin-course-3_lecmjr.png"
-comments: false
+comments: true
 draft: false
 series: ['GIN Course']
 audio: "https://storage.googleapis.com/with-code-example/blog-audio/chapter-3-project-structure-in-gin-framework.wav"
@@ -27,7 +27,28 @@ In chapter 3 of the Gin Framework tutorial, we delve into the crucial aspect of 
 
 ## Organizing Files and Directories
 
-![strecture](https://res.cloudinary.com/harendra21/image/upload/w_1280,f_auto/images/folder-hero_1lh6c3fe.jpg)
+```
+
+├── main.go
+├── go.mod
+├── go.sum
+├── README.md
+├── cmd
+│   └── main
+│   └── main.go
+├── config
+│   └── config.yaml
+├── handlers
+│   └── hello.go
+├── models
+│   └── user.go
+├── routes
+│   └── routes.go
+└── tests
+└── unit
+└── hello_test.go
+
+```
 
 A well-organized project structure is fundamental for seamless development and collaboration. Here's a recommended layout for a Gin project:
 
