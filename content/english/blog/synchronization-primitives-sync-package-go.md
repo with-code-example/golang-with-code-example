@@ -1,24 +1,27 @@
 ---
-title: "Synchronization Primitives in the `sync` Package"
+title: "Synchronization Primitives in the sync Package"
 subtitle: "Mastering Concurrency in Go with `sync` Package Primitives"
-description: "Explore the `sync` package in Go (Golang) and learn about essential synchronization primitives like Wait Groups, RWMutex, Condition Variables, and Atomic Operations for efficient concurrent programming."
+description: "Explore Golang sync package with Wait Groups, RWMutex, Condition Variables, Atomics - essential for efficient concurrent programming."
 slug: synchronization-primitives-sync-package-go
 tags: ['golang', 'concurrency']
 date: 2023-09-21
-featured_image: https://res.cloudinary.com/harendra21/image/upload/l_text:Roboto_70_bold:sync%20Package,co_rgb:fff/golangwithexample/bg_bczwj8.png
-thumbnail: https://res.cloudinary.com/harendra21/image/upload/l_text:Roboto_70_bold:sync%20Package,co_rgb:fff/golangwithexample/bg_bczwj8.png
-comments: True
-toc: True
+featured_image: "https://res.cloudinary.com/harendra21/image/upload/w_1920,f_auto/images/sync-package_4u61RmMa.png"
+thumbnail: "https://res.cloudinary.com/harendra21/image/upload/w_1280,f_auto/images/sync-package_4u61RmMa.png"
+comments: false
+draft: false
 series: ['Concurrency In Go']
-audio: https://res.cloudinary.com/harendra21/video/upload/v1695020141/golangwithexample/Sync_Package_saqagg.wav
+audio: "https://res.cloudinary.com/harendra21/video/upload/v1695020141/golangwithexample/Sync_Package_saqagg.wav"
 ---
+
 
 
 Concurrency is a fundamental aspect of modern software development, and Go, also known as Golang, provides a robust set of tools for concurrent programming. One of the essential packages in Go for managing concurrency is the `sync` package. In this article, we will provide an overview of the `sync` package and delve into one of its most crucial synchronization primitives: Wait Groups.
 
+{{< toc >}}
+
 ## Overview of the `sync` Package
 
-The `sync` package is a standard library package in Go that offers synchronization primitives for concurrent programming. It provides developers with tools to coordinate and synchronize Goroutines, ensuring safe and orderly execution of concurrent tasks. Some of the key synchronization primitives offered by the `sync` package include Mutexes, RWMutexes, Cond, and Wait Groups.
+The `sync` package is a standard library package in Go that offers synchronization primitives for concurrent programming. It provides developers with tools to coordinate and synchronize [Goroutines](https://golang.withcodeexample.com/blog/demystifying-goroutines-in-go/), ensuring the safe and orderly execution of concurrent tasks. Some of the key synchronization primitives offered by the `sync` package include Mutexes, RWMutexes, Cond, and Wait Groups.
 
 ## Wait Groups
 
