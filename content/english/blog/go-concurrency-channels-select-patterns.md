@@ -5,19 +5,22 @@ description: "Explore the role of channels, learn to multiplex with select state
 slug: go-concurrency-channels-select-patterns
 tags: ['golang', 'concurrency']
 date: 2023-09-17
-featured_image: https://res.cloudinary.com/harendra21/image/upload/l_text:Roboto_50_bold:Working%20with%20Channels%20and%20Patterns,co_rgb:fff/golangwithexample/bg_bczwj8.png
-thumbnail: https://res.cloudinary.com/harendra21/image/upload/l_text:Roboto_50_bold:Working%20with%20Channels%20and%20Patterns,co_rgb:fff/golangwithexample/bg_bczwj8.png
-comments: True
-toc: True
+featured_image: "https://res.cloudinary.com/harendra21/image/upload/w_1920,f_auto/images/channels-and-patterns_ZVbfL4uk.png"
+thumbnail: "https://res.cloudinary.com/harendra21/image/upload/w_1280,f_auto/images/channels-and-patterns_ZVbfL4uk.png"
+comments: false
+draft: false
 series: ['Concurrency In Go']
-audio: https://res.cloudinary.com/harendra21/video/upload/v1694936381/golangwithexample/Working_With_Channels_and_Patterns_yllnpk.wav
+audio: "https://res.cloudinary.com/harendra21/video/upload/v1694936381/golangwithexample/Working_With_Channels_and_Patterns_yllnpk.wav"
 ---
 
-Concurrent programming is a powerful paradigm for building efficient and responsive software. Go, also known as Golang, offers a robust and elegant solution to concurrent communication through the use of channels. In this article, we will explore the concept of channels, their role in concurrent programming, and how to send and receive data using both unbuffered and buffered channels.
+
+Concurrent programming is a powerful approach for creating performance-tuned and reactive software. [Golang](https://golang.withcodeexample.com/blog/golang-tutorial-for-beginners/), also known as Go, comes in handy with channels to facilitate concurrent communications reliably and beautifully. This article will unveil the concept of channels, explain their part in concurrent programming and provide insights on how to send or receive data through both unbuffered and buffered channels.
+
+{{< toc >}}
 
 ## Introduction to Channels
 
-Channels in Go are a fundamental feature that enable safe and synchronized communication between Goroutines (concurrent threads of execution). They act as conduits through which data can be passed between Goroutines, facilitating coordination and synchronization in concurrent programs.
+Channels in Go are a fundamental feature that enables safe and synchronized communication between [Goroutines](https://golang.withcodeexample.com/blog/demystifying-goroutines-in-go/) (concurrent threads of execution). They act as conduits through which data can be passed between Goroutines, facilitating coordination and [synchronization](https://golang.withcodeexample.com/blog/synchronization-primitives-sync-package-go/) in concurrent programs.
 
 Channels are unidirectional, meaning they can be used either for sending data (`<- chan`) or receiving data (`chan <-`). This unidirectional nature helps enforce a clear and controlled flow of data between Goroutines.
 
