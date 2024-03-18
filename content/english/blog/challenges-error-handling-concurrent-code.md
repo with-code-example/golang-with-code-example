@@ -5,27 +5,30 @@ description: "Explore the complexities and solutions of error handling in concur
 slug: challenges-error-handling-concurrent-code
 tags: ['golang', 'concurrency']
 date: 2023-09-27
-featured_image: https://res.cloudinary.com/harendra21/image/upload/l_text:Roboto_50_bold:Error%20Handling%20in%20Concurrent%20Code,co_rgb:fff/golangwithexample/bg_bczwj8.png
-thumbnail: https://res.cloudinary.com/harendra21/image/upload/l_text:Roboto_50_bold:Error%20Handling%20in%20Concurrent%20Code,co_rgb:fff/golangwithexample/bg_bczwj8.png
-comments: True
-toc: True
+featured_image: "https://res.cloudinary.com/harendra21/image/upload/w_1920,f_auto/images/error-handling_7OgXRsA4.png"
+thumbnail: "https://res.cloudinary.com/harendra21/image/upload/w_1280,f_auto/images/error-handling_7OgXRsA4.png"
+comments: false
+draft: false
 series: ['Concurrency In Go']
-audio: 
+audio: ""
 ---
 
+
 Concurrent programming may be a strong technique for increasing software system efficiency and responsiveness. It enables numerous workloads to operate at the same time, making full use of contemporary multi-core CPUs. However, with tremendous power comes great responsibility, and good error management is one of the major tasks in concurrent programming.
+
+{{< toc >}}
 
 ### The Complexity of Concurrent Code
 
 
-Concurrent programming adds a degree of complexity that sequential programmes do not have. Multiple threads or goroutines can run concurrently, potentially causing race situations and synchronisation difficulties. Because of these complexity, error management in concurrent programmes is more difficult than in single-threaded programming.
+Concurrent programming adds a degree of complexity that sequential programs do not have. Multiple threads or [goroutines](https://golang.withcodeexample.com/blog/demystifying-goroutines-in-go/) can run concurrently, potentially causing race situations and synchronisation difficulties. Because of this complexity, error management in concurrent programmes is more difficult than in single-threaded programming.
 
 When an error occurs in a concurrent programme, determining which goroutine or thread caused the issue and how to manage it graciously can be difficult. Furthermore, problems in a single goroutine may go unreported if they are not adequately propagated and reported.
 
 
 ## Propagating Errors from Goroutines
 
-To manage errors successfully in concurrent programmes, errors must be propagated from goroutines to the main programme or the appropriate error-handling mechanism. Go, a programming language recognised for its support for concurrent programming via goroutines, provides a strong system for error propagation via channels.
+To manage errors successfully in concurrent programmes, errors must be propagated from goroutines to the main programme or the appropriate error-handling mechanism. Go, a programming language recognised for its support for concurrent programming via goroutines provides a strong system for error propagation via channels.
 
 
 ### Using Channels for Error Propagation
