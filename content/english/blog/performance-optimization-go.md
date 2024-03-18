@@ -1,14 +1,13 @@
 ---
 title: "Performance Considerations and Optimization in Go"
 subtitle: "Fine-Tuning Your Go Code for Peak Performance"
-description: "Explore essential performance considerations and optimization techniques in Go, including profiling concurrent code, identifying bottlenecks, and implementing load balancing and scalability strategies."
+description: "Explore Go performance optimisation in golang using concurrency: profiling concurrency, bottleneck detection, load balancing, scalability strategies."
 slug: performance-optimization-go
 tags: ['golang', 'concurrency']
 date: 2023-10-10
-featured_image: "https://res.cloudinary.com/harendra21/image/upload/l_text:Roboto_40_bold:Performance%20Considerations%20and%20Optimization%20in%20Go,co_rgb:fff/golangwithexample/bg_bczwj8.png"
-thumbnail: "https://res.cloudinary.com/harendra21/image/upload/l_text:Roboto_40_bold:Performance%20Considerations%20and%20Optimization%20in%20Go,co_rgb:fff/golangwithexample/bg_bczwj8.png"
-comments: false
-toc: false
+featured_image: "https://res.cloudinary.com/harendra21/image/upload/w_1920,f_auto/images/performance-considerations-and-optimization_EkMSz0RO.png"
+thumbnail: "https://res.cloudinary.com/harendra21/image/upload/w_1280,f_auto/images/performance-considerations-and-optimization_EkMSz0RO.png"
+comments: true
 draft: false
 series: ['Concurrency In Go']
 audio: ""
