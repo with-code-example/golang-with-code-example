@@ -7,7 +7,7 @@ tags: ['js', ' javascript', ' asynchronous']
 date: 2024-03-19T12:31:24.566Z
 featured_image: "https://res.cloudinary.com/harendra21/image/upload/w_1920,f_auto/images/asynchronous-programming-in-javascript_j3WCKwW0.png"
 thumbnail: "https://res.cloudinary.com/harendra21/image/upload/w_1280,f_auto/images/asynchronous-programming-in-javascript_j3WCKwW0.png"
-comments: false
+comments: true
 draft: false
 series: ['Pdf']
 audio: ""
