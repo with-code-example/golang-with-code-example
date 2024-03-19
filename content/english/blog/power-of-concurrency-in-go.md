@@ -7,7 +7,7 @@ tags: ['golang', 'concurrency']
 date: 2023-09-13
 featured_image: "https://res.cloudinary.com/harendra21/image/upload/w_1920,f_auto/images/the-power-of-concurrency-in-go_ewNlVlDd.png"
 thumbnail: "https://res.cloudinary.com/harendra21/image/upload/w_1280,f_auto/images/the-power-of-concurrency-in-go_ewNlVlDd.png"
-comments: false
+comments: true
 draft: false
 series: ['Concurrency In Go']
 audio: "https://res.cloudinary.com/harendra21/video/upload/v1694934586/golangwithexample/The_Power_of_Concurrency_in_Go_ofmlxm.wav"
