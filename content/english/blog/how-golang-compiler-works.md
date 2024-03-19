@@ -7,13 +7,39 @@ tags: ['golang', ' golang compiler', ' programming', ' software development', ' 
 date: 2024-03-13T05:42:11.978Z
 featured_image: "https://res.cloudinary.com/harendra21/image/upload/w_1280,f_auto/images/Go_Compiler_gqpqdg.png"
 thumbnail: "https://res.cloudinary.com/harendra21/image/upload/w_1280,f_auto/images/Go_Compiler_gqpqdg.png"
-comments: true
+comments: false
 draft: false
 series: ['']
 audio: ""
 ---
 
 In software development, [compilers](https://www.geeksforgeeks.org/introduction-to-compilers/) are critical as they change high-level programming languages into machine code that a computer can read and execute. In the absence of compilers, developers would be forced to write programs using low-level machine code directly—a laborious and mistake-prone exercise. They thus bridge the gap between human-readable code and that which a machine can execute thereby making software development easier and more efficient.
+
+```mermaid
+
+flowchart TB
+    Start[Start] --> LexicalAnalysis
+    LexicalAnalysis --> ParsingSyntes
+    ParsingSyntes --> TypeChecking
+    TypeChecking --> CodeOptimization
+    CodeOptimization --> CodeGeneration
+    CodeGeneration --> End[End]
+
+    subgraph Go Compiler Steps
+        LexicalAnalysis{{Lexical Analysis}}
+        linkStyle 0 stroke:#3366ff,stroke-width:2px;
+        ParsingSyntes{{Parsing and Syntax Analysis}}
+        linkStyle 0 stroke:#3366ff,stroke-width:2px;
+        TypeChecking{{Type Checking and Semantic Analysis}}
+        linkStyle 0 stroke:#3366ff,stroke-width:2px;
+        CodeOptimization{{Code Optimization}}
+        linkStyle 0 stroke:#3366ff,stroke-width:2px;
+        CodeGeneration{{Code Generation}}
+        linkStyle 0 stroke:#3366ff,stroke-width:2px;
+    end
+
+```
+
 
 {{< toc >}}
 
