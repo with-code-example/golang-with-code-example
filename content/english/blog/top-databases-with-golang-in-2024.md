@@ -7,7 +7,7 @@ tags: ['golang', ' database', ' postgres', ' mysql']
 date: 2024-03-19T08:27:49.287Z
 featured_image: "https://res.cloudinary.com/harendra21/image/upload/w_1920,f_auto/images/top-databases-to-start-using-with-golang_pYS6B2ht.png"
 thumbnail: "https://res.cloudinary.com/harendra21/image/upload/w_1280,f_auto/images/top-databases-to-start-using-with-golang_pYS6B2ht.png"
-comments: false
+comments: true
 draft: false
 series: ['']
 audio: ""
@@ -86,6 +86,8 @@ func main() {
 
 The free and open-source relational database management system (RDBMS) MySQL stores data in distinct tables rather than one single large database. It is an SQL-based RDBMS that can be run under various platforms such as Unix, Mac OS and Windows operating systems. MySQL is employed across many sectors and supports transactions, real-time analytics, and machine learning.
 
+### Start using MySQL with Golang
+
 1. **Install Golang MySQL package**
 
 [![gp-mysql](https://res.cloudinary.com/harendra21/image/upload/w_1280,f_auto/images/go-mysql_fBpTmMzJ.jpg)](https://github.com/go-sql-driver/mysql)
@@ -139,6 +141,8 @@ func main() {
 ## SQLite
 
 SQLite is a relational database management system (RDBMS) that is open source and serverless. It is a library embedded by software developers in their applications and acts as the most widely available database engine. SQLite is cross-platform and hence can be used on platforms such as macOS and Windows.
+
+### Start using SQLite with Golang
 
 1. **Install Golang SQLite package**
 
@@ -209,6 +213,8 @@ func main() {
 ## MongoDB
 
 MongoDB is a non-relational database management system that is open-source, meaning its source code is available to the public. It uses documents and collections rather than tables to store data, hence it qualifies as a NoSQL or Not only SQL database. This means that you can store unstructured structured data in this DBMS due to its flexible data model with indexing support and replication using rich and intuitive APIs.
+
+### Start using MongoDB with Golang
 
 1. **Install Golang MongoDB package**
 
@@ -294,6 +300,8 @@ Microsoft SQL Server is made on Structured Query Language (SQL). It uses the pro
 
 Corporate IT environments can be supported by Microsoft SQL Server which is a relational database management system (RDBMS) that has a broad range concerning transaction processing, business intelligence (BI), and data analytics applications.
 
+
+### Start using Microsoft SQL Server with Golang
 
 1. **Install Golang MsSqlDb package**
 
