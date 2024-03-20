@@ -7,7 +7,7 @@ tags: ['gin framework', ' project structure', ' web development', ' software eng
 date: 2024-02-13
 featured_image: "https://res.cloudinary.com/harendra21/image/upload/w_1280,f_auto/images/gin-course-3_lecmjr.png"
 thumbnail: "https://res.cloudinary.com/harendra21/image/upload/w_1280,f_auto/images/gin-course-3_lecmjr.png"
-comments: true
+comments: false
 draft: false
 series: ['GIN Course']
 audio: "https://storage.googleapis.com/with-code-example/blog-audio/chapter-3-project-structure-in-gin-framework.wav"
@@ -19,34 +19,35 @@ In chapter 3 of the Gin Framework tutorial, we delve into the crucial aspect of 
 
 {{< notice "Prerequisites" >}}
 
-- Introduction to [Golang](https://golang.withcodeexample.com/blog/golang-tutorial-for-beginners/)
-- Introduction to [Gin Framework](https://golang.withcodeexample.com/blog/chapter-1-introduction-to-gin-framework/)
+- [Golang Tutorials For Beginners](https://golang.withcodeexample.com/blog/golang-tutorial-for-beginners/)
+
 {{< /notice >}}
 
 
 
 ## Organizing Files and Directories
 
-```
+```marmaid
 
-├── main.go
-├── go.mod
-├── go.sum
-├── README.md
-├── cmd
-│   └── main
-│   └── main.go
-├── config
-│   └── config.yaml
-├── handlers
-│   └── hello.go
-├── models
-│   └── user.go
-├── routes
-│   └── routes.go
-└── tests
-└── unit
-└── hello_test.go
+graph LR;
+    A[Project Root] --> B(main.go);
+    A --> C(go.mod);
+    A --> D(go.sum);
+    A --> E(README.md);
+    A --> F(cmd);
+    F --> G(main);
+    G --> H(main.go);
+    A --> I(config);
+    I --> J(config.yaml);
+    A --> K(handlers);
+    K --> L(hello.go);
+    A --> M(models);
+    M --> N(user.go);
+    A --> O(routes);
+    O --> P(routes.go);
+    A --> Q(tests);
+    Q --> R(unit);
+    R --> S(hello_test.go);
 
 ```
 
@@ -54,7 +55,7 @@ A well-organized project structure is fundamental for seamless development and c
 
 ### Main Directory:
    - `main.go`: This file serves as the entry point of the application. It typically contains the initialization logic for your Gin router and other essential configurations.
-   - [go.mod](https://golang.withcodeexample.com/blog/go-mod-init-dependency-management-go/) and `go.sum`: These files are used for managing dependencies with Go modules. They list the project's dependencies and their versions.
+   - [go.mod](https://golang.withcodeexample.com/blog/go-mod-init-dependency-management-go/) and `go.sum`: These files are used for managing dependencies with [Go modules](https://golang.withcodeexample.com/blog/go-mod-init-dependency-management-go/). They list the project's dependencies and their versions.
    - `README.md`: A README file containing essential information about the project, such as its purpose, installation instructions, and usage guidelines.
 
 ### Internal Packages:
