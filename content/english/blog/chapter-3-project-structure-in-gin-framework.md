@@ -27,7 +27,7 @@ In chapter 3 of the Gin Framework tutorial, we delve into the crucial aspect of 
 
 ## Organizing Files and Directories
 
-```marmaid
+```mermaid
 
 graph LR;
     A[Project Root] --> B(main.go);
