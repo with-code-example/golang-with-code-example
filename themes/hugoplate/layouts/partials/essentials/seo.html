@@ -76,12 +76,15 @@
 {{ $meta_description = printf "Explore our %s series for insights on various topics. Discover curated content on %s. Start exploring now!" (.Params.title | humanize | title ) (site.Title)}}
 {{ end }}
 
-<meta name="description" content="{{  $meta_description  }}" />
+{{ if gt (len $meta_description) 157 }}
+  {{ $meta_description = printf "%s..." (substr $meta_description 0 157) }}
+{{ end }}
+
+<meta name="description" content="{{ $meta_description }}" />
 <!-- meta author -->
 {{ with site.Params.metadata.author }}
   <meta name="author" content="{{ . }}" />
 {{ end }}
-
 
 <!-- checking og description -->
 {{ $description := .Summary }}
