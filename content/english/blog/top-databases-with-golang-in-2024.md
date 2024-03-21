@@ -7,7 +7,7 @@ tags: ['golang', ' database', ' postgres', ' mysql']
 date: 2024-03-19T08:27:49.287Z
 featured_image: "https://res.cloudinary.com/harendra21/image/upload/w_1920,f_auto/images/top-databases-to-start-using-with-golang_pYS6B2ht.png"
 thumbnail: "https://res.cloudinary.com/harendra21/image/upload/w_1280,f_auto/images/top-databases-to-start-using-with-golang_pYS6B2ht.png"
-comments: true
+comments: false
 draft: false
 series: ['']
 audio: ""
@@ -15,6 +15,22 @@ audio: ""
 
 
 Hey, I am going to discuss the leading databases you can start with golang. StackOverflow was surveyed in 2023 to choose these databases. So I will be using it as my point of reference and giving code examples on how to use those databases with golang this year 2024. So without wasting any more time let’s get started.
+
+**Flow diagram to connect to the database in Golang**
+
+```mermaid
+graph TD;
+    A[Start] --> B{Choose Database Type};
+    B -->|SQL Database| C[Import Database Driver];
+    B -->|NoSQL Database| D[Import Database Driver];
+    C --> D1[Set Database Connection Parameters];
+    D --> D1;
+    D1 --> E[Open Database Connection];
+    E --> F[Execute SQL Queries / Operations];
+    F --> G[Close Database Connection];
+    G --> H[End];
+
+```
 
 {{< toc >}}
 
