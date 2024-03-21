@@ -63,12 +63,6 @@
         title: '{{ .Title }}',
       });
       window.player = player;
-      player.on('play', (event) => {
-        posthog.capture('paying_audio', {
-          title: '{{ .Title }}',
-          url: '{{ .Permalink }}',
-        })
-      });
     </script>
     {{ end }}
 
