@@ -1,13 +1,13 @@
 ---
-title: "Go Templating using Templ"
+title: "Building Efficient Templates with Go Templ"
 subtitle: "A Guide to Efficient Dynamic Content Generation in Go Projects with Templ"
-description: "Explore how to simplify dynamic content generation in your Go projects using Templ. Learn about key features, practical examples, and how to create dynamic templates with conditional logic, loops, custom functions, and modularization. Discover the power of Templ for efficient and elegant content generation in Go."
+description: "Explore how to simplify dynamic content generation in your Go using Templ. Learn key features, practical examples, and how to create dynamic templates."
 slug: go-templating-templ-dynamic-content-generation
-tags: ['golang', 'templating', 'go']
+tags: ['golang', ' templating', ' go', ' go templ']
 date: 2023-12-07
 featured_image: "https://res.cloudinary.com/harendra21/image/upload/l_text:Roboto_65_bold:Go%20Templating%20using%20Templ,co_rgb:fff/golangwithexample/bg3.png"
 thumbnail: "https://res.cloudinary.com/harendra21/image/upload/l_text:Roboto_65_bold:Go%20Templating%20using%20Templ,co_rgb:fff/golangwithexample/bg3.png"
-comments: true
+comments: false
 draft: false
 series: ['']
 audio: "https://res.cloudinary.com/harendra21/video/upload/v1705332283/golangwithexample/go-templ_ux0lvt.mp3"
