@@ -7,7 +7,7 @@ tags: ['Fiber', ' Golang', ' Web Framework', ' Go', ' Programming']
 date: 2023-08-22
 featured_image: "https://res.cloudinary.com/harendra21/image/upload/w_1200/golangwithexample/fiber-golang_elojg5.png"
 thumbnail: "https://res.cloudinary.com/harendra21/image/upload/w_400/golangwithexample/fiber-golang_elojg5.png"
-comments: true
+comments: false
 draft: false
 series: ['']
 audio: "https://with-code-example.s3.ap-south-1.amazonaws.com/blog/golang-fiber.2fbb1867-fbc1-4883-9eba-bf4c0989d966.mp3"
@@ -17,18 +17,6 @@ audio: "https://with-code-example.s3.ap-south-1.amazonaws.com/blog/golang-fiber.
 In web development, choosing the right framework can significantly impact the efficiency and success of your projects. Enter Fiber, an impressive web framework for the Go (Golang) programming language. Known for its lightning-fast performance and robust features, Fiber Golang has emerged as a popular choice among developers looking to build high-performance web applications. In this article, we will delve into the world of Fiber, exploring its unique attributes and understanding why it has garnered such attention within the Go ecosystem.
 
 [**Fiber Golang Series**](https://golang.withcodeexample.com/series/fiber-golang/)
-
-{{< notice "You Will Learn" >}}
-- 💨 Fiber Golang is a web framework known for its lightning-fast performance and robust features
-- 🔀 Fiber Golang offers flexible routing capabilities, making it easy to define complex routes
-- 🤝 Middleware functions in Fiber Golang enable custom logic injection for request-response handling
-- 📦 Context in Fiber Golang facilitates data sharing between middleware functions and request handlers
-- 🔄 Fiber Golang provides built-in JSON parsing and response formatting for efficient development
-- 🚧 Fiber Golang employs structured error-handling strategies for reliable application-building
-- 🕸️ Fiber Golang supports WebSockets for real-time communication in web applications
-- 📁 Fiber Golang simplifies static file serving for tasks like serving HTML, CSS, and images
-
-{{< /notice >}}
 
 {{< toc >}}
 
