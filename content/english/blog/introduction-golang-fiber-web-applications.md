@@ -5,19 +5,20 @@ description: "Explore the world of GoLang Fiber, learn about its features, insta
 slug: introduction-golang-fiber-web-applications
 tags: ['golang', 'fiber']
 date: 2023-11-08
-featured_image: https://res.cloudinary.com/harendra21/image/upload/l_text:Roboto_65_bold:Introduction%20to%20GoLang%20Fiber,co_rgb:fff/golangwithexample/golang-fiber-course.png
-thumbnail: https://res.cloudinary.com/harendra21/image/upload/l_text:Roboto_65_bold:Introduction%20to%20GoLang%20Fiber,co_rgb:fff/golangwithexample/golang-fiber-course.png
-comments: True
-toc: True
+featured_image: "https://res.cloudinary.com/harendra21/image/upload/l_text:Roboto_65_bold:Introduction%20to%20GoLang%20Fiber,co_rgb:fff/golangwithexample/golang-fiber-course.png"
+thumbnail: "https://res.cloudinary.com/harendra21/image/upload/l_text:Roboto_65_bold:Introduction%20to%20GoLang%20Fiber,co_rgb:fff/golangwithexample/golang-fiber-course.png"
+comments: false
+draft: false
 series: ['Fiber Golang']
-audio: 
+audio: ""
 ---
+
 
 In the ever-evolving world of web development, choosing the right [framework](https://golang.withcodeexample.com/blog/go-web-frameworks-for-web-development/) is paramount. Speed, simplicity, and a robust feature set are qualities that every developer seeks. When it comes to building web applications in Go, "Fiber" stands out as a powerful and lightweight framework that brings these qualities to the table. In this comprehensive guide, we will introduce you to GoLang Fiber, cover its installation and setup, guide you through creating a basic Fiber application, and help you understand the project structure that forms the foundation of your web development journey with Fiber.
 
-## Introduction to [GoLang Fiber](https://golang.withcodeexample.com/blog/fiber-golang-powerful-web-framework/)
+## Introduction to GoLang Fiber
 
-GoLang Fiber is a modern web framework for building high-performance web applications in Go. It's designed to be one of the fastest web frameworks available, and it achieves this by leveraging the raw power of Go's concurrency and low-level control. Fiber is inspired by Express.js, a popular web framework in the JavaScript world, and it brings some of the best ideas from Express to Go, allowing developers to create web applications quickly and efficiently.
+[GoLang Fiber](https://golang.withcodeexample.com/blog/fiber-golang-powerful-web-framework/) is a modern web framework for building high-performance web applications in Go. It's designed to be one of the fastest web frameworks available, and it achieves this by leveraging the raw power of Go's concurrency and low-level control. Fiber is inspired by Express.js, a popular web framework in the JavaScript world, and it brings some of the best ideas from Express to Go, allowing developers to create web applications quickly and efficiently.
 
 Some of the key features that make Fiber stand out are:
 
