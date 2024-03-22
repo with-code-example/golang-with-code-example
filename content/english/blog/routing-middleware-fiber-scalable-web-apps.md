@@ -3,17 +3,18 @@ title: "Routing and Middleware in Fiber Golang"
 subtitle: "Master the Art of Routing and Middleware in GoLang Fiber for Efficient Web Development"
 description: "Explore the intricacies of routing and middleware in GoLang Fiber, a high-performance web framework."
 slug: routing-middleware-fiber-scalable-web-apps
-tags: ['golang', 'fiber']
+tags: ['golang', ' fiber']
 date: 2023-11-09
-featured_image: https://res.cloudinary.com/harendra21/image/upload/l_text:Roboto_55_bold:Routing%20and%20Middleware%20in%20Fiber,co_rgb:fff/golangwithexample/golang-fiber-course.png
-thumbnail: https://res.cloudinary.com/harendra21/image/upload/l_text:Roboto_55_bold:Routing%20and%20Middleware%20in%20Fiber,co_rgb:fff/golangwithexample/golang-fiber-course.png
-comments: True
-toc: True
+featured_image: "https://res.cloudinary.com/harendra21/image/upload/l_text:Roboto_55_bold:Routing%20and%20Middleware%20in%20Fiber,co_rgb:fff/golangwithexample/golang-fiber-course.png"
+thumbnail: "https://res.cloudinary.com/harendra21/image/upload/l_text:Roboto_55_bold:Routing%20and%20Middleware%20in%20Fiber,co_rgb:fff/golangwithexample/golang-fiber-course.png"
+comments: false
+draft: false
 series: ['Fiber Golang']
-audio: 
+audio: ""
 ---
 
-In the realm of web development, creating a web application that effectively routes and manages various tasks is essential. Routing determines how incoming requests are handled, and middleware plays a pivotal role in performing tasks like authentication, logging, and request parsing. When it comes to building web applications in GoLang Fiber, understanding routing and implementing middleware are key to developing scalable and efficient web applications. In this comprehensive guide, we will explore the intricacies of routing in Fiber, learn how to create and handle routes, dive into dynamic routing with route parameters, and grasp the art of implementing middleware for handling common tasks in your Fiber application.
+
+In web development, creating a web application that effectively routes and manages various tasks is essential. Routing determines how incoming requests are handled, and middleware plays a pivotal role in performing tasks like authentication, logging, and request parsing. When it comes to building web applications in [GoLang Fiber](https://golang.withcodeexample.com/blog/fiber-golang-powerful-web-framework/), understanding routing and implementing middleware are key to developing scalable and efficient web applications. In this comprehensive guide, we will explore the intricacies of routing in Fiber, learn how to create and handle routes, dive into dynamic routing with route parameters, and grasp the art of implementing middleware for handling common tasks in your Fiber application.
 
 ## Routing in Fiber
 
