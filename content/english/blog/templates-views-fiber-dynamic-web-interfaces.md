@@ -7,8 +7,7 @@ tags: ['Golang', ' Fiber', ' Templates', ' Views', ' Web Development']
 date: 2023-11-11
 featured_image: "https://res.cloudinary.com/harendra21/image/upload/l_text:Roboto_45_bold:Templates%20and%20Views%20in%20Fiber%20Golang,co_rgb:fff/golangwithexample/golang-fiber-course.png"
 thumbnail: "https://res.cloudinary.com/harendra21/image/upload/l_text:Roboto_45_bold:Templates%20and%20Views%20in%20Fiber%20Golang,co_rgb:fff/golangwithexample/golang-fiber-course.png"
-comments: false
-toc: false
+comments: true
 draft: false
 series: ['Fiber Golang']
 audio: ""
@@ -29,11 +28,11 @@ Embrace the power of GoLang Fiber and embark on your journey to creating dynamic
 
 ## Rendering HTML Templates in Fiber Golang
 
-Rendering HTML templates is a fundamental aspect of web development. Templates are used to create the structure and layout of web pages, with placeholders for dynamic content. In Fiber, rendering HTML templates is a straightforward process. Let's dive into the intricacies of rendering templates in Fiber.
+Rendering HTML templates in [fiber golang](https://golang.withcodeexample.com/blog/fiber-golang-powerful-web-framework/) is a fundamental aspect of web development. Templates are used to create the structure and layout of web pages, with placeholders for dynamic content. In Fiber, rendering HTML templates is a straightforward process. Let's dive into the intricacies of rendering templates in Fiber.
 
 ## Using a Template Engine in Fiber Golang
 
-Fiber allows you to render HTML templates with ease by integrating a template engine. The most commonly used template engine in Fiber is **"html/template"**, which is part of Go's standard library. It provides a powerful and flexible way to create and render HTML templates.
+[Fiber](https://golang.withcodeexample.com/blog/fiber-golang-powerful-web-framework/) allows you to render HTML templates with ease by integrating a template engine. The most commonly used template engine in Fiber is **"html/template"**, which is part of Go's standard library. It provides a powerful and flexible way to create and render HTML templates.
 
 To use the **"html/template"** package in Fiber, you first need to create a new instance of the template engine and parse your template files. Here's a basic example:
 
