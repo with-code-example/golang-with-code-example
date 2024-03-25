@@ -1,33 +1,88 @@
 ---
-title: "Error Handling in Golang: A Comprehensive Guide with Examples"
+title: "How To Handle Errors In Golang Effectively"
 subtitle: "Handle errors in golang"
 description: "Golang provides a robust error handling mechanism that allows developers to manage errors effectively. By understanding how to use error types and custom errors, defer and panic, and error wrapping, you can build reliable and resilient applications that gracefully handle unexpected situations."
 slug: error-handling-in-golang-a-comprehensive-guide-with-examples
 tags: ['golang', 'golang-best-practices', 'error-handling']
 date: 2023-08-09
-featured_image: https://res.cloudinary.com/harendra21/image/upload/w_1200/awesome-blog/awesome-golang/Error_Handling_aqphgs.png
-thumbnail: https://res.cloudinary.com/harendra21/image/upload/w_400/awesome-blog/awesome-golang/Error_Handling_aqphgs.png
-comments: True
-toc: True
+featured_image: "https://res.cloudinary.com/harendra21/image/upload/w_1200/awesome-blog/awesome-golang/Error_Handling_aqphgs.png"
+thumbnail: "https://res.cloudinary.com/harendra21/image/upload/w_400/awesome-blog/awesome-golang/Error_Handling_aqphgs.png"
+comments: false
+draft: false
 series: ['Golang Best Practices']
-audio: 
+audio: ""
 ---
 
-As a developer, you know that error handling is a critical aspect of building reliable and robust applications. Golang provides powerful error handling mechanisms that help you identify and manage errors effectively. In this article, we'll explore three essential topics related to error handling in Golang: Using Error Types and Custom Errors, Defer and Panic - When to Use Them Wisely, and Error Wrapping and Error Chains. Let's dive in!
+
+If you are a software developer, then you understand the importance of [error handling](https://en.wikipedia.org/wiki/Exception_handling) as a way to build dependable and strong applications. [Go](https://golang.withcodeexample.com/blog/golang-tutorial-for-beginners/) is rich in error-handling features that enable efficient identification and management of errors. So, three key areas will be discussed about Go’s error handling: Use Errors Types (and Custom Errors), Defer and Panic – When should they be used appropriately? And Error Wrapping and Error Chains. Let us get started.
 
 ## 1. Using Error Types and Custom Errors
 
-In Golang, errors are represented by the built-in `error` interface, which is defined as:
+
+In Go, “Using Error Types and Custom Errors” talks about how errors are worked on in a more structured, informative way. In Go, developers can extend error class and have better error messages that help debug a program.
+
+Here’s a simple guide on how to use errors and define custom errors in Go:
+
+1. **Error Interface:** An error is an interface in the programming language called Go which has one method named Error() string. Any type in Go that has this method implemented is considered an error type.
+
+2. **Standard Errors:** The built-in package for Go called errors provides us with a function New() that we can call to create a new error using the specified message.
 
 ```go
-type error interface {
-    Error() string
-}
+import "errors"
+
+err := errors.New("Something went wrong")
+
 ```
+
+3. **User-defined errors:** By defining your struct types that implement the error interface, you can invent custom error types.
+
+
+```go
+type MyError struct {
+    Message string
+    Code    int
+}
+
+func (e *MyError) Error() string {
+    return fmt.Sprintf("%s (code: %d)", e.Message, e.Code)
+}
+
+```
+
+4. **Creating and returning user-defined errors:** From their functions, instances of them can be created and returned once you have defined your custom error types.
+
+```go
+func doSomething() error {
+    // Perform some operation
+    if err != nil {
+        return &MyError{"Something went wrong", 500}
+    }
+    return nil
+}
+
+```
+
+5. **Checking for particular errors:** To check for specific error types and perform appropriate actions, type assertions are used when handling errors.
+
+```go
+err := doSomething()
+if myErr, ok := err.(*MyError); ok {
+    // Handle MyError specifically
+    fmt.Printf("Custom error: %s (code: %d)\n", myErr.Message, myErr.Code)
+} else if err != nil {
+    // Handle other types of errors
+    fmt.Println("Unknown error:", err)
+}
+
+```
+
+**Example:**
+
+By creating custom errors or using error types, programmers can provide more information and context about Go programming language-based issues which is useful in debugging and maintaining code.
 
 To create custom errors, implement this interface for your error type. Custom errors enable you to provide additional context and information about the error.
 
-Example:
+
 
 ```go
 package main
@@ -167,4 +222,4 @@ Error: process failed: something went wrong
 
 By using `%w` verb in `fmt.Errorf()`, we create an error chain that retains information about the original error.
 
-In conclusion, Golang provides a robust error handling mechanism that allows developers to manage errors effectively. By understanding how to use error types and custom errors, defer and panic, and error wrapping, you can build reliable and resilient applications that gracefully handle unexpected situations.
+In conclusion, Golang provides a robust error-handling mechanism that allows developers to manage errors effectively. By understanding how to use error types and custom errors, defer and panic, and error wrapping, you can build reliable and resilient applications that gracefully handle unexpected situations.
