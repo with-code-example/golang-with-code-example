@@ -36,10 +36,6 @@
         console.log("closed")
     }
     function handleModalClose() {
-        var tag = gtag('event', 'modal-closed', {
-            'event_category': 'modal',
-            'event_label': 'Modal Closed',
-        });
         localStorage.setItem('modalClosed', 'true');
     }
     const closeButton = document.querySelector('.modal-close');
@@ -57,23 +53,13 @@
     });
     const socialLinkTg = document.querySelector('.social-link-tg');
     socialLinkTg.addEventListener('click', function(event) {
-        var tag = gtag('event', 'telegram-link-clicked', {
-            'event_category': 'follow',
-            'event_label': 'Telegram Button',
-        });
     });
     const socialLinkTw = document.querySelector('.social-link-tw');
     socialLinkTw.addEventListener('click', function(event) {
-        var tag = gtag('event', 'twitter-link-clicked', {
-            'event_category': 'follow',
-            'event_label': 'Twitter Button',
-        });
+       
     });
     const socialLinkRd = document.querySelector('.social-link-rd');
     socialLinkRd.addEventListener('click', function(event) {
-        var tag = gtag('event', 'reddit-link-clicked', {
-            'event_category': 'follow',
-            'event_label': 'Reddit Button',
-        });
+        
     });
 </script>
