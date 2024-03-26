@@ -2,7 +2,7 @@
 title: "Streamline Logging In Golang: Boost Performance And Debugging"
 subtitle: "Maximize Efficiency & Troubleshoot Effectively: Streamline Logging in Golang"
 description: "Struggling with slow logging in Golang? Learn how to effortlessly streamline your logging operations, boost performance, and squash pesky bugs with ease! "
-slug: streamline-logging-in-golang:-boost-performance-and-debugging
+slug: streamline-logging-in-golang-boost-performance-and-debugging
 tags: ['Golang', ' logging', ' golang logging ']
 date: 2024-02-13
 featured_image: "https://res.cloudinary.com/harendra21/image/upload/w_1280,f_auto/images/Debugging-Debeugng_LzjD6YMb.jpg"
